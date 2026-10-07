@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "2\r\n10000 JPY\r\n0.10000000 BTC\n",
+    "output": "48000.0\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3\r\n100000000 JPY\r\n100.00000000 BTC\r\n0.00000001 BTC\n",
+    "output": "138000000.0038\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\n1 JPY\n0.00000001 BTC\n",
+    "output": "1.0038\n"
+  }
+]

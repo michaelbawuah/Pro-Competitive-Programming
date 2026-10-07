@@ -5118,5 +5118,20 @@
     "space": "O(1)",
     "hint": "Zero-padded year/month/day strings sort in chronological order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc119_b",
+    "title": "Digital Gifts",
+    "url": "https://atcoder.jp/contests/abc119/tasks/abc119_b",
+    "solution": "solutions/atcoder/implementation/abc119_b_digital_gifts.cpp",
+    "notes": "notes/atcoder/abc119_b_digital_gifts.md",
+    "tests": "tests/cases/atcoder-abc119_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Convert each gift to yen with the fixed rate in the statement, then sum those amounts.",
+    "checker": "floating"
   }
 ]
