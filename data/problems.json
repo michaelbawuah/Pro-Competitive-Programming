@@ -11223,5 +11223,20 @@
     "space": "O(1)",
     "hint": "All values are equal exactly when each value equals the first one.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc324_b",
+    "title": "3-smooth Numbers",
+    "url": "https://atcoder.jp/contests/abc324/tasks/abc324_b",
+    "solution": "solutions/atcoder/implementation/abc324_b_3_smooth_numbers.cpp",
+    "notes": "notes/atcoder/abc324_b_3_smooth_numbers.md",
+    "tests": "tests/cases/atcoder-abc324_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(log N)",
+    "space": "O(1)",
+    "hint": "Remove all factors of two and three.",
+    "checker": "tokens"
   }
 ]
