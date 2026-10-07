@@ -123,3 +123,106 @@ CHECKERS = {
     'gray_code': gray_code, 'hanoi': hanoi, 'labyrinth': labyrinth,
     'lcs': lcs, 'probability': probability,
 }
+
+
+def yes_no(case, actual):
+    return actual.upper().split() == case['output'].upper().split()
+
+
+def percentage(case, actual):
+    tokens = actual.split()
+    return len(tokens) == 1 and math.isfinite(float(tokens[0])) and math.isclose(
+        float(tokens[0]), float(case['output']), rel_tol=1e-4, abs_tol=1e-4)
+
+
+def restored_numbers(case, actual):
+    values = list(map(int, actual.split()))
+    if len(values) != 3 or min(values) <= 0:
+        return False
+    a, b, c = values
+    return sorted([a+b, a+c, b+c, a+b+c]) == sorted(map(int, case['input'].split()))
+
+
+def composite_pair(case, actual):
+    def composite(n):
+        return n > 3 and any(n % d == 0 for d in range(2, math.isqrt(n) + 1))
+    values = list(map(int, actual.split()))
+    return len(values) == 2 and sum(values) == int(case['input']) and all(map(composite, values))
+
+
+def round_sums(case, actual):
+    source = list(map(int, case['input'].split()))
+    tokens = list(map(int, actual.split()))
+    index = 0
+    for n in source[1:]:
+        count = tokens[index]
+        index += 1
+        pieces = tokens[index:index+count]
+        index += count
+        if count != sum(c != '0' for c in str(n)) or len(pieces) != count or sum(pieces) != n:
+            return False
+        if any(x <= 0 or sum(c != '0' for c in str(x)) != 1 for x in pieces):
+            return False
+    return index == len(tokens)
+
+
+def balanced_array(case, actual):
+    lengths = list(map(int, case['input'].split()))[1:]
+    tokens = actual.split()
+    index = 0
+    for n in lengths:
+        verdict = tokens[index].upper()
+        index += 1
+        if n % 4:
+            if verdict != 'NO':
+                return False
+            continue
+        if verdict != 'YES':
+            return False
+        values = list(map(int, tokens[index:index+n]))
+        index += n
+        if len(values) != n or len(set(values)) != n or not all(1 <= x <= 10**9 for x in values):
+            return False
+        if any(x % 2 for x in values[:n//2]) or any(x % 2 != 1 for x in values[n//2:]):
+            return False
+        if sum(values[:n//2]) != sum(values[n//2:]):
+            return False
+    return index == len(tokens)
+
+
+def div_seven(case, actual):
+    original = case['input'].split()[1:]
+    answers = actual.split()
+    if len(original) != len(answers):
+        return False
+    for source, result in zip(original, answers):
+        if len(result) != len(source) or result[0] == '0' or not result.isdecimal() or int(result) % 7:
+            return False
+        # A block of ten consecutive numbers always contains a multiple of seven.
+        required = 0 if int(source) % 7 == 0 else 1
+        if sum(a != b for a, b in zip(source, result)) != required:
+            return False
+    return True
+
+
+def triple(case, actual):
+    data = list(map(int, case['input'].split()))
+    answers = list(map(int, actual.split()))
+    if len(answers) != data[0]:
+        return False
+    index = 1
+    for answer in answers:
+        n = data[index]
+        frequencies = Counter(data[index+1:index+1+n])
+        index += n + 1
+        if answer == -1:
+            if any(count >= 3 for count in frequencies.values()):
+                return False
+        elif frequencies[answer] < 3:
+            return False
+    return True
+
+
+CHECKERS.update({'yes_no': yes_no, 'percentage': percentage, 'restored_numbers': restored_numbers,
+                 'composite_pair': composite_pair, 'round_sums': round_sums,
+                 'balanced_array': balanced_array, 'div_seven': div_seven, 'triple': triple})
