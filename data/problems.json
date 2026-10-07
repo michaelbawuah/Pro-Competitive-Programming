@@ -3318,5 +3318,20 @@
     "space": "O(1)",
     "hint": "Every operation adds two to the total.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc095_c",
+    "title": "Half and Half",
+    "url": "https://atcoder.jp/contests/abc095/tasks/arc096_a",
+    "solution": "solutions/atcoder/implementation/abc095_c_half_and_half.cpp",
+    "notes": "notes/atcoder/abc095_c_half_and_half.md",
+    "tests": "tests/cases/atcoder-abc095_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(max(X,Y))",
+    "space": "O(1)",
+    "hint": "Enumerate the number of paired AB pizzas.",
+    "checker": "tokens"
   }
 ]
