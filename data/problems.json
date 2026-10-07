@@ -1938,5 +1938,20 @@
     "space": "O(1)",
     "hint": "Enumerate every lucky number no larger than the input limit.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-318A",
+    "title": "Even Odds",
+    "url": "https://codeforces.com/problemset/problem/318/A",
+    "solution": "solutions/codeforces/mathematics/318A_even_odds.cpp",
+    "notes": "notes/codeforces/318A_even_odds.md",
+    "tests": "tests/cases/codeforces-318A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "There are ceil(n/2) odd numbers before the even block.",
+    "checker": "tokens"
   }
 ]
