@@ -9123,5 +9123,20 @@
     "space": "O(1)",
     "hint": "The middle value lies inclusively between the other two values.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc253_b",
+    "title": "Distance Between Tokens",
+    "url": "https://atcoder.jp/contests/abc253/tasks/abc253_b",
+    "solution": "solutions/atcoder/implementation/abc253_b_distance_between_tokens.cpp",
+    "notes": "notes/atcoder/abc253_b_distance_between_tokens.md",
+    "tests": "tests/cases/atcoder-abc253_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(HW)",
+    "space": "O(W)",
+    "hint": "Each move changes exactly one coordinate by one, so at least the Manhattan distance is needed.",
+    "checker": "tokens"
   }
 ]
