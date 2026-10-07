@@ -6003,5 +6003,20 @@
     "space": "O(|S|+|T|)",
     "hint": "Print T first and S second with no separator, matching the requested concatenation order..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc149_b",
+    "title": "Greedy Takahashi",
+    "url": "https://atcoder.jp/contests/abc149/tasks/abc149_b",
+    "solution": "solutions/atcoder/implementation/abc149_b_greedy_takahashi.cpp",
+    "notes": "notes/atcoder/abc149_b_greedy_takahashi.md",
+    "tests": "tests/cases/atcoder-abc149_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Consume as many of the first pile as possible before applying the remaining operations to the second.",
+    "checker": "tokens"
   }
 ]
