@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "cabacc\r\nabc\n",
+    "output": "1\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "codeforces\r\natcoder\n",
+    "output": "6\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a\na\n",
+    "output": "0\n"
+  }
+]

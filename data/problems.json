@@ -6843,5 +6843,20 @@
     "space": "O(1)",
     "hint": "Distance reachable by the deadline is speed times time.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc177_b",
+    "title": "Substring",
+    "url": "https://atcoder.jp/contests/abc177/tasks/abc177_b",
+    "solution": "solutions/atcoder/implementation/abc177_b_substring.cpp",
+    "notes": "notes/atcoder/abc177_b_substring.md",
+    "tests": "tests/cases/atcoder-abc177_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(|S||T|)",
+    "space": "O(|S|+|T|)",
+    "hint": "For each legal alignment, exactly its mismatched characters need replacing.",
+    "checker": "tokens"
   }
 ]
