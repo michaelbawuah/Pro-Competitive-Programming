@@ -12093,5 +12093,20 @@
     "space": "O(1)",
     "hint": "Compare every later building with the fixed first height.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc353_b",
+    "title": "AtCoder Amusement Park",
+    "url": "https://atcoder.jp/contests/abc353/tasks/abc353_b",
+    "solution": "solutions/atcoder/implementation/abc353_b_atcoder_amusement_park.cpp",
+    "notes": "notes/atcoder/abc353_b_atcoder_amusement_park.md",
+    "tests": "tests/cases/atcoder-abc353_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Fill the current ride with whole groups in queue order.",
+    "checker": "tokens"
   }
 ]
