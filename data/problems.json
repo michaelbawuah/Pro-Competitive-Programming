@@ -3438,5 +3438,20 @@
     "space": "O(1)",
     "hint": "Fix the cake count and check whether the nonnegative remaining budget is divisible by seven.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc106_c",
+    "title": "To Infinity",
+    "url": "https://atcoder.jp/contests/abc106/tasks/abc106_c",
+    "solution": "solutions/atcoder/implementation/abc106_c_to_infinity.cpp",
+    "notes": "notes/atcoder/abc106_c_to_infinity.md",
+    "tests": "tests/cases/atcoder-abc106_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Leading ones never grow.",
+    "checker": "tokens"
   }
 ]
