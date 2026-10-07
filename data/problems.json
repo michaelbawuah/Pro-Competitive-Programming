@@ -5373,5 +5373,20 @@
     "space": "O(1)",
     "hint": "Apply the recurrence ten times, printing each newly computed yearly weight rather than the initial value..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc128_a",
+    "title": "Apple Pie",
+    "url": "https://atcoder.jp/contests/abc128/tasks/abc128_a",
+    "solution": "solutions/atcoder/implementation/abc128_a_apple_pie.cpp",
+    "notes": "notes/atcoder/abc128_a_apple_pie.md",
+    "tests": "tests/cases/atcoder-abc128_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Convert each whole apple into three pieces, then take one pie per complete pair of pieces..",
+    "checker": "tokens"
   }
 ]
