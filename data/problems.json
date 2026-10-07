@@ -5568,5 +5568,20 @@
     "space": "O(1)",
     "hint": "Each inspector covers at most 2D+1 consecutive trees.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc135_a",
+    "title": "Harmony",
+    "url": "https://atcoder.jp/contests/abc135/tasks/abc135_a",
+    "solution": "solutions/atcoder/implementation/abc135_a_harmony.cpp",
+    "notes": "notes/atcoder/abc135_a_harmony.md",
+    "tests": "tests/cases/atcoder-abc135_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The only point equally distant from two distinct coordinates is their midpoint.",
+    "checker": "tokens"
   }
 ]
