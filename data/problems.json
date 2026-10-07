@@ -9333,5 +9333,20 @@
     "space": "O(1)",
     "hint": "Count occurrences of each candidate character and return the first with frequency one.",
     "checker": "unique_letter"
+  },
+  {
+    "id": "atcoder-abc260_b",
+    "title": "Better Students Are Needed!",
+    "url": "https://atcoder.jp/contests/abc260/tasks/abc260_b",
+    "solution": "solutions/atcoder/implementation/abc260_b_better_students_are_needed.cpp",
+    "notes": "notes/atcoder/abc260_b_better_students_are_needed.md",
+    "tests": "tests/cases/atcoder-abc260_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Perform admissions in the required three stages.",
+    "checker": "tokens"
   }
 ]
