@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\r\n2 3 5\n",
+    "output": "4\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "8\r\n3 1 4 5 9 2 6 8\n",
+    "output": "7\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "16\r\n152 153 154 147 148 149 158 159 160 155 156 157 144 145 146 150\n",
+    "output": "151\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\n1 3\n",
+    "output": "2\n"
+  }
+]
