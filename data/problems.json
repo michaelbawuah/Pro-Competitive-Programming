@@ -8043,5 +8043,20 @@
     "space": "O(|S|+|T|)",
     "hint": "The standard string less-than operator implements lexicographic ordering, including the shorter-prefix rule..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc217_b",
+    "title": "AtCoder Quiz",
+    "url": "https://atcoder.jp/contests/abc217/tasks/abc217_b",
+    "solution": "solutions/atcoder/implementation/abc217_b_atcoder_quiz.cpp",
+    "notes": "notes/atcoder/abc217_b_atcoder_quiz.md",
+    "tests": "tests/cases/atcoder-abc217_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Start with the four possible labels and remove the three distinct supplied labels.",
+    "checker": "tokens"
   }
 ]

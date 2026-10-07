@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "ARC\r\nAGC\r\nAHC\n",
+    "output": "ABC\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "AGC\r\nABC\r\nARC\n",
+    "output": "AHC\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "ABC\nARC\nAHC\n",
+    "output": "AGC\n"
+  }
+]
