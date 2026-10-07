@@ -4413,5 +4413,20 @@
     "space": "O(n)",
     "hint": "Process movies by ending time to leave as much future availability as possible.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1144",
+    "title": "Salary Queries",
+    "url": "https://cses.fi/problemset/task/1144/",
+    "solution": "solutions/cses/fenwick/1144_salary_queries.cpp",
+    "notes": "notes/cses/1144_salary_queries.md",
+    "tests": "tests/cases/cses-1144.json",
+    "tags": [
+      "fenwick"
+    ],
+    "time": "O((n+q) log(n+q))",
+    "space": "O(n+q)",
+    "hint": "Compress initial and future salary values while preserving order.",
+    "checker": "tokens"
   }
 ]
