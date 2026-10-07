@@ -7413,5 +7413,20 @@
     "space": "O(1)",
     "hint": "Increase x and decrease y to maximize their difference; both interval endpoints are allowed..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc196_b",
+    "title": "Round Down",
+    "url": "https://atcoder.jp/contests/abc196/tasks/abc196_b",
+    "solution": "solutions/atcoder/implementation/abc196_b_round_down.cpp",
+    "notes": "notes/atcoder/abc196_b_round_down.md",
+    "tests": "tests/cases/atcoder-abc196_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "For a nonnegative decimal, flooring removes the decimal point and everything after it.",
+    "checker": "tokens"
   }
 ]
