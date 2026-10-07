@@ -5763,5 +5763,20 @@
     "space": "O(1)",
     "hint": "Apply one step of the given three-state weather cycle..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc141_b",
+    "title": "Tap Dance",
+    "url": "https://atcoder.jp/contests/abc141/tasks/abc141_b",
+    "solution": "solutions/atcoder/implementation/abc141_b_tap_dance.cpp",
+    "notes": "notes/atcoder/abc141_b_tap_dance.md",
+    "tests": "tests/cases/atcoder-abc141_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "At zero-based even positions forbid L; at zero-based odd positions forbid R.",
+    "checker": "tokens"
   }
 ]
