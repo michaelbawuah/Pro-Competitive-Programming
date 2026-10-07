@@ -8178,5 +8178,20 @@
     "space": "O(n)",
     "hint": "Try no swap and every allowed adjacent swap.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc222_a",
+    "title": "Four Digits",
+    "url": "https://atcoder.jp/contests/abc222/tasks/abc222_a",
+    "solution": "solutions/atcoder/implementation/abc222_a_four_digits.cpp",
+    "notes": "notes/atcoder/abc222_a_four_digits.md",
+    "tests": "tests/cases/atcoder-abc222_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Set a field width of four and fill missing leading positions with zeros.",
+    "checker": "tokens"
   }
 ]
