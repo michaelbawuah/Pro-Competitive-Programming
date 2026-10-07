@@ -8478,5 +8478,20 @@
     "space": "O(n L)",
     "hint": "Count every candidate name, then select the greatest frequency.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc232_a",
+    "title": "QQ solver",
+    "url": "https://atcoder.jp/contests/abc232/tasks/abc232_a",
+    "solution": "solutions/atcoder/implementation/abc232_a_qq_solver.cpp",
+    "notes": "notes/atcoder/abc232_a_qq_solver.md",
+    "tests": "tests/cases/atcoder-abc232_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The fixed three-character format places the two single-digit operands at positions zero and two.",
+    "checker": "tokens"
   }
 ]
