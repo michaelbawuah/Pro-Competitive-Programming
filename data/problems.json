@@ -8418,5 +8418,20 @@
     "space": "O(1)",
     "hint": "A first carry exists exactly when some pair of aligned digits sums to at least ten.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc230_a",
+    "title": "AtCoder Quiz 3",
+    "url": "https://atcoder.jp/contests/abc230/tasks/abc230_a",
+    "solution": "solutions/atcoder/implementation/abc230_a_atcoder_quiz_3.cpp",
+    "notes": "notes/atcoder/abc230_a_atcoder_quiz_3.md",
+    "tests": "tests/cases/atcoder-abc230_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Contest number 042 is skipped, so indices from 42 onward shift by one.",
+    "checker": "tokens"
   }
 ]
