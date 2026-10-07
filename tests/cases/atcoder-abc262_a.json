@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "2022\n",
+    "output": "2022\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "2023\n",
+    "output": "2026\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "3000\n",
+    "output": "3002\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2001\n",
+    "output": "2002\n"
+  }
+]

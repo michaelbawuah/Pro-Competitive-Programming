@@ -9378,5 +9378,20 @@
     "space": "O(n^2)",
     "hint": "Each unordered player pair has two table entries.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc262_a",
+    "title": "World Cup",
+    "url": "https://atcoder.jp/contests/abc262/tasks/abc262_a",
+    "solution": "solutions/atcoder/implementation/abc262_a_world_cup.cpp",
+    "notes": "notes/atcoder/abc262_a_world_cup.md",
+    "tests": "tests/cases/atcoder-abc262_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Choose the smallest nonnegative offset that makes the year congruent to two modulo four.",
+    "checker": "tokens"
   }
 ]
