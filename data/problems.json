@@ -4173,5 +4173,20 @@
     "space": "O(n L)",
     "hint": "Count votes per string and track the largest frequency.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc156_c",
+    "title": "Rally",
+    "url": "https://atcoder.jp/contests/abc156/tasks/abc156_c",
+    "solution": "solutions/atcoder/implementation/abc156_c_rally.cpp",
+    "notes": "notes/atcoder/abc156_c_rally.md",
+    "tests": "tests/cases/atcoder-abc156_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(100 n)",
+    "space": "O(n)",
+    "hint": "An optimal meeting point lies between the extreme coordinates, since moving toward that interval reduces every squared distance.",
+    "checker": "tokens"
   }
 ]
