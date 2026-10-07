@@ -5883,5 +5883,20 @@
     "space": "O(1)",
     "hint": "Circle area scales with the square of the radius; dividing the two areas cancels pi..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc145_b",
+    "title": "Echo",
+    "url": "https://atcoder.jp/contests/abc145/tasks/abc145_b",
+    "solution": "solutions/atcoder/implementation/abc145_b_echo.cpp",
+    "notes": "notes/atcoder/abc145_b_echo.md",
+    "tests": "tests/cases/atcoder-abc145_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Two identical copies require an even length.",
+    "checker": "tokens"
   }
 ]

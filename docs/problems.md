@@ -388,3 +388,4 @@ Reference implementations are locally tested; official acceptances are tracked s
 | `atcoder-abc144_a` | [9x9](https://atcoder.jp/contests/abc144/tasks/abc144_a) | implementation | O(1) / O(1) | [C++](../solutions/atcoder/implementation/abc144_a_9x9.cpp) · [Notes](../notes/atcoder/abc144_a_9x9.md) |
 | `atcoder-abc144_b` | [81](https://atcoder.jp/contests/abc144/tasks/abc144_b) | implementation | O(1) / O(1) | [C++](../solutions/atcoder/implementation/abc144_b_81.cpp) · [Notes](../notes/atcoder/abc144_b_81.md) |
 | `atcoder-abc145_a` | [Circle](https://atcoder.jp/contests/abc145/tasks/abc145_a) | implementation | O(1) / O(1) | [C++](../solutions/atcoder/implementation/abc145_a_circle.cpp) · [Notes](../notes/atcoder/abc145_a_circle.md) |
+| `atcoder-abc145_b` | [Echo](https://atcoder.jp/contests/abc145/tasks/abc145_b) | implementation | O(n) / O(n) | [C++](../solutions/atcoder/implementation/abc145_b_echo.cpp) · [Notes](../notes/atcoder/abc145_b_echo.md) |
