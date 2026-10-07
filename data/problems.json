@@ -11193,5 +11193,20 @@
     "space": "O(1)",
     "hint": "Even one-based positions correspond to odd zero-based indices.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc323_b",
+    "title": "Round-Robin Tournament",
+    "url": "https://atcoder.jp/contests/abc323/tasks/abc323_b",
+    "solution": "solutions/atcoder/implementation/abc323_b_round_robin_tournament.cpp",
+    "notes": "notes/atcoder/abc323_b_round_robin_tournament.md",
+    "tests": "tests/cases/atcoder-abc323_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2+n log n)",
+    "space": "O(n)",
+    "hint": "Count wins for each player.",
+    "checker": "tokens"
   }
 ]
