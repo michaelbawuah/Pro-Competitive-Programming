@@ -9018,5 +9018,20 @@
     "space": "O(n)",
     "hint": "Track the presence of both letter cases and count distinct characters.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc250_a",
+    "title": "Adjacent Squares",
+    "url": "https://atcoder.jp/contests/abc250/tasks/abc250_a",
+    "solution": "solutions/atcoder/implementation/abc250_a_adjacent_squares.cpp",
+    "notes": "notes/atcoder/abc250_a_adjacent_squares.md",
+    "tests": "tests/cases/atcoder-abc250_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each of the four directions contributes one adjacent square exactly when moving that way remains inside the grid..",
+    "checker": "tokens"
   }
 ]
