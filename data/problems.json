@@ -5193,5 +5193,20 @@
     "space": "O(M)",
     "hint": "Evaluate each row dot product with B and add the bias C.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc122_a",
+    "title": "Double Helix",
+    "url": "https://atcoder.jp/contests/abc122/tasks/abc122_a",
+    "solution": "solutions/atcoder/implementation/abc122_a_double_helix.cpp",
+    "notes": "notes/atcoder/abc122_a_double_helix.md",
+    "tests": "tests/cases/atcoder-abc122_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Use the two complementary pairs in both directions: A with T, and C with G..",
+    "checker": "tokens"
   }
 ]
