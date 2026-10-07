@@ -4563,5 +4563,20 @@
     "space": "O(max n+t)",
     "hint": "Classify the top row by whether both columns belong to one block or separate blocks.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1097",
+    "title": "Removal Game",
+    "url": "https://cses.fi/problemset/task/1097/",
+    "solution": "solutions/cses/dynamic_programming/1097_removal_game.cpp",
+    "notes": "notes/cses/1097_removal_game.md",
+    "tests": "tests/cases/cses-1097.json",
+    "tags": [
+      "dynamic_programming"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Let a state be the best score difference the current player can force on an interval.",
+    "checker": "tokens"
   }
 ]
