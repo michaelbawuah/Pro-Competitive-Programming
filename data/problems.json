@@ -4728,5 +4728,20 @@
     "space": "O(1)",
     "hint": "Every route must cover the distance between the extremes.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc103_b",
+    "title": "String Rotation",
+    "url": "https://atcoder.jp/contests/abc103/tasks/abc103_b",
+    "solution": "solutions/atcoder/implementation/abc103_b_string_rotation.cpp",
+    "notes": "notes/atcoder/abc103_b_string_rotation.md",
+    "tests": "tests/cases/atcoder-abc103_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Every cyclic rotation of S is a length-|S| substring of S concatenated with itself.",
+    "checker": "tokens"
   }
 ]
