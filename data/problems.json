@@ -6873,5 +6873,20 @@
     "space": "O(1)",
     "hint": "Subtracting a binary value from one exchanges its two possible values.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc178_b",
+    "title": "Product Max",
+    "url": "https://atcoder.jp/contests/abc178/tasks/abc178_b",
+    "solution": "solutions/atcoder/implementation/abc178_b_product_max.cpp",
+    "notes": "notes/atcoder/abc178_b_product_max.md",
+    "tests": "tests/cases/atcoder-abc178_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "For a fixed coordinate the product is linear in the other coordinate, so an optimum exists at interval endpoints.",
+    "checker": "tokens"
   }
 ]
