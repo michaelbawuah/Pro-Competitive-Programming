@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "0601889\n",
+    "output": "6881090\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "86910\n",
+    "output": "01698\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "01010\n",
+    "output": "01010\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "6\n",
+    "output": "9\n"
+  }
+]
