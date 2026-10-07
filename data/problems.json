@@ -1818,5 +1818,20 @@
     "space": "O(1)",
     "hint": "Alternate the two clauses by index parity.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-148A",
+    "title": "Insomnia cure",
+    "url": "https://codeforces.com/problemset/problem/148/A",
+    "solution": "solutions/codeforces/enumeration/148A_insomnia_cure.cpp",
+    "notes": "notes/codeforces/148A_insomnia_cure.md",
+    "tests": "tests/cases/codeforces-148A.json",
+    "tags": [
+      "enumeration"
+    ],
+    "time": "O(d)",
+    "space": "O(1)",
+    "hint": "Test whether each dragon index is divisible by at least one attack interval.",
+    "checker": "tokens"
   }
 ]
