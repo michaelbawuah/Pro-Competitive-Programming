@@ -7398,5 +7398,20 @@
     "space": "O(1)",
     "hint": "For k oranges, the total can be any real weight between kA and kB.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc196_a",
+    "title": "Difference Max",
+    "url": "https://atcoder.jp/contests/abc196/tasks/abc196_a",
+    "solution": "solutions/atcoder/implementation/abc196_a_difference_max.cpp",
+    "notes": "notes/atcoder/abc196_a_difference_max.md",
+    "tests": "tests/cases/atcoder-abc196_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Increase x and decrease y to maximize their difference; both interval endpoints are allowed..",
+    "checker": "tokens"
   }
 ]
