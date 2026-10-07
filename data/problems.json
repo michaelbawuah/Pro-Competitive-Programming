@@ -8703,5 +8703,20 @@
     "space": "O(1)",
     "hint": "Evaluate the given square-root expression using floating-point multiplication and enough output precision..",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc239_b",
+    "title": "Integer Division",
+    "url": "https://atcoder.jp/contests/abc239/tasks/abc239_b",
+    "solution": "solutions/atcoder/implementation/abc239_b_integer_division.cpp",
+    "notes": "notes/atcoder/abc239_b_integer_division.md",
+    "tests": "tests/cases/atcoder-abc239_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "C++ integer division truncates toward zero.",
+    "checker": "tokens"
   }
 ]
