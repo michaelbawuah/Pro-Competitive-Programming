@@ -7,6 +7,7 @@ import random
 import cp
 from stress_extended import GENERATORS as EXTENDED_GENERATORS
 from stress_archive import GENERATORS as ARCHIVE_GENERATORS
+from stress_final import GENERATORS as FINAL_GENERATORS
 
 
 def array_case(rng, kind):
@@ -236,6 +237,7 @@ GENERATORS = {
 }
 GENERATORS.update(EXTENDED_GENERATORS)
 GENERATORS.update(ARCHIVE_GENERATORS)
+GENERATORS.update(FINAL_GENERATORS)
 
 
 def run(cases, seed):
