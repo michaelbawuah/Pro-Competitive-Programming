@@ -7353,5 +7353,20 @@
     "space": "O(1)",
     "hint": "Total milk solids include both supplied components.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc194_b",
+    "title": "Job Assignment",
+    "url": "https://atcoder.jp/contests/abc194/tasks/abc194_b",
+    "solution": "solutions/atcoder/implementation/abc194_b_job_assignment.cpp",
+    "notes": "notes/atcoder/abc194_b_job_assignment.md",
+    "tests": "tests/cases/atcoder-abc194_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Enumerate the employees assigned to both tasks.",
+    "checker": "tokens"
   }
 ]
