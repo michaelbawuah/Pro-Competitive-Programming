@@ -7473,5 +7473,20 @@
     "space": "O(1)",
     "hint": "The first boy can receive any integer from one to N-1, and each choice uniquely fixes the second share..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc198_b",
+    "title": "Palindrome with leading zeros",
+    "url": "https://atcoder.jp/contests/abc198/tasks/abc198_b",
+    "solution": "solutions/atcoder/implementation/abc198_b_palindrome_with_leading_zeros.cpp",
+    "notes": "notes/atcoder/abc198_b_palindrome_with_leading_zeros.md",
+    "tests": "tests/cases/atcoder-abc198_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Leading added zeros can pair only with existing trailing zeros.",
+    "checker": "tokens"
   }
 ]
