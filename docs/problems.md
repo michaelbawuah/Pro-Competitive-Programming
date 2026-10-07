@@ -235,3 +235,4 @@ Reference implementations are locally tested; official acceptances are tracked s
 | `atcoder-abc113_c` | [ID](https://atcoder.jp/contests/abc113/tasks/abc113_c) | sorting | O(M log M) / O(M) | [C++](../solutions/atcoder/sorting/abc113_c_id.cpp) · [Notes](../notes/atcoder/abc113_c_id.md) |
 | `atcoder-abc114_b` | [754](https://atcoder.jp/contests/abc114/tasks/abc114_b) | implementation | O(n) / O(n) | [C++](../solutions/atcoder/implementation/abc114_b_754.cpp) · [Notes](../notes/atcoder/abc114_b_754.md) |
 | `atcoder-abc114_c` | [755](https://atcoder.jp/contests/abc114/tasks/abc114_c) | recursion | O(3^digits(N)) / O(digits(N)) | [C++](../solutions/atcoder/recursion/abc114_c_755.cpp) · [Notes](../notes/atcoder/abc114_c_755.md) |
+| `atcoder-abc115_c` | [Christmas Eve](https://atcoder.jp/contests/abc115/tasks/abc115_c) | sorting | O(n log n) / O(n) | [C++](../solutions/atcoder/sorting/abc115_c_christmas_eve.cpp) · [Notes](../notes/atcoder/abc115_c_christmas_eve.md) |

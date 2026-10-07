@@ -3588,5 +3588,20 @@
     "space": "O(digits(N))",
     "hint": "Build only numbers using 3, 5, and 7.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc115_c",
+    "title": "Christmas Eve",
+    "url": "https://atcoder.jp/contests/abc115/tasks/abc115_c",
+    "solution": "solutions/atcoder/sorting/abc115_c_christmas_eve.cpp",
+    "notes": "notes/atcoder/abc115_c_christmas_eve.md",
+    "tests": "tests/cases/atcoder-abc115_c.json",
+    "tags": [
+      "sorting"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Sort heights.",
+    "checker": "tokens"
   }
 ]
