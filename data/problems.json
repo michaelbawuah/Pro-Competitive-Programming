@@ -10083,5 +10083,20 @@
     "space": "O(1)",
     "hint": "The diagram numbers a binary tree in heap order: the parent of node B is floor(B/2).",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc285_b",
+    "title": "Longest Uncommon Prefix",
+    "url": "https://atcoder.jp/contests/abc285/tasks/abc285_b",
+    "solution": "solutions/atcoder/implementation/abc285_b_longest_uncommon_prefix.cpp",
+    "notes": "notes/atcoder/abc285_b_longest_uncommon_prefix.md",
+    "tests": "tests/cases/atcoder-abc285_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "For each shift, compare aligned characters from the beginning until the first equality or the string boundary.",
+    "checker": "tokens"
   }
 ]
