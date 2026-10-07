@@ -1,0 +1,17 @@
+[
+  {
+    "name": "mixed",
+    "input": "4\n++X\nX--\nX++\n--X\n",
+    "output": "0\n"
+  },
+  {
+    "name": "single",
+    "input": "1\n++X\n",
+    "output": "1\n"
+  },
+  {
+    "name": "negative",
+    "input": "2\n--X\nX--\n",
+    "output": "-2\n"
+  }
+]

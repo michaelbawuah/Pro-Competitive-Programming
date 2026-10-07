@@ -1349,5 +1349,85 @@
     "space": "O(1)",
     "hint": "For a nonzero base modulo a prime, exponents may be reduced modulo prime-1.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-282A",
+    "title": "Bit++",
+    "url": "https://codeforces.com/problemset/problem/282/A",
+    "solution": "solutions/codeforces/implementation/282A_bit_plus_plus.cpp",
+    "notes": "notes/codeforces/282A_bit_plus_plus.md",
+    "tests": "tests/cases/codeforces-282A.json",
+    "tags": [
+      "implementation",
+      "strings"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Both spellings of an increment have the same middle character.",
+    "checker": "tokens"
+  },
+  {
+    "id": "codeforces-50A",
+    "title": "Domino Piling",
+    "url": "https://codeforces.com/problemset/problem/50/A",
+    "solution": "solutions/codeforces/mathematics/50A_domino_piling.cpp",
+    "notes": "notes/codeforces/50A_domino_piling.md",
+    "tests": "tests/cases/codeforces-50A.json",
+    "tags": [
+      "mathematics",
+      "constructive"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each domino covers two cells. Can the area upper bound always be attained?",
+    "checker": "tokens"
+  },
+  {
+    "id": "codeforces-112A",
+    "title": "Petya and Strings",
+    "url": "https://codeforces.com/problemset/problem/112/A",
+    "solution": "solutions/codeforces/strings/112A_petya_and_strings.cpp",
+    "notes": "notes/codeforces/112A_petya_and_strings.md",
+    "tests": "tests/cases/codeforces-112A.json",
+    "tags": [
+      "strings",
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Normalize letter case before comparing the strings.",
+    "checker": "tokens"
+  },
+  {
+    "id": "codeforces-116A",
+    "title": "Tram",
+    "url": "https://codeforces.com/problemset/problem/116/A",
+    "solution": "solutions/codeforces/implementation/116A_tram.cpp",
+    "notes": "notes/codeforces/116A_tram.md",
+    "tests": "tests/cases/codeforces-116A.json",
+    "tags": [
+      "implementation",
+      "prefix-sum"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Track the current occupancy and its maximum after each stop.",
+    "checker": "tokens"
+  },
+  {
+    "id": "codeforces-339A",
+    "title": "Helpful Maths",
+    "url": "https://codeforces.com/problemset/problem/339/A",
+    "solution": "solutions/codeforces/strings/339A_helpful_maths.cpp",
+    "notes": "notes/codeforces/339A_helpful_maths.md",
+    "tests": "tests/cases/codeforces-339A.json",
+    "tags": [
+      "strings",
+      "sorting"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Separate the digits from the separators, sort, then rebuild the expression.",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "equal",
+    "input": "aaaa\naaaA\n",
+    "output": "0\n"
+  },
+  {
+    "name": "greater",
+    "input": "abs\nAbz\n",
+    "output": "-1\n"
+  },
+  {
+    "name": "first-larger",
+    "input": "Zzz\naaa\n",
+    "output": "1\n"
+  }
+]
