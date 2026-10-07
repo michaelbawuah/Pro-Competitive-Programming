@@ -10398,5 +10398,20 @@
     "space": "O(RC)",
     "hint": "Read bomb positions and powers only from the original board.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc296_a",
+    "title": "Alternately",
+    "url": "https://atcoder.jp/contests/abc296/tasks/abc296_a",
+    "solution": "solutions/atcoder/implementation/abc296_a_alternately.cpp",
+    "notes": "notes/atcoder/abc296_a_alternately.md",
+    "tests": "tests/cases/atcoder-abc296_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Alternation is equivalent to every adjacent character pair being different.",
+    "checker": "tokens"
   }
 ]
