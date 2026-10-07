@@ -3018,5 +3018,20 @@
     "space": "O(n m)",
     "hint": "Enumerate every unordered pair of words and sum per-position alphabet distances.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1676D",
+    "title": "X-Sum",
+    "url": "https://codeforces.com/problemset/problem/1676/D",
+    "solution": "solutions/codeforces/prefix_sums/1676D_x_sum.cpp",
+    "notes": "notes/codeforces/1676D_x_sum.md",
+    "tests": "tests/cases/codeforces-1676D.json",
+    "tags": [
+      "prefix_sums"
+    ],
+    "time": "O(n m) per case",
+    "space": "O(n m)",
+    "hint": "Cells on a diagonal share either row+column or row-column.",
+    "checker": "tokens"
   }
 ]
