@@ -5268,5 +5268,20 @@
     "space": "O(1)",
     "hint": "The two presses either use different buttons or repeat one of them.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc124_b",
+    "title": "Great Ocean View",
+    "url": "https://atcoder.jp/contests/abc124/tasks/abc124_b",
+    "solution": "solutions/atcoder/implementation/abc124_b_great_ocean_view.cpp",
+    "notes": "notes/atcoder/abc124_b_great_ocean_view.md",
+    "tests": "tests/cases/atcoder-abc124_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "A mountain has a sea view precisely when its height is at least the maximum height preceding it.",
+    "checker": "tokens"
   }
 ]
