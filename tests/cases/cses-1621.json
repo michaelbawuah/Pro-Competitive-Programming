@@ -1,0 +1,17 @@
+[
+  {
+    "name": "duplicates",
+    "input": "5\n2 3 2 2 3\n",
+    "output": "2\n"
+  },
+  {
+    "name": "single",
+    "input": "1\n9\n",
+    "output": "1\n"
+  },
+  {
+    "name": "different",
+    "input": "4\n4 1 3 2\n",
+    "output": "4\n"
+  }
+]

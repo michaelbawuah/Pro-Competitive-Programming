@@ -1,0 +1,17 @@
+[
+  {
+    "name": "mixed",
+    "input": "4 10\n7 2 3 9\n",
+    "output": "3\n"
+  },
+  {
+    "name": "single",
+    "input": "1 10\n10\n",
+    "output": "1\n"
+  },
+  {
+    "name": "pairs",
+    "input": "4 10\n5 5 5 5\n",
+    "output": "2\n"
+  }
+]

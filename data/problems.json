@@ -93,5 +93,70 @@
     "space": "O(1)",
     "hint": "Count factors of 5; factors of 2 are more plentiful.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1621",
+    "title": "Distinct Numbers",
+    "url": "https://cses.fi/problemset/task/1621/",
+    "solution": "solutions/cses/sorting_searching/1621_distinct_numbers.cpp",
+    "notes": "notes/cses/1621_distinct_numbers.md",
+    "tests": "tests/cases/cses-1621.json",
+    "tags": [
+      "sorting",
+      "STL"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Equal values become neighbors after sorting.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1084",
+    "title": "Apartments",
+    "url": "https://cses.fi/problemset/task/1084/",
+    "solution": "solutions/cses/sorting_searching/1084_apartments.cpp",
+    "notes": "notes/cses/1084_apartments.md",
+    "tests": "tests/cases/cses-1084.json",
+    "tags": [
+      "sorting",
+      "two pointers",
+      "greedy"
+    ],
+    "time": "O(n log n + m log m)",
+    "space": "O(n + m)",
+    "hint": "Sort both sides and match the smallest remaining compatible pair.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1090",
+    "title": "Ferris Wheel",
+    "url": "https://cses.fi/problemset/task/1090/",
+    "solution": "solutions/cses/sorting_searching/1090_ferris_wheel.cpp",
+    "notes": "notes/cses/1090_ferris_wheel.md",
+    "tests": "tests/cases/cses-1090.json",
+    "tags": [
+      "greedy",
+      "two pointers"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Place the heaviest remaining person; try the lightest as a partner.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1629",
+    "title": "Movie Festival",
+    "url": "https://cses.fi/problemset/task/1629/",
+    "solution": "solutions/cses/sorting_searching/1629_movie_festival.cpp",
+    "notes": "notes/cses/1629_movie_festival.md",
+    "tests": "tests/cases/cses-1629.json",
+    "tags": [
+      "greedy",
+      "interval scheduling"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Choose the compatible movie that finishes earliest.",
+    "checker": "tokens"
   }
 ]
