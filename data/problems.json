@@ -11913,5 +11913,20 @@
     "space": "O(1)",
     "hint": "Filter the already increasing sequence for divisibility by K and divide qualifying values by the same positive K.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc347_b",
+    "title": "Substring",
+    "url": "https://atcoder.jp/contests/abc347/tasks/abc347_b",
+    "solution": "solutions/atcoder/implementation/abc347_b_substring.cpp",
+    "notes": "notes/atcoder/abc347_b_substring.md",
+    "tests": "tests/cases/atcoder-abc347_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^3 log n)",
+    "space": "O(n^3)",
+    "hint": "Each nonempty substring is defined by its start and positive length.",
+    "checker": "tokens"
   }
 ]
