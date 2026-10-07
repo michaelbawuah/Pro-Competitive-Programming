@@ -4833,5 +4833,20 @@
     "space": "O(H W)",
     "hint": "Every black cell must remain, so retain exactly the rows and columns containing one.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc108_a",
+    "title": "Pair",
+    "url": "https://atcoder.jp/contests/abc108/tasks/abc108_a",
+    "solution": "solutions/atcoder/implementation/abc108_a_pair.cpp",
+    "notes": "notes/atcoder/abc108_a_pair.md",
+    "tests": "tests/cases/atcoder-abc108_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Choose one of floor(K/2) even values and one of ceil(K/2) odd values independently..",
+    "checker": "tokens"
   }
 ]
