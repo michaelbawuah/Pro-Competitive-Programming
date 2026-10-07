@@ -5448,5 +5448,20 @@
     "space": "O(1)",
     "hint": "Compare using the strict less-than relation; equality follows the ten-output branch..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc131_a",
+    "title": "Security",
+    "url": "https://atcoder.jp/contests/abc131/tasks/abc131_a",
+    "solution": "solutions/atcoder/implementation/abc131_a_security.cpp",
+    "notes": "notes/atcoder/abc131_a_security.md",
+    "tests": "tests/cases/atcoder-abc131_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The code is bad exactly when one of its three adjacent digit pairs is equal.",
+    "checker": "tokens"
   }
 ]
