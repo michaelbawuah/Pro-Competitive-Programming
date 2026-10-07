@@ -259,3 +259,51 @@ def floating(case, actual):
 
 
 CHECKERS['floating'] = floating
+
+
+def distance_vector(case, actual):
+    expected, tokens = case['output'].split(), actual.split()
+    if len(tokens) != 3 or len(expected) != 3:
+        return False
+    try:
+        values = list(map(float, tokens))
+        targets = list(map(float, expected))
+    except ValueError:
+        return False
+    return all(math.isfinite(a) and a >= 0 and math.isclose(a,b,rel_tol=1e-9,abs_tol=1e-9)
+               for a,b in zip(values,targets))
+
+
+def gcdness(case, actual):
+    try:
+        tokens = actual.split()
+        if len(tokens) != 1:
+            return False
+        candidate = int(tokens[0])
+        data = list(map(int,case['input'].split()))
+        values = data[1:]
+        if candidate < 2 or len(values) != data[0]:
+            return False
+        optimum = max(sum(x%d==0 for x in values) for d in range(2,max(values)+1))
+        return sum(x%candidate==0 for x in values) == optimum
+    except ValueError:
+        return False
+
+
+CHECKERS.update({'distance_vector':distance_vector,'gcdness':gcdness})
+
+
+def range_multiple(case, actual):
+    try:
+        a,b,c = map(int,case['input'].split())
+        tokens = actual.split()
+        if len(tokens) != 1:
+            return False
+        answer = int(tokens[0])
+        exists = (a+c-1)//c*c <= b
+        return (not exists) if answer == -1 else exists and a <= answer <= b and answer%c == 0
+    except ValueError:
+        return False
+
+
+CHECKERS['range_multiple'] = range_multiple

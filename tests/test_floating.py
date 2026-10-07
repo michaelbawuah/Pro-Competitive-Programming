@@ -19,3 +19,29 @@ class FloatingTests(unittest.TestCase):
 
 if __name__=='__main__':
     unittest.main()
+
+
+class ConstructionTests(unittest.TestCase):
+    def test_divisor_optima_allow_ties(self):
+        from checkers import gcdness
+        case={'input':'2\n6 12\n','output':'2'}
+        for output in ('2','3','6'):
+            self.assertTrue(gcdness(case,output))
+        for output in ('1','4','7','2 3','nan'):
+            self.assertFalse(gcdness(case,output))
+
+    def test_multiple_requires_membership_or_proven_impossibility(self):
+        from checkers import range_multiple
+        case={'input':'4 10 3\n','output':'6'}
+        for output in ('6','9'):
+            self.assertTrue(range_multiple(case,output))
+        for output in ('-1','3','7','12','6 9'):
+            self.assertFalse(range_multiple(case,output))
+        self.assertTrue(range_multiple({'input':'4 5 3','output':'-1'},'-1'))
+
+    def test_distances_reject_nonfinite_and_wrong_length(self):
+        from checkers import distance_vector
+        case={'input':'1\n0','output':'0 0 0'}
+        self.assertTrue(distance_vector(case,'0 0.0 0e0'))
+        for output in ('0 0','0 nan 0','0 inf 0','0 0 0 0','0 -1 0'):
+            self.assertFalse(distance_vector(case,output))
