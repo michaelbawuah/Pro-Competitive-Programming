@@ -11163,5 +11163,20 @@
     "space": "O(n)",
     "hint": "Find locates the first contiguous occurrence of ABC.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc322_b",
+    "title": "Prefix and Suffix",
+    "url": "https://atcoder.jp/contests/abc322/tasks/abc322_b",
+    "solution": "solutions/atcoder/implementation/abc322_b_prefix_and_suffix.cpp",
+    "notes": "notes/atcoder/abc322_b_prefix_and_suffix.md",
+    "tests": "tests/cases/atcoder-abc322_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N+M)",
+    "space": "O(N+M)",
+    "hint": "Compare the length-N prefix and suffix independently.",
+    "checker": "tokens"
   }
 ]
