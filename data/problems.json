@@ -402,5 +402,53 @@
     "space": "O(n + m)",
     "hint": "A course is ready when no unfinished prerequisite remains.",
     "checker": "topological"
+  },
+  {
+    "id": "cses-1646",
+    "title": "Static Range Sum Queries",
+    "url": "https://cses.fi/problemset/task/1646/",
+    "solution": "solutions/cses/range_queries/1646_static_range_sum_queries.cpp",
+    "notes": "notes/cses/1646_static_range_sum_queries.md",
+    "tests": "tests/cases/cses-1646.json",
+    "tags": [
+      "prefix sums",
+      "range queries"
+    ],
+    "time": "O(n + q)",
+    "space": "O(n)",
+    "hint": "Precompute the sum before every boundary.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1648",
+    "title": "Dynamic Range Sum Queries",
+    "url": "https://cses.fi/problemset/task/1648/",
+    "solution": "solutions/cses/range_queries/1648_dynamic_range_sum_queries.cpp",
+    "notes": "notes/cses/1648_dynamic_range_sum_queries.md",
+    "tests": "tests/cases/cses-1648.json",
+    "tags": [
+      "Fenwick tree",
+      "range queries"
+    ],
+    "time": "O((n + q) log n)",
+    "space": "O(n)",
+    "hint": "Store sums of power-of-two blocks, then update only blocks containing the changed index.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1649",
+    "title": "Dynamic Range Minimum Queries",
+    "url": "https://cses.fi/problemset/task/1649/",
+    "solution": "solutions/cses/range_queries/1649_dynamic_range_minimum_queries.cpp",
+    "notes": "notes/cses/1649_dynamic_range_minimum_queries.md",
+    "tests": "tests/cases/cses-1649.json",
+    "tags": [
+      "segment tree",
+      "range queries"
+    ],
+    "time": "O(n + q log n)",
+    "space": "O(n)",
+    "hint": "Each node stores the minimum of its interval; queries combine disjoint covered intervals.",
+    "checker": "tokens"
   }
 ]
