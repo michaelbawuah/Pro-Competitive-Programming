@@ -2808,5 +2808,20 @@
     "space": "O(1)",
     "hint": "The answer cannot be smaller than the parity of total weight.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1582B",
+    "title": "Luntik and Subsequences",
+    "url": "https://codeforces.com/problemset/problem/1582/B",
+    "solution": "solutions/codeforces/counting/1582B_luntik_and_subsequences.cpp",
+    "notes": "notes/codeforces/1582B_luntik_and_subsequences.md",
+    "tests": "tests/cases/codeforces-1582B.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(n) per case",
+    "space": "O(1)",
+    "hint": "A subsequence totaling one less than the full sum omits elements totaling exactly one.",
+    "checker": "tokens"
   }
 ]
