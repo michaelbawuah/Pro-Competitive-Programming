@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "5\r\n1 4\r\n2 4\r\n3 4\r\n4 5\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "4\r\n2 4\r\n1 4\r\n2 3\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "10\r\n9 10\r\n3 10\r\n4 10\r\n8 10\r\n1 10\r\n2 10\r\n7 10\r\n6 10\r\n5 10\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "3\n1 2\n2 3\n",
+    "output": "Yes\n"
+  }
+]
