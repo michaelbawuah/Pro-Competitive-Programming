@@ -1,0 +1,17 @@
+[
+  {
+    "name": "three",
+    "input": "3\n",
+    "output": "4\n"
+  },
+  {
+    "name": "one",
+    "input": "1\n",
+    "output": "1\n"
+  },
+  {
+    "name": "seven",
+    "input": "7\n",
+    "output": "63\n"
+  }
+]

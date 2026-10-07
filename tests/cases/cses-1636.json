@@ -1,0 +1,17 @@
+[
+  {
+    "name": "combinations",
+    "input": "3 9\n2 3 5\n",
+    "output": "3\n"
+  },
+  {
+    "name": "order",
+    "input": "2 3\n1 2\n",
+    "output": "2\n"
+  },
+  {
+    "name": "impossible",
+    "input": "1 3\n2\n",
+    "output": "0\n"
+  }
+]

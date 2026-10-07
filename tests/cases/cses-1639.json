@@ -1,0 +1,17 @@
+[
+  {
+    "name": "replace",
+    "input": "LOVE\nMOVIE\n",
+    "output": "2\n"
+  },
+  {
+    "name": "equal",
+    "input": "ABC\nABC\n",
+    "output": "0\n"
+  },
+  {
+    "name": "shrink",
+    "input": "AAAA\nA\n",
+    "output": "3\n"
+  }
+]

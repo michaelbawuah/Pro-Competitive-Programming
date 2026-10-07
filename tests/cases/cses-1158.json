@@ -1,0 +1,17 @@
+[
+  {
+    "name": "selection",
+    "input": "4 10\n4 8 5 3\n5 12 8 1\n",
+    "output": "13\n"
+  },
+  {
+    "name": "no-reuse",
+    "input": "1 6\n3\n5\n",
+    "output": "5\n"
+  },
+  {
+    "name": "none",
+    "input": "2 1\n2 3\n9 10\n",
+    "output": "0\n"
+  }
+]

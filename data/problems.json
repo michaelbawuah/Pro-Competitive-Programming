@@ -222,5 +222,101 @@
     "space": "O(n)",
     "hint": "A subarray sum is the difference of two prefix sums.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1633",
+    "title": "Dice Combinations",
+    "url": "https://cses.fi/problemset/task/1633/",
+    "solution": "solutions/cses/dynamic_programming/1633_dice_combinations.cpp",
+    "notes": "notes/cses/1633_dice_combinations.md",
+    "tests": "tests/cases/cses-1633.json",
+    "tags": [
+      "dynamic programming",
+      "counting"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Classify a sequence by its last die roll.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1634",
+    "title": "Minimizing Coins",
+    "url": "https://cses.fi/problemset/task/1634/",
+    "solution": "solutions/cses/dynamic_programming/1634_minimizing_coins.cpp",
+    "notes": "notes/cses/1634_minimizing_coins.md",
+    "tests": "tests/cases/cses-1634.json",
+    "tags": [
+      "dynamic programming",
+      "unbounded knapsack"
+    ],
+    "time": "O(n * x)",
+    "space": "O(n + x)",
+    "hint": "Try each possible final coin for an exact sum.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1636",
+    "title": "Coin Combinations II",
+    "url": "https://cses.fi/problemset/task/1636/",
+    "solution": "solutions/cses/dynamic_programming/1636_coin_combinations_ii.cpp",
+    "notes": "notes/cses/1636_coin_combinations_ii.md",
+    "tests": "tests/cases/cses-1636.json",
+    "tags": [
+      "dynamic programming",
+      "counting"
+    ],
+    "time": "O(n * x)",
+    "space": "O(x)",
+    "hint": "Make the coin type the outer loop to avoid counting reorderings.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1158",
+    "title": "Book Shop",
+    "url": "https://cses.fi/problemset/task/1158/",
+    "solution": "solutions/cses/dynamic_programming/1158_book_shop.cpp",
+    "notes": "notes/cses/1158_book_shop.md",
+    "tests": "tests/cases/cses-1158.json",
+    "tags": [
+      "dynamic programming",
+      "0/1 knapsack"
+    ],
+    "time": "O(n * x)",
+    "space": "O(n + x)",
+    "hint": "Each book is available once; protect the previous layer while updating in place.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1639",
+    "title": "Edit Distance",
+    "url": "https://cses.fi/problemset/task/1639/",
+    "solution": "solutions/cses/dynamic_programming/1639_edit_distance.cpp",
+    "notes": "notes/cses/1639_edit_distance.md",
+    "tests": "tests/cases/cses-1639.json",
+    "tags": [
+      "dynamic programming",
+      "strings"
+    ],
+    "time": "O(n * m)",
+    "space": "O(min(n, m)) beyond input",
+    "hint": "Relate two prefixes by the last insertion, deletion, or replacement.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1145",
+    "title": "Increasing Subsequence",
+    "url": "https://cses.fi/problemset/task/1145/",
+    "solution": "solutions/cses/dynamic_programming/1145_increasing_subsequence.cpp",
+    "notes": "notes/cses/1145_increasing_subsequence.md",
+    "tests": "tests/cases/cses-1145.json",
+    "tags": [
+      "binary search",
+      "dynamic programming"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "For each subsequence length, retain the smallest possible final value.",
+    "checker": "tokens"
   }
 ]
