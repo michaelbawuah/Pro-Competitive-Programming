@@ -5283,5 +5283,20 @@
     "space": "O(1)",
     "hint": "A mountain has a sea view precisely when its height is at least the maximum height preceding it.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc125_a",
+    "title": "Biscuit Generator",
+    "url": "https://atcoder.jp/contests/abc125/tasks/abc125_a",
+    "solution": "solutions/atcoder/implementation/abc125_a_biscuit_generator.cpp",
+    "notes": "notes/atcoder/abc125_a_biscuit_generator.md",
+    "tests": "tests/cases/atcoder-abc125_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Every completed multiple of A by integer time T contributes B biscuits.",
+    "checker": "tokens"
   }
 ]
