@@ -10938,5 +10938,20 @@
     "space": "O(N)",
     "hint": "The information forms a DAG because it is consistent with a strict total order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc314_a",
+    "title": "3.14",
+    "url": "https://atcoder.jp/contests/abc314/tasks/abc314_a",
+    "solution": "solutions/atcoder/implementation/abc314_a_3_14.cpp",
+    "notes": "notes/atcoder/abc314_a_3_14.md",
+    "tests": "tests/cases/atcoder-abc314_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N)",
+    "space": "O(1)",
+    "hint": "The problem supplies the exact decimal digits.",
+    "checker": "tokens"
   }
 ]
