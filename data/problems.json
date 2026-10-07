@@ -6828,5 +6828,20 @@
     "space": "O(n)",
     "hint": "Divisibility by nine depends only on the digit sum.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc177_a",
+    "title": "Don't be late",
+    "url": "https://atcoder.jp/contests/abc177/tasks/abc177_a",
+    "solution": "solutions/atcoder/implementation/abc177_a_don_t_be_late.cpp",
+    "notes": "notes/atcoder/abc177_a_don_t_be_late.md",
+    "tests": "tests/cases/atcoder-abc177_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Distance reachable by the deadline is speed times time.",
+    "checker": "tokens"
   }
 ]
