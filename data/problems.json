@@ -11763,5 +11763,20 @@
     "space": "O(n)",
     "hint": "Count letter occurrences, then locate the character whose frequency is one.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc342_b",
+    "title": "Which is ahead?",
+    "url": "https://atcoder.jp/contests/abc342/tasks/abc342_b",
+    "solution": "solutions/atcoder/implementation/abc342_b_which_is_ahead.cpp",
+    "notes": "notes/atcoder/abc342_b_which_is_ahead.md",
+    "tests": "tests/cases/atcoder-abc342_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N+Q)",
+    "space": "O(N)",
+    "hint": "Invert the permutation so every person number maps to its position.",
+    "checker": "tokens"
   }
 ]
