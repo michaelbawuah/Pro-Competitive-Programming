@@ -5838,5 +5838,20 @@
     "space": "O(1)",
     "hint": "When reading a value, pair it with every earlier value using their sum.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc144_a",
+    "title": "9x9",
+    "url": "https://atcoder.jp/contests/abc144/tasks/abc144_a",
+    "solution": "solutions/atcoder/implementation/abc144_a_9x9.cpp",
+    "notes": "notes/atcoder/abc144_a_9x9.md",
+    "tests": "tests/cases/atcoder-abc144_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Both factors must individually belong to the known one-through-nine multiplication table..",
+    "checker": "tokens"
   }
 ]
