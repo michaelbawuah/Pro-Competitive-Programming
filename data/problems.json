@@ -9858,5 +9858,20 @@
     "space": "O(n)",
     "hint": "Validate each character against its allowed alphabet and require every complete card code to be distinct.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc278_a",
+    "title": "Shift",
+    "url": "https://atcoder.jp/contests/abc278/tasks/abc278_a",
+    "solution": "solutions/atcoder/implementation/abc278_a_shift.cpp",
+    "notes": "notes/atcoder/abc278_a_shift.md",
+    "tests": "tests/cases/atcoder-abc278_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "After K left shifts, output position i comes from original position i+K if it exists.",
+    "checker": "tokens"
   }
 ]
