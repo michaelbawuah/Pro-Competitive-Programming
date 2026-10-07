@@ -9768,5 +9768,20 @@
     "space": "O(W)",
     "hint": "Each box contributes once to its own column.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc275_a",
+    "title": "Find Takahashi",
+    "url": "https://atcoder.jp/contests/abc275/tasks/abc275_a",
+    "solution": "solutions/atcoder/implementation/abc275_a_find_takahashi.cpp",
+    "notes": "notes/atcoder/abc275_a_find_takahashi.md",
+    "tests": "tests/cases/atcoder-abc275_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Maintain the highest height seen together with its one-based bridge index.",
+    "checker": "tokens"
   }
 ]
