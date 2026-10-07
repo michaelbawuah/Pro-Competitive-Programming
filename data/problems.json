@@ -7338,5 +7338,20 @@
     "space": "O(1)",
     "hint": "Exactly A consoles are sold before arrival at integer time A.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc194_a",
+    "title": "I Scream",
+    "url": "https://atcoder.jp/contests/abc194/tasks/abc194_a",
+    "solution": "solutions/atcoder/implementation/abc194_a_i_scream.cpp",
+    "notes": "notes/atcoder/abc194_a_i_scream.md",
+    "tests": "tests/cases/atcoder-abc194_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Total milk solids include both supplied components.",
+    "checker": "tokens"
   }
 ]
