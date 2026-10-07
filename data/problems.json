@@ -7458,5 +7458,20 @@
     "space": "O(H W)",
     "hint": "Count the starting square once, then scan outward in each cardinal direction until an obstacle or grid boundary.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc198_a",
+    "title": "Div",
+    "url": "https://atcoder.jp/contests/abc198/tasks/abc198_a",
+    "solution": "solutions/atcoder/implementation/abc198_a_div.cpp",
+    "notes": "notes/atcoder/abc198_a_div.md",
+    "tests": "tests/cases/atcoder-abc198_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The first boy can receive any integer from one to N-1, and each choice uniquely fixes the second share..",
+    "checker": "tokens"
   }
 ]
