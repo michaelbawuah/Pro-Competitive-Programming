@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "5\r\n6 7 9 10 31\n",
+    "output": "APPROVED\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3\r\n28 27 24\n",
+    "output": "DENIED\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\n1\n",
+    "output": "APPROVED\n"
+  }
+]

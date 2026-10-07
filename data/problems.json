@@ -6183,5 +6183,20 @@
     "space": "O(1)",
     "hint": "Exactly two equal values create exactly one equal pair; all equal values create three pairs..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc155_b",
+    "title": "Papers, Please",
+    "url": "https://atcoder.jp/contests/abc155/tasks/abc155_b",
+    "solution": "solutions/atcoder/implementation/abc155_b_papers_please.cpp",
+    "notes": "notes/atcoder/abc155_b_papers_please.md",
+    "tests": "tests/cases/atcoder-abc155_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Reject only an even number divisible by neither three nor five.",
+    "checker": "tokens"
   }
 ]
