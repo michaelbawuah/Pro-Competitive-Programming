@@ -10608,5 +10608,20 @@
     "space": "O(HW)",
     "hint": "A straight five-cell word is determined by its start and one of eight unit directions.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc303_a",
+    "title": "Similar String",
+    "url": "https://atcoder.jp/contests/abc303/tasks/abc303_a",
+    "solution": "solutions/atcoder/implementation/abc303_a_similar_string.cpp",
+    "notes": "notes/atcoder/abc303_a_similar_string.md",
+    "tests": "tests/cases/atcoder-abc303_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Map each allowed similarity class to one representative: one to lowercase L and zero to lowercase O.",
+    "checker": "tokens"
   }
 ]
