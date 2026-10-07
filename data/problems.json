@@ -12138,5 +12138,20 @@
     "space": "O(nL)",
     "hint": "Sum ratings independently of ordering, then sort usernames lexicographically.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc355_a",
+    "title": "Who Ate the Cake?",
+    "url": "https://atcoder.jp/contests/abc355/tasks/abc355_a",
+    "solution": "solutions/atcoder/implementation/abc355_a_who_ate_the_cake.cpp",
+    "notes": "notes/atcoder/abc355_a_who_ate_the_cake.md",
+    "tests": "tests/cases/atcoder-abc355_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Different exclusions leave the third person, whose number is six minus the two excluded numbers.",
+    "checker": "tokens"
   }
 ]
