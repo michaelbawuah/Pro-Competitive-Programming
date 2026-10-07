@@ -5028,5 +5028,20 @@
     "space": "O(1)",
     "hint": "The first two sides meet at the right angle, so their product is twice the triangle area..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc116_b",
+    "title": "Collatz Problem",
+    "url": "https://atcoder.jp/contests/abc116/tasks/abc116_b",
+    "solution": "solutions/atcoder/implementation/abc116_b_collatz_problem.cpp",
+    "notes": "notes/atcoder/abc116_b_collatz_problem.md",
+    "tests": "tests/cases/atcoder-abc116_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(m log m)",
+    "space": "O(m)",
+    "hint": "Record each value before generating the next.",
+    "checker": "tokens"
   }
 ]
