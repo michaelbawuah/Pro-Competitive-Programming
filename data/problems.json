@@ -4203,5 +4203,20 @@
     "space": "O(M+N)",
     "hint": "Enumerate candidates in increasing numeric order, checking the exact digit count and every digit constraint.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc158_c",
+    "title": "Tax Increase",
+    "url": "https://atcoder.jp/contests/abc158/tasks/abc158_c",
+    "solution": "solutions/atcoder/implementation/abc158_c_tax_increase.cpp",
+    "notes": "notes/atcoder/abc158_c_tax_increase.md",
+    "tests": "tests/cases/atcoder-abc158_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1000)",
+    "space": "O(1)",
+    "hint": "The ten-percent tax bound limits the price to at most 1009.",
+    "checker": "tokens"
   }
 ]
