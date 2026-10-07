@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "Sunny\n",
+    "output": "Cloudy\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "Rainy\n",
+    "output": "Sunny\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "Cloudy\n",
+    "output": "Rainy\n"
+  }
+]

@@ -5748,5 +5748,20 @@
     "space": "O(n)",
     "hint": "Every dish is eaten once, so all base scores contribute.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc141_a",
+    "title": "Weather Prediction",
+    "url": "https://atcoder.jp/contests/abc141/tasks/abc141_a",
+    "solution": "solutions/atcoder/implementation/abc141_a_weather_prediction.cpp",
+    "notes": "notes/atcoder/abc141_a_weather_prediction.md",
+    "tests": "tests/cases/atcoder-abc141_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Apply one step of the given three-state weather cycle..",
+    "checker": "tokens"
   }
 ]
