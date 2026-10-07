@@ -6603,5 +6603,20 @@
     "space": "O(1)",
     "hint": "Read both operands and multiply them in an integer type wide enough for the bounded product..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc169_b",
+    "title": "Multiplication 2",
+    "url": "https://atcoder.jp/contests/abc169/tasks/abc169_b",
+    "solution": "solutions/atcoder/implementation/abc169_b_multiplication_2.cpp",
+    "notes": "notes/atcoder/abc169_b_multiplication_2.md",
+    "tests": "tests/cases/atcoder-abc169_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Check for zero before overflow handling because it makes the entire product zero.",
+    "checker": "tokens"
   }
 ]
