@@ -9318,5 +9318,20 @@
     "space": "O(1)",
     "hint": "Convert degrees to radians and apply the counterclockwise rotation matrix.",
     "checker": "floating_vector"
+  },
+  {
+    "id": "atcoder-abc260_a",
+    "title": "A Unique Letter",
+    "url": "https://atcoder.jp/contests/abc260/tasks/abc260_a",
+    "solution": "solutions/atcoder/implementation/abc260_a_a_unique_letter.cpp",
+    "notes": "notes/atcoder/abc260_a_a_unique_letter.md",
+    "tests": "tests/cases/atcoder-abc260_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Count occurrences of each candidate character and return the first with frequency one.",
+    "checker": "unique_letter"
   }
 ]
