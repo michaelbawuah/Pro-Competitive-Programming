@@ -11883,5 +11883,20 @@
     "space": "O(1)",
     "hint": "Keep the previous element while reading the next one.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc346_b",
+    "title": "Piano",
+    "url": "https://atcoder.jp/contests/abc346/tasks/abc346_b",
+    "solution": "solutions/atcoder/implementation/abc346_b_piano.cpp",
+    "notes": "notes/atcoder/abc346_b_piano.md",
+    "tests": "tests/cases/atcoder-abc346_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(12(W+B))",
+    "space": "O(1)",
+    "hint": "Any candidate substring has length W+B and one of twelve starting phases in the periodic keyboard.",
+    "checker": "tokens"
   }
 ]
