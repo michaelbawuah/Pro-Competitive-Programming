@@ -1713,5 +1713,20 @@
     "space": "O(n)",
     "hint": "Track the length of the equal-character run ending at the current position.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-344A",
+    "title": "Magnets",
+    "url": "https://codeforces.com/problemset/problem/344/A",
+    "solution": "solutions/codeforces/simulation/344A_magnets.cpp",
+    "notes": "notes/codeforces/344A_magnets.md",
+    "tests": "tests/cases/codeforces-344A.json",
+    "tags": [
+      "simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "A new group starts exactly when the orientation changes from the previous magnet.",
+    "checker": "tokens"
   }
 ]
