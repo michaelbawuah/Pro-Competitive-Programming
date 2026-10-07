@@ -3543,5 +3543,20 @@
     "space": "O(1)",
     "hint": "Filter routes by the inclusive time limit and retain the cheapest feasible cost.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc113_c",
+    "title": "ID",
+    "url": "https://atcoder.jp/contests/abc113/tasks/abc113_c",
+    "solution": "solutions/atcoder/sorting/abc113_c_id.cpp",
+    "notes": "notes/atcoder/abc113_c_id.md",
+    "tests": "tests/cases/atcoder-abc113_c.json",
+    "tags": [
+      "sorting"
+    ],
+    "time": "O(M log M)",
+    "space": "O(M)",
+    "hint": "Sort by prefecture and establishment year to assign ranks within each prefecture.",
+    "checker": "tokens"
   }
 ]
