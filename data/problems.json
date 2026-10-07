@@ -11688,5 +11688,20 @@
     "space": "O(HW)",
     "hint": "Keep the ant position, direction, and cell colors explicitly.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc340_a",
+    "title": "Arithmetic Progression",
+    "url": "https://atcoder.jp/contests/abc340/tasks/abc340_a",
+    "solution": "solutions/atcoder/implementation/abc340_a_arithmetic_progression.cpp",
+    "notes": "notes/atcoder/abc340_a_arithmetic_progression.md",
+    "tests": "tests/cases/atcoder-abc340_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O((B-A)/D+1)",
+    "space": "O(1)",
+    "hint": "Begin at the first term and repeatedly add the positive common difference.",
+    "checker": "tokens"
   }
 ]
