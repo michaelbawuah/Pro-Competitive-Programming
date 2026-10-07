@@ -1683,5 +1683,20 @@
     "space": "O(n)",
     "hint": "Count occurrences of 4 and 7.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-266B",
+    "title": "Queue at the School",
+    "url": "https://codeforces.com/problemset/problem/266/B",
+    "solution": "solutions/codeforces/simulation/266B_queue_at_the_school.cpp",
+    "notes": "notes/codeforces/266B_queue_at_the_school.md",
+    "tests": "tests/cases/codeforces-266B.json",
+    "tags": [
+      "simulation"
+    ],
+    "time": "O(n t)",
+    "space": "O(n)",
+    "hint": "Process disjoint BG pairs in each second.",
+    "checker": "tokens"
   }
 ]
