@@ -11358,5 +11358,20 @@
     "space": "O(1)",
     "hint": "Enumerate all valid dates and concatenate the decimal month and day without leading zeros.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc329_a",
+    "title": "Spread",
+    "url": "https://atcoder.jp/contests/abc329/tasks/abc329_a",
+    "solution": "solutions/atcoder/implementation/abc329_a_spread.cpp",
+    "notes": "notes/atcoder/abc329_a_spread.md",
+    "tests": "tests/cases/atcoder-abc329_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Output the characters in original order and place one space between neighboring characters, with a newline after the last..",
+    "checker": "tokens"
   }
 ]
