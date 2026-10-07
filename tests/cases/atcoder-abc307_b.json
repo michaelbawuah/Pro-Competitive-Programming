@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "5\r\nab\r\nccef\r\nda\r\na\r\nfe\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3\r\na\r\nb\r\naba\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "2\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\nab\nba\n",
+    "output": "Yes\n"
+  }
+]

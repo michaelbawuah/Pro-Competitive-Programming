@@ -10743,5 +10743,20 @@
     "space": "O(1)",
     "hint": "Partition the input into consecutive blocks of seven days and independently sum each block as one week..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc307_b",
+    "title": "racecar",
+    "url": "https://atcoder.jp/contests/abc307/tasks/abc307_b",
+    "solution": "solutions/atcoder/implementation/abc307_b_racecar.cpp",
+    "notes": "notes/atcoder/abc307_b_racecar.md",
+    "tests": "tests/cases/atcoder-abc307_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2 L)",
+    "space": "O(nL)",
+    "hint": "Try every ordered pair of distinct indices because concatenation order matters.",
+    "checker": "tokens"
   }
 ]
