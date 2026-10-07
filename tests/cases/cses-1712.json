@@ -1,0 +1,17 @@
+[
+  {
+    "name": "powers",
+    "input": "3\n3 7 1\n15 2 2\n2 3 2\n",
+    "output": "2187\n50625\n512\n"
+  },
+  {
+    "name": "zero-cases",
+    "input": "4\n0 0 5\n0 0 0\n0 1 0\n5 0 0\n",
+    "output": "1\n0\n0\n5\n"
+  },
+  {
+    "name": "zero-outer-exponent",
+    "input": "2\n7 0 3\n2 9 0\n",
+    "output": "1\n2\n"
+  }
+]

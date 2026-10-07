@@ -1,0 +1,17 @@
+[
+  {
+    "name": "powers",
+    "input": "3\n3 4\n2 8\n123 123\n",
+    "output": "81\n256\n921450052\n"
+  },
+  {
+    "name": "zero-exponents",
+    "input": "3\n0 0\n0 7\n5 0\n",
+    "output": "1\n0\n1\n"
+  },
+  {
+    "name": "modular-wrap",
+    "input": "2\n1000000000 2\n2 10\n",
+    "output": "49\n1024\n"
+  }
+]

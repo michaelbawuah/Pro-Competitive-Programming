@@ -1280,5 +1280,74 @@
     "space": "O(n)",
     "hint": "A period p works exactly when the suffix beginning at p matches the prefix for all remaining characters.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1095",
+    "title": "Exponentiation",
+    "url": "https://cses.fi/problemset/task/1095/",
+    "solution": "solutions/cses/mathematics/1095_exponentiation.cpp",
+    "notes": "notes/cses/1095_exponentiation.md",
+    "tests": "tests/cases/cses-1095.json",
+    "tags": [
+      "mathematics",
+      "modular-arithmetic",
+      "binary-exponentiation"
+    ],
+    "time": "O(q log(b + 1))",
+    "space": "O(1)",
+    "hint": "Write the exponent in binary and repeatedly square the base.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1713",
+    "title": "Counting Divisors",
+    "url": "https://cses.fi/problemset/task/1713/",
+    "solution": "solutions/cses/mathematics/1713_counting_divisors.cpp",
+    "notes": "notes/cses/1713_counting_divisors.md",
+    "tests": "tests/cases/cses-1713.json",
+    "tags": [
+      "mathematics",
+      "divisors",
+      "sieve"
+    ],
+    "time": "O(M log M + n), M = max input",
+    "space": "O(M + n)",
+    "hint": "Instead of factoring each query, let each divisor visit all its multiples.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1081",
+    "title": "Common Divisors",
+    "url": "https://cses.fi/problemset/task/1081/",
+    "solution": "solutions/cses/mathematics/1081_common_divisors.cpp",
+    "notes": "notes/cses/1081_common_divisors.md",
+    "tests": "tests/cases/cses-1081.json",
+    "tags": [
+      "mathematics",
+      "divisors",
+      "sieve"
+    ],
+    "time": "O(M log M + n), M = max input",
+    "space": "O(M + n)",
+    "hint": "A candidate divisor works if at least two input occurrences are multiples of it.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1712",
+    "title": "Exponentiation II",
+    "url": "https://cses.fi/problemset/task/1712/",
+    "solution": "solutions/cses/mathematics/1712_exponentiation_ii.cpp",
+    "notes": "notes/cses/1712_exponentiation_ii.md",
+    "tests": "tests/cases/cses-1712.json",
+    "tags": [
+      "mathematics",
+      "modular-arithmetic",
+      "binary-exponentiation",
+      "fermat"
+    ],
+    "time": "O(q (log(c + 1) + log MOD))",
+    "space": "O(1)",
+    "hint": "For a nonzero base modulo a prime, exponents may be reduced modulo prime-1.",
+    "checker": "tokens"
   }
 ]

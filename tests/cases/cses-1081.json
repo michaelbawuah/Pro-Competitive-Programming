@@ -1,0 +1,17 @@
+[
+  {
+    "name": "sample",
+    "input": "5\n3 14 15 7 9\n",
+    "output": "7\n"
+  },
+  {
+    "name": "duplicates",
+    "input": "3\n12 12 5\n",
+    "output": "12\n"
+  },
+  {
+    "name": "coprime",
+    "input": "3\n3 5 7\n",
+    "output": "1\n"
+  }
+]
