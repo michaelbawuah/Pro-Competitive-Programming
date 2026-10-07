@@ -10428,5 +10428,20 @@
     "space": "O(1)",
     "hint": "The file letter increases left to right, while the rank decreases from eight to one as input rows move downward.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc297_a",
+    "title": "Double Click",
+    "url": "https://atcoder.jp/contests/abc297/tasks/abc297_a",
+    "solution": "solutions/atcoder/implementation/abc297_a_double_click.cpp",
+    "notes": "notes/atcoder/abc297_a_double_click.md",
+    "tests": "tests/cases/atcoder-abc297_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Only consecutive click times can trigger the specified event.",
+    "checker": "tokens"
   }
 ]
