@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\r\nAoki\r\nTakahashi\r\nTakahashi\n",
+    "output": "2\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "2\r\nAoki\r\nAoki\n",
+    "output": "0\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "20\r\nAoki\r\nTakahashi\r\nTakahashi\r\nAoki\r\nAoki\r\nAoki\r\nAoki\r\nTakahashi\r\nAoki\r\nAoki\r\nAoki\r\nTakahashi\r\nTakahashi\r\nAoki\r\nTakahashi\r\nAoki\r\nAoki\r\nAoki\r\nAoki\r\nTakahashi\n",
+    "output": "7\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\nAoki\n",
+    "output": "0\n"
+  }
+]
