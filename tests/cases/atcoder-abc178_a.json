@@ -1,0 +1,12 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "1\n",
+    "output": "0\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "0\n",
+    "output": "1\n"
+  }
+]
