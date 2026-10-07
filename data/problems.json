@@ -3708,5 +3708,20 @@
     "space": "O(n)",
     "hint": "Count AC occurrences by their ending position in a prefix sum.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc123_c",
+    "title": "Five Transportations",
+    "url": "https://atcoder.jp/contests/abc123/tasks/abc123_c",
+    "solution": "solutions/atcoder/implementation/abc123_c_five_transportations.cpp",
+    "notes": "notes/atcoder/abc123_c_five_transportations.md",
+    "tests": "tests/cases/atcoder-abc123_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The narrowest transport needs ceil(N/capacity) departure batches.",
+    "checker": "tokens"
   }
 ]
