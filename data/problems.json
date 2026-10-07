@@ -5913,5 +5913,20 @@
     "space": "O(1)",
     "hint": "Index Sunday as zero.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc146_b",
+    "title": "ROT N",
+    "url": "https://atcoder.jp/contests/abc146/tasks/abc146_b",
+    "solution": "solutions/atcoder/implementation/abc146_b_rot_n.cpp",
+    "notes": "notes/atcoder/abc146_b_rot_n.md",
+    "tests": "tests/cases/atcoder-abc146_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Convert each letter to an index, add the shift modulo 26, and convert back; modulo implements the wrap from Z to A..",
+    "checker": "tokens"
   }
 ]
