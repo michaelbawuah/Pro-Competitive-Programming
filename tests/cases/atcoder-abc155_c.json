@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "7\r\nbeat\r\nvet\r\nbeet\r\nbed\r\nvet\r\nbet\r\nbeet\n",
+    "output": "beet\r\nvet\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "8\r\nbuffalo\r\nbuffalo\r\nbuffalo\r\nbuffalo\r\nbuffalo\r\nbuffalo\r\nbuffalo\r\nbuffalo\n",
+    "output": "buffalo\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "7\r\nbass\r\nbass\r\nkick\r\nkick\r\nbass\r\nkick\r\nkick\n",
+    "output": "kick\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\na\n",
+    "output": "a\n"
+  }
+]
