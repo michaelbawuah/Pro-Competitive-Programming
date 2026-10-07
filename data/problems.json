@@ -11658,5 +11658,20 @@
     "space": "O(n)",
     "hint": "Count all letter frequencies, then scan letters in alphabetical order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc339_a",
+    "title": "TLD",
+    "url": "https://atcoder.jp/contests/abc339/tasks/abc339_a",
+    "solution": "solutions/atcoder/implementation/abc339_a_tld.cpp",
+    "notes": "notes/atcoder/abc339_a_tld.md",
+    "tests": "tests/cases/atcoder-abc339_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The desired suffix starts immediately after the final period.",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "atcoder.jp\n",
+    "output": "jp\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "translate.google.com\n",
+    "output": "com\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": ".z\n",
+    "output": "z\n"
+  },
+  {
+    "name": "edge-1",
+    "input": ".a\n",
+    "output": "a\n"
+  }
+]
