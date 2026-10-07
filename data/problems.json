@@ -8853,5 +8853,20 @@
     "space": "O(n)",
     "hint": "The input guarantees a nonempty string.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc244_b",
+    "title": "Go Straight and Turn Right",
+    "url": "https://atcoder.jp/contests/abc244/tasks/abc244_b",
+    "solution": "solutions/atcoder/implementation/abc244_b_go_straight_and_turn_right.cpp",
+    "notes": "notes/atcoder/abc244_b_go_straight_and_turn_right.md",
+    "tests": "tests/cases/atcoder-abc244_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Store directions in clockwise order starting with east.",
+    "checker": "tokens"
   }
 ]
