@@ -7323,5 +7323,20 @@
     "space": "O(1)",
     "hint": "The discount fraction is the reduction divided by the original price.",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc193_b",
+    "title": "Play Snuke",
+    "url": "https://atcoder.jp/contests/abc193/tasks/abc193_b",
+    "solution": "solutions/atcoder/implementation/abc193_b_play_snuke.cpp",
+    "notes": "notes/atcoder/abc193_b_play_snuke.md",
+    "tests": "tests/cases/atcoder-abc193_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Exactly A consoles are sold before arrival at integer time A.",
+    "checker": "tokens"
   }
 ]
