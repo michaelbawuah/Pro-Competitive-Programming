@@ -6483,5 +6483,20 @@
     "space": "O(1)",
     "hint": "Round A up to the first multiple of K.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc165_b",
+    "title": "1%",
+    "url": "https://atcoder.jp/contests/abc165/tasks/abc165_b",
+    "solution": "solutions/atcoder/implementation/abc165_b_1.cpp",
+    "notes": "notes/atcoder/abc165_b_1.md",
+    "tests": "tests/cases/atcoder-abc165_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(log X)",
+    "space": "O(1)",
+    "hint": "Add the integer floor of one percent each year.",
+    "checker": "tokens"
   }
 ]
