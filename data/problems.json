@@ -9963,5 +9963,20 @@
     "space": "O(1)",
     "hint": "Start at N and decrement through zero, printing each value before moving to the next smaller one..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc281_b",
+    "title": "Sandwich Number",
+    "url": "https://atcoder.jp/contests/abc281/tasks/abc281_b",
+    "solution": "solutions/atcoder/implementation/abc281_b_sandwich_number.cpp",
+    "notes": "notes/atcoder/abc281_b_sandwich_number.md",
+    "tests": "tests/cases/atcoder-abc281_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Require exactly eight characters, uppercase endpoint letters, and six middle digits whose first digit is nonzero.",
+    "checker": "tokens"
   }
 ]
