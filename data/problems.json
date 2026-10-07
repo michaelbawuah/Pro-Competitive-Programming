@@ -12453,5 +12453,20 @@
     "space": "O(1)",
     "hint": "A leap year is divisible by four, except century years must also be divisible by four hundred.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc365_b",
+    "title": "Second Best",
+    "url": "https://atcoder.jp/contests/abc365/tasks/abc365_b",
+    "solution": "solutions/atcoder/implementation/abc365_b_second_best.cpp",
+    "notes": "notes/atcoder/abc365_b_second_best.md",
+    "tests": "tests/cases/atcoder-abc365_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Retain original indices with the values and sort descending.",
+    "checker": "tokens"
   }
 ]
