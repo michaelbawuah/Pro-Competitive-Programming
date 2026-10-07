@@ -12333,5 +12333,20 @@
     "space": "O(1)",
     "hint": "Copy each original value in order and emit X immediately after the K-th value.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc361_b",
+    "title": "Intersection of Cuboids",
+    "url": "https://atcoder.jp/contests/abc361/tasks/abc361_b",
+    "solution": "solutions/atcoder/implementation/abc361_b_intersection_of_cuboids.cpp",
+    "notes": "notes/atcoder/abc361_b_intersection_of_cuboids.md",
+    "tests": "tests/cases/atcoder-abc361_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Axis-aligned cuboids intersect as the product of their three coordinate-interval intersections.",
+    "checker": "tokens"
   }
 ]
