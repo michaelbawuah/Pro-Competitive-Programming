@@ -2823,5 +2823,20 @@
     "space": "O(1)",
     "hint": "A subsequence totaling one less than the full sum omits elements totaling exactly one.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1593A",
+    "title": "Elections",
+    "url": "https://codeforces.com/problemset/problem/1593/A",
+    "solution": "solutions/codeforces/mathematics/1593A_elections.cpp",
+    "notes": "notes/codeforces/1593A_elections.md",
+    "tests": "tests/cases/codeforces-1593A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Evaluate each candidate independently while keeping the others fixed.",
+    "checker": "tokens"
   }
 ]
