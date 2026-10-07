@@ -2418,5 +2418,20 @@
     "space": "O(n)",
     "hint": "Place a new person at the earliest seat sufficiently far from the previous person and the next original person.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1360A",
+    "title": "Minimal Square",
+    "url": "https://codeforces.com/problemset/problem/1360/A",
+    "solution": "solutions/codeforces/geometry/1360A_minimal_square.cpp",
+    "notes": "notes/codeforces/1360A_minimal_square.md",
+    "tests": "tests/cases/codeforces-1360A.json",
+    "tags": [
+      "geometry"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Put the two rectangles side by side along their shorter dimension.",
+    "checker": "tokens"
   }
 ]
