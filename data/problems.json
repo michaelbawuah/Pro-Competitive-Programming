@@ -4473,5 +4473,20 @@
     "space": "O(n)",
     "hint": "Store maximum free capacity per segment.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1749",
+    "title": "List Removals",
+    "url": "https://cses.fi/problemset/task/1749/",
+    "solution": "solutions/cses/segment_tree/1749_list_removals.cpp",
+    "notes": "notes/cses/1749_list_removals.md",
+    "tests": "tests/cases/cses-1749.json",
+    "tags": [
+      "segment_tree"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "A segment tree stores how many original positions remain alive.",
+    "checker": "tokens"
   }
 ]
