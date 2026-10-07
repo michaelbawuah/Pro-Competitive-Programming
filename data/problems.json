@@ -12123,5 +12123,20 @@
     "space": "O(1)",
     "hint": "Simulate nightly growth powers from one upward.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc354_b",
+    "title": "AtCoder Janken 2",
+    "url": "https://atcoder.jp/contests/abc354/tasks/abc354_b",
+    "solution": "solutions/atcoder/implementation/abc354_b_atcoder_janken_2.cpp",
+    "notes": "notes/atcoder/abc354_b_atcoder_janken_2.md",
+    "tests": "tests/cases/atcoder-abc354_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n L log n)",
+    "space": "O(nL)",
+    "hint": "Sum ratings independently of ordering, then sort usernames lexicographically.",
+    "checker": "tokens"
   }
 ]

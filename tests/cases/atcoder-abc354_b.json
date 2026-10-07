@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\ntakahashi 2\naoki 6\nsnuke 5\n",
+    "output": "snuke\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3\ntakahashi 2813\ntakahashixx 1086\ntakahashix 4229\n",
+    "output": "takahashix\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\naaa 1\n",
+    "output": "aaa\n"
+  }
+]
