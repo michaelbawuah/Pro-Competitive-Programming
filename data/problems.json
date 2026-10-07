@@ -2118,5 +2118,20 @@
     "space": "O(n)",
     "hint": "At every row, rightward gravity packs occupied cells against the right wall.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-337A",
+    "title": "Puzzles",
+    "url": "https://codeforces.com/problemset/problem/337/A",
+    "solution": "solutions/codeforces/sorting/337A_puzzles.cpp",
+    "notes": "notes/codeforces/337A_puzzles.md",
+    "tests": "tests/cases/codeforces-337A.json",
+    "tags": [
+      "sorting"
+    ],
+    "time": "O(m log m)",
+    "space": "O(m)",
+    "hint": "Sort puzzle sizes and examine consecutive blocks of n choices.",
+    "checker": "tokens"
   }
 ]
