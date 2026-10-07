@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "RNBQKBNR\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "KRRBBNNQ\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "BRKRBQNN\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "BBRKRQNN\n",
+    "output": "Yes\n"
+  }
+]

@@ -10443,5 +10443,20 @@
     "space": "O(1)",
     "hint": "Only consecutive click times can trigger the specified event.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc297_b",
+    "title": "chess960",
+    "url": "https://atcoder.jp/contests/abc297/tasks/abc297_b",
+    "solution": "solutions/atcoder/implementation/abc297_b_chess960.cpp",
+    "notes": "notes/atcoder/abc297_b_chess960.md",
+    "tests": "tests/cases/atcoder-abc297_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Record both bishop and rook positions and the king position.",
+    "checker": "tokens"
   }
 ]
