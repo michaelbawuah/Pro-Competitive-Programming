@@ -6,7 +6,7 @@ Standalone C++17 solutions, a reusable algorithm library, explanations, and repr
 
 **100 reference solutions:** 76 CSES, 14 Codeforces, and 10 AtCoder. Every solution has an explanation and checked-in tests. Browse the [complete catalogue](docs/problems.md).
 
-This project starts with AI-assisted reference implementations and original local test cases. Judge acceptances and contest results are recorded separately, with evidence. See [progress](docs/progress.md).
+This project starts with AI-assisted reference implementations, sample cases, and original local tests. Judge acceptances and contest results are recorded separately, with evidence. See [progress](docs/progress.md).
 
 ## Start here
 

@@ -10,8 +10,8 @@
     "output": "3000000000\n"
   },
   {
-    "name": "isolated",
-    "input": "1 0 1\n1 1\n",
-    "output": "0\n"
+    "name": "same-city-and-one-road",
+    "input": "2 1 2\n1 2 5\n1 1\n1 2\n",
+    "output": "0\n5\n"
   }
 ]

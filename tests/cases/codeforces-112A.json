@@ -5,7 +5,7 @@
     "output": "0\n"
   },
   {
-    "name": "greater",
+    "name": "lexicographically-less",
     "input": "abs\nAbz\n",
     "output": "-1\n"
   },

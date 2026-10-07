@@ -182,7 +182,7 @@ def projects(rng):
 
 def shortest_routes(rng):
     n = rng.randint(2, 7)
-    edges = [(*rng.sample(range(n), 2), rng.randint(1, 30)) for _ in range(rng.randint(1, 15))]
+    edges = [(*rng.sample(range(n), 2), rng.randint(1, 30)) for _ in range(rng.randint(1, min(15, n * n)))]
     answers = []
     for source in range(n):
         distance = [10**12] * n
