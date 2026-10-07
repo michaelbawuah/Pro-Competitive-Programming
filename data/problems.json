@@ -2208,5 +2208,20 @@
     "space": "O(1)",
     "hint": "Maintain the difference in round wins, adding one for a first-player win and subtracting one for a second-player win.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-136A",
+    "title": "Presents",
+    "url": "https://codeforces.com/problemset/problem/136/A",
+    "solution": "solutions/codeforces/arrays/136A_presents.cpp",
+    "notes": "notes/codeforces/136A_presents.md",
+    "tests": "tests/cases/codeforces-136A.json",
+    "tags": [
+      "arrays"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Invert the permutation of gift recipients.",
+    "checker": "tokens"
   }
 ]
