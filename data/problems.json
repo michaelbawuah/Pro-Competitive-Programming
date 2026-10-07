@@ -5628,5 +5628,20 @@
     "space": "O(log N)",
     "hint": "Enumerate the bounded range and count numbers whose decimal representation has odd length..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc137_a",
+    "title": "+-x",
+    "url": "https://atcoder.jp/contests/abc137/tasks/abc137_a",
+    "solution": "solutions/atcoder/implementation/abc137_a_x.cpp",
+    "notes": "notes/atcoder/abc137_a_x.md",
+    "tests": "tests/cases/atcoder-abc137_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Compute all three allowed expressions, including negative results, and take their maximum..",
+    "checker": "tokens"
   }
 ]
