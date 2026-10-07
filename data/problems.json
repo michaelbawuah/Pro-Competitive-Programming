@@ -3378,5 +3378,20 @@
     "space": "O(1)",
     "hint": "Multiplication by three never adds a factor of two, and each operation consumes at least one such factor.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc102_c",
+    "title": "Linear Approximation",
+    "url": "https://atcoder.jp/contests/abc102/tasks/arc100_a",
+    "solution": "solutions/atcoder/sorting/abc102_c_linear_approximation.cpp",
+    "notes": "notes/atcoder/abc102_c_linear_approximation.md",
+    "tests": "tests/cases/atcoder-abc102_c.json",
+    "tags": [
+      "sorting"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Subtract the one-based index from each value.",
+    "checker": "tokens"
   }
 ]
