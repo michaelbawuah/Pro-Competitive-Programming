@@ -3033,5 +3033,20 @@
     "space": "O(n m)",
     "hint": "Cells on a diagonal share either row+column or row-column.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1692A",
+    "title": "Marathon",
+    "url": "https://codeforces.com/problemset/problem/1692/A",
+    "solution": "solutions/codeforces/counting/1692A_marathon.cpp",
+    "notes": "notes/codeforces/1692A_marathon.md",
+    "tests": "tests/cases/codeforces-1692A.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Compare each of the other three distances with the first runner distance.",
+    "checker": "tokens"
   }
 ]
