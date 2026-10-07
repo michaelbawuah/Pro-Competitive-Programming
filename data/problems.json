@@ -5178,5 +5178,20 @@
     "space": "O(1)",
     "hint": "A white cell must lie in both an unpainted row and an unpainted column.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc121_b",
+    "title": "Can you solve this?",
+    "url": "https://atcoder.jp/contests/abc121/tasks/abc121_b",
+    "solution": "solutions/atcoder/implementation/abc121_b_can_you_solve_this.cpp",
+    "notes": "notes/atcoder/abc121_b_can_you_solve_this.md",
+    "tests": "tests/cases/atcoder-abc121_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N M)",
+    "space": "O(M)",
+    "hint": "Evaluate each row dot product with B and add the bias C.",
+    "checker": "tokens"
   }
 ]
