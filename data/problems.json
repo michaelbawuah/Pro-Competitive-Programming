@@ -11268,5 +11268,20 @@
     "space": "O(N)",
     "hint": "An optimal one-hour meeting can start at an integer hour because all availability boundaries are integer hours.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc326_a",
+    "title": "2UP3DOWN",
+    "url": "https://atcoder.jp/contests/abc326/tasks/abc326_a",
+    "solution": "solutions/atcoder/implementation/abc326_a_2up3down.cpp",
+    "notes": "notes/atcoder/abc326_a_2up3down.md",
+    "tests": "tests/cases/atcoder-abc326_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Use the signed floor difference: the stairs permit at most two floors upward or three downward.",
+    "checker": "tokens"
   }
 ]
