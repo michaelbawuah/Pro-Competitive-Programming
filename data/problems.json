@@ -11673,5 +11673,20 @@
     "space": "O(n)",
     "hint": "The desired suffix starts immediately after the final period.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc339_b",
+    "title": "Langton's Takahashi",
+    "url": "https://atcoder.jp/contests/abc339/tasks/abc339_b",
+    "solution": "solutions/atcoder/implementation/abc339_b_langton_s_takahashi.cpp",
+    "notes": "notes/atcoder/abc339_b_langton_s_takahashi.md",
+    "tests": "tests/cases/atcoder-abc339_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N+HW)",
+    "space": "O(HW)",
+    "hint": "Keep the ant position, direction, and cell colors explicitly.",
+    "checker": "tokens"
   }
 ]
