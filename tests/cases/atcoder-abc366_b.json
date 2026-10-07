@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\nabc\nde\nfghi\n",
+    "output": "fda\ngeb\nh*c\ni\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3\natcoder\nbeginner\ncontest\n",
+    "output": "cba\noet\nngc\ntio\nend\nsne\nter\n*r\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\na\nbc\n",
+    "output": "ba\nc\n"
+  }
+]

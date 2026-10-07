@@ -12483,5 +12483,20 @@
     "space": "O(1)",
     "hint": "The result is fixed exactly when one candidate already has a strict majority of all N votes.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc366_b",
+    "title": "Vertical Writing",
+    "url": "https://atcoder.jp/contests/abc366/tasks/abc366_b",
+    "solution": "solutions/atcoder/implementation/abc366_b_vertical_writing.cpp",
+    "notes": "notes/atcoder/abc366_b_vertical_writing.md",
+    "tests": "tests/cases/atcoder-abc366_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(NM), M=max length",
+    "space": "O(total characters+N)",
+    "hint": "For each original character column, read rows bottom to top, filling missing characters with stars.",
+    "checker": "tokens"
   }
 ]
