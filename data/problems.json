@@ -10623,5 +10623,20 @@
     "space": "O(n)",
     "hint": "Map each allowed similarity class to one representative: one to lowercase L and zero to lowercase O.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc303_b",
+    "title": "Discord",
+    "url": "https://atcoder.jp/contests/abc303/tasks/abc303_b",
+    "solution": "solutions/atcoder/implementation/abc303_b_discord.cpp",
+    "notes": "notes/atcoder/abc303_b_discord.md",
+    "tests": "tests/cases/atcoder-abc303_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(NM+N^2)",
+    "space": "O(N^2)",
+    "hint": "Mark every neighboring pair in every photo, symmetrically.",
+    "checker": "tokens"
   }
 ]

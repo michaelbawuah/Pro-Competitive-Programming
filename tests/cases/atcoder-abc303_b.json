@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "4 2\r\n1 2 3 4\r\n4 3 1 2\n",
+    "output": "2\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3 3\r\n1 2 3\r\n3 1 2\r\n1 2 3\n",
+    "output": "0\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "10 10\r\n4 10 7 2 8 3 9 1 6 5\r\n3 6 2 9 1 8 10 7 4 5\r\n9 3 4 5 7 10 1 8 2 6\r\n7 3 1 8 4 9 5 6 2 10\r\n5 2 1 4 10 7 9 8 3 6\r\n5 8 1 6 9 3 2 4 7 10\r\n8 10 3 4 5 7 2 9 6 1\r\n3 10 2 7 8 5 1 4 9 6\r\n10 6 1 5 4 2 3 8 9 7\r\n4 5 9 1 8 2 7 6 3 10\n",
+    "output": "6\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2 1\n1 2\n",
+    "output": "0\n"
+  }
+]
