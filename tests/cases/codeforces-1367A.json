@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "4\nabbaac\nac\nbccddaaf\nzzzzzzzzzz\n",
+    "output": "abac\nac\nbcdaf\nzzzzzz\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\nab\naaaaaa\n",
+    "output": "ab\naaaa\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "1\nabbccd\n",
+    "output": "abcd\n"
+  }
+]

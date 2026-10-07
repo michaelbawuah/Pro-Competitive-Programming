@@ -2373,5 +2373,20 @@
     "space": "O(1)",
     "hint": "Only factors two and three can be removed.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1367A",
+    "title": "Short Substrings",
+    "url": "https://codeforces.com/problemset/problem/1367/A",
+    "solution": "solutions/codeforces/strings/1367A_short_substrings.cpp",
+    "notes": "notes/codeforces/1367A_short_substrings.md",
+    "tests": "tests/cases/codeforces-1367A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The first bigram contributes both initial letters; each following bigram contributes only its final letter because its first letter repeats the previous endpoint.",
+    "checker": "tokens"
   }
 ]
