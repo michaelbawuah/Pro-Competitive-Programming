@@ -2853,5 +2853,20 @@
     "space": "O(n)",
     "hint": "Invert the keyboard permutation to map each letter to its position.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1607B",
+    "title": "Odd Grasshopper",
+    "url": "https://codeforces.com/problemset/problem/1607/B",
+    "solution": "solutions/codeforces/mathematics/1607B_odd_grasshopper.cpp",
+    "notes": "notes/codeforces/1607B_odd_grasshopper.md",
+    "tests": "tests/cases/codeforces-1607B.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Group the jumps into blocks of four: their signed displacements cancel and restore the original parity.",
+    "checker": "tokens"
   }
 ]
