@@ -11478,5 +11478,20 @@
     "space": "O(1)",
     "hint": "Apply exactly one branch per operation in the stated priority order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc333_a",
+    "title": "Three Threes",
+    "url": "https://atcoder.jp/contests/abc333/tasks/abc333_a",
+    "solution": "solutions/atcoder/implementation/abc333_a_three_threes.cpp",
+    "notes": "notes/atcoder/abc333_a_three_threes.md",
+    "tests": "tests/cases/atcoder-abc333_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Construct a string containing N repetitions of the single digit character representing N..",
+    "checker": "tokens"
   }
 ]
