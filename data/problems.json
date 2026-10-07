@@ -11838,5 +11838,20 @@
     "space": "O(n)",
     "hint": "Read values until the terminating zero, storing the zero as well.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc345_a",
+    "title": "Leftrightarrow",
+    "url": "https://atcoder.jp/contests/abc345/tasks/abc345_a",
+    "solution": "solutions/atcoder/implementation/abc345_a_leftrightarrow.cpp",
+    "notes": "notes/atcoder/abc345_a_leftrightarrow.md",
+    "tests": "tests/cases/atcoder-abc345_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Check the opening and closing arrowheads and require every interior character to be equals.",
+    "checker": "tokens"
   }
 ]
