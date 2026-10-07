@@ -9723,5 +9723,20 @@
     "space": "O(1)",
     "hint": "The recurrence multiplies all positive integers through N, starting with the base value one.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc273_b",
+    "title": "Broken Rounding",
+    "url": "https://atcoder.jp/contests/abc273/tasks/abc273_b",
+    "solution": "solutions/atcoder/implementation/abc273_b_broken_rounding.cpp",
+    "notes": "notes/atcoder/abc273_b_broken_rounding.md",
+    "tests": "tests/cases/atcoder-abc273_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(K)",
+    "space": "O(1)",
+    "hint": "At each scale, adding half the place value before integer division performs nearest rounding with ties upward.",
+    "checker": "tokens"
   }
 ]
