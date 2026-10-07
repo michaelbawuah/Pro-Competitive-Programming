@@ -3288,5 +3288,20 @@
     "space": "O(D)",
     "hint": "Enumerate which groups earn completion bonuses.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc088_c",
+    "title": "Takahashi's Information",
+    "url": "https://atcoder.jp/contests/abc088/tasks/abc088_c",
+    "solution": "solutions/atcoder/implementation/abc088_c_takahashi_s_information.cpp",
+    "notes": "notes/atcoder/abc088_c_takahashi_s_information.md",
+    "tests": "tests/cases/atcoder-abc088_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Subtracting the first entry of each row cancels its row contribution.",
+    "checker": "tokens"
   }
 ]
