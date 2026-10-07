@@ -6948,5 +6948,20 @@
     "space": "O(1)",
     "hint": "Accumulate absolute values, squared values, and their maximum separately.",
     "checker": "distance_vector"
+  },
+  {
+    "id": "atcoder-abc181_a",
+    "title": "Heavy Rotation",
+    "url": "https://atcoder.jp/contests/abc181/tasks/abc181_a",
+    "solution": "solutions/atcoder/implementation/abc181_a_heavy_rotation.cpp",
+    "notes": "notes/atcoder/abc181_a_heavy_rotation.md",
+    "tests": "tests/cases/atcoder-abc181_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Every day flips the color, so odd elapsed days give black and even elapsed days restore white..",
+    "checker": "tokens"
   }
 ]
