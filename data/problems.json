@@ -11523,5 +11523,20 @@
     "space": "O(1)",
     "hint": "Compare the two distinct prices and choose the item with the larger price..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc334_b",
+    "title": "Christmas Trees",
+    "url": "https://atcoder.jp/contests/abc334/tasks/abc334_b",
+    "solution": "solutions/atcoder/implementation/abc334_b_christmas_trees.cpp",
+    "notes": "notes/atcoder/abc334_b_christmas_trees.md",
+    "tests": "tests/cases/atcoder-abc334_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Trees correspond to integers k with L-A <= kM <= R-A.",
+    "checker": "tokens"
   }
 ]
