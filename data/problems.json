@@ -2388,5 +2388,20 @@
     "space": "O(n)",
     "hint": "The first bigram contributes both initial letters; each following bigram contributes only its final letter because its first letter repeats the previous endpoint.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1367B",
+    "title": "Even Array",
+    "url": "https://codeforces.com/problemset/problem/1367/B",
+    "solution": "solutions/codeforces/greedy/1367B_even_array.cpp",
+    "notes": "notes/codeforces/1367B_even_array.md",
+    "tests": "tests/cases/codeforces-1367B.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n) per case",
+    "space": "O(1)",
+    "hint": "A swap between an incorrect even-indexed position and an incorrect odd-indexed position fixes both.",
+    "checker": "tokens"
   }
 ]
