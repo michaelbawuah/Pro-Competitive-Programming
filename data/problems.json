@@ -4383,5 +4383,20 @@
     "space": "O(n)",
     "hint": "For a fixed sum cap, greedily extend each group as far as possible; no valid partition can end that group later, so this minimizes group count.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1644",
+    "title": "Maximum Subarray Sum II",
+    "url": "https://cses.fi/problemset/task/1644/",
+    "solution": "solutions/cses/prefix_sums/1644_maximum_subarray_sum_ii.cpp",
+    "notes": "notes/cses/1644_maximum_subarray_sum_ii.md",
+    "tests": "tests/cases/cses-1644.json",
+    "tags": [
+      "prefix_sums"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "A subarray ending at r may start at prefix indices r-b through r-a.",
+    "checker": "tokens"
   }
 ]
