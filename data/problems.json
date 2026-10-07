@@ -7683,5 +7683,20 @@
     "space": "O(1)",
     "hint": "Scale energy per hundred milliliters by B/100 using floating-point arithmetic..",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc205_b",
+    "title": "Permutation Check",
+    "url": "https://atcoder.jp/contests/abc205/tasks/abc205_b",
+    "solution": "solutions/atcoder/implementation/abc205_b_permutation_check.cpp",
+    "notes": "notes/atcoder/abc205_b_permutation_check.md",
+    "tests": "tests/cases/atcoder-abc205_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "There are N entries drawn from N permitted values.",
+    "checker": "tokens"
   }
 ]
