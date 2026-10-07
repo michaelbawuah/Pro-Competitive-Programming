@@ -3678,5 +3678,20 @@
     "space": "O(n)",
     "hint": "Each removal consumes one cube of each color.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc121_c",
+    "title": "Energy Drink Collector",
+    "url": "https://atcoder.jp/contests/abc121/tasks/abc121_c",
+    "solution": "solutions/atcoder/greedy/abc121_c_energy_drink_collector.cpp",
+    "notes": "notes/atcoder/abc121_c_energy_drink_collector.md",
+    "tests": "tests/cases/atcoder-abc121_c.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Buying a more expensive can while a cheaper one remains can be improved by exchanging them.",
+    "checker": "tokens"
   }
 ]
