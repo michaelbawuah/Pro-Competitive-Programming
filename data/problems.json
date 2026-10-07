@@ -7848,5 +7848,20 @@
     "space": "O(n)",
     "hint": "The game ends at the first bad card.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc211_a",
+    "title": "Blood Pressure",
+    "url": "https://atcoder.jp/contests/abc211/tasks/abc211_a",
+    "solution": "solutions/atcoder/implementation/abc211_a_blood_pressure.cpp",
+    "notes": "notes/atcoder/abc211_a_blood_pressure.md",
+    "tests": "tests/cases/atcoder-abc211_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Evaluate the supplied expression in floating point so division by three retains its fractional part..",
+    "checker": "floating"
   }
 ]
