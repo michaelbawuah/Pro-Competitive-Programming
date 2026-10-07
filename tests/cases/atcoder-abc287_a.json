@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\r\nFor\r\nAgainst\r\nFor\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "5\r\nAgainst\r\nAgainst\r\nFor\r\nAgainst\r\nFor\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "1\r\nFor\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\nAgainst\n",
+    "output": "No\n"
+  }
+]

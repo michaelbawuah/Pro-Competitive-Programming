@@ -10128,5 +10128,20 @@
     "space": "O(n)",
     "hint": "Copy original characters in order and insert y after an n whose next original character is a.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc287_a",
+    "title": "Majority",
+    "url": "https://atcoder.jp/contests/abc287/tasks/abc287_a",
+    "solution": "solutions/atcoder/implementation/abc287_a_majority.cpp",
+    "notes": "notes/atcoder/abc287_a_majority.md",
+    "tests": "tests/cases/atcoder-abc287_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Count agreeing voters.",
+    "checker": "tokens"
   }
 ]
