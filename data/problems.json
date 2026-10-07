@@ -5388,5 +5388,20 @@
     "space": "O(1)",
     "hint": "Convert each whole apple into three pieces, then take one pie per complete pair of pieces..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc128_b",
+    "title": "Guidebook",
+    "url": "https://atcoder.jp/contests/abc128/tasks/abc128_b",
+    "solution": "solutions/atcoder/implementation/abc128_b_guidebook.cpp",
+    "notes": "notes/atcoder/abc128_b_guidebook.md",
+    "tests": "tests/cases/atcoder-abc128_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n L log n)",
+    "space": "O(n L)",
+    "hint": "Sort by city ascending and negative score ascending, which is score descending.",
+    "checker": "tokens"
   }
 ]

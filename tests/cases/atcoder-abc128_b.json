@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "6\r\nkhabarovsk 20\r\nmoscow 10\r\nkazan 50\r\nkazan 35\r\nmoscow 60\r\nkhabarovsk 40\n",
+    "output": "3\r\n4\r\n6\r\n1\r\n5\r\n2\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "10\r\nyakutsk 10\r\nyakutsk 20\r\nyakutsk 30\r\nyakutsk 40\r\nyakutsk 50\r\nyakutsk 60\r\nyakutsk 70\r\nyakutsk 80\r\nyakutsk 90\r\nyakutsk 100\n",
+    "output": "10\r\n9\r\n8\r\n7\r\n6\r\n5\r\n4\r\n3\r\n2\r\n1\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\na 0\n",
+    "output": "1\n"
+  }
+]
