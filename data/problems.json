@@ -6978,5 +6978,20 @@
     "space": "O(1)",
     "hint": "Each inclusive interval contributes its arithmetic-series sum.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc182_a",
+    "title": "twiblr",
+    "url": "https://atcoder.jp/contests/abc182/tasks/abc182_a",
+    "solution": "solutions/atcoder/implementation/abc182_a_twiblr.cpp",
+    "notes": "notes/atcoder/abc182_a_twiblr.md",
+    "tests": "tests/cases/atcoder-abc182_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Subtract the current following count from the allowed total; the constraints guarantee the result is nonnegative..",
+    "checker": "tokens"
   }
 ]
