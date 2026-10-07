@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "atco\natcoder\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "code\natcoder\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "abc\nabc\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "aa\na\n",
+    "output": "No\n"
+  }
+]

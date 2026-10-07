@@ -9573,5 +9573,20 @@
     "space": "O(1)",
     "hint": "A set retains one representative of each integer.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc268_b",
+    "title": "Prefix?",
+    "url": "https://atcoder.jp/contests/abc268/tasks/abc268_b",
+    "solution": "solutions/atcoder/implementation/abc268_b_prefix.cpp",
+    "notes": "notes/atcoder/abc268_b_prefix.md",
+    "tests": "tests/cases/atcoder-abc268_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(|S|+|T|)",
+    "space": "O(|S|+|T|)",
+    "hint": "A prefix must fit within the target length and equal its initial segment.",
+    "checker": "tokens"
   }
 ]
