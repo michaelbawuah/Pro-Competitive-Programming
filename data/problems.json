@@ -12363,5 +12363,20 @@
     "space": "O(1)",
     "hint": "Exclude the disliked color and choose the smaller of the two remaining pen prices..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc362_b",
+    "title": "Right Triangle",
+    "url": "https://atcoder.jp/contests/abc362/tasks/abc362_b",
+    "solution": "solutions/atcoder/implementation/abc362_b_right_triangle.cpp",
+    "notes": "notes/atcoder/abc362_b_right_triangle.md",
+    "tests": "tests/cases/atcoder-abc362_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Compute all three squared side lengths and sort them.",
+    "checker": "tokens"
   }
 ]
