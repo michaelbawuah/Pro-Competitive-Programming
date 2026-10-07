@@ -4218,5 +4218,20 @@
     "space": "O(1)",
     "hint": "The ten-percent tax bound limits the price to at most 1009.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc160_c",
+    "title": "Traveling Salesman around Lake",
+    "url": "https://atcoder.jp/contests/abc160/tasks/abc160_c",
+    "solution": "solutions/atcoder/greedy/abc160_c_traveling_salesman_around_lake.cpp",
+    "notes": "notes/atcoder/abc160_c_traveling_salesman_around_lake.md",
+    "tests": "tests/cases/atcoder-abc160_c.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Starting just after a chosen gap allows visiting all houses without crossing that gap.",
+    "checker": "tokens"
   }
 ]
