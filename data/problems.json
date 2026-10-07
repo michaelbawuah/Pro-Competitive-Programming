@@ -1788,5 +1788,20 @@
     "space": "O(1)",
     "hint": "Equal drink volumes make the final percentage the arithmetic mean.",
     "checker": "percentage"
+  },
+  {
+    "id": "codeforces-228A",
+    "title": "Is your horseshoe on the other hoof?",
+    "url": "https://codeforces.com/problemset/problem/228/A",
+    "solution": "solutions/codeforces/counting/228A_is_your_horseshoe_on_the_other_hoof.cpp",
+    "notes": "notes/codeforces/228A_is_your_horseshoe_on_the_other_hoof.md",
+    "tests": "tests/cases/codeforces-228A.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Keep one horseshoe of each existing color.",
+    "checker": "tokens"
   }
 ]
