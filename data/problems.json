@@ -2778,5 +2778,20 @@
     "space": "O(1)",
     "hint": "Opposite labels differ by half the circle size, so a and b determine that size uniquely.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1560C",
+    "title": "Infinity Table",
+    "url": "https://codeforces.com/problemset/problem/1560/C",
+    "solution": "solutions/codeforces/mathematics/1560C_infinity_table.cpp",
+    "notes": "notes/codeforces/1560C_infinity_table.md",
+    "tests": "tests/cases/codeforces-1560C.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Square boundaries identify the layer containing n.",
+    "checker": "tokens"
   }
 ]
