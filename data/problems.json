@@ -9603,5 +9603,20 @@
     "space": "O(1)",
     "hint": "Use parentheses to enforce the requested grouping of the sum and difference, then print the fixed second line..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc269_b",
+    "title": "Rectangle Detection",
+    "url": "https://atcoder.jp/contests/abc269/tasks/abc269_b",
+    "solution": "solutions/atcoder/implementation/abc269_b_rectangle_detection.cpp",
+    "notes": "notes/atcoder/abc269_b_rectangle_detection.md",
+    "tests": "tests/cases/atcoder-abc269_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The filled rectangle is nonempty.",
+    "checker": "tokens"
   }
 ]
