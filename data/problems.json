@@ -11388,5 +11388,20 @@
     "space": "O(n)",
     "hint": "Distinct values in an ordered set appear sorted.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc330_a",
+    "title": "Counting Passes",
+    "url": "https://atcoder.jp/contests/abc330/tasks/abc330_a",
+    "solution": "solutions/atcoder/implementation/abc330_a_counting_passes.cpp",
+    "notes": "notes/atcoder/abc330_a_counting_passes.md",
+    "tests": "tests/cases/atcoder-abc330_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "A person passes exactly when their score is at least the threshold.",
+    "checker": "tokens"
   }
 ]
