@@ -12468,5 +12468,20 @@
     "space": "O(n)",
     "hint": "Retain original indices with the values and sort descending.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc366_a",
+    "title": "Election 2",
+    "url": "https://atcoder.jp/contests/abc366/tasks/abc366_a",
+    "solution": "solutions/atcoder/implementation/abc366_a_election_2.cpp",
+    "notes": "notes/atcoder/abc366_a_election_2.md",
+    "tests": "tests/cases/atcoder-abc366_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The result is fixed exactly when one candidate already has a strict majority of all N votes.",
+    "checker": "tokens"
   }
 ]
