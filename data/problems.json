@@ -12048,5 +12048,20 @@
     "space": "O(n^2)",
     "hint": "Compare corresponding cells in the two grids.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc352_a",
+    "title": "AtCoder Line",
+    "url": "https://atcoder.jp/contests/abc352/tasks/abc352_a",
+    "solution": "solutions/atcoder/implementation/abc352_a_atcoder_line.cpp",
+    "notes": "notes/atcoder/abc352_a_atcoder_line.md",
+    "tests": "tests/cases/atcoder-abc352_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Both travel directions visit exactly the station numbers between X and Y.",
+    "checker": "tokens"
   }
 ]
