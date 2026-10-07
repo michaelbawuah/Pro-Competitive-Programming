@@ -9993,5 +9993,20 @@
     "space": "O(1)",
     "hint": "Emit the first K consecutive uppercase letters by adding zero-based offsets to A..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc282_b",
+    "title": "Let's Get a Perfect Score",
+    "url": "https://atcoder.jp/contests/abc282/tasks/abc282_b",
+    "solution": "solutions/atcoder/implementation/abc282_b_let_s_get_a_perfect_score.cpp",
+    "notes": "notes/atcoder/abc282_b_let_s_get_a_perfect_score.md",
+    "tests": "tests/cases/atcoder-abc282_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N^2 M)",
+    "space": "O(NM)",
+    "hint": "Enumerate each unordered participant pair once.",
+    "checker": "tokens"
   }
 ]
