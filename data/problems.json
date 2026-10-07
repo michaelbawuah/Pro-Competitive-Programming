@@ -4533,5 +4533,20 @@
     "space": "O(n log n)",
     "hint": "Boss identifiers are smaller than employee identifiers, allowing depths to be computed during input.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1137",
+    "title": "Subtree Queries",
+    "url": "https://cses.fi/problemset/task/1137/",
+    "solution": "solutions/cses/fenwick/1137_subtree_queries.cpp",
+    "notes": "notes/cses/1137_subtree_queries.md",
+    "tests": "tests/cases/cses-1137.json",
+    "tags": [
+      "fenwick"
+    ],
+    "time": "O((n+q) log n)",
+    "space": "O(n)",
+    "hint": "Depth-first preorder places each subtree in a contiguous interval beginning at its entry index and having its subtree size.",
+    "checker": "tokens"
   }
 ]

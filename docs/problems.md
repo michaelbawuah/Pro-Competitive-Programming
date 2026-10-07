@@ -298,3 +298,4 @@ Reference implementations are locally tested; official acceptances are tracked s
 | `cses-1133` | [Tree Distances II](https://cses.fi/problemset/task/1133/) | trees | O(n) / O(n) | [C++](../solutions/cses/trees/1133_tree_distances_ii.cpp) · [Notes](../notes/cses/1133_tree_distances_ii.md) |
 | `cses-1135` | [Distance Queries](https://cses.fi/problemset/task/1135/) | trees | O((n+q) log n) / O(n log n) | [C++](../solutions/cses/trees/1135_distance_queries.cpp) · [Notes](../notes/cses/1135_distance_queries.md) |
 | `cses-1688` | [Company Queries II](https://cses.fi/problemset/task/1688/) | trees | O((n+q) log n) / O(n log n) | [C++](../solutions/cses/trees/1688_company_queries_ii.cpp) · [Notes](../notes/cses/1688_company_queries_ii.md) |
+| `cses-1137` | [Subtree Queries](https://cses.fi/problemset/task/1137/) | fenwick | O((n+q) log n) / O(n) | [C++](../solutions/cses/fenwick/1137_subtree_queries.cpp) · [Notes](../notes/cses/1137_subtree_queries.md) |
