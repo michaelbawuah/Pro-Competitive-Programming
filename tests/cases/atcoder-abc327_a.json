@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\r\nabc\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "2\r\nba\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "7\r\natcoder\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\nba\n",
+    "output": "Yes\n"
+  }
+]

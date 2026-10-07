@@ -11298,5 +11298,20 @@
     "space": "O(1)",
     "hint": "Scan candidate integers upward and test the hundreds-times-tens digit relation.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc327_a",
+    "title": "ab",
+    "url": "https://atcoder.jp/contests/abc327/tasks/abc327_a",
+    "solution": "solutions/atcoder/implementation/abc327_a_ab.cpp",
+    "notes": "notes/atcoder/abc327_a_ab.md",
+    "tests": "tests/cases/atcoder-abc327_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Adjacent a and b can appear in exactly two orders, ab and ba.",
+    "checker": "tokens"
   }
 ]
