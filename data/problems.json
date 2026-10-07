@@ -7248,5 +7248,20 @@
     "space": "O(1)",
     "hint": "A damaging spell must satisfy both strict inequalities simultaneously; check whether any spell does so..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc191_a",
+    "title": "Vanishing Pitch",
+    "url": "https://atcoder.jp/contests/abc191/tasks/abc191_a",
+    "solution": "solutions/atcoder/implementation/abc191_a_vanishing_pitch.cpp",
+    "notes": "notes/atcoder/abc191_a_vanishing_pitch.md",
+    "tests": "tests/cases/atcoder-abc191_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Constant speed turns the invisible time interval into the inclusive distance interval [VT,VS].",
+    "checker": "tokens"
   }
 ]
