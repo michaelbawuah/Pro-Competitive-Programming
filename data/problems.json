@@ -1638,5 +1638,20 @@
     "space": "O(n)",
     "hint": "Count distinct letters, then apply the parity rule specified by the problem.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-266A",
+    "title": "Stones on the Table",
+    "url": "https://codeforces.com/problemset/problem/266/A",
+    "solution": "solutions/codeforces/strings/266A_stones_on_the_table.cpp",
+    "notes": "notes/codeforces/266A_stones_on_the_table.md",
+    "tests": "tests/cases/codeforces-266A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Keep one stone from each maximal run of equal colors.",
+    "checker": "tokens"
   }
 ]
