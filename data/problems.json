@@ -2763,5 +2763,20 @@
     "space": "O(K)",
     "hint": "Enumerate positive integers and retain those satisfying both exclusion rules.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1560B",
+    "title": "Who's Opposite?",
+    "url": "https://codeforces.com/problemset/problem/1560/B",
+    "solution": "solutions/codeforces/mathematics/1560B_who_s_opposite.cpp",
+    "notes": "notes/codeforces/1560B_who_s_opposite.md",
+    "tests": "tests/cases/codeforces-1560B.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Opposite labels differ by half the circle size, so a and b determine that size uniquely.",
+    "checker": "tokens"
   }
 ]
