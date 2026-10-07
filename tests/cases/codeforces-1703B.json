@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "6\n3\nABA\n1\nA\n3\nORZ\n5\nBAAAA\n4\nBKPT\n10\nCODEFORCES\n",
+    "output": "5\n2\n6\n7\n8\n17\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\n1\nA\n",
+    "output": "2\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "1\n4\nAAAA\n",
+    "output": "5\n"
+  }
+]

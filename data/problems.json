@@ -3093,5 +3093,20 @@
     "space": "O(1)",
     "hint": "Normalize all letters to uppercase before comparing with YES.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1703B",
+    "title": "ICPC Balloons",
+    "url": "https://codeforces.com/problemset/problem/1703/B",
+    "solution": "solutions/codeforces/counting/1703B_icpc_balloons.cpp",
+    "notes": "notes/codeforces/1703B_icpc_balloons.md",
+    "tests": "tests/cases/codeforces-1703B.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(n) per case",
+    "space": "O(n)",
+    "hint": "Every solve earns one balloon and the first solve of each distinct problem earns one extra.",
+    "checker": "tokens"
   }
 ]
