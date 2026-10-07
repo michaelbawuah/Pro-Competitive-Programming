@@ -2148,5 +2148,20 @@
     "space": "O(n)",
     "hint": "For any fixed count, the largest coins maximize the money taken.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-230A",
+    "title": "Dragons",
+    "url": "https://codeforces.com/problemset/problem/230/A",
+    "solution": "solutions/codeforces/greedy/230A_dragons.cpp",
+    "notes": "notes/codeforces/230A_dragons.md",
+    "tests": "tests/cases/codeforces-230A.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Fight dragons in increasing strength order.",
+    "checker": "yes_no"
   }
 ]
