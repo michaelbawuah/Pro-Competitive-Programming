@@ -8058,5 +8058,20 @@
     "space": "O(1)",
     "hint": "Start with the four possible labels and remove the three distinct supplied labels.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc218_a",
+    "title": "Weather Forecast",
+    "url": "https://atcoder.jp/contests/abc218/tasks/abc218_a",
+    "solution": "solutions/atcoder/implementation/abc218_a_weather_forecast.cpp",
+    "notes": "notes/atcoder/abc218_a_weather_forecast.md",
+    "tests": "tests/cases/atcoder-abc218_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The forecast for one-based day N is the character at index N-1.",
+    "checker": "tokens"
   }
 ]
