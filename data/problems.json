@@ -3903,5 +3903,20 @@
     "space": "O(n)",
     "hint": "Process heroes left to right and first defeat monsters in the left town, which no later hero can reach.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc136_c",
+    "title": "Build Stairs",
+    "url": "https://atcoder.jp/contests/abc136/tasks/abc136_c",
+    "solution": "solutions/atcoder/greedy/abc136_c_build_stairs.cpp",
+    "notes": "notes/atcoder/abc136_c_build_stairs.md",
+    "tests": "tests/cases/atcoder-abc136_c.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Choose the smallest allowed current height that is at least the previous chosen height.",
+    "checker": "tokens"
   }
 ]
