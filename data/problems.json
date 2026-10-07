@@ -9438,5 +9438,20 @@
     "space": "O(n)",
     "hint": "Follow parent links from N to one, counting edges.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc264_a",
+    "title": "\"atcoder\".substr()",
+    "url": "https://atcoder.jp/contests/abc264/tasks/abc264_a",
+    "solution": "solutions/atcoder/implementation/abc264_a_atcoder_substr.cpp",
+    "notes": "notes/atcoder/abc264_a_atcoder_substr.md",
+    "tests": "tests/cases/atcoder-abc264_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The first requested character has zero-based index L-1, and the inclusive interval contains R-L+1 characters.",
+    "checker": "tokens"
   }
 ]
