@@ -7023,5 +7023,20 @@
     "space": "O(1)",
     "hint": "ReLU preserves positive values and replaces negative values with zero..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc183_b",
+    "title": "Billiards",
+    "url": "https://atcoder.jp/contests/abc183/tasks/abc183_b",
+    "solution": "solutions/atcoder/implementation/abc183_b_billiards.cpp",
+    "notes": "notes/atcoder/abc183_b_billiards.md",
+    "tests": "tests/cases/atcoder-abc183_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Reflect the goal across the wall.",
+    "checker": "floating"
   }
 ]
