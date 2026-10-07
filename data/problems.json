@@ -7293,5 +7293,20 @@
     "space": "O(1)",
     "hint": "The next prize is strictly after the current count, so an exact multiple still needs one hundred further coins..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc192_b",
+    "title": "uNrEaDaBlE sTrInG",
+    "url": "https://atcoder.jp/contests/abc192/tasks/abc192_b",
+    "solution": "solutions/atcoder/implementation/abc192_b_unreadable_string.cpp",
+    "notes": "notes/atcoder/abc192_b_unreadable_string.md",
+    "tests": "tests/cases/atcoder-abc192_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Convert odd one-based positions to even zero-based indices.",
+    "checker": "tokens"
   }
 ]
