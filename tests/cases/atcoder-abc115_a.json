@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "25\n",
+    "output": "Christmas\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "22\n",
+    "output": "Christmas Eve Eve Eve\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "23\n",
+    "output": "Christmas Eve Eve\n"
+  }
+]
