@@ -8133,5 +8133,20 @@
     "space": "O(1)",
     "hint": "Round the lower endpoint up to the first multiple of C.",
     "checker": "range_multiple"
+  },
+  {
+    "id": "atcoder-abc220_b",
+    "title": "Base K",
+    "url": "https://atcoder.jp/contests/abc220/tasks/abc220_b",
+    "solution": "solutions/atcoder/implementation/abc220_b_base_k.cpp",
+    "notes": "notes/atcoder/abc220_b_base_k.md",
+    "tests": "tests/cases/atcoder-abc220_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(|A|+|B|)",
+    "space": "O(|A|+|B|)",
+    "hint": "Decode each numeral by multiplying its accumulated prefix by K and adding the next digit.",
+    "checker": "tokens"
   }
 ]
