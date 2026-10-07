@@ -8628,5 +8628,20 @@
     "space": "O(1)",
     "hint": "Four equal copies XOR to zero.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc237_a",
+    "title": "Not Overflow",
+    "url": "https://atcoder.jp/contests/abc237/tasks/abc237_a",
+    "solution": "solutions/atcoder/implementation/abc237_a_not_overflow.cpp",
+    "notes": "notes/atcoder/abc237_a_not_overflow.md",
+    "tests": "tests/cases/atcoder-abc237_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A signed 32-bit integer ranges from negative 2^31 through 2^31-1.",
+    "checker": "tokens"
   }
 ]
