@@ -10098,5 +10098,20 @@
     "space": "O(n)",
     "hint": "For each shift, compare aligned characters from the beginning until the first equality or the string boundary.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc286_a",
+    "title": "Range Swap",
+    "url": "https://atcoder.jp/contests/abc286/tasks/abc286_a",
+    "solution": "solutions/atcoder/implementation/abc286_a_range_swap.cpp",
+    "notes": "notes/atcoder/abc286_a_range_swap.md",
+    "tests": "tests/cases/atcoder-abc286_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The two disjoint ranges have equal length.",
+    "checker": "tokens"
   }
 ]
