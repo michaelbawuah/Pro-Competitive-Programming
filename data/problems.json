@@ -1803,5 +1803,20 @@
     "space": "O(1)",
     "hint": "Keep one horseshoe of each existing color.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-705A",
+    "title": "Hulk",
+    "url": "https://codeforces.com/problemset/problem/705/A",
+    "solution": "solutions/codeforces/strings/705A_hulk.cpp",
+    "notes": "notes/codeforces/705A_hulk.md",
+    "tests": "tests/cases/codeforces-705A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Alternate the two clauses by index parity.",
+    "checker": "tokens"
   }
 ]
