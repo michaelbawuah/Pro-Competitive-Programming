@@ -4308,5 +4308,20 @@
     "space": "O(N+Q)",
     "hint": "Generate only nondecreasing sequences by making each next value at least the previous one.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc166_c",
+    "title": "Peaks",
+    "url": "https://atcoder.jp/contests/abc166/tasks/abc166_c",
+    "solution": "solutions/atcoder/graphs/abc166_c_peaks.cpp",
+    "notes": "notes/atcoder/abc166_c_peaks.md",
+    "tests": "tests/cases/atcoder-abc166_c.json",
+    "tags": [
+      "graphs"
+    ],
+    "time": "O(n+m)",
+    "space": "O(n)",
+    "hint": "Each road disqualifies an endpoint whose height is not strictly greater than the other.",
+    "checker": "tokens"
   }
 ]
