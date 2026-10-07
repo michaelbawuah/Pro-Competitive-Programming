@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "red blue\r\n3 4\r\nred\n",
+    "output": "2 4\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "red blue\r\n5 5\r\nblue\n",
+    "output": "5 4\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a b\n1 1\na\n",
+    "output": "0 1\n"
+  }
+]
