@@ -10068,5 +10068,20 @@
     "space": "O(1)",
     "hint": "Reset a counter for every test case and add one for each positive value with remainder one modulo two..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc285_a",
+    "title": "Edge Checker 2",
+    "url": "https://atcoder.jp/contests/abc285/tasks/abc285_a",
+    "solution": "solutions/atcoder/implementation/abc285_a_edge_checker_2.cpp",
+    "notes": "notes/atcoder/abc285_a_edge_checker_2.md",
+    "tests": "tests/cases/atcoder-abc285_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The diagram numbers a binary tree in heap order: the parent of node B is floor(B/2).",
+    "checker": "tokens"
   }
 ]
