@@ -2253,5 +2253,20 @@
     "space": "O(n)",
     "hint": "Apply exclusive OR independently to corresponding bits.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-69A",
+    "title": "Young Physicist",
+    "url": "https://codeforces.com/problemset/problem/69/A",
+    "solution": "solutions/codeforces/mathematics/69A_young_physicist.cpp",
+    "notes": "notes/codeforces/69A_young_physicist.md",
+    "tests": "tests/cases/codeforces-69A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Add force vectors component by component.",
+    "checker": "yes_no"
   }
 ]
