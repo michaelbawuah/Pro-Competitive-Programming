@@ -1213,5 +1213,72 @@
     "space": "O(n log n)",
     "hint": "Precompute ancestors at distances 1, 2, 4, 8, and so on.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1650",
+    "title": "Range Xor Queries",
+    "url": "https://cses.fi/problemset/task/1650/",
+    "solution": "solutions/cses/range_queries/1650_range_xor_queries.cpp",
+    "notes": "notes/cses/1650_range_xor_queries.md",
+    "tests": "tests/cases/cses-1650.json",
+    "tags": [
+      "prefix-xor",
+      "range-queries"
+    ],
+    "time": "O(n + q)",
+    "space": "O(n)",
+    "hint": "XORing a value with itself cancels it.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1651",
+    "title": "Range Update Queries",
+    "url": "https://cses.fi/problemset/task/1651/",
+    "solution": "solutions/cses/range_queries/1651_range_update_queries.cpp",
+    "notes": "notes/cses/1651_range_update_queries.md",
+    "tests": "tests/cases/cses-1651.json",
+    "tags": [
+      "fenwick-tree",
+      "difference-array",
+      "range-queries"
+    ],
+    "time": "O(n + q log n)",
+    "space": "O(n)",
+    "hint": "A range addition becomes two point changes in a difference array.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1732",
+    "title": "Finding Borders",
+    "url": "https://cses.fi/problemset/task/1732/",
+    "solution": "solutions/cses/strings/1732_finding_borders.cpp",
+    "notes": "notes/cses/1732_finding_borders.md",
+    "tests": "tests/cases/cses-1732.json",
+    "tags": [
+      "strings",
+      "prefix-function",
+      "kmp"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Once the longest border is known, find shorter borders inside that border.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1733",
+    "title": "Finding Periods",
+    "url": "https://cses.fi/problemset/task/1733/",
+    "solution": "solutions/cses/strings/1733_finding_periods.cpp",
+    "notes": "notes/cses/1733_finding_periods.md",
+    "tests": "tests/cases/cses-1733.json",
+    "tags": [
+      "strings",
+      "z-function",
+      "periods"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "A period p works exactly when the suffix beginning at p matches the prefix for all remaining characters.",
+    "checker": "tokens"
   }
 ]

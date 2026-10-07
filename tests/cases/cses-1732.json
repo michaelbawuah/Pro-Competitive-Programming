@@ -1,0 +1,17 @@
+[
+  {
+    "name": "nested",
+    "input": "abcababcab\n",
+    "output": "2 5\n"
+  },
+  {
+    "name": "all-same",
+    "input": "aaaa\n",
+    "output": "1 2 3\n"
+  },
+  {
+    "name": "no-border",
+    "input": "abcd\n",
+    "output": "\n"
+  }
+]

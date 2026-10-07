@@ -1,0 +1,17 @@
+[
+  {
+    "name": "partial-repeat",
+    "input": "abcabca\n",
+    "output": "3 6 7\n"
+  },
+  {
+    "name": "all-same",
+    "input": "aaaa\n",
+    "output": "1 2 3 4\n"
+  },
+  {
+    "name": "single",
+    "input": "a\n",
+    "output": "1\n"
+  }
+]
