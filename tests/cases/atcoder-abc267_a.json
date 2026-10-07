@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "Wednesday\n",
+    "output": "3\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "Monday\n",
+    "output": "5\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "Friday\n",
+    "output": "1\n"
+  }
+]
