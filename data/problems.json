@@ -8463,5 +8463,20 @@
     "space": "O(1)",
     "hint": "One hectopascal is one hundred pascals, so divide the input by one hundred in floating point..",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc231_b",
+    "title": "Election",
+    "url": "https://atcoder.jp/contests/abc231/tasks/abc231_b",
+    "solution": "solutions/atcoder/implementation/abc231_b_election.cpp",
+    "notes": "notes/atcoder/abc231_b_election.md",
+    "tests": "tests/cases/atcoder-abc231_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n L log n)",
+    "space": "O(n L)",
+    "hint": "Count every candidate name, then select the greatest frequency.",
+    "checker": "tokens"
   }
 ]
