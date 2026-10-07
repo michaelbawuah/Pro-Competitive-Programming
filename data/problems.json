@@ -3768,5 +3768,20 @@
     "space": "O(1)",
     "hint": "Condition on the equally likely die result.",
     "checker": "probability"
+  },
+  {
+    "id": "atcoder-abc127_c",
+    "title": "Prison",
+    "url": "https://atcoder.jp/contests/abc127/tasks/abc127_c",
+    "solution": "solutions/atcoder/implementation/abc127_c_prison.cpp",
+    "notes": "notes/atcoder/abc127_c_prison.md",
+    "tests": "tests/cases/atcoder-abc127_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(M)",
+    "space": "O(1)",
+    "hint": "A card works at every gate exactly when it is in the intersection of all inclusive intervals.",
+    "checker": "tokens"
   }
 ]
