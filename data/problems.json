@@ -6078,5 +6078,20 @@
     "space": "O(1)",
     "hint": "An average of at least M requires total score N*M.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc152_a",
+    "title": "AC or WA",
+    "url": "https://atcoder.jp/contests/abc152/tasks/abc152_a",
+    "solution": "solutions/atcoder/implementation/abc152_a_ac_or_wa.cpp",
+    "notes": "notes/atcoder/abc152_a_ac_or_wa.md",
+    "tests": "tests/cases/atcoder-abc152_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Acceptance requires passing every test, so compare the passed count with the total count..",
+    "checker": "tokens"
   }
 ]
