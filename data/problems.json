@@ -7113,5 +7113,20 @@
     "space": "O(1)",
     "hint": "Whole bricks fit according to floor capacity divided by individual weight; any additional brick would exceed capacity..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc186_b",
+    "title": "Blocks on Grid",
+    "url": "https://atcoder.jp/contests/abc186/tasks/abc186_b",
+    "solution": "solutions/atcoder/implementation/abc186_b_blocks_on_grid.cpp",
+    "notes": "notes/atcoder/abc186_b_blocks_on_grid.md",
+    "tests": "tests/cases/atcoder-abc186_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(H W)",
+    "space": "O(1)",
+    "hint": "Removal cannot raise the smallest pile.",
+    "checker": "tokens"
   }
 ]
