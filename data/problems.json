@@ -12063,5 +12063,20 @@
     "space": "O(1)",
     "hint": "Both travel directions visit exactly the station numbers between X and Y.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc352_b",
+    "title": "Typing",
+    "url": "https://atcoder.jp/contests/abc352/tasks/abc352_b",
+    "solution": "solutions/atcoder/implementation/abc352_b_typing.cpp",
+    "notes": "notes/atcoder/abc352_b_typing.md",
+    "tests": "tests/cases/atcoder-abc352_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(|S|+|T|)",
+    "space": "O(|S|+|T|)",
+    "hint": "Scan the typed string while tracking the next intended character.",
+    "checker": "tokens"
   }
 ]
