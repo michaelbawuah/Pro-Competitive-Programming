@@ -4488,5 +4488,20 @@
     "space": "O(n)",
     "hint": "A segment tree stores how many original positions remain alive.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1133",
+    "title": "Tree Distances II",
+    "url": "https://cses.fi/problemset/task/1133/",
+    "solution": "solutions/cses/trees/1133_tree_distances_ii.cpp",
+    "notes": "notes/cses/1133_tree_distances_ii.md",
+    "tests": "tests/cases/cses-1133.json",
+    "tags": [
+      "trees"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "First compute the root distance sum and every subtree size.",
+    "checker": "tokens"
   }
 ]
