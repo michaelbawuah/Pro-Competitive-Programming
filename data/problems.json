@@ -3123,5 +3123,20 @@
     "space": "O(n)",
     "hint": "Apply each wheel movement modulo ten.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc086_a",
+    "title": "Product",
+    "url": "https://atcoder.jp/contests/abc086/tasks/abc086_a",
+    "solution": "solutions/atcoder/implementation/abc086_a_product.cpp",
+    "notes": "notes/atcoder/abc086_a_product.md",
+    "tests": "tests/cases/atcoder-abc086_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A product is odd exactly when both factors are odd.",
+    "checker": "tokens"
   }
 ]
