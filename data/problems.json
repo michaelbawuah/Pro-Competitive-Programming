@@ -10818,5 +10818,20 @@
     "space": "O(n^2)",
     "hint": "Copy the grid, then move the top edge right, right edge down, bottom edge left, and left edge up.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc310_a",
+    "title": "Order Something Else",
+    "url": "https://atcoder.jp/contests/abc310/tasks/abc310_a",
+    "solution": "solutions/atcoder/implementation/abc310_a_order_something_else.cpp",
+    "notes": "notes/atcoder/abc310_a_order_something_else.md",
+    "tests": "tests/cases/atcoder-abc310_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "There are two useful choices: buy the drink alone at P, or use the coupon with the cheapest available dish.",
+    "checker": "tokens"
   }
 ]
