@@ -5,12 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n,d;std::cin>>n>>d;std::cout<<((n+2*d)/(2*d+1))<<'\n';
+    long long n,d;
+    std::cin>>n>>d;
+    std::cout<<((n+2*d)/(2*d+1))<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

@@ -5,12 +5,14 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string a,b;std::cin>>a>>b;int x=0,y=0;for(char c:a)x+=c-'0';for(char c:b)y+=c-'0';std::cout<<std::max(x,y)<<'\n';
+    std::string a,b;
+    std::cin>>a>>b;
+    int x=0,y=0;
+    for(char c:a)x+=c-'0';
+    for(char c:b)y+=c-'0';
+    std::cout<<std::max(x,y)<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

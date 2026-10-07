@@ -4,12 +4,11 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    double r;std::cin>>r;std::cout<<std::setprecision(15)<<2*std::acos(-1.0)*r<<'\n';
+    double r;
+    std::cin>>r;
+    std::cout<<std::setprecision(15)<<2*std::acos(-1.0)*r<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

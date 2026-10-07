@@ -17,7 +17,7 @@ Multiply temperature differences by one thousand to avoid floating-point roundin
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Use long long for products and accumulated totals, and check limits before a multiplication that could overflow.
 
 ## Watch for
 

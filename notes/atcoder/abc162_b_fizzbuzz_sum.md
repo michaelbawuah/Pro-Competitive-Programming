@@ -17,7 +17,7 @@ Only indices divisible by neither three nor five remain numeric in FizzBuzz. Add
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Use long long for products and accumulated totals, and check limits before a multiplication that could overflow.
 
 ## Watch for
 

@@ -5,12 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long x,y;std::cin>>x>>y;std::cout<<(std::max(x,y)-std::min(x,y)<3?"Yes":"No")<<'\n';
+    long long x,y;
+    std::cin>>x>>y;
+    std::cout<<(std::max(x,y)-std::min(x,y)<3?"Yes":"No")<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

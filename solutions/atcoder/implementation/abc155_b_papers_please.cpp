@@ -5,12 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;bool ok=true;while(n--){int x;std::cin>>x;if(x%2==0&&x%3!=0&&x%5!=0)ok=false;}std::cout<<(ok?"APPROVED":"DENIED")<<'\n';
+    int n;
+    std::cin>>n;
+    bool ok=true;
+    while(n--) {
+        int x;
+        std::cin>>x;
+        if(x%2==0&&x%3!=0&&x%5!=0)ok=false;
+    }
+    std::cout<<(ok?"APPROVED":"DENIED")<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

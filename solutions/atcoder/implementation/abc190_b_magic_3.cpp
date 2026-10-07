@@ -5,12 +5,18 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;long long s,d;std::cin>>n>>s>>d;bool ok=false;while(n--){long long x,y;std::cin>>x>>y;ok=ok||(x<s&&y>d);}std::cout<<(ok?"Yes":"No")<<'\n';
+    int n;
+    long long s,d;
+    std::cin>>n>>s>>d;
+    bool ok=false;
+    while(n--) {
+        long long x,y;
+        std::cin>>x>>y;
+        ok=ok||(x<s&&y>d);
+    }
+    std::cout<<(ok?"Yes":"No")<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

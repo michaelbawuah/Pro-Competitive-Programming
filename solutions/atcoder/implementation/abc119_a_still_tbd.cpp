@@ -5,12 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string date;std::cin>>date;std::cout<<(date<="2019/04/30"?"Heisei":"TBD")<<'\n';
+    std::string date;
+    std::cin>>date;
+    std::cout<<(date<="2019/04/30"?"Heisei":"TBD")<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

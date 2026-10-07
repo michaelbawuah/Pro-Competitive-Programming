@@ -5,12 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    char c;std::cin>>c;std::cout<<(c=='A'?'T':c=='T'?'A':c=='C'?'G':'C')<<'\n';
+    char c;
+    std::cin>>c;
+    std::cout<<(c=='A'?'T':c=='T'?'A':c=='C'?'G':'C')<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

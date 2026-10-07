@@ -3,12 +3,11 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    double a,b;std::cin>>a>>b;std::cout<<std::setprecision(15)<<100*(a-b)/a<<'\n';
+    double a,b;
+    std::cin>>a>>b;
+    std::cout<<std::setprecision(15)<<100*(a-b)/a<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

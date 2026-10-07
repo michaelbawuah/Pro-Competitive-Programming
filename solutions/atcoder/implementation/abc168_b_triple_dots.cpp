@@ -5,12 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int k;std::string s;std::cin>>k>>s;std::cout<<(static_cast<int>(s.size())<=k?s:s.substr(0,k)+"...")<<'\n';
+    int k;
+    std::string s;
+    std::cin>>k>>s;
+    std::cout<<(static_cast<int>(s.size())<=k?s:s.substr(0,k)+"...")<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

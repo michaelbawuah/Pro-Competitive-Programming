@@ -5,12 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n,k;std::cin>>n>>k;std::cout<<(n%k==0?0:1)<<'\n';
+    long long n,k;
+    std::cin>>n>>k;
+    std::cout<<(n%k==0?0:1)<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

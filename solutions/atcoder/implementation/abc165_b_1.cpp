@@ -5,12 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long x,balance=100;std::cin>>x;int years=0;while(balance<x){balance+=balance/100;++years;}std::cout<<years<<'\n';
+    long long x,balance=100;
+    std::cin>>x;
+    int years=0;
+    while(balance<x) {
+        balance+=balance/100;
+        ++years;
+    }
+    std::cout<<years<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

@@ -5,12 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;int d=n%10;std::cout<<(d==3?"bon":d==0||d==1||d==6||d==8?"pon":"hon")<<'\n';
+    int n;
+    std::cin>>n;
+    int d=n%10;
+    std::cout<<(d==3?"bon":d==0||d==1||d==6||d==8?"pon":"hon")<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

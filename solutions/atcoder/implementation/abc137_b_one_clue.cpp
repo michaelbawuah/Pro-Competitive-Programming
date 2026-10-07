@@ -5,12 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int k,x;std::cin>>k>>x;for(int p=x-k+1;p<=x+k-1;++p)std::cout<<p<<' ';std::cout<<'\n';
+    int k,x;
+    std::cin>>k>>x;
+    for(int p=x-k+1;p<=x+k-1;++p)std::cout<<p<<' ';
+    std::cout<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

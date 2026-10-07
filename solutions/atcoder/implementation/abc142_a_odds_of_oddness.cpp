@@ -3,12 +3,11 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::cout<<std::setprecision(15)<<((n+1)/2)/static_cast<double>(n)<<'\n';
+    int n;
+    std::cin>>n;
+    std::cout<<std::setprecision(15)<<((n+1)/2)/static_cast<double>(n)<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

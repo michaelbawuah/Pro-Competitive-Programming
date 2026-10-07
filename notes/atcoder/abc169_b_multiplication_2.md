@@ -17,7 +17,7 @@ Check for zero before overflow handling because it makes the entire product zero
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Use long long for products and accumulated totals, and check limits before a multiplication that could overflow.
 
 ## Watch for
 

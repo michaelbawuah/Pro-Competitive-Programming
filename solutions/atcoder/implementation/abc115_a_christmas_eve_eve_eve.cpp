@@ -5,12 +5,13 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int d;std::cin>>d;std::cout<<"Christmas";for(int i=d;i<25;++i)std::cout<<" Eve";std::cout<<'\n';
+    int d;
+    std::cin>>d;
+    std::cout<<"Christmas";
+    for(int i=d;i<25;++i)std::cout<<" Eve";
+    std::cout<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

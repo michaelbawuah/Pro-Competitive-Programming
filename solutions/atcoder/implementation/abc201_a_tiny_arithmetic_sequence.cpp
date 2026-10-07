@@ -5,12 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::vector<int>a(3);for(int&x:a)std::cin>>x;std::sort(a.begin(),a.end());std::cout<<(a[0]+a[2]==2*a[1]?"Yes":"No")<<'\n';
+    std::vector<int>a(3);
+    for(int&x:a)std::cin>>x;
+    std::sort(a.begin(),a.end());
+    std::cout<<(a[0]+a[2]==2*a[1]?"Yes":"No")<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

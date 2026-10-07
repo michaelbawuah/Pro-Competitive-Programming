@@ -5,12 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long a,b;std::cin>>a>>b;std::cout<<(a+b>=15&&b>=8?1:a+b>=10&&b>=3?2:a+b>=3?3:4)<<'\n';
+    long long a,b;
+    std::cin>>a>>b;
+    std::cout<<(a+b>=15&&b>=8?1:a+b>=10&&b>=3?2:a+b>=3?3:4)<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

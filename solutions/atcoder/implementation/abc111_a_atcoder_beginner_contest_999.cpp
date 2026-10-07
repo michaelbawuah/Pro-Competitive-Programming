@@ -5,12 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;for(char&c:s)c=c=='1'?'9':'1';std::cout<<s<<'\n';
+    std::string s;
+    std::cin>>s;
+    for(char&c:s)c=c=='1'?'9':'1';
+    std::cout<<s<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

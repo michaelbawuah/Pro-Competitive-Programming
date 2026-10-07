@@ -17,7 +17,7 @@ Apply the recurrence ten times, printing each newly computed yearly weight rathe
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Use long long for products and accumulated totals, and check limits before a multiplication that could overflow.
 
 ## Watch for
 

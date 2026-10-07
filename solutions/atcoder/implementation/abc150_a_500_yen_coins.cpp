@@ -5,12 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long k,x;std::cin>>k>>x;std::cout<<(500*k>=x?"Yes":"No")<<'\n';
+    long long k,x;
+    std::cin>>k>>x;
+    std::cout<<(500*k>=x?"Yes":"No")<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

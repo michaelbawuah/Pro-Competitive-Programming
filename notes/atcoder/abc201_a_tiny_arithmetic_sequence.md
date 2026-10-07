@@ -17,7 +17,7 @@ Any three-term arithmetic sequence is ordered monotonically or reversed. Sort th
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Initialize state before the scan and update it once per input element. Read a range-loop variable by reference when filling a container.
 
 ## Watch for
 

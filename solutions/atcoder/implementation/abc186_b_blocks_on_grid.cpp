@@ -5,12 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int h,w,sum=0,minimum=100;std::cin>>h>>w;for(int i=0;i<h*w;++i){int x;std::cin>>x;sum+=x;minimum=std::min(minimum,x);}std::cout<<sum-h*w*minimum<<'\n';
+    int h,w,sum=0,minimum=100;
+    std::cin>>h>>w;
+    for(int i=0;i<h*w;++i) {
+        int x;
+        std::cin>>x;
+        sum+=x;
+        minimum=std::min(minimum,x);
+    }
+    std::cout<<sum-h*w*minimum<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

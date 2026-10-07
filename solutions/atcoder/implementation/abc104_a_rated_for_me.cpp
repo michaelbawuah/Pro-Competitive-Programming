@@ -5,12 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long r;std::cin>>r;std::cout<<(r<1200?"ABC":r<2800?"ARC":"AGC")<<'\n';
+    long long r;
+    std::cin>>r;
+    std::cout<<(r<1200?"ABC":r<2800?"ARC":"AGC")<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

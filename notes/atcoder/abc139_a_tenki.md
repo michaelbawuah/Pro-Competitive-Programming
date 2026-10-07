@@ -17,7 +17,7 @@ Compare each forecast with the actual weather at the same position and count equ
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Keep input text as std::string when leading zeros or decimal digits matter. Convert one-based positions to zero-based indices before accessing characters.
 
 ## Watch for
 
