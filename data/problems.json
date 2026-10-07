@@ -3408,5 +3408,20 @@
     "space": "O(1)",
     "hint": "Each remainder is at most a_i-1.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc104_b",
+    "title": "AcCepted",
+    "url": "https://atcoder.jp/contests/abc104/tasks/abc104_b",
+    "solution": "solutions/atcoder/implementation/abc104_b_accepted.cpp",
+    "notes": "notes/atcoder/abc104_b_accepted.md",
+    "tests": "tests/cases/atcoder-abc104_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Validate the initial A, count C only in its allowed interval, and require every other character to be lowercase.",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "AtCoder\n",
+    "output": "AC\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "ACoder\n",
+    "output": "WA\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "AcycliC\n",
+    "output": "WA\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "AaCa\n",
+    "output": "AC\n"
+  }
+]
