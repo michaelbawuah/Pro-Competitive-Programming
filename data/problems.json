@@ -4923,5 +4923,20 @@
     "space": "O(1)",
     "hint": "The three-digit repeated-digit numbers are precisely 111 times an integer from one to nine.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc112_a",
+    "title": "Programming Education",
+    "url": "https://atcoder.jp/contests/abc112/tasks/abc112_a",
+    "solution": "solutions/atcoder/implementation/abc112_a_programming_education.cpp",
+    "notes": "notes/atcoder/abc112_a_programming_education.md",
+    "tests": "tests/cases/atcoder-abc112_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Read the age first because it determines whether two further input values exist.",
+    "checker": "tokens"
   }
 ]
