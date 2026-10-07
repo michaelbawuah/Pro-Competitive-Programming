@@ -9423,5 +9423,20 @@
     "space": "O(1)",
     "hint": "After sorting, a full house consists of a block of two equal values followed by three equal values, or the reverse.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc263_b",
+    "title": "Ancestor",
+    "url": "https://atcoder.jp/contests/abc263/tasks/abc263_b",
+    "solution": "solutions/atcoder/implementation/abc263_b_ancestor.cpp",
+    "notes": "notes/atcoder/abc263_b_ancestor.md",
+    "tests": "tests/cases/atcoder-abc263_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Follow parent links from N to one, counting edges.",
+    "checker": "tokens"
   }
 ]
