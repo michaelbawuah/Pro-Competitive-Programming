@@ -3558,5 +3558,20 @@
     "space": "O(M)",
     "hint": "Sort by prefecture and establishment year to assign ranks within each prefecture.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc114_b",
+    "title": "754",
+    "url": "https://atcoder.jp/contests/abc114/tasks/abc114_b",
+    "solution": "solutions/atcoder/implementation/abc114_b_754.cpp",
+    "notes": "notes/atcoder/abc114_b_754.md",
+    "tests": "tests/cases/atcoder-abc114_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Every legal choice is a length-three substring.",
+    "checker": "tokens"
   }
 ]
