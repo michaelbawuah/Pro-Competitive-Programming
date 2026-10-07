@@ -9678,5 +9678,20 @@
     "space": "O(total length+N)",
     "hint": "Store each variable-length sequence in its own vector.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc272_a",
+    "title": "Integer Sum",
+    "url": "https://atcoder.jp/contests/abc272/tasks/abc272_a",
+    "solution": "solutions/atcoder/implementation/abc272_a_integer_sum.cpp",
+    "notes": "notes/atcoder/abc272_a_integer_sum.md",
+    "tests": "tests/cases/atcoder-abc272_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Maintain the sum of the values already read.",
+    "checker": "tokens"
   }
 ]
