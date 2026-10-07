@@ -325,3 +325,17 @@ def floating_vector(case, actual):
 
 
 CHECKERS['floating_vector'] = floating_vector
+
+
+def unique_letter(case, actual):
+    counts = Counter(case['input'].strip())
+    tokens = actual.split()
+    if len(tokens) != 1:
+        return False
+    answer = tokens[0]
+    if answer == '-1':
+        return all(count != 1 for count in counts.values())
+    return len(answer) == 1 and counts[answer] == 1
+
+
+CHECKERS['unique_letter'] = unique_letter

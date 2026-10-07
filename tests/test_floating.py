@@ -50,6 +50,15 @@ class ConstructionTests(unittest.TestCase):
             self.assertFalse(floating_vector(case, output), output)
         self.assertFalse(floating_vector({'output': ''}, ''))
 
+    def test_unique_letter_accepts_every_valid_choice(self):
+        from checkers import unique_letter
+        for answer in ('a', 'b', 'c'):
+            self.assertTrue(unique_letter({'input': 'abc'}, answer))
+        for answer in ('-1', 'd', 'ab', 'a b', ''):
+            self.assertFalse(unique_letter({'input': 'abc'}, answer))
+        self.assertFalse(unique_letter({'input': 'aba'}, 'a'))
+        self.assertTrue(unique_letter({'input': 'aaa'}, '-1'))
+
 
 if __name__ == '__main__':
     unittest.main()
