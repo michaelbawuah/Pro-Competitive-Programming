@@ -5148,5 +5148,20 @@
     "space": "O(1)",
     "hint": "The budget allows floor(B/A) purchases and satisfaction imposes the independent cap C; both constraints require their minimum..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc120_b",
+    "title": "K-th Common Divisor",
+    "url": "https://atcoder.jp/contests/abc120/tasks/abc120_b",
+    "solution": "solutions/atcoder/implementation/abc120_b_k_th_common_divisor.cpp",
+    "notes": "notes/atcoder/abc120_b_k_th_common_divisor.md",
+    "tests": "tests/cases/atcoder-abc120_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(min(A,B))",
+    "space": "O(1)",
+    "hint": "Scan candidate divisors in decreasing order.",
+    "checker": "tokens"
   }
 ]
