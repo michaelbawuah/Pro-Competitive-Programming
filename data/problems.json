@@ -1509,5 +1509,71 @@
     "space": "O(1)",
     "hint": "Each step advances at most five positions.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-dp_d",
+    "title": "Knapsack 1",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_d",
+    "solution": "solutions/atcoder/dynamic_programming/dp_d_knapsack_1.cpp",
+    "notes": "notes/atcoder/dp_d_knapsack_1.md",
+    "tests": "tests/cases/atcoder-dp_d.json",
+    "tags": [
+      "dynamic-programming",
+      "knapsack"
+    ],
+    "time": "O(n W)",
+    "space": "O(W)",
+    "hint": "The capacity bound is small enough to index the DP by available weight.",
+    "checker": "tokens"
+  },
+  {
+    "id": "atcoder-dp_e",
+    "title": "Knapsack 2",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_e",
+    "solution": "solutions/atcoder/dynamic_programming/dp_e_knapsack_2.cpp",
+    "notes": "notes/atcoder/dp_e_knapsack_2.md",
+    "tests": "tests/cases/atcoder-dp_e.json",
+    "tags": [
+      "dynamic-programming",
+      "knapsack"
+    ],
+    "time": "O(n V), V = sum of values",
+    "space": "O(V + n)",
+    "hint": "Weight is too large to index, but the total value is bounded by 100,000.",
+    "checker": "tokens"
+  },
+  {
+    "id": "atcoder-dp_f",
+    "title": "LCS",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_f",
+    "solution": "solutions/atcoder/dynamic_programming/dp_f_lcs.cpp",
+    "notes": "notes/atcoder/dp_f_lcs.md",
+    "tests": "tests/cases/atcoder-dp_f.json",
+    "tags": [
+      "dynamic-programming",
+      "strings",
+      "reconstruction"
+    ],
+    "time": "O(n m)",
+    "space": "O(n m)",
+    "hint": "Compute optimal lengths for pairs of prefixes, then trace decisions backward.",
+    "checker": "lcs"
+  },
+  {
+    "id": "atcoder-dp_g",
+    "title": "Longest Path",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_g",
+    "solution": "solutions/atcoder/dynamic_programming/dp_g_longest_path.cpp",
+    "notes": "notes/atcoder/dp_g_longest_path.md",
+    "tests": "tests/cases/atcoder-dp_g.json",
+    "tags": [
+      "dynamic-programming",
+      "graphs",
+      "topological-sort"
+    ],
+    "time": "O(n + m)",
+    "space": "O(n + m)",
+    "hint": "In a DAG, process each vertex only after all its predecessors.",
+    "checker": "tokens"
   }
 ]

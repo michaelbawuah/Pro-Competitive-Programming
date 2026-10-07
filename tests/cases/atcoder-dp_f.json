@@ -1,0 +1,17 @@
+[
+  {
+    "name": "sample",
+    "input": "axyb\nabyxb\n",
+    "output": "axb\n"
+  },
+  {
+    "name": "no-common-letter",
+    "input": "aaa\nbbb\n",
+    "output": "\n"
+  },
+  {
+    "name": "same-string",
+    "input": "banana\nbanana\n",
+    "output": "banana\n"
+  }
+]
