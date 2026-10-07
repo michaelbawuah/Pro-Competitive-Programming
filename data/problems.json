@@ -9783,5 +9783,20 @@
     "space": "O(1)",
     "hint": "Maintain the highest height seen together with its one-based bridge index.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc275_b",
+    "title": "ABC-DEF",
+    "url": "https://atcoder.jp/contests/abc275/tasks/abc275_b",
+    "solution": "solutions/atcoder/implementation/abc275_b_abc_def.cpp",
+    "notes": "notes/atcoder/abc275_b_abc_def.md",
+    "tests": "tests/cases/atcoder-abc275_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Reduce each factor before multiplying and reduce after every multiplication.",
+    "checker": "tokens"
   }
 ]
