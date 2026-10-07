@@ -7668,5 +7668,20 @@
     "space": "O(1)",
     "hint": "Each tree contributes only its excess over ten nuts; nonpositive excess contributes zero..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc205_a",
+    "title": "kcal",
+    "url": "https://atcoder.jp/contests/abc205/tasks/abc205_a",
+    "solution": "solutions/atcoder/implementation/abc205_a_kcal.cpp",
+    "notes": "notes/atcoder/abc205_a_kcal.md",
+    "tests": "tests/cases/atcoder-abc205_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Scale energy per hundred milliliters by B/100 using floating-point arithmetic..",
+    "checker": "floating"
   }
 ]
