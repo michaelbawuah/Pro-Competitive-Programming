@@ -10758,5 +10758,20 @@
     "space": "O(nL)",
     "hint": "Try every ordered pair of distinct indices because concatenation order matters.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc308_a",
+    "title": "New Scheme",
+    "url": "https://atcoder.jp/contests/abc308/tasks/abc308_a",
+    "solution": "solutions/atcoder/implementation/abc308_a_new_scheme.cpp",
+    "notes": "notes/atcoder/abc308_a_new_scheme.md",
+    "tests": "tests/cases/atcoder-abc308_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Check every value against the permitted range and divisibility requirement, and compare it with the previous value to enforce nondecreasing order..",
+    "checker": "tokens"
   }
 ]
