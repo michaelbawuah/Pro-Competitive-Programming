@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "atcoder\n",
+    "output": "o\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "a\n",
+    "output": "a\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "z\n",
+    "output": "z\n"
+  }
+]
