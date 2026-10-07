@@ -8568,5 +8568,20 @@
     "space": "O(n)",
     "hint": "Compare all unordered pairs using squared Euclidean distance.",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc235_a",
+    "title": "Rotate",
+    "url": "https://atcoder.jp/contests/abc235/tasks/abc235_a",
+    "solution": "solutions/atcoder/implementation/abc235_a_rotate.cpp",
+    "notes": "notes/atcoder/abc235_a_rotate.md",
+    "tests": "tests/cases/atcoder-abc235_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Across the three rotations, each digit appears once in each decimal position.",
+    "checker": "tokens"
   }
 ]
