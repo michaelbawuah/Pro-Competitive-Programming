@@ -11733,5 +11733,20 @@
     "space": "O(1)",
     "hint": "Start with one and append the pair 01 exactly N times.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc341_b",
+    "title": "Foreign Exchange",
+    "url": "https://atcoder.jp/contests/abc341/tasks/abc341_b",
+    "solution": "solutions/atcoder/implementation/abc341_b_foreign_exchange.cpp",
+    "notes": "notes/atcoder/abc341_b_foreign_exchange.md",
+    "tests": "tests/cases/atcoder-abc341_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Exchanges only move currency toward the next country.",
+    "checker": "tokens"
   }
 ]
