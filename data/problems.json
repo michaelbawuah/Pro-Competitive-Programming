@@ -3978,5 +3978,20 @@
     "space": "O(n)",
     "hint": "Charge every player one point for every answer, then refund the answering player.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc142_c",
+    "title": "Go to School",
+    "url": "https://atcoder.jp/contests/abc142/tasks/abc142_c",
+    "solution": "solutions/atcoder/implementation/abc142_c_go_to_school.cpp",
+    "notes": "notes/atcoder/abc142_c_go_to_school.md",
+    "tests": "tests/cases/atcoder-abc142_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The given count is precisely the arrival rank.",
+    "checker": "tokens"
   }
 ]
