@@ -12378,5 +12378,20 @@
     "space": "O(1)",
     "hint": "Compute all three squared side lengths and sort them.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc363_a",
+    "title": "Piling Up",
+    "url": "https://atcoder.jp/contests/abc363/tasks/abc363_a",
+    "solution": "solutions/atcoder/implementation/abc363_a_piling_up.cpp",
+    "notes": "notes/atcoder/abc363_a_piling_up.md",
+    "tests": "tests/cases/atcoder-abc363_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The next display threshold is the next strictly greater multiple of one hundred.",
+    "checker": "tokens"
   }
 ]
