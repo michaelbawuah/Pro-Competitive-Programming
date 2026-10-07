@@ -4368,5 +4368,20 @@
     "space": "O(n)",
     "hint": "Keep the longest suffix ending at the current right endpoint with at most k distinct values.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1085",
+    "title": "Array Division",
+    "url": "https://cses.fi/problemset/task/1085/",
+    "solution": "solutions/cses/binary_search/1085_array_division.cpp",
+    "notes": "notes/cses/1085_array_division.md",
+    "tests": "tests/cases/cses-1085.json",
+    "tags": [
+      "binary_search"
+    ],
+    "time": "O(n log(sum A))",
+    "space": "O(n)",
+    "hint": "For a fixed sum cap, greedily extend each group as far as possible; no valid partition can end that group later, so this minimizes group count.",
+    "checker": "tokens"
   }
 ]
