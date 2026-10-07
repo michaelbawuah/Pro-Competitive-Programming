@@ -7773,5 +7773,20 @@
     "space": "O(1)",
     "hint": "Starting with all ones gives sum A; distributing up to five extra pips per die reaches every integer through 6A..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc208_b",
+    "title": "Factorial Yen Coin",
+    "url": "https://atcoder.jp/contests/abc208/tasks/abc208_b",
+    "solution": "solutions/atcoder/implementation/abc208_b_factorial_yen_coin.cpp",
+    "notes": "notes/atcoder/abc208_b_factorial_yen_coin.md",
+    "tests": "tests/cases/atcoder-abc208_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Use the largest factorial coin possible.",
+    "checker": "tokens"
   }
 ]
