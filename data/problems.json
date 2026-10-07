@@ -8748,5 +8748,20 @@
     "space": "O(n)",
     "hint": "Insert all values into a set, which stores each distinct integer once.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc241_a",
+    "title": "Digit Machine",
+    "url": "https://atcoder.jp/contests/abc241/tasks/abc241_a",
+    "solution": "solutions/atcoder/implementation/abc241_a_digit_machine.cpp",
+    "notes": "notes/atcoder/abc241_a_digit_machine.md",
+    "tests": "tests/cases/atcoder-abc241_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The current display indexes the next display.",
+    "checker": "tokens"
   }
 ]
