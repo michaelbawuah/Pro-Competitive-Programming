@@ -8868,5 +8868,20 @@
     "space": "O(n)",
     "hint": "Store directions in clockwise order starting with east.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc245_a",
+    "title": "Good morning",
+    "url": "https://atcoder.jp/contests/abc245/tasks/abc245_a",
+    "solution": "solutions/atcoder/implementation/abc245_a_good_morning.cpp",
+    "notes": "notes/atcoder/abc245_a_good_morning.md",
+    "tests": "tests/cases/atcoder-abc245_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Compare minutes since midnight.",
+    "checker": "tokens"
   }
 ]
