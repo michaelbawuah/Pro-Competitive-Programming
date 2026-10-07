@@ -10638,5 +10638,20 @@
     "space": "O(N^2)",
     "hint": "Mark every neighboring pair in every photo, symmetrically.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc304_a",
+    "title": "First Player",
+    "url": "https://atcoder.jp/contests/abc304/tasks/abc304_a",
+    "solution": "solutions/atcoder/implementation/abc304_a_first_player.cpp",
+    "notes": "notes/atcoder/abc304_a_first_player.md",
+    "tests": "tests/cases/atcoder-abc304_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(total name length+N)",
+    "space": "O(total name length+N)",
+    "hint": "Locate the unique minimum age, then traverse the original seating order cyclically from that index.",
+    "checker": "tokens"
   }
 ]
