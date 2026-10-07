@@ -7698,5 +7698,20 @@
     "space": "O(n)",
     "hint": "There are N entries drawn from N permitted values.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc206_a",
+    "title": "Maxi-Buying",
+    "url": "https://atcoder.jp/contests/abc206/tasks/abc206_a",
+    "solution": "solutions/atcoder/implementation/abc206_a_maxi_buying.cpp",
+    "notes": "notes/atcoder/abc206_a_maxi_buying.md",
+    "tests": "tests/cases/atcoder-abc206_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Compute the floor of the tax-inclusive price with integer arithmetic, then compare that price with 206..",
+    "checker": "tokens"
   }
 ]
