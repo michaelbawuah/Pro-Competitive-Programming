@@ -6288,5 +6288,20 @@
     "space": "O(1)",
     "hint": "Each full block contributes A blue balls.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc159_a",
+    "title": "The Number of Even Pairs",
+    "url": "https://atcoder.jp/contests/abc159/tasks/abc159_a",
+    "solution": "solutions/atcoder/implementation/abc159_a_the_number_of_even_pairs.cpp",
+    "notes": "notes/atcoder/abc159_a_the_number_of_even_pairs.md",
+    "tests": "tests/cases/atcoder-abc159_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "An even sum requires equal parities.",
+    "checker": "tokens"
   }
 ]
