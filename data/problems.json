@@ -4113,5 +4113,20 @@
     "space": "O(n)",
     "hint": "Track wrong attempts only until the first acceptance.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc152_c",
+    "title": "Low Elements",
+    "url": "https://atcoder.jp/contests/abc152/tasks/abc152_c",
+    "solution": "solutions/atcoder/implementation/abc152_c_low_elements.cpp",
+    "notes": "notes/atcoder/abc152_c_low_elements.md",
+    "tests": "tests/cases/atcoder-abc152_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "The condition says the current element is a prefix minimum.",
+    "checker": "tokens"
   }
 ]
