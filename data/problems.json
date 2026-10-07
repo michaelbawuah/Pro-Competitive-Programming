@@ -6513,5 +6513,20 @@
     "space": "O(1)",
     "hint": "The two contest types alternate, so output the other type.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc166_b",
+    "title": "Trick or Treat",
+    "url": "https://atcoder.jp/contests/abc166/tasks/abc166_b",
+    "solution": "solutions/atcoder/implementation/abc166_b_trick_or_treat.cpp",
+    "notes": "notes/atcoder/abc166_b_trick_or_treat.md",
+    "tests": "tests/cases/atcoder-abc166_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N+total owners)",
+    "space": "O(N)",
+    "hint": "Mark the union of all snack-owner lists.",
+    "checker": "tokens"
   }
 ]
