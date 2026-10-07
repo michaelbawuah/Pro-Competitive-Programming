@@ -226,3 +226,20 @@ def triple(case, actual):
 CHECKERS.update({'yes_no': yes_no, 'percentage': percentage, 'restored_numbers': restored_numbers,
                  'composite_pair': composite_pair, 'round_sums': round_sums,
                  'balanced_array': balanced_array, 'div_seven': div_seven, 'triple': triple})
+
+
+def candies_geometric(case, actual):
+    inputs = list(map(int, case['input'].split()))[1:]
+    answers = list(map(int, actual.split()))
+    if len(inputs) != len(answers):
+        return False
+    for n, x in zip(inputs, answers):
+        if x <= 0 or n % x:
+            return False
+        quotient = n // x
+        if quotient < 3 or (quotient + 1) & quotient:
+            return False
+    return True
+
+
+CHECKERS['candies_geometric'] = candies_geometric
