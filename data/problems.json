@@ -7908,5 +7908,20 @@
     "space": "O(1)",
     "hint": "Track both weak-pattern predicates separately: all digits equal, or every digit one greater modulo ten.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc213_a",
+    "title": "Bitwise Exclusive Or",
+    "url": "https://atcoder.jp/contests/abc213/tasks/abc213_a",
+    "solution": "solutions/atcoder/implementation/abc213_a_bitwise_exclusive_or.cpp",
+    "notes": "notes/atcoder/abc213_a_bitwise_exclusive_or.md",
+    "tests": "tests/cases/atcoder-abc213_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "XOR with A on both sides cancels A because A xor A is zero, leaving C=A xor B..",
+    "checker": "tokens"
   }
 ]
