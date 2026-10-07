@@ -3513,5 +3513,20 @@
     "space": "O(1)",
     "hint": "Combine all strict lower bounds into their maximum and all inclusive upper bounds into their minimum.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc111_c",
+    "title": "/\\/\\/\\/",
+    "url": "https://atcoder.jp/contests/abc111/tasks/arc103_a",
+    "solution": "solutions/atcoder/implementation/abc111_c_.cpp",
+    "notes": "notes/atcoder/abc111_c_.md",
+    "tests": "tests/cases/atcoder-abc111_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n+V log V)",
+    "space": "O(V)",
+    "hint": "Choose one value for each position parity and require them to differ.",
+    "checker": "tokens"
   }
 ]
