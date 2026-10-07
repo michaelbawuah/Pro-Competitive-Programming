@@ -8013,5 +8013,20 @@
     "space": "O(1)",
     "hint": "Parse the single decimal digit separately and apply its three disjoint suffix ranges without rounding the number..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc216_b",
+    "title": "Same Name",
+    "url": "https://atcoder.jp/contests/abc216/tasks/abc216_b",
+    "solution": "solutions/atcoder/implementation/abc216_b_same_name.cpp",
+    "notes": "notes/atcoder/abc216_b_same_name.md",
+    "tests": "tests/cases/atcoder-abc216_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n L log n)",
+    "space": "O(n L)",
+    "hint": "Use the ordered pair of names as the identity key.",
+    "checker": "tokens"
   }
 ]

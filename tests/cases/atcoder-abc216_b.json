@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\r\ntanaka taro\r\nsato hanako\r\ntanaka taro\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3\r\nsaito ichiro\r\nsaito jiro\r\nsaito saburo\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "4\r\nsypdgidop bkseq\r\nbajsqz hh\r\nozjekw mcybmtt\r\nqfeysvw dbo\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\na b\na b\n",
+    "output": "Yes\n"
+  }
+]
