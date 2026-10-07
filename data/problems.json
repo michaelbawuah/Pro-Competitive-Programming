@@ -4428,5 +4428,20 @@
     "space": "O(n+q)",
     "hint": "Compress initial and future salary values while preserving order.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1652",
+    "title": "Forest Queries",
+    "url": "https://cses.fi/problemset/task/1652/",
+    "solution": "solutions/cses/prefix_sums/1652_forest_queries.cpp",
+    "notes": "notes/cses/1652_forest_queries.md",
+    "tests": "tests/cases/cses-1652.json",
+    "tags": [
+      "prefix_sums"
+    ],
+    "time": "O(n^2+q)",
+    "space": "O(n^2)",
+    "hint": "Build a two-dimensional prefix sum.",
+    "checker": "tokens"
   }
 ]
