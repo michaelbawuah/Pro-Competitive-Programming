@@ -7548,5 +7548,20 @@
     "space": "O(1)",
     "hint": "Appending three decimal digits 200 is multiplication by one thousand plus two hundred.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc201_a",
+    "title": "Tiny Arithmetic Sequence",
+    "url": "https://atcoder.jp/contests/abc201/tasks/abc201_a",
+    "solution": "solutions/atcoder/implementation/abc201_a_tiny_arithmetic_sequence.cpp",
+    "notes": "notes/atcoder/abc201_a_tiny_arithmetic_sequence.md",
+    "tests": "tests/cases/atcoder-abc201_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Any three-term arithmetic sequence is ordered monotonically or reversed.",
+    "checker": "tokens"
   }
 ]
