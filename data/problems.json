@@ -7158,5 +7158,20 @@
     "space": "O(n)",
     "hint": "Because horizontal coordinates differ, a slope between minus one and one is equivalent to absolute vertical change at most absolute horizontal change.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc188_a",
+    "title": "Three-Point Shot",
+    "url": "https://atcoder.jp/contests/abc188/tasks/abc188_a",
+    "solution": "solutions/atcoder/implementation/abc188_a_three_point_shot.cpp",
+    "notes": "notes/atcoder/abc188_a_three_point_shot.md",
+    "tests": "tests/cases/atcoder-abc188_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A three-point goal wins only when the current deficit is strictly below three..",
+    "checker": "tokens"
   }
 ]
