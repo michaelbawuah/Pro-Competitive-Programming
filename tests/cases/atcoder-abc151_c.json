@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "2 5\r\n1 WA\r\n1 AC\r\n2 WA\r\n2 AC\r\n2 WA\n",
+    "output": "2 2\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "100000 3\r\n7777 AC\r\n7777 AC\r\n7777 AC\n",
+    "output": "1 0\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "6 0\n",
+    "output": "0 0\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1 0\n",
+    "output": "0 0\n"
+  }
+]

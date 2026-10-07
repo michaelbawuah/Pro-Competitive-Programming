@@ -4098,5 +4098,20 @@
     "space": "O(n)",
     "hint": "Starting from sorted order, next_permutation visits every permutation in lexicographic order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc151_c",
+    "title": "Welcome to AtCoder",
+    "url": "https://atcoder.jp/contests/abc151/tasks/abc151_c",
+    "solution": "solutions/atcoder/implementation/abc151_c_welcome_to_atcoder.cpp",
+    "notes": "notes/atcoder/abc151_c_welcome_to_atcoder.md",
+    "tests": "tests/cases/atcoder-abc151_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n+m)",
+    "space": "O(n)",
+    "hint": "Track wrong attempts only until the first acceptance.",
+    "checker": "tokens"
   }
 ]
