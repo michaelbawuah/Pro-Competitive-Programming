@@ -3963,5 +3963,20 @@
     "space": "O(n)",
     "hint": "Each interior A value is bounded by its two adjacent B values; endpoints have one bound.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc141_c",
+    "title": "Attack Survival",
+    "url": "https://atcoder.jp/contests/abc141/tasks/abc141_c",
+    "solution": "solutions/atcoder/implementation/abc141_c_attack_survival.cpp",
+    "notes": "notes/atcoder/abc141_c_attack_survival.md",
+    "tests": "tests/cases/atcoder-abc141_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n+q)",
+    "space": "O(n)",
+    "hint": "Charge every player one point for every answer, then refund the answering player.",
+    "checker": "tokens"
   }
 ]
