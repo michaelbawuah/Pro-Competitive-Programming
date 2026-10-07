@@ -4803,5 +4803,20 @@
     "space": "O(1)",
     "hint": "Only odd candidates can qualify.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc107_a",
+    "title": "Train",
+    "url": "https://atcoder.jp/contests/abc107/tasks/abc107_a",
+    "solution": "solutions/atcoder/implementation/abc107_a_train.cpp",
+    "notes": "notes/atcoder/abc107_a_train.md",
+    "tests": "tests/cases/atcoder-abc107_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The first and last positions add to N+1, so reversing the direction maps i to N-i+1..",
+    "checker": "tokens"
   }
 ]
