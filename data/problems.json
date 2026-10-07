@@ -6903,5 +6903,20 @@
     "space": "O(n)",
     "hint": "Inspect only the final character to choose the plural suffix, leaving the original word unchanged..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc179_b",
+    "title": "Go to Jail",
+    "url": "https://atcoder.jp/contests/abc179/tasks/abc179_b",
+    "solution": "solutions/atcoder/implementation/abc179_b_go_to_jail.cpp",
+    "notes": "notes/atcoder/abc179_b_go_to_jail.md",
+    "tests": "tests/cases/atcoder-abc179_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Count the current consecutive doublet streak and remember whether it ever reaches three, even if a later roll breaks it..",
+    "checker": "tokens"
   }
 ]
