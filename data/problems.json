@@ -10908,5 +10908,20 @@
     "space": "O(NM)",
     "hint": "For every nine-by-nine window, check the top-left three-by-three black block and its one-cell white border.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc313_a",
+    "title": "To Be Saikyo",
+    "url": "https://atcoder.jp/contests/abc313/tasks/abc313_a",
+    "solution": "solutions/atcoder/implementation/abc313_a_to_be_saikyo.cpp",
+    "notes": "notes/atcoder/abc313_a_to_be_saikyo.md",
+    "tests": "tests/cases/atcoder-abc313_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Each opponent requires at least their score minus the first score plus one additional point.",
+    "checker": "tokens"
   }
 ]
