@@ -3183,5 +3183,20 @@
     "space": "O(1)",
     "hint": "Fix the counts of 500-yen and 100-yen coins.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc083_b",
+    "title": "Some Sums",
+    "url": "https://atcoder.jp/contests/abc083/tasks/abc083_b",
+    "solution": "solutions/atcoder/implementation/abc083_b_some_sums.cpp",
+    "notes": "notes/atcoder/abc083_b_some_sums.md",
+    "tests": "tests/cases/atcoder-abc083_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(1)",
+    "hint": "Enumerate each candidate once, compute its decimal digit sum, and add the candidate when that sum lies in the inclusive interval..",
+    "checker": "tokens"
   }
 ]
