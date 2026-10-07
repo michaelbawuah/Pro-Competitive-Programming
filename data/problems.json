@@ -1668,5 +1668,20 @@
     "space": "O(1)",
     "hint": "Simulate complete years until the first weight becomes strictly larger.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-110A",
+    "title": "Nearly Lucky Number",
+    "url": "https://codeforces.com/problemset/problem/110/A",
+    "solution": "solutions/codeforces/strings/110A_nearly_lucky_number.cpp",
+    "notes": "notes/codeforces/110A_nearly_lucky_number.md",
+    "tests": "tests/cases/codeforces-110A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Count occurrences of 4 and 7.",
+    "checker": "yes_no"
   }
 ]
