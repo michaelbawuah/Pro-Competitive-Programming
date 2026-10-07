@@ -7203,5 +7203,20 @@
     "space": "O(1)",
     "hint": "Three equal symbols require equality of both adjacent pairs..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc189_b",
+    "title": "Alcoholic",
+    "url": "https://atcoder.jp/contests/abc189/tasks/abc189_b",
+    "solution": "solutions/atcoder/implementation/abc189_b_alcoholic.cpp",
+    "notes": "notes/atcoder/abc189_b_alcoholic.md",
+    "tests": "tests/cases/atcoder-abc189_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Keep alcohol amounts scaled by one hundred for exact integer arithmetic.",
+    "checker": "tokens"
   }
 ]
