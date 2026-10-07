@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "6 200\r\n100 675 201 200 199 328\n",
+    "output": "499\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "8 675\r\n675 675 675 675 675 675 675 675\n",
+    "output": "5400\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "8 674\r\n675 675 675 675 675 675 675 675\n",
+    "output": "0\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "4 100\n100 101 100 675\n",
+    "output": "200\n"
+  }
+]
