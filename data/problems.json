@@ -11973,5 +11973,20 @@
     "space": "O(1)",
     "hint": "Each game adds one point and subtracts one, so the total score stays zero.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc349_b",
+    "title": "Commencement",
+    "url": "https://atcoder.jp/contests/abc349/tasks/abc349_b",
+    "solution": "solutions/atcoder/implementation/abc349_b_commencement.cpp",
+    "notes": "notes/atcoder/abc349_b_commencement.md",
+    "tests": "tests/cases/atcoder-abc349_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Count each letter, then count how many distinct letters have each positive frequency.",
+    "checker": "tokens"
   }
 ]
