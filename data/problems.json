@@ -9393,5 +9393,20 @@
     "space": "O(1)",
     "hint": "Choose the smallest nonnegative offset that makes the year congruent to two modulo four.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc262_b",
+    "title": "Triangle (Easier)",
+    "url": "https://atcoder.jp/contests/abc262/tasks/abc262_b",
+    "solution": "solutions/atcoder/implementation/abc262_b_triangle_easier.cpp",
+    "notes": "notes/atcoder/abc262_b_triangle_easier.md",
+    "tests": "tests/cases/atcoder-abc262_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^3+M)",
+    "space": "O(n^2)",
+    "hint": "Enumerate vertex triples in strictly increasing order so each candidate triangle appears once.",
+    "checker": "tokens"
   }
 ]
