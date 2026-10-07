@@ -3138,5 +3138,20 @@
     "space": "O(1)",
     "hint": "A product is odd exactly when both factors are odd.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc081_a",
+    "title": "Placing Marbles",
+    "url": "https://atcoder.jp/contests/abc081/tasks/abc081_a",
+    "solution": "solutions/atcoder/implementation/abc081_a_placing_marbles.cpp",
+    "notes": "notes/atcoder/abc081_a_placing_marbles.md",
+    "tests": "tests/cases/atcoder-abc081_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each one corresponds to exactly one marble, so count the one characters..",
+    "checker": "tokens"
   }
 ]
