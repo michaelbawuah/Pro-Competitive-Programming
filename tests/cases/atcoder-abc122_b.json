@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "ATCODER\n",
+    "output": "3\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "HATAGAYA\n",
+    "output": "5\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "SHINJUKU\n",
+    "output": "0\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "Z\n",
+    "output": "0\n"
+  }
+]

@@ -5208,5 +5208,20 @@
     "space": "O(1)",
     "hint": "Use the two complementary pairs in both directions: A with T, and C with G..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc122_b",
+    "title": "ATCoder",
+    "url": "https://atcoder.jp/contests/abc122/tasks/abc122_b",
+    "solution": "solutions/atcoder/implementation/abc122_b_atcoder.cpp",
+    "notes": "notes/atcoder/abc122_b_atcoder.md",
+    "tests": "tests/cases/atcoder-abc122_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Maintain the length of the valid ACGT run ending at the current character.",
+    "checker": "tokens"
   }
 ]
