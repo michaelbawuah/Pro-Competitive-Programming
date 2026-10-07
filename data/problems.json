@@ -9558,5 +9558,20 @@
     "space": "O(1)",
     "hint": "Map each pin to one of seven columns and mark columns with a standing pin.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc268_a",
+    "title": "Five Integers",
+    "url": "https://atcoder.jp/contests/abc268/tasks/abc268_a",
+    "solution": "solutions/atcoder/implementation/abc268_a_five_integers.cpp",
+    "notes": "notes/atcoder/abc268_a_five_integers.md",
+    "tests": "tests/cases/atcoder-abc268_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A set retains one representative of each integer.",
+    "checker": "tokens"
   }
 ]
