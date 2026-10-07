@@ -4953,5 +4953,20 @@
     "space": "O(1)",
     "hint": "Pay the train fare and half the bus fare.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc113_b",
+    "title": "Palace",
+    "url": "https://atcoder.jp/contests/abc113/tasks/abc113_b",
+    "solution": "solutions/atcoder/implementation/abc113_b_palace.cpp",
+    "notes": "notes/atcoder/abc113_b_palace.md",
+    "tests": "tests/cases/atcoder-abc113_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Multiply temperature differences by one thousand to avoid floating-point rounding.",
+    "checker": "tokens"
   }
 ]
