@@ -4548,5 +4548,20 @@
     "space": "O(n)",
     "hint": "Depth-first preorder places each subtree in a contiguous interval beginning at its entry index and having its subtree size.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-2413",
+    "title": "Counting Towers",
+    "url": "https://cses.fi/problemset/task/2413/",
+    "solution": "solutions/cses/dynamic_programming/2413_counting_towers.cpp",
+    "notes": "notes/cses/2413_counting_towers.md",
+    "tests": "tests/cases/cses-2413.json",
+    "tags": [
+      "dynamic_programming"
+    ],
+    "time": "O(max n+t)",
+    "space": "O(max n+t)",
+    "hint": "Classify the top row by whether both columns belong to one block or separate blocks.",
+    "checker": "tokens"
   }
 ]
