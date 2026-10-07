@@ -9873,5 +9873,20 @@
     "space": "O(n)",
     "hint": "After K left shifts, output position i comes from original position i+K if it exists.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc278_b",
+    "title": "Misjudge the Time",
+    "url": "https://atcoder.jp/contests/abc278/tasks/abc278_b",
+    "solution": "solutions/atcoder/implementation/abc278_b_misjudge_the_time.cpp",
+    "notes": "notes/atcoder/abc278_b_misjudge_the_time.md",
+    "tests": "tests/cases/atcoder-abc278_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(24*60)",
+    "space": "O(1)",
+    "hint": "Test the current time by exchanging the hour ones and minute tens digits.",
+    "checker": "tokens"
   }
 ]
