@@ -9828,5 +9828,20 @@
     "space": "O(N+M)",
     "hint": "Insert each undirected road into both endpoint lists.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc277_a",
+    "title": "^{-1}",
+    "url": "https://atcoder.jp/contests/abc277/tasks/abc277_a",
+    "solution": "solutions/atcoder/implementation/abc277_a_1.cpp",
+    "notes": "notes/atcoder/abc277_a_1.md",
+    "tests": "tests/cases/atcoder-abc277_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Scan the permutation with one-based indices and report the index whose value matches X.",
+    "checker": "tokens"
   }
 ]
