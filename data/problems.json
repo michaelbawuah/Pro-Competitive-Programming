@@ -11448,5 +11448,20 @@
     "space": "O(1)",
     "hint": "Enumerate pack counts up to the number of that pack type alone needed to reach N.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc332_a",
+    "title": "Online Shopping",
+    "url": "https://atcoder.jp/contests/abc332/tasks/abc332_a",
+    "solution": "solutions/atcoder/implementation/abc332_a_online_shopping.cpp",
+    "notes": "notes/atcoder/abc332_a_online_shopping.md",
+    "tests": "tests/cases/atcoder-abc332_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Sum unit price times quantity for every product.",
+    "checker": "tokens"
   }
 ]
