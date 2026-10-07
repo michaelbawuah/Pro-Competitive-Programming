@@ -1,0 +1,17 @@
+[
+  {
+    "name": "boundaries",
+    "input": "3\nabc\nabcdefghij\nabcdefghijk\n",
+    "output": "abc\nabcdefghij\na9k\n"
+  },
+  {
+    "name": "single",
+    "input": "1\nx\n",
+    "output": "x\n"
+  },
+  {
+    "name": "long",
+    "input": "1\nabcdefghijklmnop\n",
+    "output": "a14p\n"
+  }
+]

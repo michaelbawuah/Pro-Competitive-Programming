@@ -1,0 +1,17 @@
+[
+  {
+    "name": "possible",
+    "input": "8\n",
+    "output": "YES\n"
+  },
+  {
+    "name": "small-even",
+    "input": "2\n",
+    "output": "NO\n"
+  },
+  {
+    "name": "odd",
+    "input": "9\n",
+    "output": "NO\n"
+  }
+]
