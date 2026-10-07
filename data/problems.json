@@ -9813,5 +9813,20 @@
     "space": "O(n)",
     "hint": "Scan left to right and overwrite the answer at every occurrence of a.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc276_b",
+    "title": "Adjacency List",
+    "url": "https://atcoder.jp/contests/abc276/tasks/abc276_b",
+    "solution": "solutions/atcoder/implementation/abc276_b_adjacency_list.cpp",
+    "notes": "notes/atcoder/abc276_b_adjacency_list.md",
+    "tests": "tests/cases/atcoder-abc276_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N+M log M)",
+    "space": "O(N+M)",
+    "hint": "Insert each undirected road into both endpoint lists.",
+    "checker": "tokens"
   }
 ]
