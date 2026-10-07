@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "atcoder\n",
+    "output": "er\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "tourist\n",
+    "output": "ist\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "er\n",
+    "output": "er\n"
+  }
+]

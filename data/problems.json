@@ -8238,5 +8238,20 @@
     "space": "O(n)",
     "hint": "Every cyclic rotation is determined by its first position.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc224_a",
+    "title": "Tires",
+    "url": "https://atcoder.jp/contests/abc224/tasks/abc224_a",
+    "solution": "solutions/atcoder/implementation/abc224_a_tires.cpp",
+    "notes": "notes/atcoder/abc224_a_tires.md",
+    "tests": "tests/cases/atcoder-abc224_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The two promised suffixes have different final letters, so the last character determines which suffix occurs..",
+    "checker": "tokens"
   }
 ]
