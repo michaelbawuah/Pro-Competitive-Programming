@@ -8223,5 +8223,20 @@
     "space": "O(1)",
     "hint": "One or more hundred-yen coins produce exactly the positive multiples of one hundred; zero is excluded..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc223_b",
+    "title": "String Shifting",
+    "url": "https://atcoder.jp/contests/abc223/tasks/abc223_b",
+    "solution": "solutions/atcoder/implementation/abc223_b_string_shifting.cpp",
+    "notes": "notes/atcoder/abc223_b_string_shifting.md",
+    "tests": "tests/cases/atcoder-abc223_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Every cyclic rotation is determined by its first position.",
+    "checker": "tokens"
   }
 ]
