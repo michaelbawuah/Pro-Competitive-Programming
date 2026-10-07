@@ -12528,5 +12528,20 @@
     "space": "O(1)",
     "hint": "The input has exactly three decimal places.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc368_a",
+    "title": "Cut",
+    "url": "https://atcoder.jp/contests/abc368/tasks/abc368_a",
+    "solution": "solutions/atcoder/implementation/abc368_a_cut.cpp",
+    "notes": "notes/atcoder/abc368_a_cut.md",
+    "tests": "tests/cases/atcoder-abc368_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The new top is the first of the original final K cards.",
+    "checker": "tokens"
   }
 ]
