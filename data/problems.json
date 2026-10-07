@@ -9978,5 +9978,20 @@
     "space": "O(1)",
     "hint": "Require exactly eight characters, uppercase endpoint letters, and six middle digits whose first digit is nonzero.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc282_a",
+    "title": "Generalized ABC",
+    "url": "https://atcoder.jp/contests/abc282/tasks/abc282_a",
+    "solution": "solutions/atcoder/implementation/abc282_a_generalized_abc.cpp",
+    "notes": "notes/atcoder/abc282_a_generalized_abc.md",
+    "tests": "tests/cases/atcoder-abc282_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(K)",
+    "space": "O(1)",
+    "hint": "Emit the first K consecutive uppercase letters by adding zero-based offsets to A..",
+    "checker": "tokens"
   }
 ]
