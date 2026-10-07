@@ -9258,5 +9258,20 @@
     "space": "O(K)",
     "hint": "Pieces never cross, so their left-to-right indices remain fixed.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc258_a",
+    "title": "When?",
+    "url": "https://atcoder.jp/contests/abc258/tasks/abc258_a",
+    "solution": "solutions/atcoder/implementation/abc258_a_when.cpp",
+    "notes": "notes/atcoder/abc258_a_when.md",
+    "tests": "tests/cases/atcoder-abc258_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Divide elapsed minutes into complete hours and the remaining minute field.",
+    "checker": "tokens"
   }
 ]
