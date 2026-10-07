@@ -6783,5 +6783,20 @@
     "space": "O(1)",
     "hint": "Keep the current rainy-day streak and reset it on sunshine.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc175_b",
+    "title": "Making Triangle",
+    "url": "https://atcoder.jp/contests/abc175/tasks/abc175_b",
+    "solution": "solutions/atcoder/implementation/abc175_b_making_triangle.cpp",
+    "notes": "notes/atcoder/abc175_b_making_triangle.md",
+    "tests": "tests/cases/atcoder-abc175_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^3)",
+    "space": "O(n)",
+    "hint": "After sorting, check strict differences of the three lengths and the single nontrivial triangle inequality: the two smaller lengths must exceed the largest..",
+    "checker": "tokens"
   }
 ]
