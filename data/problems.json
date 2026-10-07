@@ -4458,5 +4458,20 @@
     "space": "O(n log n)",
     "hint": "Precompute minima of every power-of-two interval.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1143",
+    "title": "Hotel Queries",
+    "url": "https://cses.fi/problemset/task/1143/",
+    "solution": "solutions/cses/segment_tree/1143_hotel_queries.cpp",
+    "notes": "notes/cses/1143_hotel_queries.md",
+    "tests": "tests/cases/cses-1143.json",
+    "tags": [
+      "segment_tree"
+    ],
+    "time": "O(n+m log n)",
+    "space": "O(n)",
+    "hint": "Store maximum free capacity per segment.",
+    "checker": "tokens"
   }
 ]
