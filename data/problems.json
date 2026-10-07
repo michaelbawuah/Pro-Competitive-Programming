@@ -2928,5 +2928,20 @@
     "space": "O(1)",
     "hint": "Keep a divisible number unchanged.",
     "checker": "div_seven"
+  },
+  {
+    "id": "codeforces-1669A",
+    "title": "Division?",
+    "url": "https://codeforces.com/problemset/problem/1669/A",
+    "solution": "solutions/codeforces/implementation/1669A_division.cpp",
+    "notes": "notes/codeforces/1669A_division.md",
+    "tests": "tests/cases/codeforces-1669A.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Test rating thresholds from highest to lowest.",
+    "checker": "tokens"
   }
 ]
