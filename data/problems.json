@@ -3363,5 +3363,20 @@
     "space": "O(n)",
     "hint": "The last withdrawal is one available denomination.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc100_c",
+    "title": "*3 or /2",
+    "url": "https://atcoder.jp/contests/abc100/tasks/abc100_c",
+    "solution": "solutions/atcoder/implementation/abc100_c_3_or_2.cpp",
+    "notes": "notes/atcoder/abc100_c_3_or_2.md",
+    "tests": "tests/cases/atcoder-abc100_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log A)",
+    "space": "O(1)",
+    "hint": "Multiplication by three never adds a factor of two, and each operation consumes at least one such factor.",
+    "checker": "tokens"
   }
 ]
