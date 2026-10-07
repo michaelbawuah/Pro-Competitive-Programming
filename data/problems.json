@@ -675,5 +675,101 @@
     "space": "O(1)",
     "hint": "Solve for the number of moves of each type.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-2205",
+    "title": "Gray Code",
+    "url": "https://cses.fi/problemset/task/2205/",
+    "solution": "solutions/cses/introductory/2205_gray_code.cpp",
+    "notes": "notes/cses/2205_gray_code.md",
+    "tests": "tests/cases/cses-2205.json",
+    "tags": [
+      "bit operations",
+      "construction"
+    ],
+    "time": "O(n * 2^n)",
+    "space": "O(1)",
+    "hint": "XOR each binary index with itself shifted one bit right.",
+    "checker": "gray_code"
+  },
+  {
+    "id": "cses-2165",
+    "title": "Tower of Hanoi",
+    "url": "https://cses.fi/problemset/task/2165/",
+    "solution": "solutions/cses/introductory/2165_tower_of_hanoi.cpp",
+    "notes": "notes/cses/2165_tower_of_hanoi.md",
+    "tests": "tests/cases/cses-2165.json",
+    "tags": [
+      "recursion",
+      "construction"
+    ],
+    "time": "O(2^n)",
+    "space": "O(n)",
+    "hint": "Move the smaller tower away, move the largest disk, then rebuild on it.",
+    "checker": "hanoi"
+  },
+  {
+    "id": "cses-1622",
+    "title": "Creating Strings",
+    "url": "https://cses.fi/problemset/task/1622/",
+    "solution": "solutions/cses/introductory/1622_creating_strings.cpp",
+    "notes": "notes/cses/1622_creating_strings.md",
+    "tests": "tests/cases/cses-1622.json",
+    "tags": [
+      "permutations",
+      "STL"
+    ],
+    "time": "O(n * k), k distinct permutations",
+    "space": "O(n * k)",
+    "hint": "Start with the smallest arrangement and repeatedly request the next lexicographic permutation.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1623",
+    "title": "Apple Division",
+    "url": "https://cses.fi/problemset/task/1623/",
+    "solution": "solutions/cses/introductory/1623_apple_division.cpp",
+    "notes": "notes/cses/1623_apple_division.md",
+    "tests": "tests/cases/cses-1623.json",
+    "tags": [
+      "backtracking",
+      "subset enumeration"
+    ],
+    "time": "O(2^n)",
+    "space": "O(n)",
+    "hint": "With at most twenty apples, enumerate which ones belong to the first group.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1624",
+    "title": "Chessboard and Queens",
+    "url": "https://cses.fi/problemset/task/1624/",
+    "solution": "solutions/cses/introductory/1624_chessboard_and_queens.cpp",
+    "notes": "notes/cses/1624_chessboard_and_queens.md",
+    "tests": "tests/cases/cses-1624.json",
+    "tags": [
+      "backtracking",
+      "constraints"
+    ],
+    "time": "O(8 * 8!) upper bound",
+    "space": "O(8) recursion, fixed board",
+    "hint": "Place one queen in each row and reject occupied columns and diagonals early.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-2431",
+    "title": "Digit Queries",
+    "url": "https://cses.fi/problemset/task/2431/",
+    "solution": "solutions/cses/introductory/2431_digit_queries.cpp",
+    "notes": "notes/cses/2431_digit_queries.md",
+    "tests": "tests/cases/cses-2431.json",
+    "tags": [
+      "arithmetic",
+      "digit blocks"
+    ],
+    "time": "O(q log k)",
+    "space": "O(log k)",
+    "hint": "Skip complete blocks of one-digit, two-digit, and longer numbers.",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "odd-total",
+    "input": "5\n3 2 7 4 1\n",
+    "output": "1\n"
+  },
+  {
+    "name": "equal",
+    "input": "2\n9 9\n",
+    "output": "0\n"
+  },
+  {
+    "name": "single",
+    "input": "1\n1000000000\n",
+    "output": "1000000000\n"
+  }
+]

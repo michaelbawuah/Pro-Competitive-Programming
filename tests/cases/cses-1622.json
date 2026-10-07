@@ -1,0 +1,17 @@
+[
+  {
+    "name": "duplicates",
+    "input": "aab\n",
+    "output": "3\naab\naba\nbaa\n"
+  },
+  {
+    "name": "same",
+    "input": "aaa\n",
+    "output": "1\naaa\n"
+  },
+  {
+    "name": "distinct",
+    "input": "ab\n",
+    "output": "2\nab\nba\n"
+  }
+]

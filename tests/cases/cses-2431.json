@@ -1,0 +1,17 @@
+[
+  {
+    "name": "boundaries",
+    "input": "6\n1\n9\n10\n11\n189\n190\n",
+    "output": "1\n9\n1\n0\n9\n1\n"
+  },
+  {
+    "name": "twelve",
+    "input": "1\n12\n",
+    "output": "1\n"
+  },
+  {
+    "name": "transition",
+    "input": "2\n191\n192\n",
+    "output": "0\n0\n"
+  }
+]
