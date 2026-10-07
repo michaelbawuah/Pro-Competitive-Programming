@@ -4503,5 +4503,20 @@
     "space": "O(n)",
     "hint": "First compute the root distance sum and every subtree size.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1135",
+    "title": "Distance Queries",
+    "url": "https://cses.fi/problemset/task/1135/",
+    "solution": "solutions/cses/trees/1135_distance_queries.cpp",
+    "notes": "notes/cses/1135_distance_queries.md",
+    "tests": "tests/cases/cses-1135.json",
+    "tags": [
+      "trees"
+    ],
+    "time": "O((n+q) log n)",
+    "space": "O(n log n)",
+    "hint": "Precompute power-of-two ancestors.",
+    "checker": "tokens"
   }
 ]

@@ -296,3 +296,4 @@ Reference implementations are locally tested; official acceptances are tracked s
 | `cses-1143` | [Hotel Queries](https://cses.fi/problemset/task/1143/) | segment_tree | O(n+m log n) / O(n) | [C++](../solutions/cses/segment_tree/1143_hotel_queries.cpp) · [Notes](../notes/cses/1143_hotel_queries.md) |
 | `cses-1749` | [List Removals](https://cses.fi/problemset/task/1749/) | segment_tree | O(n log n) / O(n) | [C++](../solutions/cses/segment_tree/1749_list_removals.cpp) · [Notes](../notes/cses/1749_list_removals.md) |
 | `cses-1133` | [Tree Distances II](https://cses.fi/problemset/task/1133/) | trees | O(n) / O(n) | [C++](../solutions/cses/trees/1133_tree_distances_ii.cpp) · [Notes](../notes/cses/1133_tree_distances_ii.md) |
+| `cses-1135` | [Distance Queries](https://cses.fi/problemset/task/1135/) | trees | O((n+q) log n) / O(n log n) | [C++](../solutions/cses/trees/1135_distance_queries.cpp) · [Notes](../notes/cses/1135_distance_queries.md) |
