@@ -11403,5 +11403,20 @@
     "space": "O(1)",
     "hint": "A person passes exactly when their score is at least the threshold.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc330_b",
+    "title": "Minimize Abs 1",
+    "url": "https://atcoder.jp/contests/abc330/tasks/abc330_b",
+    "solution": "solutions/atcoder/implementation/abc330_b_minimize_abs_1.cpp",
+    "notes": "notes/atcoder/abc330_b_minimize_abs_1.md",
+    "tests": "tests/cases/atcoder-abc330_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "An input inside the interval is already distance zero.",
+    "checker": "tokens"
   }
 ]
