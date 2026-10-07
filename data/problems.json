@@ -7053,5 +7053,20 @@
     "space": "O(1)",
     "hint": "Apply the two-by-two determinant formula with the two diagonal products in the specified order..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc184_b",
+    "title": "Quizzes",
+    "url": "https://atcoder.jp/contests/abc184/tasks/abc184_b",
+    "solution": "solutions/atcoder/implementation/abc184_b_quizzes.cpp",
+    "notes": "notes/atcoder/abc184_b_quizzes.md",
+    "tests": "tests/cases/atcoder-abc184_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Process answers in order because the zero floor makes order matter.",
+    "checker": "tokens"
   }
 ]
