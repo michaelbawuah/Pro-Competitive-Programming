@@ -6573,5 +6573,20 @@
     "space": "O(1)",
     "hint": "Only the final decimal digit determines the pronunciation.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc168_b",
+    "title": "... (Triple Dots)",
+    "url": "https://atcoder.jp/contests/abc168/tasks/abc168_b",
+    "solution": "solutions/atcoder/implementation/abc168_b_triple_dots.cpp",
+    "notes": "notes/atcoder/abc168_b_triple_dots.md",
+    "tests": "tests/cases/atcoder-abc168_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Truncate only when the length strictly exceeds K, then append exactly three dots..",
+    "checker": "tokens"
   }
 ]
