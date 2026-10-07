@@ -7083,5 +7083,20 @@
     "space": "O(1)",
     "hint": "Each contest consumes one item from every category.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc185_b",
+    "title": "Smartphone Addiction",
+    "url": "https://atcoder.jp/contests/abc185/tasks/abc185_b",
+    "solution": "solutions/atcoder/implementation/abc185_b_smartphone_addiction.cpp",
+    "notes": "notes/atcoder/abc185_b_smartphone_addiction.md",
+    "tests": "tests/cases/atcoder-abc185_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(M)",
+    "space": "O(1)",
+    "hint": "Subtract charge used between cafe visits, checking strictly positive charge before recharging.",
+    "checker": "tokens"
   }
 ]
