@@ -5943,5 +5943,20 @@
     "space": "O(1)",
     "hint": "Sum the three cards and compare with the inclusive bust threshold..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc147_b",
+    "title": "Palindrome-philia",
+    "url": "https://atcoder.jp/contests/abc147/tasks/abc147_b",
+    "solution": "solutions/atcoder/implementation/abc147_b_palindrome_philia.cpp",
+    "notes": "notes/atcoder/abc147_b_palindrome_philia.md",
+    "tests": "tests/cases/atcoder-abc147_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Each unequal mirrored pair needs at least one change, and one change fixes that pair.",
+    "checker": "tokens"
   }
 ]

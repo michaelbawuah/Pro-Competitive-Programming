@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "redcoder\n",
+    "output": "1\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "vvvvvv\n",
+    "output": "0\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "abcdabc\n",
+    "output": "2\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a\n",
+    "output": "0\n"
+  }
+]
