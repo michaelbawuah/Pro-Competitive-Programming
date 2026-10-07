@@ -4848,5 +4848,20 @@
     "space": "O(1)",
     "hint": "Choose one of floor(K/2) even values and one of ceil(K/2) odd values independently..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc108_b",
+    "title": "Ruined Square",
+    "url": "https://atcoder.jp/contests/abc108/tasks/abc108_b",
+    "solution": "solutions/atcoder/implementation/abc108_b_ruined_square.cpp",
+    "notes": "notes/atcoder/abc108_b_ruined_square.md",
+    "tests": "tests/cases/atcoder-abc108_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Rotate the edge vector counterclockwise by ninety degrees: (dx,dy) becomes (-dy,dx).",
+    "checker": "tokens"
   }
 ]
