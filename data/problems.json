@@ -12153,5 +12153,20 @@
     "space": "O(1)",
     "hint": "Different exclusions leave the third person, whose number is six minus the two excluded numbers.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc355_b",
+    "title": "Piano 2",
+    "url": "https://atcoder.jp/contests/abc355/tasks/abc355_b",
+    "solution": "solutions/atcoder/implementation/abc355_b_piano_2.cpp",
+    "notes": "notes/atcoder/abc355_b_piano_2.md",
+    "tests": "tests/cases/atcoder-abc355_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O((N+M) log(N+M))",
+    "space": "O(N+M)",
+    "hint": "Attach an origin flag to each value before sorting the combined sequence.",
+    "checker": "tokens"
   }
 ]
