@@ -10533,5 +10533,20 @@
     "space": "O(1)",
     "hint": "Compute the required sum and scan the answer choices with one-based indices.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc300_b",
+    "title": "Same Map in the RPG World",
+    "url": "https://atcoder.jp/contests/abc300/tasks/abc300_b",
+    "solution": "solutions/atcoder/implementation/abc300_b_same_map_in_the_rpg_world.cpp",
+    "notes": "notes/atcoder/abc300_b_same_map_in_the_rpg_world.md",
+    "tests": "tests/cases/atcoder-abc300_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(H^2 W^2)",
+    "space": "O(HW)",
+    "hint": "Vertical and horizontal shifts commute and repeat after H and W steps respectively.",
+    "checker": "tokens"
   }
 ]
