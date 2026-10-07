@@ -7818,5 +7818,20 @@
     "space": "O(1)",
     "hint": "Apply the one-yen discount only to even one-based indices, sum the actual prices, and compare with the budget..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc210_a",
+    "title": "Cabbages",
+    "url": "https://atcoder.jp/contests/abc210/tasks/abc210_a",
+    "solution": "solutions/atcoder/implementation/abc210_a_cabbages.cpp",
+    "notes": "notes/atcoder/abc210_a_cabbages.md",
+    "tests": "tests/cases/atcoder-abc210_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Split purchased heads into the first A at regular price and any excess at the discounted price..",
+    "checker": "tokens"
   }
 ]
