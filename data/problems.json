@@ -2133,5 +2133,20 @@
     "space": "O(m)",
     "hint": "Sort puzzle sizes and examine consecutive blocks of n choices.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-160A",
+    "title": "Twins",
+    "url": "https://codeforces.com/problemset/problem/160/A",
+    "solution": "solutions/codeforces/greedy/160A_twins.cpp",
+    "notes": "notes/codeforces/160A_twins.md",
+    "tests": "tests/cases/codeforces-160A.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "For any fixed count, the largest coins maximize the money taken.",
+    "checker": "tokens"
   }
 ]

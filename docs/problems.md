@@ -138,3 +138,4 @@ Reference implementations are locally tested; official acceptances are tracked s
 | `codeforces-25A` | [IQ test](https://codeforces.com/problemset/problem/25/A) | counting | O(n) / O(n) | [C++](../solutions/codeforces/counting/25A_iq_test.cpp) · [Notes](../notes/codeforces/25A_iq_test.md) |
 | `codeforces-405A` | [Gravity Flip](https://codeforces.com/problemset/problem/405/A) | sorting | O(n log n) / O(n) | [C++](../solutions/codeforces/sorting/405A_gravity_flip.cpp) · [Notes](../notes/codeforces/405A_gravity_flip.md) |
 | `codeforces-337A` | [Puzzles](https://codeforces.com/problemset/problem/337/A) | sorting | O(m log m) / O(m) | [C++](../solutions/codeforces/sorting/337A_puzzles.cpp) · [Notes](../notes/codeforces/337A_puzzles.md) |
+| `codeforces-160A` | [Twins](https://codeforces.com/problemset/problem/160/A) | greedy | O(n log n) / O(n) | [C++](../solutions/codeforces/greedy/160A_twins.cpp) · [Notes](../notes/codeforces/160A_twins.md) |
