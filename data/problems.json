@@ -9348,5 +9348,20 @@
     "space": "O(n)",
     "hint": "Perform admissions in the required three stages.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc261_a",
+    "title": "Intersection",
+    "url": "https://atcoder.jp/contests/abc261/tasks/abc261_a",
+    "solution": "solutions/atcoder/implementation/abc261_a_intersection.cpp",
+    "notes": "notes/atcoder/abc261_a_intersection.md",
+    "tests": "tests/cases/atcoder-abc261_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The intersection begins at the larger left endpoint and ends at the smaller right endpoint.",
+    "checker": "tokens"
   }
 ]
