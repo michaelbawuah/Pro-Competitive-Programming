@@ -8538,5 +8538,20 @@
     "space": "O(n)",
     "hint": "The inclusive one-based interval [L,R] becomes the half-open zero-based iterator range [L-1,R).",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc234_a",
+    "title": "Weird Function",
+    "url": "https://atcoder.jp/contests/abc234/tasks/abc234_a",
+    "solution": "solutions/atcoder/implementation/abc234_a_weird_function.cpp",
+    "notes": "notes/atcoder/abc234_a_weird_function.md",
+    "tests": "tests/cases/atcoder-abc234_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Define the given polynomial once and preserve the exact nesting of its calls.",
+    "checker": "tokens"
   }
 ]
