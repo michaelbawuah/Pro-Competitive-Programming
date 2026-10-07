@@ -6438,5 +6438,20 @@
     "space": "O(1)",
     "hint": "All assignment durations occupy disjoint days.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc164_a",
+    "title": "Sheep and Wolves",
+    "url": "https://atcoder.jp/contests/abc164/tasks/abc164_a",
+    "solution": "solutions/atcoder/implementation/abc164_a_sheep_and_wolves.cpp",
+    "notes": "notes/atcoder/abc164_a_sheep_and_wolves.md",
+    "tests": "tests/cases/atcoder-abc164_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Wolves attack at equality as well as when they outnumber sheep; use an inclusive comparison..",
+    "checker": "tokens"
   }
 ]
