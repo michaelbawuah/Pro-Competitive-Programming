@@ -5313,5 +5313,20 @@
     "space": "O(n)",
     "hint": "Gem choices are independent.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc126_a",
+    "title": "Changing a Character",
+    "url": "https://atcoder.jp/contests/abc126/tasks/abc126_a",
+    "solution": "solutions/atcoder/implementation/abc126_a_changing_a_character.cpp",
+    "notes": "notes/atcoder/abc126_a_changing_a_character.md",
+    "tests": "tests/cases/atcoder-abc126_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Translate the one-based position to a zero-based index and lowercase only that character.",
+    "checker": "tokens"
   }
 ]

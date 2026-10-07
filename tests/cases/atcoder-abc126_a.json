@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3 1\r\nABC\n",
+    "output": "aBC\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "4 3\r\nCABA\n",
+    "output": "CAbA\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1 1\nC\n",
+    "output": "c\n"
+  }
+]
