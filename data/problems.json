@@ -10053,5 +10053,20 @@
     "space": "O(total characters)",
     "hint": "Store the input strings in order, then traverse their indices from the last to the first.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc284_b",
+    "title": "Multi Test Cases",
+    "url": "https://atcoder.jp/contests/abc284/tasks/abc284_b",
+    "solution": "solutions/atcoder/implementation/abc284_b_multi_test_cases.cpp",
+    "notes": "notes/atcoder/abc284_b_multi_test_cases.md",
+    "tests": "tests/cases/atcoder-abc284_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(total N)",
+    "space": "O(1)",
+    "hint": "Reset a counter for every test case and add one for each positive value with remainder one modulo two..",
+    "checker": "tokens"
   }
 ]
