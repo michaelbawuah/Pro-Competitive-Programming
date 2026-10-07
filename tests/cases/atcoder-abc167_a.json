@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "chokudai\r\nchokudaiz\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "snuke\r\nsnekee\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "a\r\naa\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a\nab\n",
+    "output": "Yes\n"
+  }
+]

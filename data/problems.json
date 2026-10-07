@@ -6528,5 +6528,20 @@
     "space": "O(N)",
     "hint": "Mark the union of all snack-owner lists.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc167_a",
+    "title": "Registration",
+    "url": "https://atcoder.jp/contests/abc167/tasks/abc167_a",
+    "solution": "solutions/atcoder/implementation/abc167_a_registration.cpp",
+    "notes": "notes/atcoder/abc167_a_registration.md",
+    "tests": "tests/cases/atcoder-abc167_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The length difference is guaranteed to be one.",
+    "checker": "tokens"
   }
 ]
