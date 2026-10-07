@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "2 10 20\n",
+    "output": "30\r\n50\r\n90\r\n170\r\n330\r\n650\r\n1290\r\n2570\r\n5130\r\n10250\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "4 40 60\n",
+    "output": "200\r\n760\r\n3000\r\n11960\r\n47800\r\n191160\r\n764600\r\n3058360\r\n12233400\r\n48933560\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2 1 2\n",
+    "output": "3\n5\n9\n17\n33\n65\n129\n257\n513\n1025\n"
+  }
+]

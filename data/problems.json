@@ -5358,5 +5358,20 @@
     "space": "O(1)",
     "hint": "Partition ages into the three disjoint inclusive fare brackets and select zero, half fare, or full fare..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc127_b",
+    "title": "Algae",
+    "url": "https://atcoder.jp/contests/abc127/tasks/abc127_b",
+    "solution": "solutions/atcoder/implementation/abc127_b_algae.cpp",
+    "notes": "notes/atcoder/abc127_b_algae.md",
+    "tests": "tests/cases/atcoder-abc127_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Apply the recurrence ten times, printing each newly computed yearly weight rather than the initial value..",
+    "checker": "tokens"
   }
 ]
