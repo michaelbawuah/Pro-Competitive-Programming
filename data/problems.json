@@ -1983,5 +1983,20 @@
     "space": "O(1)",
     "hint": "Take denominations from largest to smallest.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1352A",
+    "title": "Sum of Round Numbers",
+    "url": "https://codeforces.com/problemset/problem/1352/A",
+    "solution": "solutions/codeforces/mathematics/1352A_sum_of_round_numbers.cpp",
+    "notes": "notes/codeforces/1352A_sum_of_round_numbers.md",
+    "tests": "tests/cases/codeforces-1352A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(log n) per case",
+    "space": "O(log n)",
+    "hint": "Use one summand for each nonzero decimal digit at its original place value.",
+    "checker": "round_sums"
   }
 ]
