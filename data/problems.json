@@ -2958,5 +2958,20 @@
     "space": "O(n)",
     "hint": "Count occurrences of every value.",
     "checker": "triple"
+  },
+  {
+    "id": "codeforces-1669C",
+    "title": "Odd/Even Increments",
+    "url": "https://codeforces.com/problemset/problem/1669/C",
+    "solution": "solutions/codeforces/invariants/1669C_odd_even_increments.cpp",
+    "notes": "notes/codeforces/1669C_odd_even_increments.md",
+    "tests": "tests/cases/codeforces-1669C.json",
+    "tags": [
+      "invariants"
+    ],
+    "time": "O(n) per case",
+    "space": "O(1)",
+    "hint": "An operation flips parity at all positions of one index parity simultaneously.",
+    "checker": "yes_no"
   }
 ]
