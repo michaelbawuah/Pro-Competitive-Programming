@@ -11418,5 +11418,20 @@
     "space": "O(1)",
     "hint": "An input inside the interval is already distance zero.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc331_a",
+    "title": "Tomorrow",
+    "url": "https://atcoder.jp/contests/abc331/tasks/abc331_a",
+    "solution": "solutions/atcoder/implementation/abc331_a_tomorrow.cpp",
+    "notes": "notes/atcoder/abc331_a_tomorrow.md",
+    "tests": "tests/cases/atcoder-abc331_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Increment the day, carrying into the month when it exceeds the month length.",
+    "checker": "tokens"
   }
 ]
