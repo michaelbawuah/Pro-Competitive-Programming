@@ -2718,5 +2718,20 @@
     "space": "O(1)",
     "hint": "A pair has odd sum exactly when one member is odd and the other even.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1547A",
+    "title": "Shortest Path with Obstacle",
+    "url": "https://codeforces.com/problemset/problem/1547/A",
+    "solution": "solutions/codeforces/geometry/1547A_shortest_path_with_obstacle.cpp",
+    "notes": "notes/codeforces/1547A_shortest_path_with_obstacle.md",
+    "tests": "tests/cases/codeforces-1547A.json",
+    "tags": [
+      "geometry"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Manhattan distance is attainable unless the endpoints and obstacle lie on one straight segment with the obstacle strictly between them.",
+    "checker": "tokens"
   }
 ]
