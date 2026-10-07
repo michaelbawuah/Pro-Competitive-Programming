@@ -531,5 +531,53 @@
     "space": "O(n)",
     "hint": "Read the score at rank k, then apply both eligibility conditions.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-dp_a",
+    "title": "Frog 1",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_a",
+    "solution": "solutions/atcoder/educational_dp/dp_a_frog_1.cpp",
+    "notes": "notes/atcoder/dp_a_frog_1.md",
+    "tests": "tests/cases/atcoder-dp_a.json",
+    "tags": [
+      "dynamic programming",
+      "shortest path in DAG"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The final jump came from one of the previous two stones.",
+    "checker": "tokens"
+  },
+  {
+    "id": "atcoder-dp_b",
+    "title": "Frog 2",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_b",
+    "solution": "solutions/atcoder/educational_dp/dp_b_frog_2.cpp",
+    "notes": "notes/atcoder/dp_b_frog_2.md",
+    "tests": "tests/cases/atcoder-dp_b.json",
+    "tags": [
+      "dynamic programming",
+      "bounded transitions"
+    ],
+    "time": "O(n * k)",
+    "space": "O(n)",
+    "hint": "Generalize Frog 1: enumerate every permitted final jump.",
+    "checker": "tokens"
+  },
+  {
+    "id": "atcoder-dp_c",
+    "title": "Vacation",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_c",
+    "solution": "solutions/atcoder/educational_dp/dp_c_vacation.cpp",
+    "notes": "notes/atcoder/dp_c_vacation.md",
+    "tests": "tests/cases/atcoder-dp_c.json",
+    "tags": [
+      "dynamic programming",
+      "state compression"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Remember yesterday\u2019s activity, because it determines today\u2019s legal choices.",
+    "checker": "tokens"
   }
 ]
