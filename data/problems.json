@@ -6918,5 +6918,20 @@
     "space": "O(1)",
     "hint": "Count the current consecutive doublet streak and remember whether it ever reaches three, even if a later roll breaks it..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc180_a",
+    "title": "box",
+    "url": "https://atcoder.jp/contests/abc180/tasks/abc180_a",
+    "solution": "solutions/atcoder/implementation/abc180_a_box.cpp",
+    "notes": "notes/atcoder/abc180_a_box.md",
+    "tests": "tests/cases/atcoder-abc180_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Apply the removal and addition to the original ball count..",
+    "checker": "tokens"
   }
 ]
