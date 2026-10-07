@@ -11943,5 +11943,20 @@
     "space": "O(1)",
     "hint": "Use one-based kick numbers and emit failure exactly at multiples of three, success at all other positions..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc348_b",
+    "title": "Farthest Point",
+    "url": "https://atcoder.jp/contests/abc348/tasks/abc348_b",
+    "solution": "solutions/atcoder/implementation/abc348_b_farthest_point.cpp",
+    "notes": "notes/atcoder/abc348_b_farthest_point.md",
+    "tests": "tests/cases/atcoder-abc348_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Squared Euclidean distances have the same ordering as distances.",
+    "checker": "tokens"
   }
 ]
