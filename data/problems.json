@@ -5808,5 +5808,20 @@
     "space": "O(1)",
     "hint": "The height threshold is inclusive, so count each height at least K..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc143_a",
+    "title": "Curtain",
+    "url": "https://atcoder.jp/contests/abc143/tasks/abc143_a",
+    "solution": "solutions/atcoder/implementation/abc143_a_curtain.cpp",
+    "notes": "notes/atcoder/abc143_a_curtain.md",
+    "tests": "tests/cases/atcoder-abc143_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The two curtains cover up to 2B of the window width.",
+    "checker": "tokens"
   }
 ]
