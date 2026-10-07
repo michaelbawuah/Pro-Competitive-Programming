@@ -11103,5 +11103,20 @@
     "space": "O(1)",
     "hint": "Compute both small integer powers by repeated multiplication, then add their exact values.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc320_b",
+    "title": "Longest Palindrome",
+    "url": "https://atcoder.jp/contests/abc320/tasks/abc320_b",
+    "solution": "solutions/atcoder/implementation/abc320_b_longest_palindrome.cpp",
+    "notes": "notes/atcoder/abc320_b_longest_palindrome.md",
+    "tests": "tests/cases/atcoder-abc320_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Every palindrome has a center at a character or between two characters.",
+    "checker": "tokens"
   }
 ]
