@@ -9513,5 +9513,20 @@
     "space": "O(n)",
     "hint": "For odd length 2k+1, the middle character has zero-based index k.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc266_b",
+    "title": "Modulo Number",
+    "url": "https://atcoder.jp/contests/abc266/tasks/abc266_b",
+    "solution": "solutions/atcoder/implementation/abc266_b_modulo_number.cpp",
+    "notes": "notes/atcoder/abc266_b_modulo_number.md",
+    "tests": "tests/cases/atcoder-abc266_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "C++ remainder can be negative.",
+    "checker": "tokens"
   }
 ]
