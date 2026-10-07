@@ -7518,5 +7518,20 @@
     "space": "O(1)",
     "hint": "Intersect all inclusive intervals by taking the largest lower bound and smallest upper bound; count the remaining integers if the interval is nonempty..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc200_a",
+    "title": "Century",
+    "url": "https://atcoder.jp/contests/abc200/tasks/abc200_a",
+    "solution": "solutions/atcoder/implementation/abc200_a_century.cpp",
+    "notes": "notes/atcoder/abc200_a_century.md",
+    "tests": "tests/cases/atcoder-abc200_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Centuries are consecutive blocks of one hundred years starting at year one, so ceiling-divide the year by one hundred..",
+    "checker": "tokens"
   }
 ]
