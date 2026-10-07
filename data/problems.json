@@ -10383,5 +10383,20 @@
     "space": "O(1)",
     "hint": "Check each complete input word for membership in the five-word target set.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc295_b",
+    "title": "Bombs",
+    "url": "https://atcoder.jp/contests/abc295/tasks/abc295_b",
+    "solution": "solutions/atcoder/implementation/abc295_b_bombs.cpp",
+    "notes": "notes/atcoder/abc295_b_bombs.md",
+    "tests": "tests/cases/atcoder-abc295_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(R^2 C^2)",
+    "space": "O(RC)",
+    "hint": "Read bomb positions and powers only from the original board.",
+    "checker": "tokens"
   }
 ]
