@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\r\nEverest 8849\r\nK2 8611\r\nKangchenjunga 8586\n",
+    "output": "K2\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "4\r\nKita 3193\r\nAino 3189\r\nFuji 3776\r\nOkuhotaka 3190\n",
+    "output": "Kita\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "4\r\nQCFium 2846\r\nchokudai 2992\r\nkyoprofriends 2432\r\npenguinman 2390\n",
+    "output": "QCFium\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\na 1\nb 2\n",
+    "output": "a\n"
+  }
+]

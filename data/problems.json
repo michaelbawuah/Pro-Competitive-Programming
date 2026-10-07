@@ -7563,5 +7563,20 @@
     "space": "O(1)",
     "hint": "Any three-term arithmetic sequence is ordered monotonically or reversed.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc201_b",
+    "title": "Do you know the second highest mountain?",
+    "url": "https://atcoder.jp/contests/abc201/tasks/abc201_b",
+    "solution": "solutions/atcoder/implementation/abc201_b_do_you_know_the_second_highest_mountain.cpp",
+    "notes": "notes/atcoder/abc201_b_do_you_know_the_second_highest_mountain.md",
+    "tests": "tests/cases/atcoder-abc201_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n+total name length)",
+    "space": "O(n+total name length)",
+    "hint": "Keep each name with its height, sort by decreasing height, and select the second entry.",
+    "checker": "tokens"
   }
 ]
