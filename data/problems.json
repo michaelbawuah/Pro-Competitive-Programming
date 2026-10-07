@@ -9933,5 +9933,20 @@
     "space": "O(W)",
     "hint": "Each occupied cell is represented by one hash character.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc280_b",
+    "title": "Inverse Prefix Sum",
+    "url": "https://atcoder.jp/contests/abc280/tasks/abc280_b",
+    "solution": "solutions/atcoder/implementation/abc280_b_inverse_prefix_sum.cpp",
+    "notes": "notes/atcoder/abc280_b_inverse_prefix_sum.md",
+    "tests": "tests/cases/atcoder-abc280_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Subtract consecutive prefix sums to isolate each original element.",
+    "checker": "tokens"
   }
 ]
