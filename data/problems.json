@@ -8958,5 +8958,20 @@
     "space": "O(n L)",
     "hint": "For each person, test each candidate name against both names of every other person.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc248_a",
+    "title": "Lacked Number",
+    "url": "https://atcoder.jp/contests/abc248/tasks/abc248_a",
+    "solution": "solutions/atcoder/implementation/abc248_a_lacked_number.cpp",
+    "notes": "notes/atcoder/abc248_a_lacked_number.md",
+    "tests": "tests/cases/atcoder-abc248_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The ten digits sum to forty-five.",
+    "checker": "tokens"
   }
 ]
