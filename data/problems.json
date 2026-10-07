@@ -6993,5 +6993,20 @@
     "space": "O(1)",
     "hint": "Subtract the current following count from the allowed total; the constraints guarantee the result is nonnegative..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc182_b",
+    "title": "Almost GCD",
+    "url": "https://atcoder.jp/contests/abc182/tasks/abc182_b",
+    "solution": "solutions/atcoder/implementation/abc182_b_almost_gcd.cpp",
+    "notes": "notes/atcoder/abc182_b_almost_gcd.md",
+    "tests": "tests/cases/atcoder-abc182_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1000 n)",
+    "space": "O(n)",
+    "hint": "Any divisor exceeding the maximum input has zero frequency.",
+    "checker": "gcdness"
   }
 ]
