@@ -5493,5 +5493,20 @@
     "space": "O(1)",
     "hint": "Sorting groups equal characters.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc132_b",
+    "title": "Ordinary Number",
+    "url": "https://atcoder.jp/contests/abc132/tasks/abc132_b",
+    "solution": "solutions/atcoder/implementation/abc132_b_ordinary_number.cpp",
+    "notes": "notes/atcoder/abc132_b_ordinary_number.md",
+    "tests": "tests/cases/atcoder-abc132_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "With distinct permutation values, the center is the median precisely when the three consecutive values are strictly increasing or strictly decreasing..",
+    "checker": "tokens"
   }
 ]
