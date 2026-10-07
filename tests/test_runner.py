@@ -47,7 +47,7 @@ class RunnerTests(unittest.TestCase):
     def test_timeout_is_failure(self):
         with tempfile.TemporaryDirectory() as folder:
             source = Path(folder) / 'loop.cpp'
-            source.write_text('int main(){for(;;) {}}\n')
+            source.write_text('int main(){volatile int flag = 1; while(flag) {}}\n')
             with self.assertRaises(subprocess.TimeoutExpired):
                 cp.run_binary(cp.compile_source(source), '', timeout=0.1)
 
