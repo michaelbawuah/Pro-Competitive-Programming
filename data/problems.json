@@ -10488,5 +10488,20 @@
     "space": "O(n^2)",
     "hint": "A square has four orientations under quarter-turn rotations.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc299_a",
+    "title": "Treasure Chest",
+    "url": "https://atcoder.jp/contests/abc299/tasks/abc299_a",
+    "solution": "solutions/atcoder/implementation/abc299_a_treasure_chest.cpp",
+    "notes": "notes/atcoder/abc299_a_treasure_chest.md",
+    "tests": "tests/cases/atcoder-abc299_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Find the first and last bar and the unique star.",
+    "checker": "tokens"
   }
 ]
