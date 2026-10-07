@@ -4653,5 +4653,20 @@
     "space": "O(1)",
     "hint": "After removing exactly D factors of 100, the remaining factor must not be divisible by 100.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc101_a",
+    "title": "Eating Symbols Easy",
+    "url": "https://atcoder.jp/contests/abc101/tasks/abc101_a",
+    "solution": "solutions/atcoder/implementation/abc101_a_eating_symbols_easy.cpp",
+    "notes": "notes/atcoder/abc101_a_eating_symbols_easy.md",
+    "tests": "tests/cases/atcoder-abc101_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each symbol contributes independently: add one for plus and subtract one for minus..",
+    "checker": "tokens"
   }
 ]
