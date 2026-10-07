@@ -6378,5 +6378,20 @@
     "space": "O(n)",
     "hint": "Clear the positive denominator from each threshold comparison.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc162_a",
+    "title": "Lucky 7",
+    "url": "https://atcoder.jp/contests/abc162/tasks/abc162_a",
+    "solution": "solutions/atcoder/implementation/abc162_a_lucky_7.cpp",
+    "notes": "notes/atcoder/abc162_a_lucky_7.md",
+    "tests": "tests/cases/atcoder-abc162_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Search the decimal representation for a seven; any matching position suffices..",
+    "checker": "tokens"
   }
 ]
