@@ -5868,5 +5868,20 @@
     "space": "O(1)",
     "hint": "Enumerate the 81 legal factor pairs and check whether any product equals N..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc145_a",
+    "title": "Circle",
+    "url": "https://atcoder.jp/contests/abc145/tasks/abc145_a",
+    "solution": "solutions/atcoder/implementation/abc145_a_circle.cpp",
+    "notes": "notes/atcoder/abc145_a_circle.md",
+    "tests": "tests/cases/atcoder-abc145_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Circle area scales with the square of the radius; dividing the two areas cancels pi..",
+    "checker": "tokens"
   }
 ]
