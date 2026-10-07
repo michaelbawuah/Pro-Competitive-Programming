@@ -2073,5 +2073,20 @@
     "space": "O(1)",
     "hint": "Compute how many individual toasts each resource can support.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-472A",
+    "title": "Design Tutorial: Learn from Math",
+    "url": "https://codeforces.com/problemset/problem/472/A",
+    "solution": "solutions/codeforces/constructive/472A_design_tutorial_learn_from_math.cpp",
+    "notes": "notes/codeforces/472A_design_tutorial_learn_from_math.md",
+    "tests": "tests/cases/codeforces-472A.json",
+    "tags": [
+      "constructive"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Choose four for an even total and nine for an odd total.",
+    "checker": "composite_pair"
   }
 ]
