@@ -3798,5 +3798,20 @@
     "space": "O(M)",
     "hint": "Encode each switch assignment as a bit mask.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc129_c",
+    "title": "Typical Stairs",
+    "url": "https://atcoder.jp/contests/abc129/tasks/abc129_c",
+    "solution": "solutions/atcoder/dynamic_programming/abc129_c_typical_stairs.cpp",
+    "notes": "notes/atcoder/abc129_c_typical_stairs.md",
+    "tests": "tests/cases/atcoder-abc129_c.json",
+    "tags": [
+      "dynamic_programming"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "A safe step can be reached from the previous step or from two steps below.",
+    "checker": "tokens"
   }
 ]
