@@ -2013,5 +2013,20 @@
     "space": "O(1)",
     "hint": "Only the remainder of a modulo b matters.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-758A",
+    "title": "Holiday Of Equality",
+    "url": "https://codeforces.com/problemset/problem/758/A",
+    "solution": "solutions/codeforces/greedy/758A_holiday_of_equality.cpp",
+    "notes": "notes/codeforces/758A_holiday_of_equality.md",
+    "tests": "tests/cases/codeforces-758A.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Nobody can lose money, so the common final wealth must be at least the current maximum.",
+    "checker": "tokens"
   }
 ]
