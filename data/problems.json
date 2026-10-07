@@ -7968,5 +7968,20 @@
     "space": "O(1)",
     "hint": "The sum bound limits every coordinate to S.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc215_a",
+    "title": "Your First Judge",
+    "url": "https://atcoder.jp/contests/abc215/tasks/abc215_a",
+    "solution": "solutions/atcoder/implementation/abc215_a_your_first_judge.cpp",
+    "notes": "notes/atcoder/abc215_a_your_first_judge.md",
+    "tests": "tests/cases/atcoder-abc215_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Exact string equality checks length, letter case, comma, and exclamation mark simultaneously..",
+    "checker": "tokens"
   }
 ]

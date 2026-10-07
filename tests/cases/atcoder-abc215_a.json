@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "Hello,World!\n",
+    "output": "AC\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "Hello,world!\n",
+    "output": "WA\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "Hello!World!\n",
+    "output": "WA\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "hello,world!\n",
+    "output": "WA\n"
+  }
+]
