@@ -3918,5 +3918,20 @@
     "space": "O(1)",
     "hint": "Choose the smallest allowed current height that is at least the previous chosen height.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc137_c",
+    "title": "Green Bin",
+    "url": "https://atcoder.jp/contests/abc137/tasks/abc137_c",
+    "solution": "solutions/atcoder/counting/abc137_c_green_bin.cpp",
+    "notes": "notes/atcoder/abc137_c_green_bin.md",
+    "tests": "tests/cases/atcoder-abc137_c.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(n L(log L+log n))",
+    "space": "O(n L)",
+    "hint": "Sorting a word produces a canonical representation of its character multiset.",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\r\nacornistnt\r\npeanutbomb\r\nconstraint\n",
+    "output": "1\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "2\r\noneplustwo\r\nninemodsix\n",
+    "output": "0\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "5\r\nabaaaaaaaa\r\noneplustwo\r\naaaaaaaaba\r\ntwoplusone\r\naaaabaaaaa\n",
+    "output": "4\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\nabcdefghij\nbacdefghij\n",
+    "output": "1\n"
+  }
+]
