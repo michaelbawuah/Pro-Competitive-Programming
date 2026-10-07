@@ -2463,5 +2463,20 @@
     "space": "O(1)",
     "hint": "Each internal element contributes at most twice its value to adjacent absolute differences, while endpoints contribute once.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1353B",
+    "title": "Two Arrays And Swaps",
+    "url": "https://codeforces.com/problemset/problem/1353/B",
+    "solution": "solutions/codeforces/greedy/1353B_two_arrays_and_swaps.cpp",
+    "notes": "notes/codeforces/1353B_two_arrays_and_swaps.md",
+    "tests": "tests/cases/codeforces-1353B.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n log n) per case",
+    "space": "O(n)",
+    "hint": "Replace the smallest available element of a with the largest available element of b whenever that increases the sum.",
+    "checker": "tokens"
   }
 ]
