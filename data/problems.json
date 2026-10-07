@@ -2703,5 +2703,20 @@
     "space": "O(1)",
     "hint": "The winners are the maxima of the two semifinal pairs.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1542A",
+    "title": "Odd Set",
+    "url": "https://codeforces.com/problemset/problem/1542/A",
+    "solution": "solutions/codeforces/counting/1542A_odd_set.cpp",
+    "notes": "notes/codeforces/1542A_odd_set.md",
+    "tests": "tests/cases/codeforces-1542A.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(n) per case",
+    "space": "O(1)",
+    "hint": "A pair has odd sum exactly when one member is odd and the other even.",
+    "checker": "yes_no"
   }
 ]
