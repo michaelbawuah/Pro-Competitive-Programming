@@ -1653,5 +1653,20 @@
     "space": "O(n)",
     "hint": "Keep one stone from each maximal run of equal colors.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-791A",
+    "title": "Bear and Big Brother",
+    "url": "https://codeforces.com/problemset/problem/791/A",
+    "solution": "solutions/codeforces/simulation/791A_bear_and_big_brother.cpp",
+    "notes": "notes/codeforces/791A_bear_and_big_brother.md",
+    "tests": "tests/cases/codeforces-791A.json",
+    "tags": [
+      "simulation"
+    ],
+    "time": "O(log(b/a) + 1)",
+    "space": "O(1)",
+    "hint": "Simulate complete years until the first weight becomes strictly larger.",
+    "checker": "tokens"
   }
 ]
