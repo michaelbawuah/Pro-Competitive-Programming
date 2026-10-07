@@ -6258,5 +6258,20 @@
     "space": "O(1)",
     "hint": "Mark every called value, then test the three rows, three columns, and two diagonals.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc158_a",
+    "title": "Station and Bus",
+    "url": "https://atcoder.jp/contests/abc158/tasks/abc158_a",
+    "solution": "solutions/atcoder/implementation/abc158_a_station_and_bus.cpp",
+    "notes": "notes/atcoder/abc158_a_station_and_bus.md",
+    "tests": "tests/cases/atcoder-abc158_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A cross-company pair exists exactly when the three station labels are not all identical..",
+    "checker": "tokens"
   }
 ]
