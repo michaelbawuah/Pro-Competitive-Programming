@@ -8493,5 +8493,20 @@
     "space": "O(1)",
     "hint": "The fixed three-character format places the two single-digit operands at positions zero and two.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc232_b",
+    "title": "Caesar Cipher",
+    "url": "https://atcoder.jp/contests/abc232/tasks/abc232_b",
+    "solution": "solutions/atcoder/implementation/abc232_b_caesar_cipher.cpp",
+    "notes": "notes/atcoder/abc232_b_caesar_cipher.md",
+    "tests": "tests/cases/atcoder-abc232_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The first pair fixes the required shift modulo twenty-six.",
+    "checker": "tokens"
   }
 ]
