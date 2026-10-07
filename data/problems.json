@@ -6453,5 +6453,20 @@
     "space": "O(1)",
     "hint": "Wolves attack at equality as well as when they outnumber sheep; use an inclusive comparison..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc164_b",
+    "title": "Battle",
+    "url": "https://atcoder.jp/contests/abc164/tasks/abc164_b",
+    "solution": "solutions/atcoder/implementation/abc164_b_battle.cpp",
+    "notes": "notes/atcoder/abc164_b_battle.md",
+    "tests": "tests/cases/atcoder-abc164_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Compare the number of hits each monster needs.",
+    "checker": "tokens"
   }
 ]
