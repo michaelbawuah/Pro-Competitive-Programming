@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "123 234\n",
+    "output": "9\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "593 953\n",
+    "output": "17\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "100 999\n",
+    "output": "27\n"
+  }
+]

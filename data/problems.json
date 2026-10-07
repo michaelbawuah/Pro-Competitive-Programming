@@ -7128,5 +7128,20 @@
     "space": "O(1)",
     "hint": "Removal cannot raise the smallest pile.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc187_a",
+    "title": "Large Digits",
+    "url": "https://atcoder.jp/contests/abc187/tasks/abc187_a",
+    "solution": "solutions/atcoder/implementation/abc187_a_large_digits.cpp",
+    "notes": "notes/atcoder/abc187_a_large_digits.md",
+    "tests": "tests/cases/atcoder-abc187_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Compute each decimal digit sum independently and select the larger sum..",
+    "checker": "tokens"
   }
 ]
