@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": ".v.\n",
+    "output": "v\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "chokudai\n",
+    "output": "chokudai\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "...\n",
+    "output": "\n"
+  },
+  {
+    "name": "edge-1",
+    "input": ".\n",
+    "output": "\n"
+  }
+]

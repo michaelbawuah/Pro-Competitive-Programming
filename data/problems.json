@@ -12618,5 +12618,20 @@
     "space": "O(n^2)",
     "hint": "The combination table is stored in its lower triangle.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc372_a",
+    "title": "delete .",
+    "url": "https://atcoder.jp/contests/abc372/tasks/abc372_a",
+    "solution": "solutions/atcoder/implementation/abc372_a_delete.cpp",
+    "notes": "notes/atcoder/abc372_a_delete.md",
+    "tests": "tests/cases/atcoder-abc372_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Copy exactly the non-period characters in their original order.",
+    "checker": "tokens"
   }
 ]
