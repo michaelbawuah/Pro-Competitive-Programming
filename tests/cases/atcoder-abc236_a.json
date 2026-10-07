@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "chokudai\r\n3 5\n",
+    "output": "chukodai\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "aa\r\n1 2\n",
+    "output": "aa\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "aaaabbbb\r\n1 8\n",
+    "output": "baaabbba\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "ab\n1 2\n",
+    "output": "ba\n"
+  }
+]
