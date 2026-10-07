@@ -1743,5 +1743,20 @@
     "space": "O(1)",
     "hint": "A room can accommodate both friends exactly when capacity minus occupancy is at least two.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1030A",
+    "title": "In Search of an Easy Problem",
+    "url": "https://codeforces.com/problemset/problem/1030/A",
+    "solution": "solutions/codeforces/implementation/1030A_in_search_of_an_easy_problem.cpp",
+    "notes": "notes/codeforces/1030A_in_search_of_an_easy_problem.md",
+    "tests": "tests/cases/codeforces-1030A.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "The decision is the logical OR of all opinions.",
+    "checker": "tokens"
   }
 ]
