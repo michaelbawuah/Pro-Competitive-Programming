@@ -10848,5 +10848,20 @@
     "space": "O(NM)",
     "hint": "Compare every ordered product pair.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc311_a",
+    "title": "First ABC",
+    "url": "https://atcoder.jp/contests/abc311/tasks/abc311_a",
+    "solution": "solutions/atcoder/implementation/abc311_a_first_abc.cpp",
+    "notes": "notes/atcoder/abc311_a_first_abc.md",
+    "tests": "tests/cases/atcoder-abc311_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Represent the three seen letters with three bits.",
+    "checker": "tokens"
   }
 ]
