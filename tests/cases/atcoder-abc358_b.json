@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3 4\r\n0 2 10\n",
+    "output": "4\r\n8\r\n14\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3 3\r\n1 4 7\n",
+    "output": "4\r\n7\r\n10\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "10 50000\r\n120190 165111 196897 456895 540000 552614 561627 743796 757613 991216\n",
+    "output": "170190\r\n220190\r\n270190\r\n506895\r\n590000\r\n640000\r\n690000\r\n793796\r\n843796\r\n1041216\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1 1\n0\n",
+    "output": "1\n"
+  }
+]
