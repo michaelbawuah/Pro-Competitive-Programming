@@ -1,0 +1,17 @@
+[
+  {
+    "name": "sample",
+    "input": "12\n",
+    "output": "3\n"
+  },
+  {
+    "name": "exact",
+    "input": "10\n",
+    "output": "2\n"
+  },
+  {
+    "name": "short",
+    "input": "1\n",
+    "output": "1\n"
+  }
+]

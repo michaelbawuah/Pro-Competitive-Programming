@@ -1,0 +1,17 @@
+[
+  {
+    "name": "lower-majority",
+    "input": "HoUse\n",
+    "output": "house\n"
+  },
+  {
+    "name": "upper-majority",
+    "input": "ViP\n",
+    "output": "VIP\n"
+  },
+  {
+    "name": "tie",
+    "input": "maTRIx\n",
+    "output": "matrix\n"
+  }
+]

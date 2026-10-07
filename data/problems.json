@@ -1429,5 +1429,85 @@
     "space": "O(n)",
     "hint": "Separate the digits from the separators, sort, then rebuild the expression.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-281A",
+    "title": "Word Capitalization",
+    "url": "https://codeforces.com/problemset/problem/281/A",
+    "solution": "solutions/codeforces/strings/281A_word_capitalization.cpp",
+    "notes": "notes/codeforces/281A_word_capitalization.md",
+    "tests": "tests/cases/codeforces-281A.json",
+    "tags": [
+      "strings",
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Only the first character needs a case conversion.",
+    "checker": "tokens"
+  },
+  {
+    "id": "codeforces-59A",
+    "title": "Word",
+    "url": "https://codeforces.com/problemset/problem/59/A",
+    "solution": "solutions/codeforces/strings/59A_word.cpp",
+    "notes": "notes/codeforces/59A_word.md",
+    "tests": "tests/cases/codeforces-59A.json",
+    "tags": [
+      "strings",
+      "counting"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Compare how many edits would be needed for an all-uppercase or all-lowercase word.",
+    "checker": "tokens"
+  },
+  {
+    "id": "codeforces-546A",
+    "title": "Soldier and Bananas",
+    "url": "https://codeforces.com/problemset/problem/546/A",
+    "solution": "solutions/codeforces/mathematics/546A_soldier_and_bananas.cpp",
+    "notes": "notes/codeforces/546A_soldier_and_bananas.md",
+    "tests": "tests/cases/codeforces-546A.json",
+    "tags": [
+      "mathematics",
+      "arithmetic-series"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The prices form a multiple of 1+2+...+w.",
+    "checker": "tokens"
+  },
+  {
+    "id": "codeforces-977A",
+    "title": "Wrong Subtraction",
+    "url": "https://codeforces.com/problemset/problem/977/A",
+    "solution": "solutions/codeforces/implementation/977A_wrong_subtraction.cpp",
+    "notes": "notes/codeforces/977A_wrong_subtraction.md",
+    "tests": "tests/cases/codeforces-977A.json",
+    "tags": [
+      "implementation",
+      "digits"
+    ],
+    "time": "O(k)",
+    "space": "O(1)",
+    "hint": "Apply the stated rule to the current last digit at every step.",
+    "checker": "tokens"
+  },
+  {
+    "id": "codeforces-617A",
+    "title": "Elephant",
+    "url": "https://codeforces.com/problemset/problem/617/A",
+    "solution": "solutions/codeforces/mathematics/617A_elephant.cpp",
+    "notes": "notes/codeforces/617A_elephant.md",
+    "tests": "tests/cases/codeforces-617A.json",
+    "tags": [
+      "mathematics",
+      "greedy"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each step advances at most five positions.",
+    "checker": "tokens"
   }
 ]

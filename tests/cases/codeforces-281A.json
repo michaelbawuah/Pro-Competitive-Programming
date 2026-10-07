@@ -1,0 +1,17 @@
+[
+  {
+    "name": "mixed",
+    "input": "aPpLe\n",
+    "output": "APpLe\n"
+  },
+  {
+    "name": "already-capitalized",
+    "input": "Konjac\n",
+    "output": "Konjac\n"
+  },
+  {
+    "name": "single",
+    "input": "z\n",
+    "output": "Z\n"
+  }
+]
