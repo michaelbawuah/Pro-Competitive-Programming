@@ -3273,5 +3273,20 @@
     "space": "O(1)",
     "hint": "The Manhattan distance is the minimum number of moves.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc104_c",
+    "title": "All Green",
+    "url": "https://atcoder.jp/contests/abc104/tasks/abc104_c",
+    "solution": "solutions/atcoder/bitmasks/abc104_c_all_green.cpp",
+    "notes": "notes/atcoder/abc104_c_all_green.md",
+    "tests": "tests/cases/atcoder-abc104_c.json",
+    "tags": [
+      "bitmasks"
+    ],
+    "time": "O(D 2^D)",
+    "space": "O(D)",
+    "hint": "Enumerate which groups earn completion bonuses.",
+    "checker": "tokens"
   }
 ]
