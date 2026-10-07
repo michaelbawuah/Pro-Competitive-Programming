@@ -8838,5 +8838,20 @@
     "space": "O(n)",
     "hint": "Compare every pair of positions across the sequences.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc244_a",
+    "title": "Last Letter",
+    "url": "https://atcoder.jp/contests/abc244/tasks/abc244_a",
+    "solution": "solutions/atcoder/implementation/abc244_a_last_letter.cpp",
+    "notes": "notes/atcoder/abc244_a_last_letter.md",
+    "tests": "tests/cases/atcoder-abc244_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The input guarantees a nonempty string.",
+    "checker": "tokens"
   }
 ]
