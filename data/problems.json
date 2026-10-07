@@ -12543,5 +12543,20 @@
     "space": "O(n)",
     "hint": "The new top is the first of the original final K cards.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc368_b",
+    "title": "Decrease 2 max elements",
+    "url": "https://atcoder.jp/contests/abc368/tasks/abc368_b",
+    "solution": "solutions/atcoder/implementation/abc368_b_decrease_2_max_elements.cpp",
+    "notes": "notes/atcoder/abc368_b_decrease_2_max_elements.md",
+    "tests": "tests/cases/atcoder-abc368_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O((N+sum A) log N)",
+    "space": "O(N)",
+    "hint": "A max-heap provides the same largest two values as sorting on every iteration.",
+    "checker": "tokens"
   }
 ]
