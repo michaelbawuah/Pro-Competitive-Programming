@@ -3333,5 +3333,20 @@
     "space": "O(1)",
     "hint": "Enumerate the number of paired AB pizzas.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc098_c",
+    "title": "Attention",
+    "url": "https://atcoder.jp/contests/abc098/tasks/arc098_a",
+    "solution": "solutions/atcoder/prefix_sums/abc098_c_attention.cpp",
+    "notes": "notes/atcoder/abc098_c_attention.md",
+    "tests": "tests/cases/atcoder-abc098_c.json",
+    "tags": [
+      "prefix_sums"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "For a chosen leader, west-facing people on the left and east-facing people on the right must turn.",
+    "checker": "tokens"
   }
 ]
