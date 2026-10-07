@@ -7998,5 +7998,20 @@
     "space": "O(1)",
     "hint": "Repeated halving counts how many powers of two fit below N.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc216_a",
+    "title": "Signed Difficulty",
+    "url": "https://atcoder.jp/contests/abc216/tasks/abc216_a",
+    "solution": "solutions/atcoder/implementation/abc216_a_signed_difficulty.cpp",
+    "notes": "notes/atcoder/abc216_a_signed_difficulty.md",
+    "tests": "tests/cases/atcoder-abc216_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Parse the single decimal digit separately and apply its three disjoint suffix ranges without rounding the number..",
+    "checker": "tokens"
   }
 ]
