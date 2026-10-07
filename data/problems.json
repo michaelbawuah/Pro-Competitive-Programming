@@ -2868,5 +2868,20 @@
     "space": "O(1)",
     "hint": "Group the jumps into blocks of four: their signed displacements cancel and restore the original parity.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1619A",
+    "title": "Square String?",
+    "url": "https://codeforces.com/problemset/problem/1619/A",
+    "solution": "solutions/codeforces/strings/1619A_square_string.cpp",
+    "notes": "notes/codeforces/1619A_square_string.md",
+    "tests": "tests/cases/codeforces-1619A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n) per case",
+    "space": "O(n)",
+    "hint": "A doubled string must have even length and two identical halves.",
+    "checker": "yes_no"
   }
 ]
