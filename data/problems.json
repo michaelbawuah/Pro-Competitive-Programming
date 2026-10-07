@@ -8898,5 +8898,20 @@
     "space": "O(2001)",
     "hint": "Mark every present value, then scan from zero for the first unmarked value.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc246_a",
+    "title": "Four Points",
+    "url": "https://atcoder.jp/contests/abc246/tasks/abc246_a",
+    "solution": "solutions/atcoder/implementation/abc246_a_four_points.cpp",
+    "notes": "notes/atcoder/abc246_a_four_points.md",
+    "tests": "tests/cases/atcoder-abc246_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each of the rectangle two x-coordinates and two y-coordinates occurs twice.",
+    "checker": "tokens"
   }
 ]
