@@ -11643,5 +11643,20 @@
     "space": "O(n)",
     "hint": "Validate the first character against uppercase letters and every subsequent character against lowercase letters.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc338_b",
+    "title": "Frequency",
+    "url": "https://atcoder.jp/contests/abc338/tasks/abc338_b",
+    "solution": "solutions/atcoder/implementation/abc338_b_frequency.cpp",
+    "notes": "notes/atcoder/abc338_b_frequency.md",
+    "tests": "tests/cases/atcoder-abc338_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Count all letter frequencies, then scan letters in alphabetical order.",
+    "checker": "tokens"
   }
 ]

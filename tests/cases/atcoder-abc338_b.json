@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "frequency\n",
+    "output": "e\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "atcoder\n",
+    "output": "a\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "pseudopseudohypoparathyroidism\n",
+    "output": "o\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "ba\n",
+    "output": "a\n"
+  }
+]
