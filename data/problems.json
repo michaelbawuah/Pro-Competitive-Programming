@@ -5013,5 +5013,20 @@
     "space": "O(1)",
     "hint": "All regular prices contribute to the total, and discounting the largest item subtracts half that price.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc116_a",
+    "title": "Right Triangle",
+    "url": "https://atcoder.jp/contests/abc116/tasks/abc116_a",
+    "solution": "solutions/atcoder/implementation/abc116_a_right_triangle.cpp",
+    "notes": "notes/atcoder/abc116_a_right_triangle.md",
+    "tests": "tests/cases/atcoder-abc116_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The first two sides meet at the right angle, so their product is twice the triangle area..",
+    "checker": "tokens"
   }
 ]
