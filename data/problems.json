@@ -4143,5 +4143,20 @@
     "space": "O(n)",
     "hint": "A special move saves exactly the chosen monster health in attacks.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc154_c",
+    "title": "Distinct or Not",
+    "url": "https://atcoder.jp/contests/abc154/tasks/abc154_c",
+    "solution": "solutions/atcoder/implementation/abc154_c_distinct_or_not.cpp",
+    "notes": "notes/atcoder/abc154_c_distinct_or_not.md",
+    "tests": "tests/cases/atcoder-abc154_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Sorting makes every duplicate pair adjacent.",
+    "checker": "tokens"
   }
 ]
