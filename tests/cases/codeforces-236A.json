@@ -1,0 +1,27 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "wjmzbmr\n",
+    "output": "CHAT WITH HER!\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "xiaodao\n",
+    "output": "IGNORE HIM!\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "sevenkplus\n",
+    "output": "CHAT WITH HER!\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a\n",
+    "output": "IGNORE HIM!\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "abab\n",
+    "output": "CHAT WITH HER!\n"
+  }
+]

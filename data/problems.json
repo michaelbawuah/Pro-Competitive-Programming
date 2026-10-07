@@ -1623,5 +1623,20 @@
     "space": "O(n + K)",
     "hint": "A position is winning if some move hands the opponent a losing position.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-236A",
+    "title": "Boy or Girl",
+    "url": "https://codeforces.com/problemset/problem/236/A",
+    "solution": "solutions/codeforces/strings/236A_boy_or_girl.cpp",
+    "notes": "notes/codeforces/236A_boy_or_girl.md",
+    "tests": "tests/cases/codeforces-236A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Count distinct letters, then apply the parity rule specified by the problem.",
+    "checker": "tokens"
   }
 ]
