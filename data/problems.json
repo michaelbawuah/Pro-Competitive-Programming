@@ -9618,5 +9618,20 @@
     "space": "O(1)",
     "hint": "The filled rectangle is nonempty.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc270_a",
+    "title": "1-2-4 Test",
+    "url": "https://atcoder.jp/contests/abc270/tasks/abc270_a",
+    "solution": "solutions/atcoder/implementation/abc270_a_1_2_4_test.cpp",
+    "notes": "notes/atcoder/abc270_a_1_2_4_test.md",
+    "tests": "tests/cases/atcoder-abc270_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The three problem scores are distinct powers of two, so each bit records whether that problem was solved.",
+    "checker": "tokens"
   }
 ]
