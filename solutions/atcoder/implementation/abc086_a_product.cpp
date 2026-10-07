@@ -5,12 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int a,b; std::cin>>a>>b; std::cout<<((a%2==0||b%2==0)?"Even":"Odd")<<'\n';
+    int a,b;
+    std::cin>>a>>b;
+    std::cout<<((a%2==0||b%2==0)?"Even":"Odd")<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

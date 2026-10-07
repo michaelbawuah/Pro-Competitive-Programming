@@ -5,12 +5,18 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,m;std::cin>>n>>m;int lo=1,hi=n;while(m--){int l,r;std::cin>>l>>r;lo=std::max(lo,l);hi=std::min(hi,r);}std::cout<<std::max(0,hi-lo+1)<<'\n';
+    int n,m;
+    std::cin>>n>>m;
+    int lo=1,hi=n;
+    while(m--) {
+        int l,r;
+        std::cin>>l>>r;
+        lo=std::max(lo,l);
+        hi=std::min(hi,r);
+    }
+    std::cout<<std::max(0,hi-lo+1)<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);

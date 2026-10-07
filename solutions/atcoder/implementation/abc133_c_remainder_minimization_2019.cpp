@@ -5,12 +5,14 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long l,r;std::cin>>l>>r;int ans=2019;if(r-l>=2019)ans=0;else for(long long i=l;i<r;++i)for(long long j=i+1;j<=r;++j)ans=std::min(ans,static_cast<int>((i%2019)*(j%2019)%2019));std::cout<<ans<<'\n';
+    long long l,r;
+    std::cin>>l>>r;
+    int ans=2019;
+    if(r-l>=2019)ans=0;
+    else for(long long i=l;i<r;++i)for(long long j=i+1;j<=r;++j)ans=std::min(ans,static_cast<int>((i%2019)*(j%2019)%2019));
+    std::cout<<ans<<'\n';
 }
-
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
