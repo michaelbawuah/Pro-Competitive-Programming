@@ -13,7 +13,7 @@ public:
         assert(n >= 0);
         tree_.assign(static_cast<std::size_t>(n) + 1, T{});
     }
-    int size() const { return static_cast<int>(tree_.size()) - 1; }
+    int size() const { return static_cast<int>(tree_.size() - 1); }
     void add(int index, T delta) {
         assert(index >= 0 && index < size());
         for (std::size_t i = static_cast<std::size_t>(index) + 1; i < tree_.size(); i += i & (~i + 1)) {
