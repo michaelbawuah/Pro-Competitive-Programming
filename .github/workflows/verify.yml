@@ -42,3 +42,5 @@ jobs:
       - name: Compare optimized algorithms with brute force
         if: matrix.os == 'ubuntu-latest'
         run: python3 tools/cp.py stress --cases 100 --seed 2110
+      - name: Verify constraint-limit regressions
+        run: python3 tools/boundary.py
