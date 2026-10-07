@@ -2538,5 +2538,20 @@
     "space": "O(n)",
     "hint": "For each next letter, choose the shorter clockwise or counterclockwise distance on the 26-letter circle.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1409A",
+    "title": "Yet Another Two Integers Problem",
+    "url": "https://codeforces.com/problemset/problem/1409/A",
+    "solution": "solutions/codeforces/mathematics/1409A_yet_another_two_integers_problem.cpp",
+    "notes": "notes/codeforces/1409A_yet_another_two_integers_problem.md",
+    "tests": "tests/cases/codeforces-1409A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Each move closes the distance by at most ten, giving a ceiling-division lower bound.",
+    "checker": "tokens"
   }
 ]
