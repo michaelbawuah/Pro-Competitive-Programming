@@ -10,6 +10,7 @@ from pathlib import Path
 import shlex
 import subprocess
 import sys
+from checkers import CHECKERS
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -53,6 +54,11 @@ def validate(problem, case, actual):
     expected = case['output'].split()
     tokens = actual.split()
     checker = problem.get('checker', 'tokens')
+    if checker in CHECKERS:
+        try:
+            return CHECKERS[checker](case, actual)
+        except (ValueError, IndexError, KeyError):
+            return False
     if checker == 'tokens' or expected == ['IMPOSSIBLE']:
         return tokens == expected
     if tokens == ['IMPOSSIBLE']:
