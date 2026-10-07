@@ -4818,5 +4818,20 @@
     "space": "O(1)",
     "hint": "The first and last positions add to N+1, so reversing the direction maps i to N-i+1..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc107_b",
+    "title": "Grid Compression",
+    "url": "https://atcoder.jp/contests/abc107/tasks/abc107_b",
+    "solution": "solutions/atcoder/implementation/abc107_b_grid_compression.cpp",
+    "notes": "notes/atcoder/abc107_b_grid_compression.md",
+    "tests": "tests/cases/atcoder-abc107_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(H W)",
+    "space": "O(H W)",
+    "hint": "Every black cell must remain, so retain exactly the rows and columns containing one.",
+    "checker": "tokens"
   }
 ]
