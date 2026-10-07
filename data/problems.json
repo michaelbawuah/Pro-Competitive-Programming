@@ -10203,5 +10203,20 @@
     "space": "O(n)",
     "hint": "Replace every bit independently by the other bit.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc289_b",
+    "title": "V",
+    "url": "https://atcoder.jp/contests/abc289/tasks/abc289_b",
+    "solution": "solutions/atcoder/implementation/abc289_b_v.cpp",
+    "notes": "notes/atcoder/abc289_b_v.md",
+    "tests": "tests/cases/atcoder-abc289_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Edges connect only consecutive integers, so each component is a contiguous block joined by consecutive marks.",
+    "checker": "tokens"
   }
 ]
