@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3200\r\npink\n",
+    "output": "pink\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3199\r\npink\n",
+    "output": "red\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "4049\r\nred\n",
+    "output": "red\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "3200\nblue\n",
+    "output": "blue\n"
+  }
+]
