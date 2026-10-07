@@ -7653,5 +7653,20 @@
     "space": "O(1)",
     "hint": "A three-player draw has all hands equal or all three different.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc204_b",
+    "title": "Nuts",
+    "url": "https://atcoder.jp/contests/abc204/tasks/abc204_b",
+    "solution": "solutions/atcoder/implementation/abc204_b_nuts.cpp",
+    "notes": "notes/atcoder/abc204_b_nuts.md",
+    "tests": "tests/cases/atcoder-abc204_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Each tree contributes only its excess over ten nuts; nonpositive excess contributes zero..",
+    "checker": "tokens"
   }
 ]
