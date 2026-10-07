@@ -9753,5 +9753,20 @@
     "space": "O(1)",
     "hint": "Compute the nearest integer to 1000B/A using integer arithmetic with half-up rounding.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc274_b",
+    "title": "Line Sensor",
+    "url": "https://atcoder.jp/contests/abc274/tasks/abc274_b",
+    "solution": "solutions/atcoder/implementation/abc274_b_line_sensor.cpp",
+    "notes": "notes/atcoder/abc274_b_line_sensor.md",
+    "tests": "tests/cases/atcoder-abc274_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(HW)",
+    "space": "O(W)",
+    "hint": "Each box contributes once to its own column.",
+    "checker": "tokens"
   }
 ]
