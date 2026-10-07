@@ -9033,5 +9033,20 @@
     "space": "O(1)",
     "hint": "Each of the four directions contributes one adjacent square exactly when moving that way remains inside the grid..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc250_b",
+    "title": "Enlarged Checker Board",
+    "url": "https://atcoder.jp/contests/abc250/tasks/abc250_b",
+    "solution": "solutions/atcoder/implementation/abc250_b_enlarged_checker_board.cpp",
+    "notes": "notes/atcoder/abc250_b_enlarged_checker_board.md",
+    "tests": "tests/cases/atcoder-abc250_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N^2 AB)",
+    "space": "O(1)",
+    "hint": "Integer division maps each cell to its tile row and column.",
+    "checker": "tokens"
   }
 ]
