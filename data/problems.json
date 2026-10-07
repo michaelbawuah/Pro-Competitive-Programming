@@ -3993,5 +3993,20 @@
     "space": "O(n)",
     "hint": "The given count is precisely the arrival rank.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc143_c",
+    "title": "Slimes",
+    "url": "https://atcoder.jp/contests/abc143/tasks/abc143_c",
+    "solution": "solutions/atcoder/implementation/abc143_c_slimes.cpp",
+    "notes": "notes/atcoder/abc143_c_slimes.md",
+    "tests": "tests/cases/atcoder-abc143_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Each maximal run of one color fuses into one slime.",
+    "checker": "tokens"
   }
 ]
