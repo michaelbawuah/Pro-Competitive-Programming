@@ -10923,5 +10923,20 @@
     "space": "O(1)",
     "hint": "Each opponent requires at least their score minus the first score plus one additional point.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc313_b",
+    "title": "Who is Saikyo?",
+    "url": "https://atcoder.jp/contests/abc313/tasks/abc313_b",
+    "solution": "solutions/atcoder/implementation/abc313_b_who_is_saikyo.cpp",
+    "notes": "notes/atcoder/abc313_b_who_is_saikyo.md",
+    "tests": "tests/cases/atcoder-abc313_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N+M)",
+    "space": "O(N)",
+    "hint": "The information forms a DAG because it is consistent with a strict total order.",
+    "checker": "tokens"
   }
 ]
