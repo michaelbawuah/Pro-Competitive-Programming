@@ -3003,5 +3003,20 @@
     "space": "O(n)",
     "hint": "Removing candies cannot raise the smallest pile, so the final common size is at most the current minimum.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1676C",
+    "title": "Most Similar Words",
+    "url": "https://codeforces.com/problemset/problem/1676/C",
+    "solution": "solutions/codeforces/enumeration/1676C_most_similar_words.cpp",
+    "notes": "notes/codeforces/1676C_most_similar_words.md",
+    "tests": "tests/cases/codeforces-1676C.json",
+    "tags": [
+      "enumeration"
+    ],
+    "time": "O(n^2 m) per case",
+    "space": "O(n m)",
+    "hint": "Enumerate every unordered pair of words and sum per-position alphabet distances.",
+    "checker": "tokens"
   }
 ]
