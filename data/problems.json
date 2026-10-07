@@ -6678,5 +6678,20 @@
     "space": "O(n)",
     "hint": "Replacing any selected expensive fruit by an unselected cheaper one cannot increase cost.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc172_a",
+    "title": "Calc",
+    "url": "https://atcoder.jp/contests/abc172/tasks/abc172_a",
+    "solution": "solutions/atcoder/implementation/abc172_a_calc.cpp",
+    "notes": "notes/atcoder/abc172_a_calc.md",
+    "tests": "tests/cases/atcoder-abc172_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Evaluate each of the three powers and add them; the small input bound keeps the result integral and exact..",
+    "checker": "tokens"
   }
 ]
