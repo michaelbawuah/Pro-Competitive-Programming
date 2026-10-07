@@ -6738,5 +6738,20 @@
     "space": "O(1)",
     "hint": "Count verdicts by category and emit the four categories in the prescribed order, including categories with zero occurrences..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc174_a",
+    "title": "Air Conditioner",
+    "url": "https://atcoder.jp/contests/abc174/tasks/abc174_a",
+    "solution": "solutions/atcoder/implementation/abc174_a_air_conditioner.cpp",
+    "notes": "notes/atcoder/abc174_a_air_conditioner.md",
+    "tests": "tests/cases/atcoder-abc174_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The air-conditioner threshold includes thirty degrees..",
+    "checker": "tokens"
   }
 ]
