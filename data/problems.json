@@ -3603,5 +3603,20 @@
     "space": "O(n)",
     "hint": "Sort heights.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc116_c",
+    "title": "Grand Garden",
+    "url": "https://atcoder.jp/contests/abc116/tasks/abc116_c",
+    "solution": "solutions/atcoder/greedy/abc116_c_grand_garden.cpp",
+    "notes": "notes/atcoder/abc116_c_grand_garden.md",
+    "tests": "tests/cases/atcoder-abc116_c.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "At every rise, at least the height difference of new watering intervals must start.",
+    "checker": "tokens"
   }
 ]
