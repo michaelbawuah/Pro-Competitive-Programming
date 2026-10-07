@@ -7188,5 +7188,20 @@
     "space": "O(n)",
     "hint": "Pair corresponding vector coordinates, sum their products, and compare the resulting inner product with zero..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc189_a",
+    "title": "Slot",
+    "url": "https://atcoder.jp/contests/abc189/tasks/abc189_a",
+    "solution": "solutions/atcoder/implementation/abc189_a_slot.cpp",
+    "notes": "notes/atcoder/abc189_a_slot.md",
+    "tests": "tests/cases/atcoder-abc189_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Three equal symbols require equality of both adjacent pairs..",
+    "checker": "tokens"
   }
 ]

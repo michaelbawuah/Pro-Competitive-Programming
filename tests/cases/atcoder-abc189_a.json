@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "SSS\n",
+    "output": "Won\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "WVW\n",
+    "output": "Lost\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "AAA\n",
+    "output": "Won\n"
+  }
+]
