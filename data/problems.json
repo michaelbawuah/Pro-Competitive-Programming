@@ -3108,5 +3108,20 @@
     "space": "O(n)",
     "hint": "Every solve earns one balloon and the first solve of each distinct problem earns one extra.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1703C",
+    "title": "Cypher",
+    "url": "https://codeforces.com/problemset/problem/1703/C",
+    "solution": "solutions/codeforces/simulation/1703C_cypher.cpp",
+    "notes": "notes/codeforces/1703C_cypher.md",
+    "tests": "tests/cases/codeforces-1703C.json",
+    "tags": [
+      "simulation"
+    ],
+    "time": "O(total moves) per case",
+    "space": "O(n)",
+    "hint": "Apply each wheel movement modulo ten.",
+    "checker": "tokens"
   }
 ]
