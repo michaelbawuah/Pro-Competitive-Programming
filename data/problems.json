@@ -11178,5 +11178,20 @@
     "space": "O(N+M)",
     "hint": "Compare the length-N prefix and suffix independently.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc323_a",
+    "title": "Weak Beats",
+    "url": "https://atcoder.jp/contests/abc323/tasks/abc323_a",
+    "solution": "solutions/atcoder/implementation/abc323_a_weak_beats.cpp",
+    "notes": "notes/atcoder/abc323_a_weak_beats.md",
+    "tests": "tests/cases/atcoder-abc323_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Even one-based positions correspond to odd zero-based indices.",
+    "checker": "tokens"
   }
 ]
