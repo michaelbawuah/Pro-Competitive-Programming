@@ -8553,5 +8553,20 @@
     "space": "O(1)",
     "hint": "Define the given polynomial once and preserve the exact nesting of its calls.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc234_b",
+    "title": "Longest Segment",
+    "url": "https://atcoder.jp/contests/abc234/tasks/abc234_b",
+    "solution": "solutions/atcoder/implementation/abc234_b_longest_segment.cpp",
+    "notes": "notes/atcoder/abc234_b_longest_segment.md",
+    "tests": "tests/cases/atcoder-abc234_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Compare all unordered pairs using squared Euclidean distance.",
+    "checker": "floating"
   }
 ]
