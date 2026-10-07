@@ -9168,5 +9168,20 @@
     "space": "O(n)",
     "hint": "Build Pascal rows from left and right parent entries while fixing both boundary entries to one.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc255_a",
+    "title": "You should output ARC, though this is ABC.",
+    "url": "https://atcoder.jp/contests/abc255/tasks/abc255_a",
+    "solution": "solutions/atcoder/implementation/abc255_a_you_should_output_arc_though_this_is_abc.cpp",
+    "notes": "notes/atcoder/abc255_a_you_should_output_arc_though_this_is_abc.md",
+    "tests": "tests/cases/atcoder-abc255_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Read the matrix in row-major order, then convert the requested one-based row and column to zero-based array indices..",
+    "checker": "tokens"
   }
 ]
