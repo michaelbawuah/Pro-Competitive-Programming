@@ -7143,5 +7143,20 @@
     "space": "O(1)",
     "hint": "Compute each decimal digit sum independently and select the larger sum..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc187_b",
+    "title": "Gentle Pairs",
+    "url": "https://atcoder.jp/contests/abc187/tasks/abc187_b",
+    "solution": "solutions/atcoder/implementation/abc187_b_gentle_pairs.cpp",
+    "notes": "notes/atcoder/abc187_b_gentle_pairs.md",
+    "tests": "tests/cases/atcoder-abc187_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Because horizontal coordinates differ, a slope between minus one and one is equivalent to absolute vertical change at most absolute horizontal change.",
+    "checker": "tokens"
   }
 ]
