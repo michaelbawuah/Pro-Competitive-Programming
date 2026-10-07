@@ -9303,5 +9303,20 @@
     "space": "O(1)",
     "hint": "All growth has finished by age X.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc259_b",
+    "title": "Counterclockwise Rotation",
+    "url": "https://atcoder.jp/contests/abc259/tasks/abc259_b",
+    "solution": "solutions/atcoder/implementation/abc259_b_counterclockwise_rotation.cpp",
+    "notes": "notes/atcoder/abc259_b_counterclockwise_rotation.md",
+    "tests": "tests/cases/atcoder-abc259_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Convert degrees to radians and apply the counterclockwise rotation matrix.",
+    "checker": "floating_vector"
   }
 ]
