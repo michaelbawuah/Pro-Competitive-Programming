@@ -10233,5 +10233,20 @@
     "space": "O(N)",
     "hint": "Store each problem value and add the values indexed by the distinct solved problem numbers.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc290_b",
+    "title": "Qual B",
+    "url": "https://atcoder.jp/contests/abc290/tasks/abc290_b",
+    "solution": "solutions/atcoder/implementation/abc290_b_qual_b.cpp",
+    "notes": "notes/atcoder/abc290_b_qual_b.md",
+    "tests": "tests/cases/atcoder-abc290_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Scan contestants in rank order.",
+    "checker": "tokens"
   }
 ]
