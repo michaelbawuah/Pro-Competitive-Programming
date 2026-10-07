@@ -11778,5 +11778,20 @@
     "space": "O(N)",
     "hint": "Invert the permutation so every person number maps to its position.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc343_a",
+    "title": "Wrong Answer",
+    "url": "https://atcoder.jp/contests/abc343/tasks/abc343_a",
+    "solution": "solutions/atcoder/implementation/abc343_a_wrong_answer.cpp",
+    "notes": "notes/atcoder/abc343_a_wrong_answer.md",
+    "tests": "tests/cases/atcoder-abc343_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The sum is a digit from zero through nine.",
+    "checker": "not_sum"
   }
 ]
