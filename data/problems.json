@@ -4023,5 +4023,20 @@
     "space": "O(1)",
     "hint": "A square containing N corresponds to a factor pair (d,N/d).",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc146_c",
+    "title": "Buy an Integer",
+    "url": "https://atcoder.jp/contests/abc146/tasks/abc146_c",
+    "solution": "solutions/atcoder/binary_search/abc146_c_buy_an_integer.cpp",
+    "notes": "notes/atcoder/abc146_c_buy_an_integer.md",
+    "tests": "tests/cases/atcoder-abc146_c.json",
+    "tags": [
+      "binary_search"
+    ],
+    "time": "O(log(10^9) log(10^9))",
+    "space": "O(log(10^9))",
+    "hint": "Price never decreases as the integer increases.",
+    "checker": "tokens"
   }
 ]
