@@ -2448,5 +2448,20 @@
     "space": "O(n)",
     "hint": "Sort strengths and split between adjacent values.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1353A",
+    "title": "Most Unstable Array",
+    "url": "https://codeforces.com/problemset/problem/1353/A",
+    "solution": "solutions/codeforces/mathematics/1353A_most_unstable_array.cpp",
+    "notes": "notes/codeforces/1353A_most_unstable_array.md",
+    "tests": "tests/cases/codeforces-1353A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Each internal element contributes at most twice its value to adjacent absolute differences, while endpoints contribute once.",
+    "checker": "tokens"
   }
 ]
