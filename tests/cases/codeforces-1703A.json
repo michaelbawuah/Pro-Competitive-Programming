@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "10\nYES\nyES\nyes\nYes\nYeS\nNoo\norZ\nyEz\nYas\nXES\n",
+    "output": "YES\nYES\nYES\nYES\nYES\nNO\nNO\nNO\nNO\nNO\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\nyEs\nnoo\n",
+    "output": "YES\nNO\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "1\nsey\n",
+    "output": "NO\n"
+  }
+]

@@ -3078,5 +3078,20 @@
     "space": "O(1)",
     "hint": "The bishop is the intersection of the two marked diagonals.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1703A",
+    "title": "YES or YES?",
+    "url": "https://codeforces.com/problemset/problem/1703/A",
+    "solution": "solutions/codeforces/strings/1703A_yes_or_yes.cpp",
+    "notes": "notes/codeforces/1703A_yes_or_yes.md",
+    "tests": "tests/cases/codeforces-1703A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Normalize all letters to uppercase before comparing with YES.",
+    "checker": "yes_no"
   }
 ]
