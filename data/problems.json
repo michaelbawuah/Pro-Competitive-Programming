@@ -7578,5 +7578,20 @@
     "space": "O(n+total name length)",
     "hint": "Keep each name with its height, sort by decreasing height, and select the second entry.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc202_a",
+    "title": "Three Dice",
+    "url": "https://atcoder.jp/contests/abc202/tasks/abc202_a",
+    "solution": "solutions/atcoder/implementation/abc202_a_three_dice.cpp",
+    "notes": "notes/atcoder/abc202_a_three_dice.md",
+    "tests": "tests/cases/atcoder-abc202_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each opposite-face pair sums to seven, so the three bottom faces sum to twenty-one minus the three top faces..",
+    "checker": "tokens"
   }
 ]
