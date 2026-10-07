@@ -6393,5 +6393,20 @@
     "space": "O(1)",
     "hint": "Search the decimal representation for a seven; any matching position suffices..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc162_b",
+    "title": "FizzBuzz Sum",
+    "url": "https://atcoder.jp/contests/abc162/tasks/abc162_b",
+    "solution": "solutions/atcoder/implementation/abc162_b_fizzbuzz_sum.cpp",
+    "notes": "notes/atcoder/abc162_b_fizzbuzz_sum.md",
+    "tests": "tests/cases/atcoder-abc162_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Only indices divisible by neither three nor five remain numeric in FizzBuzz.",
+    "checker": "tokens"
   }
 ]
