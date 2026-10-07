@@ -17,7 +17,7 @@ Return the adjacent pair (F_k,F_{k+1}). Fast-doubling identities compute F_{2k}=
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+A generic lambda can recurse by receiving itself as an argument. Keep its return type explicit when deduction would otherwise depend on a recursive call.
 
 ## Watch for
 

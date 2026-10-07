@@ -17,7 +17,7 @@ Sorting a word produces a canonical representation of its character multiset. It
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+std::map stores keys in sorted order. Its operator[] creates a missing key with a zero-initialized value, useful for frequency counting.
 
 ## Watch for
 

@@ -17,7 +17,7 @@ Track wrong attempts only until the first acceptance. Add a problem penalty exac
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+std::string indexing is zero-based. Use a size-compatible loop bound and ensure a complete substring fits before reading adjacent characters.
 
 ## Watch for
 

@@ -17,7 +17,7 @@ Sorting makes every duplicate pair adjacent. The sequence is pairwise distinct e
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+std::sort rearranges a vector in place. Retain original indices before sorting when the output must preserve input order; use long long when accumulating costs.
 
 ## Watch for
 

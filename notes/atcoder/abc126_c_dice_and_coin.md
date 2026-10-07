@@ -17,7 +17,7 @@ Condition on the equally likely die result. Each required doubling needs one hea
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+std::set keeps one ordered copy of each key. insert returns both an iterator and a Boolean indicating whether the key was new.
 
 ## Watch for
 

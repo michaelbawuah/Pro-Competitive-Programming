@@ -17,7 +17,7 @@ Any visited interval includes a consecutive block of K candles. To cover its end
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Use long long before multiplying or accumulating large quantities. Assigning an already-overflowed int expression to long long does not repair it.
 
 ## Watch for
 

@@ -17,7 +17,7 @@ Sort heights. If a chosen set skips a height between its endpoints, replacing an
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+std::sort rearranges a vector in place. Retain original indices before sorting when the output must preserve input order; use long long when accumulating costs.
 
 ## Watch for
 

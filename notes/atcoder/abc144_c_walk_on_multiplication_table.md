@@ -17,7 +17,7 @@ A square containing N corresponds to a factor pair (d,N/d). Reaching it needs d-
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Use long long before multiplying or accumulating large quantities. Assigning an already-overflowed int expression to long long does not repair it.
 
 ## Watch for
 

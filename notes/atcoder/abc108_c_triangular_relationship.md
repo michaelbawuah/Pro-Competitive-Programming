@@ -17,7 +17,7 @@ Pair-sum congruences force all three residues equal and twice that residue divis
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Use long long before multiplying or accumulating large quantities. Assigning an already-overflowed int expression to long long does not repair it.
 
 ## Watch for
 

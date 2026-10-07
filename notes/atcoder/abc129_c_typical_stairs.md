@@ -17,7 +17,7 @@ A safe step can be reached from the previous step or from two steps below. Add t
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Initialize counters and container entries before scanning. A range-based loop with int& can read directly into a vector; a loop by value only copies each entry.
 
 ## Watch for
 

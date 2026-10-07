@@ -17,7 +17,7 @@ Precompute minima of every power-of-two interval. A query is covered by two inte
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+A bit mask encodes a small subset. Parenthesize shift-and-mask expressions, and verify the bit count fits the integer type before allocating 2^n states.
 
 ## Watch for
 

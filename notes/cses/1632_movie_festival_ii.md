@@ -17,7 +17,7 @@ Process movies by ending time to leave as much future availability as possible. 
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+A multiset retains duplicate values. Erase an iterator to remove one occurrence; erase(value) removes every equal occurrence.
 
 ## Watch for
 

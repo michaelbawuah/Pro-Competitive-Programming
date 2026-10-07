@@ -17,7 +17,7 @@ Every health remains a multiple of the initial gcd, giving a lower bound on a po
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+std::gcd is declared in <numeric>. Use long long for lcm products and accumulated totals even when each input fits in int.
 
 ## Watch for
 

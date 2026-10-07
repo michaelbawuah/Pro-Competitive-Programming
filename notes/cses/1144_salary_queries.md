@@ -17,7 +17,7 @@ Compress initial and future salary values while preserving order. A Fenwick tree
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+lower_bound finds the first value at least the key; upper_bound finds the first greater value. Convert iterator differences to indices before using them in prefix counts.
 
 ## Watch for
 
