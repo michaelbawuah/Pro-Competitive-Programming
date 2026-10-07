@@ -2898,5 +2898,20 @@
     "space": "O(n)",
     "hint": "The smallest element needs at least maximum-minus-minimum increments, and one operation can increment it at most once.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1624B",
+    "title": "Make AP",
+    "url": "https://codeforces.com/problemset/problem/1624/B",
+    "solution": "solutions/codeforces/mathematics/1624B_make_ap.cpp",
+    "notes": "notes/codeforces/1624B_make_ap.md",
+    "tests": "tests/cases/codeforces-1624B.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Choose which of the three terms to multiply.",
+    "checker": "yes_no"
   }
 ]
