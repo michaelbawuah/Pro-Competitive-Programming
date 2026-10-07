@@ -11433,5 +11433,20 @@
     "space": "O(1)",
     "hint": "Increment the day, carrying into the month when it exceeds the month length.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc331_b",
+    "title": "Buy One Carton of Milk",
+    "url": "https://atcoder.jp/contests/abc331/tasks/abc331_b",
+    "solution": "solutions/atcoder/implementation/abc331_b_buy_one_carton_of_milk.cpp",
+    "notes": "notes/atcoder/abc331_b_buy_one_carton_of_milk.md",
+    "tests": "tests/cases/atcoder-abc331_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N^3)",
+    "space": "O(1)",
+    "hint": "Enumerate pack counts up to the number of that pack type alone needed to reach N.",
+    "checker": "tokens"
   }
 ]
