@@ -5673,5 +5673,20 @@
     "space": "O(n)",
     "hint": "At the inclusive threshold 3200 the supplied color is used; lower ratings produce red..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc138_b",
+    "title": "Resistors in Parallel",
+    "url": "https://atcoder.jp/contests/abc138/tasks/abc138_b",
+    "solution": "solutions/atcoder/implementation/abc138_b_resistors_in_parallel.cpp",
+    "notes": "notes/atcoder/abc138_b_resistors_in_parallel.md",
+    "tests": "tests/cases/atcoder-abc138_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Accumulate reciprocals in floating point and invert their positive sum.",
+    "checker": "floating"
   }
 ]
