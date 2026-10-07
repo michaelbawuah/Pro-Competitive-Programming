@@ -8028,5 +8028,20 @@
     "space": "O(n L)",
     "hint": "Use the ordered pair of names as the identity key.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc217_a",
+    "title": "Lexicographic Order",
+    "url": "https://atcoder.jp/contests/abc217/tasks/abc217_a",
+    "solution": "solutions/atcoder/implementation/abc217_a_lexicographic_order.cpp",
+    "notes": "notes/atcoder/abc217_a_lexicographic_order.md",
+    "tests": "tests/cases/atcoder-abc217_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(|S|+|T|)",
+    "space": "O(|S|+|T|)",
+    "hint": "The standard string less-than operator implements lexicographic ordering, including the shorter-prefix rule..",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "abc atcoder\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "arc agc\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "a aa\n",
+    "output": "Yes\n"
+  }
+]
