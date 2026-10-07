@@ -8148,5 +8148,20 @@
     "space": "O(|A|+|B|)",
     "hint": "Decode each numeral by multiplying its accumulated prefix by K and adding the next digit.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc221_a",
+    "title": "Seismic magnitude scales",
+    "url": "https://atcoder.jp/contests/abc221/tasks/abc221_a",
+    "solution": "solutions/atcoder/implementation/abc221_a_seismic_magnitude_scales.cpp",
+    "notes": "notes/atcoder/abc221_a_seismic_magnitude_scales.md",
+    "tests": "tests/cases/atcoder-abc221_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(A-B)",
+    "space": "O(1)",
+    "hint": "Every unit of magnitude difference contributes a factor of thirty-two.",
+    "checker": "tokens"
   }
 ]
