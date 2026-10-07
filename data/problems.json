@@ -11853,5 +11853,20 @@
     "space": "O(n)",
     "hint": "Check the opening and closing arrowheads and require every interior character to be equals.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc345_b",
+    "title": "Integer Division Returns",
+    "url": "https://atcoder.jp/contests/abc345/tasks/abc345_b",
+    "solution": "solutions/atcoder/implementation/abc345_b_integer_division_returns.cpp",
+    "notes": "notes/atcoder/abc345_b_integer_division_returns.md",
+    "tests": "tests/cases/atcoder-abc345_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Truncation toward zero already equals ceiling for negative values.",
+    "checker": "tokens"
   }
 ]
