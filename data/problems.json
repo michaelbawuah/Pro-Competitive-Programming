@@ -7443,5 +7443,20 @@
     "space": "O(1)",
     "hint": "Print the suffix after the first character, followed by that first character..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc197_b",
+    "title": "Visibility",
+    "url": "https://atcoder.jp/contests/abc197/tasks/abc197_b",
+    "solution": "solutions/atcoder/implementation/abc197_b_visibility.cpp",
+    "notes": "notes/atcoder/abc197_b_visibility.md",
+    "tests": "tests/cases/atcoder-abc197_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(H W)",
+    "space": "O(H W)",
+    "hint": "Count the starting square once, then scan outward in each cardinal direction until an obstacle or grid boundary.",
+    "checker": "tokens"
   }
 ]
