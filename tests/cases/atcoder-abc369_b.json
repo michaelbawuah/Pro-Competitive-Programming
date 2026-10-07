@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "4\r\n3 L\r\n6 R\r\n9 L\r\n1 R\n",
+    "output": "11\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3\r\n2 L\r\n2 L\r\n100 L\n",
+    "output": "98\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "8\r\n22 L\r\n75 L\r\n26 R\r\n45 R\r\n72 R\r\n81 R\r\n47 L\r\n29 R\n",
+    "output": "188\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\n100 L\n",
+    "output": "0\n"
+  }
+]
