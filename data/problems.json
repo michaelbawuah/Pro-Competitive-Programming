@@ -8778,5 +8778,20 @@
     "space": "O(N)",
     "hint": "Count available noodles by length and consume one matching noodle for each requested meal.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc242_a",
+    "title": "T-shirt",
+    "url": "https://atcoder.jp/contests/abc242/tasks/abc242_a",
+    "solution": "solutions/atcoder/implementation/abc242_a_t_shirt.cpp",
+    "notes": "notes/atcoder/abc242_a_t_shirt.md",
+    "tests": "tests/cases/atcoder-abc242_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Ranks through A always win, ranks above B never win, and each of the B-A middle ranks has the same inclusion probability C/(B-A)..",
+    "checker": "probability"
   }
 ]
