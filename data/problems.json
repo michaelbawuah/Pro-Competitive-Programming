@@ -2943,5 +2943,20 @@
     "space": "O(1)",
     "hint": "Test rating thresholds from highest to lowest.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1669B",
+    "title": "Triple",
+    "url": "https://codeforces.com/problemset/problem/1669/B",
+    "solution": "solutions/codeforces/counting/1669B_triple.cpp",
+    "notes": "notes/codeforces/1669B_triple.md",
+    "tests": "tests/cases/codeforces-1669B.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(n) per case",
+    "space": "O(n)",
+    "hint": "Count occurrences of every value.",
+    "checker": "triple"
   }
 ]
