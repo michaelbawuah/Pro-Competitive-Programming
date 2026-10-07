@@ -9003,5 +9003,20 @@
     "space": "O(1)",
     "hint": "Count full walk-rest cycles and the walking portion of the final partial cycle for each runner.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc249_b",
+    "title": "Perfect String",
+    "url": "https://atcoder.jp/contests/abc249/tasks/abc249_b",
+    "solution": "solutions/atcoder/implementation/abc249_b_perfect_string.cpp",
+    "notes": "notes/atcoder/abc249_b_perfect_string.md",
+    "tests": "tests/cases/atcoder-abc249_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log 52)",
+    "space": "O(n)",
+    "hint": "Track the presence of both letter cases and count distinct characters.",
+    "checker": "tokens"
   }
 ]
