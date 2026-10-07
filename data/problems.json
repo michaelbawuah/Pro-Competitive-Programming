@@ -10293,5 +10293,20 @@
     "space": "O(n)",
     "hint": "Preserve each letter alphabet position while changing the alphabet base from lowercase a to uppercase A..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc292_b",
+    "title": "Yellow and Red Card",
+    "url": "https://atcoder.jp/contests/abc292/tasks/abc292_b",
+    "solution": "solutions/atcoder/implementation/abc292_b_yellow_and_red_card.cpp",
+    "notes": "notes/atcoder/abc292_b_yellow_and_red_card.md",
+    "tests": "tests/cases/atcoder-abc292_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N+Q)",
+    "space": "O(N)",
+    "hint": "Store a dismissal score: a yellow adds one and a red sets it to two.",
+    "checker": "tokens"
   }
 ]
