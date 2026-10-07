@@ -7098,5 +7098,20 @@
     "space": "O(1)",
     "hint": "Subtract charge used between cafe visits, checking strictly positive charge before recharging.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc186_a",
+    "title": "Brick",
+    "url": "https://atcoder.jp/contests/abc186/tasks/abc186_a",
+    "solution": "solutions/atcoder/implementation/abc186_a_brick.cpp",
+    "notes": "notes/atcoder/abc186_a_brick.md",
+    "tests": "tests/cases/atcoder-abc186_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Whole bricks fit according to floor capacity divided by individual weight; any additional brick would exceed capacity..",
+    "checker": "tokens"
   }
 ]
