@@ -8313,5 +8313,20 @@
     "space": "O(1)",
     "hint": "The first fractional digit determines round-half-up for a nonnegative decimal.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc226_b",
+    "title": "Counting Arrays",
+    "url": "https://atcoder.jp/contests/abc226/tasks/abc226_b",
+    "solution": "solutions/atcoder/implementation/abc226_b_counting_arrays.cpp",
+    "notes": "notes/atcoder/abc226_b_counting_arrays.md",
+    "tests": "tests/cases/atcoder-abc226_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(L log n), L = total input length",
+    "space": "O(L)",
+    "hint": "Store entire sequences as ordered-set keys.",
+    "checker": "tokens"
   }
 ]
