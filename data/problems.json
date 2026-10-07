@@ -10188,5 +10188,20 @@
     "space": "O(NL)",
     "hint": "Qualification is determined by the original first K positions.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc289_a",
+    "title": "flip",
+    "url": "https://atcoder.jp/contests/abc289/tasks/abc289_a",
+    "solution": "solutions/atcoder/implementation/abc289_a_flip.cpp",
+    "notes": "notes/atcoder/abc289_a_flip.md",
+    "tests": "tests/cases/atcoder-abc289_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Replace every bit independently by the other bit.",
+    "checker": "tokens"
   }
 ]
