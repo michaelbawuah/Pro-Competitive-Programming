@@ -12288,5 +12288,20 @@
     "space": "O(n)",
     "hint": "Exactly one person between equal colors means their positions differ by two.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc360_a",
+    "title": "A Healthy Breakfast",
+    "url": "https://atcoder.jp/contests/abc360/tasks/abc360_a",
+    "solution": "solutions/atcoder/implementation/abc360_a_a_healthy_breakfast.cpp",
+    "notes": "notes/atcoder/abc360_a_a_healthy_breakfast.md",
+    "tests": "tests/cases/atcoder-abc360_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each plate marker occurs exactly once.",
+    "checker": "tokens"
   }
 ]
