@@ -2628,5 +2628,20 @@
     "space": "O(1)",
     "hint": "An odd number of unit candies makes the total odd and impossible.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1472C",
+    "title": "Long Jumps",
+    "url": "https://codeforces.com/problemset/problem/1472/C",
+    "solution": "solutions/codeforces/dynamic_programming/1472C_long_jumps.cpp",
+    "notes": "notes/codeforces/1472C_long_jumps.md",
+    "tests": "tests/cases/codeforces-1472C.json",
+    "tags": [
+      "dynamic_programming"
+    ],
+    "time": "O(n) per case",
+    "space": "O(n)",
+    "hint": "Every jump moves to a strictly larger index, so compute achievable scores from right to left.",
+    "checker": "tokens"
   }
 ]
