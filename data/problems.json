@@ -3228,5 +3228,20 @@
     "space": "O(n)",
     "hint": "Strictly decreasing diameters allow at most one mochi of each diameter.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc087_c",
+    "title": "Candies",
+    "url": "https://atcoder.jp/contests/abc087/tasks/arc090_a",
+    "solution": "solutions/atcoder/prefix_sums/abc087_c_candies.cpp",
+    "notes": "notes/atcoder/abc087_c_candies.md",
+    "tests": "tests/cases/atcoder-abc087_c.json",
+    "tags": [
+      "prefix_sums"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Every path moves down exactly once.",
+    "checker": "tokens"
   }
 ]
