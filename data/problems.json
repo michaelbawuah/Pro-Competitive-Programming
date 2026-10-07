@@ -4623,5 +4623,20 @@
     "space": "O(log n)",
     "hint": "Return the adjacent pair (F_k,F_{k+1}).",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc100_a",
+    "title": "Happy Birthday!",
+    "url": "https://atcoder.jp/contests/abc100/tasks/abc100_a",
+    "solution": "solutions/atcoder/implementation/abc100_a_happy_birthday.cpp",
+    "notes": "notes/atcoder/abc100_a_happy_birthday.md",
+    "tests": "tests/cases/atcoder-abc100_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A person can occupy at most eight nonadjacent positions on a sixteen-cycle.",
+    "checker": "tokens"
   }
 ]
