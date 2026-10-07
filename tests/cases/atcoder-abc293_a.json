@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "abcdef\n",
+    "output": "badcfe\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "aaaa\n",
+    "output": "aaaa\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "atcoderbeginnercontest\n",
+    "output": "taocedbrgeniencrnoetts\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "ab\n",
+    "output": "ba\n"
+  }
+]

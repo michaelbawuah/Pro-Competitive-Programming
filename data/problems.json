@@ -10308,5 +10308,20 @@
     "space": "O(N)",
     "hint": "Store a dismissal score: a yellow adds one and a red sets it to two.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc293_a",
+    "title": "Swap Odd and Even",
+    "url": "https://atcoder.jp/contests/abc293/tasks/abc293_a",
+    "solution": "solutions/atcoder/implementation/abc293_a_swap_odd_and_even.cpp",
+    "notes": "notes/atcoder/abc293_a_swap_odd_and_even.md",
+    "tests": "tests/cases/atcoder-abc293_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Partition the even-length string into adjacent two-character blocks.",
+    "checker": "tokens"
   }
 ]
