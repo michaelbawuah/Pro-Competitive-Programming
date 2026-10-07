@@ -5163,5 +5163,20 @@
     "space": "O(1)",
     "hint": "Scan candidate divisors in decreasing order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc121_a",
+    "title": "White Cells",
+    "url": "https://atcoder.jp/contests/abc121/tasks/abc121_a",
+    "solution": "solutions/atcoder/implementation/abc121_a_white_cells.cpp",
+    "notes": "notes/atcoder/abc121_a_white_cells.md",
+    "tests": "tests/cases/atcoder-abc121_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A white cell must lie in both an unpainted row and an unpainted column.",
+    "checker": "tokens"
   }
 ]
