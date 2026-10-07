@@ -8448,5 +8448,20 @@
     "space": "O(n)",
     "hint": "A substring of a period-three infinite string has one of three starting phases.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc231_a",
+    "title": "Water Pressure",
+    "url": "https://atcoder.jp/contests/abc231/tasks/abc231_a",
+    "solution": "solutions/atcoder/implementation/abc231_a_water_pressure.cpp",
+    "notes": "notes/atcoder/abc231_a_water_pressure.md",
+    "tests": "tests/cases/atcoder-abc231_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "One hectopascal is one hundred pascals, so divide the input by one hundred in floating point..",
+    "checker": "floating"
   }
 ]
