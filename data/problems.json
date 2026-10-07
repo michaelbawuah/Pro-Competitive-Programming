@@ -5703,5 +5703,20 @@
     "space": "O(1)",
     "hint": "Compare each forecast with the actual weather at the same position and count equal pairs..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc139_b",
+    "title": "Power Socket",
+    "url": "https://atcoder.jp/contests/abc139/tasks/abc139_b",
+    "solution": "solutions/atcoder/implementation/abc139_b_power_socket.cpp",
+    "notes": "notes/atcoder/abc139_b_power_socket.md",
+    "tests": "tests/cases/atcoder-abc139_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Adding a strip consumes one existing socket and supplies A new ones, a net gain of A-1.",
+    "checker": "tokens"
   }
 ]
