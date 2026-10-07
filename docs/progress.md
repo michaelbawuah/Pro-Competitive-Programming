@@ -1,6 +1,6 @@
 # Progress
 
-- Reference implementations: **579**.
+- Reference implementations: **580**.
 - Official acceptances: see the evidence ledger in `data/acceptances.json`.
 - Contest results: see `contests/`; no results are implied by this archive.
 

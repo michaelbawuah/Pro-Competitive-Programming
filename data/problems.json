@@ -8808,5 +8808,20 @@
     "space": "O(n)",
     "hint": "At every position, choosing the smallest unused letter minimizes the first possible difference.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc243_a",
+    "title": "Shampoo",
+    "url": "https://atcoder.jp/contests/abc243/tasks/abc243_a",
+    "solution": "solutions/atcoder/implementation/abc243_a_shampoo.cpp",
+    "notes": "notes/atcoder/abc243_a_shampoo.md",
+    "tests": "tests/cases/atcoder-abc243_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Remove as many complete daily consumption cycles as possible.",
+    "checker": "tokens"
   }
 ]
