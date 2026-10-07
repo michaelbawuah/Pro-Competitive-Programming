@@ -10023,5 +10023,20 @@
     "space": "O(1)",
     "hint": "Multiply by A exactly B times starting from one.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc283_b",
+    "title": "First Query Problem",
+    "url": "https://atcoder.jp/contests/abc283/tasks/abc283_b",
+    "solution": "solutions/atcoder/implementation/abc283_b_first_query_problem.cpp",
+    "notes": "notes/atcoder/abc283_b_first_query_problem.md",
+    "tests": "tests/cases/atcoder-abc283_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N+Q)",
+    "space": "O(N)",
+    "hint": "Maintain the current array directly.",
+    "checker": "tokens"
   }
 ]
