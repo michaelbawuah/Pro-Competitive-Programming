@@ -1878,5 +1878,20 @@
     "space": "O(n)",
     "hint": "Reverse the first word and compare the complete strings.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-520A",
+    "title": "Pangram",
+    "url": "https://codeforces.com/problemset/problem/520/A",
+    "solution": "solutions/codeforces/strings/520A_pangram.cpp",
+    "notes": "notes/codeforces/520A_pangram.md",
+    "tests": "tests/cases/codeforces-520A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Normalize each letter to lowercase and mark its alphabet position.",
+    "checker": "yes_no"
   }
 ]

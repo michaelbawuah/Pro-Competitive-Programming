@@ -121,3 +121,4 @@ Reference implementations are locally tested; official acceptances are tracked s
 | `codeforces-469A` | [I Wanna Be the Guy](https://codeforces.com/problemset/problem/469/A) | sets | O(n) / O(n) | [C++](../solutions/codeforces/sets/469A_i_wanna_be_the_guy.cpp) · [Notes](../notes/codeforces/469A_i_wanna_be_the_guy.md) |
 | `codeforces-268A` | [Games](https://codeforces.com/problemset/problem/268/A) | enumeration | O(n^2) / O(n) | [C++](../solutions/codeforces/enumeration/268A_games.cpp) · [Notes](../notes/codeforces/268A_games.md) |
 | `codeforces-41A` | [Translation](https://codeforces.com/problemset/problem/41/A) | strings | O(n) / O(n) | [C++](../solutions/codeforces/strings/41A_translation.cpp) · [Notes](../notes/codeforces/41A_translation.md) |
+| `codeforces-520A` | [Pangram](https://codeforces.com/problemset/problem/520/A) | strings | O(n) / O(n) | [C++](../solutions/codeforces/strings/520A_pangram.cpp) · [Notes](../notes/codeforces/520A_pangram.md) |
