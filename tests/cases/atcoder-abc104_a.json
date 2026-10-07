@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "1199\n",
+    "output": "ABC\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "1200\n",
+    "output": "ARC\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "4208\n",
+    "output": "AGC\n"
+  }
+]

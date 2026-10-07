@@ -4743,5 +4743,20 @@
     "space": "O(n)",
     "hint": "Every cyclic rotation of S is a length-|S| substring of S concatenated with itself.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc104_a",
+    "title": "Rated for Me",
+    "url": "https://atcoder.jp/contests/abc104/tasks/abc104_a",
+    "solution": "solutions/atcoder/implementation/abc104_a_rated_for_me.cpp",
+    "notes": "notes/atcoder/abc104_a_rated_for_me.md",
+    "tests": "tests/cases/atcoder-abc104_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Check the rating thresholds in ascending order; each threshold is strict..",
+    "checker": "tokens"
   }
 ]
