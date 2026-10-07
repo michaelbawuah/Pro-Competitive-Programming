@@ -11583,5 +11583,20 @@
     "space": "O(n)",
     "hint": "Concatenate the fixed prefix L, exactly N lowercase o characters, and the fixed suffix ng..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc336_b",
+    "title": "CTZ",
+    "url": "https://atcoder.jp/contests/abc336/tasks/abc336_b",
+    "solution": "solutions/atcoder/implementation/abc336_b_ctz.cpp",
+    "notes": "notes/atcoder/abc336_b_ctz.md",
+    "tests": "tests/cases/atcoder-abc336_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(log N)",
+    "space": "O(1)",
+    "hint": "A trailing binary zero corresponds to a factor of two.",
+    "checker": "tokens"
   }
 ]
