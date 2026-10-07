@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "2 3\r\n0 1 2\r\n0 0 3\n",
+    "output": ".AB\r\n..C\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3 3\r\n24 0 0\r\n0 25 0\r\n0 0 26\n",
+    "output": "X..\r\n.Y.\r\n..Z\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "3 1\r\n2\r\n9\r\n4\n",
+    "output": "B\r\nI\r\nD\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1 2\n0 26\n",
+    "output": ".Z\n"
+  }
+]
