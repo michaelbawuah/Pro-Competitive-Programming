@@ -4998,5 +4998,20 @@
     "space": "O(1)",
     "hint": "Print the base greeting and append one Eve for every day remaining until the twenty-fifth..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc115_b",
+    "title": "Christmas Eve Eve",
+    "url": "https://atcoder.jp/contests/abc115/tasks/abc115_b",
+    "solution": "solutions/atcoder/implementation/abc115_b_christmas_eve_eve.cpp",
+    "notes": "notes/atcoder/abc115_b_christmas_eve_eve.md",
+    "tests": "tests/cases/atcoder-abc115_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "All regular prices contribute to the total, and discounting the largest item subtracts half that price.",
+    "checker": "tokens"
   }
 ]

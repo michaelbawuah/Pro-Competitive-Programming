@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\r\n4980\r\n7980\r\n6980\n",
+    "output": "15950\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "4\r\n4320\r\n4320\r\n4320\r\n4320\n",
+    "output": "15120\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\n100\n100\n",
+    "output": "150\n"
+  }
+]
