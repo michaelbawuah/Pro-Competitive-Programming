@@ -2553,5 +2553,20 @@
     "space": "O(1)",
     "hint": "Each move closes the distance by at most ten, giving a ceiling-division lower bound.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1399A",
+    "title": "Remove Smallest",
+    "url": "https://codeforces.com/problemset/problem/1399/A",
+    "solution": "solutions/codeforces/sorting/1399A_remove_smallest.cpp",
+    "notes": "notes/codeforces/1399A_remove_smallest.md",
+    "tests": "tests/cases/codeforces-1399A.json",
+    "tags": [
+      "sorting"
+    ],
+    "time": "O(n log n) per case",
+    "space": "O(n)",
+    "hint": "Sort the values and inspect consecutive gaps.",
+    "checker": "yes_no"
   }
 ]
