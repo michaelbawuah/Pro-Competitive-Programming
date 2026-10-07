@@ -5,6 +5,7 @@ import json
 import random
 
 import cp
+from stress_extended import GENERATORS as EXTENDED_GENERATORS
 
 
 def array_case(rng, kind):
@@ -232,6 +233,7 @@ GENERATORS = {
     'atcoder-dp_b': frog,
     'atcoder-dp_c': vacation,
 }
+GENERATORS.update(EXTENDED_GENERATORS)
 
 
 def run(cases, seed):
@@ -246,6 +248,8 @@ def run(cases, seed):
             case = {'name': f'seed-{seed}-case-{index}', 'input': input_text, 'output': expected}
             try:
                 actual = cp.run_binary(binary, input_text)
+                if problem.get('checker') == 'lcs' and len(actual.strip()) != len(expected):
+                    raise ValueError(f'Exhaustive subsequences give LCS length {len(expected)}, got {actual!r}')
                 if not cp.validate(problem, case, actual):
                     raise ValueError(f'Expected {expected!r}, got {actual!r}')
             except Exception as error:
