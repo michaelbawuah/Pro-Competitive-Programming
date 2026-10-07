@@ -12273,5 +12273,20 @@
     "space": "O(1)",
     "hint": "Compare each complete name with Takahashi and count exact matches..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc359_b",
+    "title": "Couples",
+    "url": "https://atcoder.jp/contests/abc359/tasks/abc359_b",
+    "solution": "solutions/atcoder/implementation/abc359_b_couples.cpp",
+    "notes": "notes/atcoder/abc359_b_couples.md",
+    "tests": "tests/cases/atcoder-abc359_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Exactly one person between equal colors means their positions differ by two.",
+    "checker": "tokens"
   }
 ]
