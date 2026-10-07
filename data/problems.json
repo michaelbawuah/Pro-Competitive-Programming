@@ -771,5 +771,85 @@
     "space": "O(log k)",
     "hint": "Skip complete blocks of one-digit, two-digit, and longer numbers.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1091",
+    "title": "Concert Tickets",
+    "url": "https://cses.fi/problemset/task/1091/",
+    "solution": "solutions/cses/sorting_searching/1091_concert_tickets.cpp",
+    "notes": "notes/cses/1091_concert_tickets.md",
+    "tests": "tests/cases/cses-1091.json",
+    "tags": [
+      "multiset",
+      "binary search"
+    ],
+    "time": "O((n + m) log n)",
+    "space": "O(n)",
+    "hint": "Find the largest remaining price that does not exceed each budget.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1619",
+    "title": "Restaurant Customers",
+    "url": "https://cses.fi/problemset/task/1619/",
+    "solution": "solutions/cses/sorting_searching/1619_restaurant_customers.cpp",
+    "notes": "notes/cses/1619_restaurant_customers.md",
+    "tests": "tests/cases/cses-1619.json",
+    "tags": [
+      "sweep line",
+      "sorting"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Translate each visit into an arrival and a departure event.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1074",
+    "title": "Stick Lengths",
+    "url": "https://cses.fi/problemset/task/1074/",
+    "solution": "solutions/cses/sorting_searching/1074_stick_lengths.cpp",
+    "notes": "notes/cses/1074_stick_lengths.md",
+    "tests": "tests/cases/cses-1074.json",
+    "tags": [
+      "sorting",
+      "median"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "A median minimizes the sum of absolute distances.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-2183",
+    "title": "Missing Coin Sum",
+    "url": "https://cses.fi/problemset/task/2183/",
+    "solution": "solutions/cses/sorting_searching/2183_missing_coin_sum.cpp",
+    "notes": "notes/cses/2183_missing_coin_sum.md",
+    "tests": "tests/cases/cses-2183.json",
+    "tags": [
+      "greedy",
+      "coverage invariant"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Maintain the entire interval of sums already known to be constructible.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-2216",
+    "title": "Collecting Numbers",
+    "url": "https://cses.fi/problemset/task/2216/",
+    "solution": "solutions/cses/sorting_searching/2216_collecting_numbers.cpp",
+    "notes": "notes/cses/2216_collecting_numbers.md",
+    "tests": "tests/cases/cses-2216.json",
+    "tags": [
+      "inverse permutation",
+      "scan"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Look at the positions of consecutive values rather than repeatedly scanning the array.",
+    "checker": "tokens"
   }
 ]

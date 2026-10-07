@@ -1,0 +1,17 @@
+[
+  {
+    "name": "mixed",
+    "input": "5\n4 2 1 5 3\n",
+    "output": "3\n"
+  },
+  {
+    "name": "reverse",
+    "input": "4\n4 3 2 1\n",
+    "output": "4\n"
+  },
+  {
+    "name": "one",
+    "input": "1\n1\n",
+    "output": "1\n"
+  }
+]

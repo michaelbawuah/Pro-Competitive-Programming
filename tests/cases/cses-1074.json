@@ -1,0 +1,17 @@
+[
+  {
+    "name": "outlier",
+    "input": "3\n1 2 100\n",
+    "output": "99\n"
+  },
+  {
+    "name": "even",
+    "input": "4\n1 3 7 9\n",
+    "output": "12\n"
+  },
+  {
+    "name": "single",
+    "input": "1\n42\n",
+    "output": "0\n"
+  }
+]
