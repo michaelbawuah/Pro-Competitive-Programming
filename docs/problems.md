@@ -122,3 +122,4 @@ Reference implementations are locally tested; official acceptances are tracked s
 | `codeforces-268A` | [Games](https://codeforces.com/problemset/problem/268/A) | enumeration | O(n^2) / O(n) | [C++](../solutions/codeforces/enumeration/268A_games.cpp) · [Notes](../notes/codeforces/268A_games.md) |
 | `codeforces-41A` | [Translation](https://codeforces.com/problemset/problem/41/A) | strings | O(n) / O(n) | [C++](../solutions/codeforces/strings/41A_translation.cpp) · [Notes](../notes/codeforces/41A_translation.md) |
 | `codeforces-520A` | [Pangram](https://codeforces.com/problemset/problem/520/A) | strings | O(n) / O(n) | [C++](../solutions/codeforces/strings/520A_pangram.cpp) · [Notes](../notes/codeforces/520A_pangram.md) |
+| `codeforces-443A` | [Anton and Letters](https://codeforces.com/problemset/problem/443/A) | strings | O(n) / O(n) | [C++](../solutions/codeforces/strings/443A_anton_and_letters.cpp) · [Notes](../notes/codeforces/443A_anton_and_letters.md) |

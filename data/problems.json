@@ -1893,5 +1893,20 @@
     "space": "O(n)",
     "hint": "Normalize each letter to lowercase and mark its alphabet position.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-443A",
+    "title": "Anton and Letters",
+    "url": "https://codeforces.com/problemset/problem/443/A",
+    "solution": "solutions/codeforces/strings/443A_anton_and_letters.cpp",
+    "notes": "notes/codeforces/443A_anton_and_letters.md",
+    "tests": "tests/cases/codeforces-443A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Ignore punctuation and spaces, marking only lowercase letters.",
+    "checker": "tokens"
   }
 ]
