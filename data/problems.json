@@ -5928,5 +5928,20 @@
     "space": "O(n)",
     "hint": "Convert each letter to an index, add the shift modulo 26, and convert back; modulo implements the wrap from Z to A..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc147_a",
+    "title": "Blackjack",
+    "url": "https://atcoder.jp/contests/abc147/tasks/abc147_a",
+    "solution": "solutions/atcoder/implementation/abc147_a_blackjack.cpp",
+    "notes": "notes/atcoder/abc147_a_blackjack.md",
+    "tests": "tests/cases/atcoder-abc147_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Sum the three cards and compare with the inclusive bust threshold..",
+    "checker": "tokens"
   }
 ]
