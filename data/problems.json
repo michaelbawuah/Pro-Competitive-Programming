@@ -2598,5 +2598,20 @@
     "space": "O(n)",
     "hint": "Enumerate the common pair sum.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1472A",
+    "title": "Cards for Friends",
+    "url": "https://codeforces.com/problemset/problem/1472/A",
+    "solution": "solutions/codeforces/mathematics/1472A_cards_for_friends.cpp",
+    "notes": "notes/codeforces/1472A_cards_for_friends.md",
+    "tests": "tests/cases/codeforces-1472A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(log w + log h) per case",
+    "space": "O(1)",
+    "hint": "Every factor two in either dimension permits one additional doubling of the number of pieces.",
+    "checker": "yes_no"
   }
 ]
