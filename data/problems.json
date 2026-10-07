@@ -11703,5 +11703,20 @@
     "space": "O(1)",
     "hint": "Begin at the first term and repeatedly add the positive common difference.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc340_b",
+    "title": "Append",
+    "url": "https://atcoder.jp/contests/abc340/tasks/abc340_b",
+    "solution": "solutions/atcoder/implementation/abc340_b_append.cpp",
+    "notes": "notes/atcoder/abc340_b_append.md",
+    "tests": "tests/cases/atcoder-abc340_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(Q)",
+    "space": "O(Q)",
+    "hint": "Append queries extend a vector.",
+    "checker": "tokens"
   }
 ]
