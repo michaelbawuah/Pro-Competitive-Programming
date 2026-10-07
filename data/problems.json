@@ -4878,5 +4878,20 @@
     "space": "O(1)",
     "hint": "A product is odd only if every factor is odd.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc110_a",
+    "title": "Maximize the Formula",
+    "url": "https://atcoder.jp/contests/abc110/tasks/abc110_a",
+    "solution": "solutions/atcoder/implementation/abc110_a_maximize_the_formula.cpp",
+    "notes": "notes/atcoder/abc110_a_maximize_the_formula.md",
+    "tests": "tests/cases/atcoder-abc110_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Exactly one digit receives place value ten.",
+    "checker": "tokens"
   }
 ]
