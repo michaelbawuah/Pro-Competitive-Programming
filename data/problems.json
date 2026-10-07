@@ -3723,5 +3723,20 @@
     "space": "O(1)",
     "hint": "The narrowest transport needs ceil(N/capacity) departure batches.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc124_c",
+    "title": "Coloring Colorfully",
+    "url": "https://atcoder.jp/contests/abc124/tasks/abc124_c",
+    "solution": "solutions/atcoder/implementation/abc124_c_coloring_colorfully.cpp",
+    "notes": "notes/atcoder/abc124_c_coloring_colorfully.md",
+    "tests": "tests/cases/atcoder-abc124_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "There are only two alternating colorings, determined by the first color.",
+    "checker": "tokens"
   }
 ]
