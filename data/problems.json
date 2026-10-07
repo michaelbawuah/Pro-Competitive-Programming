@@ -2043,5 +2043,20 @@
     "space": "O(1)",
     "hint": "Each mixed-color day consumes one sock of each color, so the smaller count bounds and attains the maximum.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-432A",
+    "title": "Choosing Teams",
+    "url": "https://codeforces.com/problemset/problem/432/A",
+    "solution": "solutions/codeforces/counting/432A_choosing_teams.cpp",
+    "notes": "notes/codeforces/432A_choosing_teams.md",
+    "tests": "tests/cases/codeforces-432A.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "A student can participate in the planned contests exactly when their previous count plus k is at most five.",
+    "checker": "tokens"
   }
 ]
