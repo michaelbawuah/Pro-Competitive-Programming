@@ -4578,5 +4578,20 @@
     "space": "O(n)",
     "hint": "Let a state be the best score difference the current player can force on an interval.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1653",
+    "title": "Elevator Rides",
+    "url": "https://cses.fi/problemset/task/1653/",
+    "solution": "solutions/cses/bitmask_dp/1653_elevator_rides.cpp",
+    "notes": "notes/cses/1653_elevator_rides.md",
+    "tests": "tests/cases/cses-1653.json",
+    "tags": [
+      "bitmask_dp"
+    ],
+    "time": "O(n 2^n)",
+    "space": "O(2^n)",
+    "hint": "For each subset keep the lexicographically smallest pair of ride count and last-ride load.",
+    "checker": "tokens"
   }
 ]
