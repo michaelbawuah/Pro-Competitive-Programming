@@ -7173,5 +7173,20 @@
     "space": "O(1)",
     "hint": "A three-point goal wins only when the current deficit is strictly below three..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc188_b",
+    "title": "Orthogonality",
+    "url": "https://atcoder.jp/contests/abc188/tasks/abc188_b",
+    "solution": "solutions/atcoder/implementation/abc188_b_orthogonality.cpp",
+    "notes": "notes/atcoder/abc188_b_orthogonality.md",
+    "tests": "tests/cases/atcoder-abc188_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Pair corresponding vector coordinates, sum their products, and compare the resulting inner product with zero..",
+    "checker": "tokens"
   }
 ]
