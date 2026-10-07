@@ -12318,5 +12318,20 @@
     "space": "O(|S|+|T|)",
     "hint": "For each allowed width and column, vertical reading takes positions column, column+width, and so on.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc361_a",
+    "title": "Insert",
+    "url": "https://atcoder.jp/contests/abc361/tasks/abc361_a",
+    "solution": "solutions/atcoder/implementation/abc361_a_insert.cpp",
+    "notes": "notes/atcoder/abc361_a_insert.md",
+    "tests": "tests/cases/atcoder-abc361_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Copy each original value in order and emit X immediately after the K-th value.",
+    "checker": "tokens"
   }
 ]
