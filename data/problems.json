@@ -9153,5 +9153,20 @@
     "space": "O(1)",
     "hint": "Taking the final two characters preserves both digits exactly, including a leading zero in the tens position..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc254_b",
+    "title": "Practical Computing",
+    "url": "https://atcoder.jp/contests/abc254/tasks/abc254_b",
+    "solution": "solutions/atcoder/implementation/abc254_b_practical_computing.cpp",
+    "notes": "notes/atcoder/abc254_b_practical_computing.md",
+    "tests": "tests/cases/atcoder-abc254_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Build Pascal rows from left and right parent entries while fixing both boundary entries to one.",
+    "checker": "tokens"
   }
 ]
