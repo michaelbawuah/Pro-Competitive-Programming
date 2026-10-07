@@ -10983,5 +10983,20 @@
     "space": "O(n)",
     "hint": "Filter out characters belonging to the five-vowel set and emit every remaining character in original order..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc315_b",
+    "title": "The Middle Day",
+    "url": "https://atcoder.jp/contests/abc315/tasks/abc315_b",
+    "solution": "solutions/atcoder/implementation/abc315_b_the_middle_day.cpp",
+    "notes": "notes/atcoder/abc315_b_the_middle_day.md",
+    "tests": "tests/cases/atcoder-abc315_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(M)",
+    "space": "O(M)",
+    "hint": "The middle day has one-based annual index (total+1)/2.",
+    "checker": "tokens"
   }
 ]
