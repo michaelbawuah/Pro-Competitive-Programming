@@ -2163,5 +2163,20 @@
     "space": "O(n)",
     "hint": "Fight dragons in increasing strength order.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-492A",
+    "title": "Vanya and Cubes",
+    "url": "https://codeforces.com/problemset/problem/492/A",
+    "solution": "solutions/codeforces/simulation/492A_vanya_and_cubes.cpp",
+    "notes": "notes/codeforces/492A_vanya_and_cubes.md",
+    "tests": "tests/cases/codeforces-492A.json",
+    "tags": [
+      "simulation"
+    ],
+    "time": "O(n^(1/3))",
+    "space": "O(1)",
+    "hint": "Successive levels require triangular numbers of cubes.",
+    "checker": "tokens"
   }
 ]
