@@ -12438,5 +12438,20 @@
     "space": "O(HW+|X|)",
     "hint": "For every command, compute a candidate destination without changing the current state.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc365_a",
+    "title": "Leap Year",
+    "url": "https://atcoder.jp/contests/abc365/tasks/abc365_a",
+    "solution": "solutions/atcoder/implementation/abc365_a_leap_year.cpp",
+    "notes": "notes/atcoder/abc365_a_leap_year.md",
+    "tests": "tests/cases/atcoder-abc365_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A leap year is divisible by four, except century years must also be divisible by four hundred.",
+    "checker": "tokens"
   }
 ]
