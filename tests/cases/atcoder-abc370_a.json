@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "1 0\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "1 1\n",
+    "output": "Invalid\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "0 1\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "0 0\n",
+    "output": "Invalid\n"
+  }
+]

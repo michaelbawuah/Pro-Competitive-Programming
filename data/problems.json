@@ -12588,5 +12588,20 @@
     "space": "O(1)",
     "hint": "Place each hand initially at its first required key for zero cost.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc370_a",
+    "title": "Raise Both Hands",
+    "url": "https://atcoder.jp/contests/abc370/tasks/abc370_a",
+    "solution": "solutions/atcoder/implementation/abc370_a_raise_both_hands.cpp",
+    "notes": "notes/atcoder/abc370_a_raise_both_hands.md",
+    "tests": "tests/cases/atcoder-abc370_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Equal hand states mean both or neither is raised, which is invalid.",
+    "checker": "tokens"
   }
 ]
