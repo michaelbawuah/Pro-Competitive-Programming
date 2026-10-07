@@ -1953,5 +1953,20 @@
     "space": "O(1)",
     "hint": "There are ceil(n/2) odd numbers before the even block.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-486A",
+    "title": "Calculating Function",
+    "url": "https://codeforces.com/problemset/problem/486/A",
+    "solution": "solutions/codeforces/mathematics/486A_calculating_function.cpp",
+    "notes": "notes/codeforces/486A_calculating_function.md",
+    "tests": "tests/cases/codeforces-486A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Pair consecutive terms as -1+2, -3+4, and so on.",
+    "checker": "tokens"
   }
 ]
