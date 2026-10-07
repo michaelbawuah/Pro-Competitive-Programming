@@ -5718,5 +5718,20 @@
     "space": "O(1)",
     "hint": "Adding a strip consumes one existing socket and supplies A new ones, a net gain of A-1.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc140_a",
+    "title": "Password",
+    "url": "https://atcoder.jp/contests/abc140/tasks/abc140_a",
+    "solution": "solutions/atcoder/implementation/abc140_a_password.cpp",
+    "notes": "notes/atcoder/abc140_a_password.md",
+    "tests": "tests/cases/atcoder-abc140_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each of three positions has N independent choices, giving N cubed possible passwords..",
+    "checker": "tokens"
   }
 ]
