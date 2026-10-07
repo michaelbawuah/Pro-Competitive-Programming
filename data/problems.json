@@ -10563,5 +10563,20 @@
     "space": "O(n)",
     "hint": "A larger total win count decides immediately.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc301_b",
+    "title": "Fill the Gaps",
+    "url": "https://atcoder.jp/contests/abc301/tasks/abc301_b",
+    "solution": "solutions/atcoder/implementation/abc301_b_fill_the_gaps.cpp",
+    "notes": "notes/atcoder/abc301_b_fill_the_gaps.md",
+    "tests": "tests/cases/atcoder-abc301_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(output length)",
+    "space": "O(1)",
+    "hint": "For each original adjacent pair, walk in unit steps toward the second value and emit each reached value.",
+    "checker": "tokens"
   }
 ]
