@@ -8253,5 +8253,20 @@
     "space": "O(n)",
     "hint": "The two promised suffixes have different final letters, so the last character determines which suffix occurs..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc224_b",
+    "title": "Mongeness",
+    "url": "https://atcoder.jp/contests/abc224/tasks/abc224_b",
+    "solution": "solutions/atcoder/implementation/abc224_b_mongeness.cpp",
+    "notes": "notes/atcoder/abc224_b_mongeness.md",
+    "tests": "tests/cases/atcoder-abc224_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(HW)",
+    "space": "O(HW)",
+    "hint": "Every required rectangular inequality is the sum of its adjacent two-by-two inequalities: all interior terms cancel.",
+    "checker": "tokens"
   }
 ]
