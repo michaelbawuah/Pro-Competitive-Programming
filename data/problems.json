@@ -10143,5 +10143,20 @@
     "space": "O(1)",
     "hint": "Count agreeing voters.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc287_b",
+    "title": "Postal Card",
+    "url": "https://atcoder.jp/contests/abc287/tasks/abc287_b",
+    "solution": "solutions/atcoder/implementation/abc287_b_postal_card.cpp",
+    "notes": "notes/atcoder/abc287_b_postal_card.md",
+    "tests": "tests/cases/atcoder-abc287_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O((N+M) log M)",
+    "space": "O(N+M)",
+    "hint": "Store the allowed three-character suffixes in a set.",
+    "checker": "tokens"
   }
 ]

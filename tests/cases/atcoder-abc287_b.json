@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3 3\r\n142857\r\n004159\r\n071028\r\n159\r\n287\r\n857\n",
+    "output": "2\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "5 4\r\n235983\r\n109467\r\n823476\r\n592801\r\n000333\r\n333\r\n108\r\n467\r\n983\n",
+    "output": "3\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "4 4\r\n000000\r\n123456\r\n987111\r\n000000\r\n000\r\n111\r\n999\r\n111\n",
+    "output": "3\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1 2\n000001\n001\n001\n",
+    "output": "1\n"
+  }
+]
