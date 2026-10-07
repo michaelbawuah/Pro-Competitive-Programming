@@ -2403,5 +2403,20 @@
     "space": "O(1)",
     "hint": "A swap between an incorrect even-indexed position and an incorrect odd-indexed position fixes both.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1367C",
+    "title": "Social Distance",
+    "url": "https://codeforces.com/problemset/problem/1367/C",
+    "solution": "solutions/codeforces/greedy/1367C_social_distance.cpp",
+    "notes": "notes/codeforces/1367C_social_distance.md",
+    "tests": "tests/cases/codeforces-1367C.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n) per case",
+    "space": "O(n)",
+    "hint": "Place a new person at the earliest seat sufficiently far from the previous person and the next original person.",
+    "checker": "tokens"
   }
 ]
