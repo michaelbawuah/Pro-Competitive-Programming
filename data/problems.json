@@ -9543,5 +9543,20 @@
     "space": "O(1)",
     "hint": "Map the weekday to its position in the Monday-through-Friday list.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc267_b",
+    "title": "Split?",
+    "url": "https://atcoder.jp/contests/abc267/tasks/abc267_b",
+    "solution": "solutions/atcoder/implementation/abc267_b_split.cpp",
+    "notes": "notes/atcoder/abc267_b_split.md",
+    "tests": "tests/cases/atcoder-abc267_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Map each pin to one of seven columns and mark columns with a standing pin.",
+    "checker": "tokens"
   }
 ]
