@@ -2658,5 +2658,20 @@
     "space": "O(n)",
     "hint": "Each task letter must occupy a single contiguous run.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1520B",
+    "title": "Ordinary Numbers",
+    "url": "https://codeforces.com/problemset/problem/1520/B",
+    "solution": "solutions/codeforces/enumeration/1520B_ordinary_numbers.cpp",
+    "notes": "notes/codeforces/1520B_ordinary_numbers.md",
+    "tests": "tests/cases/codeforces-1520B.json",
+    "tags": [
+      "enumeration"
+    ],
+    "time": "O(log n) per case",
+    "space": "O(1)",
+    "hint": "Generate repeated-digit numbers separately for each digit one through nine.",
+    "checker": "tokens"
   }
 ]
