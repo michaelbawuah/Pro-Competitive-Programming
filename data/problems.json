@@ -6093,5 +6093,35 @@
     "space": "O(1)",
     "hint": "Acceptance requires passing every test, so compare the passed count with the total count..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc152_b",
+    "title": "Comparing Strings",
+    "url": "https://atcoder.jp/contests/abc152/tasks/abc152_b",
+    "solution": "solutions/atcoder/implementation/abc152_b_comparing_strings.cpp",
+    "notes": "notes/atcoder/abc152_b_comparing_strings.md",
+    "tests": "tests/cases/atcoder-abc152_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(a+b)",
+    "space": "O(a+b)",
+    "hint": "Construct both repeated-digit strings and use the standard lexicographic string comparison, which also handles equality..",
+    "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc153_b",
+    "title": "Common Raccoon vs Monster",
+    "url": "https://atcoder.jp/contests/abc153/tasks/abc153_b",
+    "solution": "solutions/atcoder/implementation/abc153_b_common_raccoon_vs_monster.cpp",
+    "notes": "notes/atcoder/abc153_b_common_raccoon_vs_monster.md",
+    "tests": "tests/cases/atcoder-abc153_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Every move can be used once and deals positive damage, so their sum is the maximum available damage..",
+    "checker": "tokens"
   }
 ]
