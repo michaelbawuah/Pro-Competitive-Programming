@@ -3948,5 +3948,20 @@
     "space": "O(1)",
     "hint": "Track the number of consecutive non-increasing edges ending at the current square.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc140_c",
+    "title": "Maximal Value",
+    "url": "https://atcoder.jp/contests/abc140/tasks/abc140_c",
+    "solution": "solutions/atcoder/implementation/abc140_c_maximal_value.cpp",
+    "notes": "notes/atcoder/abc140_c_maximal_value.md",
+    "tests": "tests/cases/atcoder-abc140_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Each interior A value is bounded by its two adjacent B values; endpoints have one bound.",
+    "checker": "tokens"
   }
 ]
