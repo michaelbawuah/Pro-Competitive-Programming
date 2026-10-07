@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\r\nTakahashi\r\nAoki\r\nSnuke\n",
+    "output": "Snuke\r\nAoki\r\nTakahashi\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "4\r\n2023\r\nYear\r\nNew\r\nHappy\n",
+    "output": "Happy\r\nNew\r\nYear\r\n2023\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\nA0\n",
+    "output": "A0\n"
+  }
+]

@@ -10038,5 +10038,20 @@
     "space": "O(N)",
     "hint": "Maintain the current array directly.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc284_a",
+    "title": "Sequence of Strings",
+    "url": "https://atcoder.jp/contests/abc284/tasks/abc284_a",
+    "solution": "solutions/atcoder/implementation/abc284_a_sequence_of_strings.cpp",
+    "notes": "notes/atcoder/abc284_a_sequence_of_strings.md",
+    "tests": "tests/cases/atcoder-abc284_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(total characters)",
+    "space": "O(total characters)",
+    "hint": "Store the input strings in order, then traverse their indices from the last to the first.",
+    "checker": "tokens"
   }
 ]
