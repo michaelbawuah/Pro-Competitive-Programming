@@ -10113,5 +10113,20 @@
     "space": "O(n)",
     "hint": "The two disjoint ranges have equal length.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc286_b",
+    "title": "Cat",
+    "url": "https://atcoder.jp/contests/abc286/tasks/abc286_b",
+    "solution": "solutions/atcoder/implementation/abc286_b_cat.cpp",
+    "notes": "notes/atcoder/abc286_b_cat.md",
+    "tests": "tests/cases/atcoder-abc286_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Copy original characters in order and insert y after an n whose next original character is a.",
+    "checker": "tokens"
   }
 ]
