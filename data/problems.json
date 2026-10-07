@@ -7623,5 +7623,20 @@
     "space": "O(1)",
     "hint": "Check each possible equal pair and return the remaining value.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc203_b",
+    "title": "AtCoder Condominium",
+    "url": "https://atcoder.jp/contests/abc203/tasks/abc203_b",
+    "solution": "solutions/atcoder/implementation/abc203_b_atcoder_condominium.cpp",
+    "notes": "notes/atcoder/abc203_b_atcoder_condominium.md",
+    "tests": "tests/cases/atcoder-abc203_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Room number is 100 times its floor plus its room index.",
+    "checker": "tokens"
   }
 ]
