@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "SAT\n",
+    "output": "1\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "SUN\n",
+    "output": "7\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "MON\n",
+    "output": "6\n"
+  }
+]

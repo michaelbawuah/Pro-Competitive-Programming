@@ -5898,5 +5898,20 @@
     "space": "O(n)",
     "hint": "Two identical copies require an even length.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc146_a",
+    "title": "Can't Wait for Holiday",
+    "url": "https://atcoder.jp/contests/abc146/tasks/abc146_a",
+    "solution": "solutions/atcoder/implementation/abc146_a_can_t_wait_for_holiday.cpp",
+    "notes": "notes/atcoder/abc146_a_can_t_wait_for_holiday.md",
+    "tests": "tests/cases/atcoder-abc146_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Index Sunday as zero.",
+    "checker": "tokens"
   }
 ]
