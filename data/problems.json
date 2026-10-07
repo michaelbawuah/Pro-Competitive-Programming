@@ -10683,5 +10683,20 @@
     "space": "O(1)",
     "hint": "For integer positions, remainders zero through two round down to a multiple of five, and remainders three or four round up.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc305_b",
+    "title": "ABCDEFG",
+    "url": "https://atcoder.jp/contests/abc305/tasks/abc305_b",
+    "solution": "solutions/atcoder/implementation/abc305_b_abcdefg.cpp",
+    "notes": "notes/atcoder/abc305_b_abcdefg.md",
+    "tests": "tests/cases/atcoder-abc305_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Prefix sums of the adjacent distances give coordinates along the line.",
+    "checker": "tokens"
   }
 ]
