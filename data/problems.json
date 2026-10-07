@@ -7263,5 +7263,20 @@
     "space": "O(1)",
     "hint": "Constant speed turns the invisible time interval into the inclusive distance interval [VT,VS].",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc191_b",
+    "title": "Remove It",
+    "url": "https://atcoder.jp/contests/abc191/tasks/abc191_b",
+    "solution": "solutions/atcoder/implementation/abc191_b_remove_it.cpp",
+    "notes": "notes/atcoder/abc191_b_remove_it.md",
+    "tests": "tests/cases/atcoder-abc191_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Filter values as they are read, preserving the relative order of all retained elements.",
+    "checker": "tokens"
   }
 ]
