@@ -4938,5 +4938,20 @@
     "space": "O(1)",
     "hint": "Read the age first because it determines whether two further input values exist.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc113_a",
+    "title": "Discount Fare",
+    "url": "https://atcoder.jp/contests/abc113/tasks/abc113_a",
+    "solution": "solutions/atcoder/implementation/abc113_a_discount_fare.cpp",
+    "notes": "notes/atcoder/abc113_a_discount_fare.md",
+    "tests": "tests/cases/atcoder-abc113_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Pay the train fare and half the bus fare.",
+    "checker": "tokens"
   }
 ]
