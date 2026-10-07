@@ -3933,5 +3933,20 @@
     "space": "O(n L)",
     "hint": "Sorting a word produces a canonical representation of its character multiset.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc139_c",
+    "title": "Lower",
+    "url": "https://atcoder.jp/contests/abc139/tasks/abc139_c",
+    "solution": "solutions/atcoder/implementation/abc139_c_lower.cpp",
+    "notes": "notes/atcoder/abc139_c_lower.md",
+    "tests": "tests/cases/atcoder-abc139_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Track the number of consecutive non-increasing edges ending at the current square.",
+    "checker": "tokens"
   }
 ]
