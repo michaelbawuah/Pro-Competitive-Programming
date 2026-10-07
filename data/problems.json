@@ -3393,5 +3393,20 @@
     "space": "O(n)",
     "hint": "Subtract the one-based index from each value.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc103_c",
+    "title": "Modulo Summation",
+    "url": "https://atcoder.jp/contests/abc103/tasks/abc103_c",
+    "solution": "solutions/atcoder/implementation/abc103_c_modulo_summation.cpp",
+    "notes": "notes/atcoder/abc103_c_modulo_summation.md",
+    "tests": "tests/cases/atcoder-abc103_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Each remainder is at most a_i-1.",
+    "checker": "tokens"
   }
 ]
