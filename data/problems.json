@@ -11463,5 +11463,20 @@
     "space": "O(1)",
     "hint": "Sum unit price times quantity for every product.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc332_b",
+    "title": "Glass and Mug",
+    "url": "https://atcoder.jp/contests/abc332/tasks/abc332_b",
+    "solution": "solutions/atcoder/implementation/abc332_b_glass_and_mug.cpp",
+    "notes": "notes/atcoder/abc332_b_glass_and_mug.md",
+    "tests": "tests/cases/atcoder-abc332_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(K)",
+    "space": "O(1)",
+    "hint": "Apply exactly one branch per operation in the stated priority order.",
+    "checker": "tokens"
   }
 ]
