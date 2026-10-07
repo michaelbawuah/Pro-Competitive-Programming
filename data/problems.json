@@ -9948,5 +9948,20 @@
     "space": "O(1)",
     "hint": "Subtract consecutive prefix sums to isolate each original element.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc281_a",
+    "title": "Count Down",
+    "url": "https://atcoder.jp/contests/abc281/tasks/abc281_a",
+    "solution": "solutions/atcoder/implementation/abc281_a_count_down.cpp",
+    "notes": "notes/atcoder/abc281_a_count_down.md",
+    "tests": "tests/cases/atcoder-abc281_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Start at N and decrement through zero, printing each value before moving to the next smaller one..",
+    "checker": "tokens"
   }
 ]
