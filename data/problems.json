@@ -7983,5 +7983,20 @@
     "space": "O(n)",
     "hint": "Exact string equality checks length, letter case, comma, and exclamation mark simultaneously..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc215_b",
+    "title": "log2(N)",
+    "url": "https://atcoder.jp/contests/abc215/tasks/abc215_b",
+    "solution": "solutions/atcoder/implementation/abc215_b_log2_n.cpp",
+    "notes": "notes/atcoder/abc215_b_log2_n.md",
+    "tests": "tests/cases/atcoder-abc215_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(log N)",
+    "space": "O(1)",
+    "hint": "Repeated halving counts how many powers of two fit below N.",
+    "checker": "tokens"
   }
 ]
