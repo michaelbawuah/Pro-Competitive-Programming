@@ -9903,5 +9903,20 @@
     "space": "O(n)",
     "hint": "Each v contributes one bottom and each w contributes two.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc279_b",
+    "title": "LOOKUP",
+    "url": "https://atcoder.jp/contests/abc279/tasks/abc279_b",
+    "solution": "solutions/atcoder/implementation/abc279_b_lookup.cpp",
+    "notes": "notes/atcoder/abc279_b_lookup.md",
+    "tests": "tests/cases/atcoder-abc279_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(|S||T|)",
+    "space": "O(|S|+|T|)",
+    "hint": "A contiguous substring occurs at some starting position without skipping characters.",
+    "checker": "tokens"
   }
 ]
