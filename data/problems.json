@@ -11493,5 +11493,20 @@
     "space": "O(1)",
     "hint": "Construct a string containing N repetitions of the single digit character representing N..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc333_b",
+    "title": "Pentagon",
+    "url": "https://atcoder.jp/contests/abc333/tasks/abc333_b",
+    "solution": "solutions/atcoder/implementation/abc333_b_pentagon.cpp",
+    "notes": "notes/atcoder/abc333_b_pentagon.md",
+    "tests": "tests/cases/atcoder-abc333_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "In a regular pentagon, segment length depends only on the smaller cyclic distance between its vertices: one for sides and two for diagonals.",
+    "checker": "tokens"
   }
 ]
