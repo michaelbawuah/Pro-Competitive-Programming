@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\r\ntanaka taro\r\ntanaka jiro\r\nsuzuki hanako\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3\r\naaa bbb\r\nxxx aaa\r\nbbb yyy\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "2\r\ntanaka taro\r\ntanaka taro\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\na a\nb b\n",
+    "output": "Yes\n"
+  }
+]

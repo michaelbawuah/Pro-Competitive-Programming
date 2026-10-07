@@ -8943,5 +8943,20 @@
     "space": "O(1)",
     "hint": "The leftmost square receives nobody, and each other square receives its left neighbor.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc247_b",
+    "title": "Unique Nicknames",
+    "url": "https://atcoder.jp/contests/abc247/tasks/abc247_b",
+    "solution": "solutions/atcoder/implementation/abc247_b_unique_nicknames.cpp",
+    "notes": "notes/atcoder/abc247_b_unique_nicknames.md",
+    "tests": "tests/cases/atcoder-abc247_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2 L)",
+    "space": "O(n L)",
+    "hint": "For each person, test each candidate name against both names of every other person.",
+    "checker": "tokens"
   }
 ]
