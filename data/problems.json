@@ -3813,5 +3813,20 @@
     "space": "O(n)",
     "hint": "A safe step can be reached from the previous step or from two steps below.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc130_b",
+    "title": "Bounding",
+    "url": "https://atcoder.jp/contests/abc130/tasks/abc130_b",
+    "solution": "solutions/atcoder/implementation/abc130_b_bounding.cpp",
+    "notes": "notes/atcoder/abc130_b_bounding.md",
+    "tests": "tests/cases/atcoder-abc130_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "The initial bounce is at zero.",
+    "checker": "tokens"
   }
 ]
