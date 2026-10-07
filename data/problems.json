@@ -11148,5 +11148,20 @@
     "space": "O(n)",
     "hint": "Try the final score from zero through one hundred.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc322_a",
+    "title": "First ABC 2",
+    "url": "https://atcoder.jp/contests/abc322/tasks/abc322_a",
+    "solution": "solutions/atcoder/implementation/abc322_a_first_abc_2.cpp",
+    "notes": "notes/atcoder/abc322_a_first_abc_2.md",
+    "tests": "tests/cases/atcoder-abc322_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Find locates the first contiguous occurrence of ABC.",
+    "checker": "tokens"
   }
 ]
