@@ -5853,5 +5853,20 @@
     "space": "O(1)",
     "hint": "Both factors must individually belong to the known one-through-nine multiplication table..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc144_b",
+    "title": "81",
+    "url": "https://atcoder.jp/contests/abc144/tasks/abc144_b",
+    "solution": "solutions/atcoder/implementation/abc144_b_81.cpp",
+    "notes": "notes/atcoder/abc144_b_81.md",
+    "tests": "tests/cases/atcoder-abc144_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Enumerate the 81 legal factor pairs and check whether any product equals N..",
+    "checker": "tokens"
   }
 ]
