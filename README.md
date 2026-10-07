@@ -1,4 +1,4 @@
-# Competitive Programming · C++
+# Pro Competitive Programming
 
 Michael Baffour Awuah's workspace for learning algorithms, writing clear C++, and practicing under contest constraints.
 
