@@ -10,6 +10,7 @@ from pathlib import Path
 import shlex
 import subprocess
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from checkers import CHECKERS
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -168,6 +169,9 @@ def main():
     test.add_argument('id')
     test.add_argument('--source', type=Path, help='Test your own attempt instead of the reference')
     test.add_argument('--sanitize', action='store_true', help='Enable undefined-behavior sanitizer')
+    test.add_argument('--jobs', type=int, default=1, help='Concurrent independent builds')
+    test.add_argument('--shard-index', type=int, default=0, help='Zero-based CI shard')
+    test.add_argument('--shard-count', type=int, default=1, help='Number of disjoint CI shards')
     commands.add_parser('check', help='Check catalogue and acceptance ledger structure')
     commands.add_parser('index', help='Regenerate the problem index and progress document')
     stress = commands.add_parser('stress', help='Compare with independent small-input oracles')
@@ -192,14 +196,19 @@ def main():
             print(f"Created {path.relative_to(ROOT)}\nProblem: {p['url']}\n"
                   f"Test: python3 tools/cp.py test {p['id']} --source {path.relative_to(ROOT)}")
     elif args.command == 'test':
+        if args.jobs < 1 or args.shard_count < 1 or not 0 <= args.shard_index < args.shard_count:
+            parser.error('jobs and shard count must be positive; shard index must be in range')
+        if args.id != 'all' and (args.shard_count != 1 or args.shard_index != 0):
+            parser.error('sharding requires test all')
         if args.source and args.id in ('all', 'library'):
             parser.error('--source requires one problem ID')
         count = 0
         if args.id != 'library':
             selected = problems() if args.id == 'all' else [find_problem(args.id)]
-            for p in selected:
-                count += test_problem(p, args.source, args.sanitize)
-        if args.id in ('all', 'library'):
+            selected = selected[args.shard_index::args.shard_count]
+            with ThreadPoolExecutor(max_workers=args.jobs) as pool:
+                count = sum(pool.map(lambda p: test_problem(p, args.source, args.sanitize), selected))
+        if args.id in ('all', 'library') and args.shard_index == 0:
             binary = compile_source(ROOT / 'tests/library_test.cpp', args.sanitize)
             print(run_binary(binary, '', timeout=20).strip())
         print(f'All requested checks passed ({count} problem cases).')

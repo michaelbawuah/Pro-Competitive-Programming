@@ -10,17 +10,19 @@ permissions:
 
 jobs:
   verify:
-    name: ${{ matrix.os }} / ${{ matrix.compiler }}
+    name: ${{ matrix.os }} / ${{ matrix.compiler }} / shard ${{ matrix.shard }}
     strategy:
       fail-fast: false
       matrix:
+        os: [ubuntu-latest, macos-latest]
+        shard: [0, 1, 2, 3]
         include:
           - os: ubuntu-latest
             compiler: g++
           - os: macos-latest
             compiler: clang++
     runs-on: ${{ matrix.os }}
-    timeout-minutes: 15
+    timeout-minutes: 20
     env:
       CXX: ${{ matrix.compiler }}
     steps:
@@ -35,12 +37,13 @@ jobs:
       - name: Verify runner behavior
         run: python3 -m unittest discover -s tests -p 'test_*.py' -v
       - name: Compile and test every solution and library
-        run: python3 tools/cp.py test all
+        run: python3 tools/cp.py test all --shard-index ${{ matrix.shard }} --shard-count 4
       - name: Check undefined behavior
         if: matrix.os == 'ubuntu-latest'
-        run: python3 tools/cp.py test all --sanitize
+        run: python3 tools/cp.py test all --sanitize --shard-index ${{ matrix.shard }} --shard-count 4
       - name: Compare optimized algorithms with brute force
-        if: matrix.os == 'ubuntu-latest'
+        if: matrix.os == 'ubuntu-latest' && matrix.shard == 0
         run: python3 tools/cp.py stress --cases 100 --seed 2110
       - name: Verify constraint-limit regressions
+        if: matrix.shard == 0
         run: python3 tools/boundary.py
