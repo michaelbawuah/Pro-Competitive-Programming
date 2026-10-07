@@ -8658,5 +8658,20 @@
     "space": "O(HW)",
     "hint": "Transposition exchanges row and column indices.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc238_a",
+    "title": "Exponential or Quadratic",
+    "url": "https://atcoder.jp/contests/abc238/tasks/abc238_a",
+    "solution": "solutions/atcoder/implementation/abc238_a_exponential_or_quadratic.cpp",
+    "notes": "notes/atcoder/abc238_a_exponential_or_quadratic.md",
+    "tests": "tests/cases/atcoder-abc238_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Directly check N=1 through 4; only 1 succeeds.",
+    "checker": "tokens"
   }
 ]
