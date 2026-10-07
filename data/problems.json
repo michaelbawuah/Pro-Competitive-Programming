@@ -8973,5 +8973,20 @@
     "space": "O(1)",
     "hint": "The ten digits sum to forty-five.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc248_b",
+    "title": "Slimes",
+    "url": "https://atcoder.jp/contests/abc248/tasks/abc248_b",
+    "solution": "solutions/atcoder/implementation/abc248_b_slimes.cpp",
+    "notes": "notes/atcoder/abc248_b_slimes.md",
+    "tests": "tests/cases/atcoder-abc248_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(log_K(B/A)+1)",
+    "space": "O(1)",
+    "hint": "Apply each multiplication until the first count reaches B.",
+    "checker": "tokens"
   }
 ]
