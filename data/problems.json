@@ -11808,5 +11808,20 @@
     "space": "O(1)",
     "hint": "A one in adjacency-matrix row i marks a neighbor of vertex i.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc344_a",
+    "title": "Spoiler",
+    "url": "https://atcoder.jp/contests/abc344/tasks/abc344_a",
+    "solution": "solutions/atcoder/implementation/abc344_a_spoiler.cpp",
+    "notes": "notes/atcoder/abc344_a_spoiler.md",
+    "tests": "tests/cases/atcoder-abc344_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Keep the prefix before the first bar and the suffix after the second bar.",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "atcoder|beginner|contest\n",
+    "output": "atcodercontest\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "|spoiler|\n",
+    "output": "\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "||xyz\n",
+    "output": "xyz\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "||\n",
+    "output": "\n"
+  }
+]
