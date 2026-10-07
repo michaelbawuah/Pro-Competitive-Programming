@@ -8718,5 +8718,20 @@
     "space": "O(1)",
     "hint": "C++ integer division truncates toward zero.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc240_a",
+    "title": "Edge Checker",
+    "url": "https://atcoder.jp/contests/abc240/tasks/abc240_a",
+    "solution": "solutions/atcoder/implementation/abc240_a_edge_checker.cpp",
+    "notes": "notes/atcoder/abc240_a_edge_checker.md",
+    "tests": "tests/cases/atcoder-abc240_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The diagram is a ten-vertex cycle.",
+    "checker": "tokens"
   }
 ]
