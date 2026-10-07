@@ -6138,5 +6138,20 @@
     "space": "O(1)",
     "hint": "Each attack removes A health, so ceiling division counts the attacks needed to remove at least H..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc154_a",
+    "title": "Remaining Balls",
+    "url": "https://atcoder.jp/contests/abc154/tasks/abc154_a",
+    "solution": "solutions/atcoder/implementation/abc154_a_remaining_balls.cpp",
+    "notes": "notes/atcoder/abc154_a_remaining_balls.md",
+    "tests": "tests/cases/atcoder-abc154_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(|S|+|T|)",
+    "space": "O(|S|+|T|)",
+    "hint": "Exactly one named category loses one ball.",
+    "checker": "tokens"
   }
 ]
