@@ -11718,5 +11718,20 @@
     "space": "O(Q)",
     "hint": "Append queries extend a vector.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc341_a",
+    "title": "Print 341",
+    "url": "https://atcoder.jp/contests/abc341/tasks/abc341_a",
+    "solution": "solutions/atcoder/implementation/abc341_a_print_341.cpp",
+    "notes": "notes/atcoder/abc341_a_print_341.md",
+    "tests": "tests/cases/atcoder-abc341_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Start with one and append the pair 01 exactly N times.",
+    "checker": "tokens"
   }
 ]
