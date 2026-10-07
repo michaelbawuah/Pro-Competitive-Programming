@@ -4053,5 +4053,20 @@
     "space": "O(n^2)",
     "hint": "Enumerate the set of honest people.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc148_c",
+    "title": "Snack",
+    "url": "https://atcoder.jp/contests/abc148/tasks/abc148_c",
+    "solution": "solutions/atcoder/number_theory/abc148_c_snack.cpp",
+    "notes": "notes/atcoder/abc148_c_snack.md",
+    "tests": "tests/cases/atcoder-abc148_c.json",
+    "tags": [
+      "number_theory"
+    ],
+    "time": "O(log(min(A,B)))",
+    "space": "O(1)",
+    "hint": "A valid snack count is a positive common multiple.",
+    "checker": "tokens"
   }
 ]
