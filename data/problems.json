@@ -11958,5 +11958,20 @@
     "space": "O(n)",
     "hint": "Squared Euclidean distances have the same ordering as distances.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc349_a",
+    "title": "Zero Sum Game",
+    "url": "https://atcoder.jp/contests/abc349/tasks/abc349_a",
+    "solution": "solutions/atcoder/implementation/abc349_a_zero_sum_game.cpp",
+    "notes": "notes/atcoder/abc349_a_zero_sum_game.md",
+    "tests": "tests/cases/atcoder-abc349_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Each game adds one point and subtracts one, so the total score stays zero.",
+    "checker": "tokens"
   }
 ]
