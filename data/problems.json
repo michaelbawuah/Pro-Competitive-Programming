@@ -11793,5 +11793,20 @@
     "space": "O(1)",
     "hint": "The sum is a digit from zero through nine.",
     "checker": "not_sum"
+  },
+  {
+    "id": "atcoder-abc343_b",
+    "title": "Adjacency Matrix",
+    "url": "https://atcoder.jp/contests/abc343/tasks/abc343_b",
+    "solution": "solutions/atcoder/implementation/abc343_b_adjacency_matrix.cpp",
+    "notes": "notes/atcoder/abc343_b_adjacency_matrix.md",
+    "tests": "tests/cases/atcoder-abc343_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(1)",
+    "hint": "A one in adjacency-matrix row i marks a neighbor of vertex i.",
+    "checker": "tokens"
   }
 ]
