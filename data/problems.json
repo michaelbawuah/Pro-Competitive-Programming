@@ -3198,5 +3198,20 @@
     "space": "O(1)",
     "hint": "Enumerate each candidate once, compute its decimal digit sum, and add the candidate when that sum lies in the inclusive interval..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc088_b",
+    "title": "Card Game for Two",
+    "url": "https://atcoder.jp/contests/abc088/tasks/abc088_b",
+    "solution": "solutions/atcoder/implementation/abc088_b_card_game_for_two.cpp",
+    "notes": "notes/atcoder/abc088_b_card_game_for_two.md",
+    "tests": "tests/cases/atcoder-abc088_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Taking the largest remaining card cannot hurt a player: exchanging it with a later smaller pick weakly improves the score.",
+    "checker": "tokens"
   }
 ]
