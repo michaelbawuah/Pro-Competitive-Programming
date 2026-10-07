@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "oder atc\n",
+    "output": "atcoder\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "humu humu\n",
+    "output": "humuhumu\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a b\n",
+    "output": "ba\n"
+  }
+]
