@@ -9063,5 +9063,20 @@
     "space": "O(1)",
     "hint": "Cycle through the original string positions modulo its length until six characters have been emitted.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc251_b",
+    "title": "At Most 3 (Judge ver.)",
+    "url": "https://atcoder.jp/contests/abc251/tasks/abc251_b",
+    "solution": "solutions/atcoder/implementation/abc251_b_at_most_3_judge_ver.cpp",
+    "notes": "notes/atcoder/abc251_b_at_most_3_judge_ver.md",
+    "tests": "tests/cases/atcoder-abc251_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^3+W)",
+    "space": "O(n+W)",
+    "hint": "Enumerate every subset of one, two, or three distinct indices in increasing order.",
+    "checker": "tokens"
   }
 ]
