@@ -1,0 +1,17 @@
+[
+  {
+    "name": "sample",
+    "input": "27\n",
+    "output": "5\n"
+  },
+  {
+    "name": "single-digit",
+    "input": "9\n",
+    "output": "1\n"
+  },
+  {
+    "name": "zero-digit",
+    "input": "10\n",
+    "output": "2\n"
+  }
+]

@@ -931,5 +931,69 @@
     "space": "O(n)",
     "hint": "Discard earlier candidates that are at least as large as the current value.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1635",
+    "title": "Coin Combinations I",
+    "url": "https://cses.fi/problemset/task/1635/",
+    "solution": "solutions/cses/dynamic_programming/1635_coin_combinations_i.cpp",
+    "notes": "notes/cses/1635_coin_combinations_i.md",
+    "tests": "tests/cases/cses-1635.json",
+    "tags": [
+      "dynamic-programming",
+      "counting"
+    ],
+    "time": "O(n x)",
+    "space": "O(n + x)",
+    "hint": "Classify each ordered sequence by its last coin.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1637",
+    "title": "Removing Digits",
+    "url": "https://cses.fi/problemset/task/1637/",
+    "solution": "solutions/cses/dynamic_programming/1637_removing_digits.cpp",
+    "notes": "notes/cses/1637_removing_digits.md",
+    "tests": "tests/cases/cses-1637.json",
+    "tags": [
+      "dynamic-programming",
+      "digits"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "For each number, try every nonzero digit as the first subtraction.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1638",
+    "title": "Grid Paths I",
+    "url": "https://cses.fi/problemset/task/1638/",
+    "solution": "solutions/cses/dynamic_programming/1638_grid_paths_i.cpp",
+    "notes": "notes/cses/1638_grid_paths_i.md",
+    "tests": "tests/cases/cses-1638.json",
+    "tags": [
+      "dynamic-programming",
+      "grid"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "A path enters each open cell from above or from the left.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1746",
+    "title": "Array Description",
+    "url": "https://cses.fi/problemset/task/1746/",
+    "solution": "solutions/cses/dynamic_programming/1746_array_description.cpp",
+    "notes": "notes/cses/1746_array_description.md",
+    "tests": "tests/cases/cses-1746.json",
+    "tags": [
+      "dynamic-programming",
+      "counting"
+    ],
+    "time": "O(n m)",
+    "space": "O(m)",
+    "hint": "Track how many valid prefixes end at each possible value.",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "obstacles",
+    "input": "4\n....\n.*..\n...*\n*...\n",
+    "output": "3\n"
+  },
+  {
+    "name": "one-cell",
+    "input": "1\n.\n",
+    "output": "1\n"
+  },
+  {
+    "name": "blocked-start",
+    "input": "2\n*.\n..\n",
+    "output": "0\n"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "orders",
+    "input": "3 9\n2 3 5\n",
+    "output": "8\n"
+  },
+  {
+    "name": "two-orders",
+    "input": "2 3\n1 2\n",
+    "output": "3\n"
+  },
+  {
+    "name": "unreachable",
+    "input": "2 7\n2 4\n",
+    "output": "0\n"
+  }
+]
