@@ -8988,5 +8988,20 @@
     "space": "O(1)",
     "hint": "Apply each multiplication until the first count reaches B.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc249_a",
+    "title": "Jogging",
+    "url": "https://atcoder.jp/contests/abc249/tasks/abc249_a",
+    "solution": "solutions/atcoder/implementation/abc249_a_jogging.cpp",
+    "notes": "notes/atcoder/abc249_a_jogging.md",
+    "tests": "tests/cases/atcoder-abc249_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Count full walk-rest cycles and the walking portion of the final partial cycle for each runner.",
+    "checker": "tokens"
   }
 ]
