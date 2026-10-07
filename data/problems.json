@@ -8928,5 +8928,20 @@
     "space": "O(1)",
     "hint": "Divide the displacement vector by its positive Euclidean length.",
     "checker": "floating_vector"
+  },
+  {
+    "id": "atcoder-abc247_a",
+    "title": "Move Right",
+    "url": "https://atcoder.jp/contests/abc247/tasks/abc247_a",
+    "solution": "solutions/atcoder/implementation/abc247_a_move_right.cpp",
+    "notes": "notes/atcoder/abc247_a_move_right.md",
+    "tests": "tests/cases/atcoder-abc247_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The leftmost square receives nobody, and each other square receives its left neighbor.",
+    "checker": "tokens"
   }
 ]
