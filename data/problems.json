@@ -10668,5 +10668,20 @@
     "space": "O(number of digits)",
     "hint": "The specified intervals all preserve the first three decimal digits and zero every later digit.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc305_a",
+    "title": "Water Station",
+    "url": "https://atcoder.jp/contests/abc305/tasks/abc305_a",
+    "solution": "solutions/atcoder/implementation/abc305_a_water_station.cpp",
+    "notes": "notes/atcoder/abc305_a_water_station.md",
+    "tests": "tests/cases/atcoder-abc305_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "For integer positions, remainders zero through two round down to a multiple of five, and remainders three or four round up.",
+    "checker": "tokens"
   }
 ]
