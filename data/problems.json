@@ -8193,5 +8193,20 @@
     "space": "O(1)",
     "hint": "Set a field width of four and fill missing leading positions with zeros.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc222_b",
+    "title": "Failing Grade",
+    "url": "https://atcoder.jp/contests/abc222/tasks/abc222_b",
+    "solution": "solutions/atcoder/implementation/abc222_b_failing_grade.cpp",
+    "notes": "notes/atcoder/abc222_b_failing_grade.md",
+    "tests": "tests/cases/atcoder-abc222_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Failing means strictly below P; count those scores and preserve passing scores equal to the threshold..",
+    "checker": "tokens"
   }
 ]
