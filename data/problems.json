@@ -10773,5 +10773,20 @@
     "space": "O(1)",
     "hint": "Check every value against the permitted range and divisibility requirement, and compare it with the previous value to enforce nondecreasing order..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc308_b",
+    "title": "Default Price",
+    "url": "https://atcoder.jp/contests/abc308/tasks/abc308_b",
+    "solution": "solutions/atcoder/implementation/abc308_b_default_price.cpp",
+    "notes": "notes/atcoder/abc308_b_default_price.md",
+    "tests": "tests/cases/atcoder-abc308_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O((N+M)L log M)",
+    "space": "O((N+M)L)",
+    "hint": "Associate each named special color with its price.",
+    "checker": "tokens"
   }
 ]
