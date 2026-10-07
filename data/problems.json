@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "id": "cses-1068",
+    "title": "Weird Algorithm",
+    "url": "https://cses.fi/problemset/task/1068/",
+    "solution": "solutions/cses/introductory/1068_weird_algorithm.cpp",
+    "notes": "notes/cses/1068_weird_algorithm.md",
+    "tests": "tests/cases/cses-1068.json",
+    "tags": [
+      "simulation",
+      "integers"
+    ],
+    "time": "O(L) steps",
+    "space": "O(1)",
+    "hint": "Follow the rule literally; consider the type of every intermediate value.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1083",
+    "title": "Missing Number",
+    "url": "https://cses.fi/problemset/task/1083/",
+    "solution": "solutions/cses/introductory/1083_missing_number.cpp",
+    "notes": "notes/cses/1083_missing_number.md",
+    "tests": "tests/cases/cses-1083.json",
+    "tags": [
+      "arithmetic",
+      "integers"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Compare the expected sum with the observed sum.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1069",
+    "title": "Repetitions",
+    "url": "https://cses.fi/problemset/task/1069/",
+    "solution": "solutions/cses/introductory/1069_repetitions.cpp",
+    "notes": "notes/cses/1069_repetitions.md",
+    "tests": "tests/cases/cses-1069.json",
+    "tags": [
+      "strings",
+      "scan"
+    ],
+    "time": "O(n)",
+    "space": "O(1) beyond input",
+    "hint": "Track the run ending at the current character.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1094",
+    "title": "Increasing Array",
+    "url": "https://cses.fi/problemset/task/1094/",
+    "solution": "solutions/cses/introductory/1094_increasing_array.cpp",
+    "notes": "notes/cses/1094_increasing_array.md",
+    "tests": "tests/cases/cses-1094.json",
+    "tags": [
+      "greedy",
+      "scan"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Fix each value as little as possible while preserving a valid prefix.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1617",
+    "title": "Bit Strings",
+    "url": "https://cses.fi/problemset/task/1617/",
+    "solution": "solutions/cses/introductory/1617_bit_strings.cpp",
+    "notes": "notes/cses/1617_bit_strings.md",
+    "tests": "tests/cases/cses-1617.json",
+    "tags": [
+      "modular arithmetic",
+      "binary exponentiation"
+    ],
+    "time": "O(log n)",
+    "space": "O(1)",
+    "hint": "Each position has two choices; compute the power without constructing strings.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1618",
+    "title": "Trailing Zeros",
+    "url": "https://cses.fi/problemset/task/1618/",
+    "solution": "solutions/cses/introductory/1618_trailing_zeros.cpp",
+    "notes": "notes/cses/1618_trailing_zeros.md",
+    "tests": "tests/cases/cses-1618.json",
+    "tags": [
+      "number theory"
+    ],
+    "time": "O(log n)",
+    "space": "O(1)",
+    "hint": "Count factors of 5; factors of 2 are more plentiful.",
+    "checker": "tokens"
+  }
+]

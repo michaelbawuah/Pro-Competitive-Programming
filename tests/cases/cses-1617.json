@@ -1,0 +1,17 @@
+[
+  {
+    "name": "small",
+    "input": "3\n",
+    "output": "8\n"
+  },
+  {
+    "name": "one",
+    "input": "1\n",
+    "output": "2\n"
+  },
+  {
+    "name": "modulo",
+    "input": "30\n",
+    "output": "73741817\n"
+  }
+]

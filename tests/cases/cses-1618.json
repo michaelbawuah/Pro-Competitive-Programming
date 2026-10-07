@@ -1,0 +1,17 @@
+[
+  {
+    "name": "small",
+    "input": "20\n",
+    "output": "4\n"
+  },
+  {
+    "name": "power",
+    "input": "125\n",
+    "output": "31\n"
+  },
+  {
+    "name": "none",
+    "input": "1\n",
+    "output": "0\n"
+  }
+]

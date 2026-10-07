@@ -1,0 +1,17 @@
+[
+  {
+    "name": "mixed",
+    "input": "ATTCGGGA\n",
+    "output": "3\n"
+  },
+  {
+    "name": "single",
+    "input": "A\n",
+    "output": "1\n"
+  },
+  {
+    "name": "last",
+    "input": "ACCCCC\n",
+    "output": "5\n"
+  }
+]
