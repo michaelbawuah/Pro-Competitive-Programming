@@ -7278,5 +7278,20 @@
     "space": "O(1)",
     "hint": "Filter values as they are read, preserving the relative order of all retained elements.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc192_a",
+    "title": "Star",
+    "url": "https://atcoder.jp/contests/abc192/tasks/abc192_a",
+    "solution": "solutions/atcoder/implementation/abc192_a_star.cpp",
+    "notes": "notes/atcoder/abc192_a_star.md",
+    "tests": "tests/cases/atcoder-abc192_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The next prize is strictly after the current count, so an exact multiple still needs one hundred further coins..",
+    "checker": "tokens"
   }
 ]
