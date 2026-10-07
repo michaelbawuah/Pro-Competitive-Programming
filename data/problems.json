@@ -1698,5 +1698,20 @@
     "space": "O(n)",
     "hint": "Process disjoint BG pairs in each second.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-96A",
+    "title": "Football",
+    "url": "https://codeforces.com/problemset/problem/96/A",
+    "solution": "solutions/codeforces/strings/96A_football.cpp",
+    "notes": "notes/codeforces/96A_football.md",
+    "tests": "tests/cases/codeforces-96A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Track the length of the equal-character run ending at the current position.",
+    "checker": "yes_no"
   }
 ]
