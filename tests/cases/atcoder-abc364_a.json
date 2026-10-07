@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "5\r\nsalty\r\nsweet\r\nsalty\r\nsalty\r\nsweet\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "4\r\nsweet\r\nsalty\r\nsweet\r\nsweet\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "6\r\nsalty\r\nsweet\r\nsweet\r\nsalty\r\nsweet\r\nsweet\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\nsweet\nsweet\n",
+    "output": "Yes\n"
+  }
+]
