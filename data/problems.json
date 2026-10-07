@@ -12558,5 +12558,20 @@
     "space": "O(N)",
     "hint": "A max-heap provides the same largest two values as sorting on every iteration.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc369_a",
+    "title": "369",
+    "url": "https://atcoder.jp/contests/abc369/tasks/abc369_a",
+    "solution": "solutions/atcoder/implementation/abc369_a_369.cpp",
+    "notes": "notes/atcoder/abc369_a_369.md",
+    "tests": "tests/cases/atcoder-abc369_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "With distinct A and B, the third term can extend the progression on either end, and it can be their midpoint only when their parities match.",
+    "checker": "tokens"
   }
 ]
