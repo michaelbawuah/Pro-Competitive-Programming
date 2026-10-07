@@ -7893,5 +7893,20 @@
     "space": "O(1)",
     "hint": "At least one component is positive.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc212_b",
+    "title": "Weak Password",
+    "url": "https://atcoder.jp/contests/abc212/tasks/abc212_b",
+    "solution": "solutions/atcoder/implementation/abc212_b_weak_password.cpp",
+    "notes": "notes/atcoder/abc212_b_weak_password.md",
+    "tests": "tests/cases/atcoder-abc212_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Track both weak-pattern predicates separately: all digits equal, or every digit one greater modulo ten.",
+    "checker": "tokens"
   }
 ]
