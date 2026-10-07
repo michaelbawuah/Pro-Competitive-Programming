@@ -2088,5 +2088,20 @@
     "space": "O(1)",
     "hint": "Choose four for an even total and nine for an odd total.",
     "checker": "composite_pair"
+  },
+  {
+    "id": "codeforces-25A",
+    "title": "IQ test",
+    "url": "https://codeforces.com/problemset/problem/25/A",
+    "solution": "solutions/codeforces/counting/25A_iq_test.cpp",
+    "notes": "notes/codeforces/25A_iq_test.md",
+    "tests": "tests/cases/codeforces-25A.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Count odd values to identify the minority parity.",
+    "checker": "tokens"
   }
 ]
