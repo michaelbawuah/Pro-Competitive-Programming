@@ -10953,5 +10953,20 @@
     "space": "O(1)",
     "hint": "The problem supplies the exact decimal digits.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc314_b",
+    "title": "Roulette",
+    "url": "https://atcoder.jp/contests/abc314/tasks/abc314_b",
+    "solution": "solutions/atcoder/implementation/abc314_b_roulette.cpp",
+    "notes": "notes/atcoder/abc314_b_roulette.md",
+    "tests": "tests/cases/atcoder-abc314_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(total bets)",
+    "space": "O(total bets+N)",
+    "hint": "Consider only people who bet on the outcome.",
+    "checker": "tokens"
   }
 ]
