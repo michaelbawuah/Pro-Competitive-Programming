@@ -2103,5 +2103,20 @@
     "space": "O(n)",
     "hint": "Count odd values to identify the minority parity.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-405A",
+    "title": "Gravity Flip",
+    "url": "https://codeforces.com/problemset/problem/405/A",
+    "solution": "solutions/codeforces/sorting/405A_gravity_flip.cpp",
+    "notes": "notes/codeforces/405A_gravity_flip.md",
+    "tests": "tests/cases/codeforces-405A.json",
+    "tags": [
+      "sorting"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "At every row, rightward gravity packs occupied cells against the right wall.",
+    "checker": "tokens"
   }
 ]
