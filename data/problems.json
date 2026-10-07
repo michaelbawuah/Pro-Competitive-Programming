@@ -6498,5 +6498,20 @@
     "space": "O(1)",
     "hint": "Add the integer floor of one percent each year.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc166_a",
+    "title": "A?C",
+    "url": "https://atcoder.jp/contests/abc166/tasks/abc166_a",
+    "solution": "solutions/atcoder/implementation/abc166_a_a_c.cpp",
+    "notes": "notes/atcoder/abc166_a_a_c.md",
+    "tests": "tests/cases/atcoder-abc166_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The two contest types alternate, so output the other type.",
+    "checker": "tokens"
   }
 ]

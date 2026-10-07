@@ -1,0 +1,12 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "ABC\n",
+    "output": "ARC\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "ARC\n",
+    "output": "ABC\n"
+  }
+]
