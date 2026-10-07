@@ -7383,5 +7383,20 @@
     "space": "O(1)",
     "hint": "The magic applies exactly to multiples of M, detected by a zero remainder..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc195_b",
+    "title": "Many Oranges",
+    "url": "https://atcoder.jp/contests/abc195/tasks/abc195_b",
+    "solution": "solutions/atcoder/implementation/abc195_b_many_oranges.cpp",
+    "notes": "notes/atcoder/abc195_b_many_oranges.md",
+    "tests": "tests/cases/atcoder-abc195_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "For k oranges, the total can be any real weight between kA and kB.",
+    "checker": "tokens"
   }
 ]
