@@ -5478,5 +5478,20 @@
     "space": "O(1)",
     "hint": "Removing one apple changes the total flavor by exactly that apple flavor.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc132_a",
+    "title": "Fifty-Fifty",
+    "url": "https://atcoder.jp/contests/abc132/tasks/abc132_a",
+    "solution": "solutions/atcoder/implementation/abc132_a_fifty_fifty.cpp",
+    "notes": "notes/atcoder/abc132_a_fifty_fifty.md",
+    "tests": "tests/cases/atcoder-abc132_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Sorting groups equal characters.",
+    "checker": "tokens"
   }
 ]
