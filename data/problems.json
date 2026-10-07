@@ -8358,5 +8358,20 @@
     "space": "O(M)",
     "hint": "Enumerate all positive side pairs whose expression is at most 1000.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc228_a",
+    "title": "On and Off",
+    "url": "https://atcoder.jp/contests/abc228/tasks/abc228_a",
+    "solution": "solutions/atcoder/implementation/abc228_a_on_and_off.cpp",
+    "notes": "notes/atcoder/abc228_a_on_and_off.md",
+    "tests": "tests/cases/atcoder-abc228_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Measure elapsed hours clockwise from S.",
+    "checker": "tokens"
   }
 ]
