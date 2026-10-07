@@ -7953,5 +7953,20 @@
     "space": "O(1)",
     "hint": "Use the three contest-number intervals given in the problem, including each upper boundary..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc214_b",
+    "title": "How many?",
+    "url": "https://atcoder.jp/contests/abc214/tasks/abc214_b",
+    "solution": "solutions/atcoder/implementation/abc214_b_how_many.cpp",
+    "notes": "notes/atcoder/abc214_b_how_many.md",
+    "tests": "tests/cases/atcoder-abc214_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(S^3)",
+    "space": "O(1)",
+    "hint": "The sum bound limits every coordinate to S.",
+    "checker": "tokens"
   }
 ]
