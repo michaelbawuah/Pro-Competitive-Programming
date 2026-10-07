@@ -5463,5 +5463,20 @@
     "space": "O(1)",
     "hint": "The code is bad exactly when one of its three adjacent digit pairs is equal.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc131_b",
+    "title": "Bite Eating",
+    "url": "https://atcoder.jp/contests/abc131/tasks/abc131_b",
+    "solution": "solutions/atcoder/implementation/abc131_b_bite_eating.cpp",
+    "notes": "notes/atcoder/abc131_b_bite_eating.md",
+    "tests": "tests/cases/atcoder-abc131_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Removing one apple changes the total flavor by exactly that apple flavor.",
+    "checker": "tokens"
   }
 ]
