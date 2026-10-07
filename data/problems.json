@@ -5088,5 +5088,20 @@
     "space": "O(1)",
     "hint": "Use the remainder to decide divisibility, then select the specified sum or difference..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc118_b",
+    "title": "Foods Loved by Everyone",
+    "url": "https://atcoder.jp/contests/abc118/tasks/abc118_b",
+    "solution": "solutions/atcoder/implementation/abc118_b_foods_loved_by_everyone.cpp",
+    "notes": "notes/atcoder/abc118_b_foods_loved_by_everyone.md",
+    "tests": "tests/cases/atcoder-abc118_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N M)",
+    "space": "O(M)",
+    "hint": "Each person lists a food at most once.",
+    "checker": "tokens"
   }
 ]
