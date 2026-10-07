@@ -2223,5 +2223,20 @@
     "space": "O(n)",
     "hint": "Invert the permutation of gift recipients.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-271A",
+    "title": "Beautiful Year",
+    "url": "https://codeforces.com/problemset/problem/271/A",
+    "solution": "solutions/codeforces/enumeration/271A_beautiful_year.cpp",
+    "notes": "notes/codeforces/271A_beautiful_year.md",
+    "tests": "tests/cases/codeforces-271A.json",
+    "tags": [
+      "enumeration"
+    ],
+    "time": "O(gap)",
+    "space": "O(1)",
+    "hint": "Try years in increasing order, beginning strictly after the input.",
+    "checker": "tokens"
   }
 ]
