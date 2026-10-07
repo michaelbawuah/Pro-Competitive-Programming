@@ -6798,5 +6798,20 @@
     "space": "O(n)",
     "hint": "After sorting, check strict differences of the three lengths and the single nontrivial triangle inequality: the two smaller lengths must exceed the largest..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc176_a",
+    "title": "Takoyaki",
+    "url": "https://atcoder.jp/contests/abc176/tasks/abc176_a",
+    "solution": "solutions/atcoder/implementation/abc176_a_takoyaki.cpp",
+    "notes": "notes/atcoder/abc176_a_takoyaki.md",
+    "tests": "tests/cases/atcoder-abc176_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Ceiling-divide demand by batch capacity, then multiply the batch count by its fixed cooking duration..",
+    "checker": "tokens"
   }
 ]
