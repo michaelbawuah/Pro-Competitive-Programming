@@ -8883,5 +8883,20 @@
     "space": "O(1)",
     "hint": "Compare minutes since midnight.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc245_b",
+    "title": "Mex",
+    "url": "https://atcoder.jp/contests/abc245/tasks/abc245_b",
+    "solution": "solutions/atcoder/implementation/abc245_b_mex.cpp",
+    "notes": "notes/atcoder/abc245_b_mex.md",
+    "tests": "tests/cases/atcoder-abc245_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n+2001)",
+    "space": "O(2001)",
+    "hint": "Mark every present value, then scan from zero for the first unmarked value.",
+    "checker": "tokens"
   }
 ]
