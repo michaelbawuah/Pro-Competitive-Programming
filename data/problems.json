@@ -6213,5 +6213,20 @@
     "space": "O(1)",
     "hint": "Undo the displayed-rating deduction for fewer than ten contests; the deduction is zero afterward..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc156_b",
+    "title": "Digits",
+    "url": "https://atcoder.jp/contests/abc156/tasks/abc156_b",
+    "solution": "solutions/atcoder/implementation/abc156_b_digits.cpp",
+    "notes": "notes/atcoder/abc156_b_digits.md",
+    "tests": "tests/cases/atcoder-abc156_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(log_K N)",
+    "space": "O(1)",
+    "hint": "Each integer division by the base removes one least-significant digit.",
+    "checker": "tokens"
   }
 ]
