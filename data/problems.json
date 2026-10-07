@@ -6168,5 +6168,20 @@
     "space": "O(n)",
     "hint": "Only the input length matters; construct that many copies of x..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc155_a",
+    "title": "Poor",
+    "url": "https://atcoder.jp/contests/abc155/tasks/abc155_a",
+    "solution": "solutions/atcoder/implementation/abc155_a_poor.cpp",
+    "notes": "notes/atcoder/abc155_a_poor.md",
+    "tests": "tests/cases/atcoder-abc155_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Exactly two equal values create exactly one equal pair; all equal values create three pairs..",
+    "checker": "tokens"
   }
 ]
