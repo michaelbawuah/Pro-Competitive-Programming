@@ -5508,5 +5508,20 @@
     "space": "O(n)",
     "hint": "With distinct permutation values, the center is the median precisely when the three consecutive values are strictly increasing or strictly decreasing..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc133_a",
+    "title": "T or T",
+    "url": "https://atcoder.jp/contests/abc133/tasks/abc133_a",
+    "solution": "solutions/atcoder/implementation/abc133_a_t_or_t.cpp",
+    "notes": "notes/atcoder/abc133_a_t_or_t.md",
+    "tests": "tests/cases/atcoder-abc133_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Compare the total per-person train fare with the single taxi fare shared by the group..",
+    "checker": "tokens"
   }
 ]
