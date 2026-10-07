@@ -4398,5 +4398,20 @@
     "space": "O(n)",
     "hint": "A subarray ending at r may start at prefix indices r-b through r-a.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1632",
+    "title": "Movie Festival II",
+    "url": "https://cses.fi/problemset/task/1632/",
+    "solution": "solutions/cses/greedy/1632_movie_festival_ii.cpp",
+    "notes": "notes/cses/1632_movie_festival_ii.md",
+    "tests": "tests/cases/cses-1632.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Process movies by ending time to leave as much future availability as possible.",
+    "checker": "tokens"
   }
 ]
