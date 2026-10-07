@@ -7863,5 +7863,20 @@
     "space": "O(1)",
     "hint": "Evaluate the supplied expression in floating point so division by three retains its fractional part..",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc211_b",
+    "title": "Cycle Hit",
+    "url": "https://atcoder.jp/contests/abc211/tasks/abc211_b",
+    "solution": "solutions/atcoder/implementation/abc211_b_cycle_hit.cpp",
+    "notes": "notes/atcoder/abc211_b_cycle_hit.md",
+    "tests": "tests/cases/atcoder-abc211_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "All inputs belong to the four allowed labels, so four distinct entries imply exactly one of each..",
+    "checker": "tokens"
   }
 ]

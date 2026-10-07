@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3B\r\nHR\r\n2B\r\nH\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "2B\r\n3B\r\nHR\r\n3B\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "H\nH\nH\nH\n",
+    "output": "No\n"
+  }
+]
