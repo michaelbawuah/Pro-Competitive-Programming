@@ -1863,5 +1863,20 @@
     "space": "O(n)",
     "hint": "Enumerate every ordered host and visitor pair.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-41A",
+    "title": "Translation",
+    "url": "https://codeforces.com/problemset/problem/41/A",
+    "solution": "solutions/codeforces/strings/41A_translation.cpp",
+    "notes": "notes/codeforces/41A_translation.md",
+    "tests": "tests/cases/codeforces-41A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Reverse the first word and compare the complete strings.",
+    "checker": "yes_no"
   }
 ]

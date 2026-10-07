@@ -1,0 +1,27 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "code\nedoc\n",
+    "output": "YES\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "abb\naba\n",
+    "output": "NO\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "code\ncode\n",
+    "output": "NO\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a\na\n",
+    "output": "YES\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "ab\nab\n",
+    "output": "NO\n"
+  }
+]
