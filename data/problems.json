@@ -9093,5 +9093,20 @@
     "space": "O(1)",
     "hint": "The supplied code is an offset from ninety-seven.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc252_b",
+    "title": "Takahashi's Failure",
+    "url": "https://atcoder.jp/contests/abc252/tasks/abc252_b",
+    "solution": "solutions/atcoder/implementation/abc252_b_takahashi_s_failure.cpp",
+    "notes": "notes/atcoder/abc252_b_takahashi_s_failure.md",
+    "tests": "tests/cases/atcoder-abc252_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N+K)",
+    "space": "O(N)",
+    "hint": "Only foods with maximum tastiness can be selected.",
+    "checker": "tokens"
   }
 ]
