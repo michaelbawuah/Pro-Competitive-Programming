@@ -851,5 +851,85 @@
     "space": "O(n)",
     "hint": "Look at the positions of consecutive values rather than repeatedly scanning the array.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1073",
+    "title": "Towers",
+    "url": "https://cses.fi/problemset/task/1073/",
+    "solution": "solutions/cses/sorting_searching/1073_towers.cpp",
+    "notes": "notes/cses/1073_towers.md",
+    "tests": "tests/cases/cses-1073.json",
+    "tags": [
+      "binary search",
+      "greedy"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Put each cube on the smallest tower top that is strictly larger.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1163",
+    "title": "Traffic Lights",
+    "url": "https://cses.fi/problemset/task/1163/",
+    "solution": "solutions/cses/sorting_searching/1163_traffic_lights.cpp",
+    "notes": "notes/cses/1163_traffic_lights.md",
+    "tests": "tests/cases/cses-1163.json",
+    "tags": [
+      "ordered set",
+      "multiset",
+      "intervals"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Inserting one light splits exactly one existing interval into two.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1630",
+    "title": "Tasks and Deadlines",
+    "url": "https://cses.fi/problemset/task/1630/",
+    "solution": "solutions/cses/sorting_searching/1630_tasks_and_deadlines.cpp",
+    "notes": "notes/cses/1630_tasks_and_deadlines.md",
+    "tests": "tests/cases/cses-1630.json",
+    "tags": [
+      "greedy",
+      "scheduling"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "The deadline sum is fixed; minimize the sum of completion times.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1631",
+    "title": "Reading Books",
+    "url": "https://cses.fi/problemset/task/1631/",
+    "solution": "solutions/cses/sorting_searching/1631_reading_books.cpp",
+    "notes": "notes/cses/1631_reading_books.md",
+    "tests": "tests/cases/cses-1631.json",
+    "tags": [
+      "greedy",
+      "lower bounds"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Compare the total reading time with twice the longest single book.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1645",
+    "title": "Nearest Smaller Values",
+    "url": "https://cses.fi/problemset/task/1645/",
+    "solution": "solutions/cses/sorting_searching/1645_nearest_smaller_values.cpp",
+    "notes": "notes/cses/1645_nearest_smaller_values.md",
+    "tests": "tests/cases/cses-1645.json",
+    "tags": [
+      "monotonic stack"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Discard earlier candidates that are at least as large as the current value.",
+    "checker": "tokens"
   }
 ]

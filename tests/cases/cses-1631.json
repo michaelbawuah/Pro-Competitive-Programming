@@ -1,0 +1,17 @@
+[
+  {
+    "name": "dominant",
+    "input": "3\n2 3 10\n",
+    "output": "20\n"
+  },
+  {
+    "name": "balanced",
+    "input": "3\n3 3 3\n",
+    "output": "9\n"
+  },
+  {
+    "name": "single",
+    "input": "1\n7\n",
+    "output": "14\n"
+  }
+]

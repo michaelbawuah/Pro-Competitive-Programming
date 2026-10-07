@@ -1,0 +1,17 @@
+[
+  {
+    "name": "mixed",
+    "input": "5\n2 5 1 4 4\n",
+    "output": "0 1 0 3 3\n"
+  },
+  {
+    "name": "ascending",
+    "input": "3\n1 2 3\n",
+    "output": "0 1 2\n"
+  },
+  {
+    "name": "equal",
+    "input": "3\n7 7 7\n",
+    "output": "0 0 0\n"
+  }
+]
