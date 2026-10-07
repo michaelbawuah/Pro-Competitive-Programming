@@ -6228,5 +6228,20 @@
     "space": "O(1)",
     "hint": "Each integer division by the base removes one least-significant digit.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc157_a",
+    "title": "Duplex Printing",
+    "url": "https://atcoder.jp/contests/abc157/tasks/abc157_a",
+    "solution": "solutions/atcoder/implementation/abc157_a_duplex_printing.cpp",
+    "notes": "notes/atcoder/abc157_a_duplex_printing.md",
+    "tests": "tests/cases/atcoder-abc157_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A sheet holds two pages, so use ceiling division to include an unmatched final page..",
+    "checker": "tokens"
   }
 ]
