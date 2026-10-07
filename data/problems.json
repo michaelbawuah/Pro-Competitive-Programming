@@ -3258,5 +3258,20 @@
     "space": "O(n)",
     "hint": "Let ok[i] mean the prefix ending before i can be formed.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc086_c",
+    "title": "Traveling",
+    "url": "https://atcoder.jp/contests/abc086/tasks/arc089_a",
+    "solution": "solutions/atcoder/implementation/abc086_c_traveling.cpp",
+    "notes": "notes/atcoder/abc086_c_traveling.md",
+    "tests": "tests/cases/atcoder-abc086_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "The Manhattan distance is the minimum number of moves.",
+    "checker": "tokens"
   }
 ]
