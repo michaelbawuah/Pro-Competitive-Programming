@@ -12003,5 +12003,20 @@
     "space": "O(1)",
     "hint": "The statement defines a fixed historical list: contest numbers one through 349 except 316.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc350_b",
+    "title": "Dentist Aoki",
+    "url": "https://atcoder.jp/contests/abc350/tasks/abc350_b",
+    "solution": "solutions/atcoder/implementation/abc350_b_dentist_aoki.cpp",
+    "notes": "notes/atcoder/abc350_b_dentist_aoki.md",
+    "tests": "tests/cases/atcoder-abc350_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N+Q)",
+    "space": "O(N)",
+    "hint": "Every treatment toggles the occupancy of one hole.",
+    "checker": "tokens"
   }
 ]
