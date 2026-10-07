@@ -9183,5 +9183,20 @@
     "space": "O(1)",
     "hint": "Read the matrix in row-major order, then convert the requested one-based row and column to zero-based array indices..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc255_b",
+    "title": "Light It Up",
+    "url": "https://atcoder.jp/contests/abc255/tasks/abc255_b",
+    "solution": "solutions/atcoder/implementation/abc255_b_light_it_up.cpp",
+    "notes": "notes/atcoder/abc255_b_light_it_up.md",
+    "tests": "tests/cases/atcoder-abc255_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(NK)",
+    "space": "O(N+K)",
+    "hint": "Each person requires a radius at least their distance to the nearest lamp.",
+    "checker": "floating"
   }
 ]
