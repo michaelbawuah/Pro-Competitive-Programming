@@ -9273,5 +9273,20 @@
     "space": "O(1)",
     "hint": "Divide elapsed minutes into complete hours and the remaining minute field.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc258_b",
+    "title": "Number Box",
+    "url": "https://atcoder.jp/contests/abc258/tasks/abc258_b",
+    "solution": "solutions/atcoder/implementation/abc258_b_number_box.cpp",
+    "notes": "notes/atcoder/abc258_b_number_box.md",
+    "tests": "tests/cases/atcoder-abc258_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^3)",
+    "space": "O(n^2)",
+    "hint": "A path is determined by its starting cell and one of eight directions.",
+    "checker": "tokens"
   }
 ]
