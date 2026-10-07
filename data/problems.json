@@ -6423,5 +6423,20 @@
     "space": "O(1)",
     "hint": "Use circumference 2*pi*R.",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc163_b",
+    "title": "Homework",
+    "url": "https://atcoder.jp/contests/abc163/tasks/abc163_b",
+    "solution": "solutions/atcoder/implementation/abc163_b_homework.cpp",
+    "notes": "notes/atcoder/abc163_b_homework.md",
+    "tests": "tests/cases/atcoder-abc163_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(M)",
+    "space": "O(1)",
+    "hint": "All assignment durations occupy disjoint days.",
+    "checker": "tokens"
   }
 ]
