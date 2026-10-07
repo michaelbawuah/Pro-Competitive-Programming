@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "10\r\nin that case you should print yes and not no\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "10\r\nin diesem fall sollten sie no und nicht yes ausgeben\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\ncandy\n",
+    "output": "No\n"
+  }
+]

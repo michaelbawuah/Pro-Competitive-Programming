@@ -10368,5 +10368,20 @@
     "space": "O(1)",
     "hint": "Translate zero to a period and positive rank x to the uppercase letter at offset x-1.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc295_a",
+    "title": "Probably English",
+    "url": "https://atcoder.jp/contests/abc295/tasks/abc295_a",
+    "solution": "solutions/atcoder/implementation/abc295_a_probably_english.cpp",
+    "notes": "notes/atcoder/abc295_a_probably_english.md",
+    "tests": "tests/cases/atcoder-abc295_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(total characters)",
+    "space": "O(1)",
+    "hint": "Check each complete input word for membership in the five-word target set.",
+    "checker": "tokens"
   }
 ]
