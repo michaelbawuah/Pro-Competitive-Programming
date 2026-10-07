@@ -8163,5 +8163,20 @@
     "space": "O(1)",
     "hint": "Every unit of magnitude difference contributes a factor of thirty-two.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc221_b",
+    "title": "typo",
+    "url": "https://atcoder.jp/contests/abc221/tasks/abc221_b",
+    "solution": "solutions/atcoder/implementation/abc221_b_typo.cpp",
+    "notes": "notes/atcoder/abc221_b_typo.md",
+    "tests": "tests/cases/atcoder-abc221_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Try no swap and every allowed adjacent swap.",
+    "checker": "tokens"
   }
 ]
