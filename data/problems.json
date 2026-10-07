@@ -8523,5 +8523,20 @@
     "space": "O(1)",
     "hint": "Only a positive deficit needs operations.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc233_b",
+    "title": "A Reverse",
+    "url": "https://atcoder.jp/contests/abc233/tasks/abc233_b",
+    "solution": "solutions/atcoder/implementation/abc233_b_a_reverse.cpp",
+    "notes": "notes/atcoder/abc233_b_a_reverse.md",
+    "tests": "tests/cases/atcoder-abc233_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The inclusive one-based interval [L,R] becomes the half-open zero-based iterator range [L-1,R).",
+    "checker": "tokens"
   }
 ]
