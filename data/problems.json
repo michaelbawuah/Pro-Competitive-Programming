@@ -7608,5 +7608,20 @@
     "space": "O(n)",
     "hint": "A half-turn reverses character order and swaps six with nine; zero, one, and eight retain their appearance..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc203_a",
+    "title": "Chinchirorin",
+    "url": "https://atcoder.jp/contests/abc203/tasks/abc203_a",
+    "solution": "solutions/atcoder/implementation/abc203_a_chinchirorin.cpp",
+    "notes": "notes/atcoder/abc203_a_chinchirorin.md",
+    "tests": "tests/cases/atcoder-abc203_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Check each possible equal pair and return the remaining value.",
+    "checker": "tokens"
   }
 ]
