@@ -2913,5 +2913,20 @@
     "space": "O(1)",
     "hint": "Choose which of the three terms to multiply.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1633A",
+    "title": "Div. 7",
+    "url": "https://codeforces.com/problemset/problem/1633/A",
+    "solution": "solutions/codeforces/constructive/1633A_div_7.cpp",
+    "notes": "notes/codeforces/1633A_div_7.md",
+    "tests": "tests/cases/codeforces-1633A.json",
+    "tags": [
+      "constructive"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Keep a divisible number unchanged.",
+    "checker": "div_seven"
   }
 ]
