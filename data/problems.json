@@ -2328,5 +2328,20 @@
     "space": "O(1)",
     "hint": "Positive hidden numbers make their total the largest given sum.",
     "checker": "restored_numbers"
+  },
+  {
+    "id": "codeforces-1294A",
+    "title": "Collecting Coins",
+    "url": "https://codeforces.com/problemset/problem/1294/A",
+    "solution": "solutions/codeforces/mathematics/1294A_collecting_coins.cpp",
+    "notes": "notes/codeforces/1294A_collecting_coins.md",
+    "tests": "tests/cases/codeforces-1294A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "The final equal amount must be the total divided by three.",
+    "checker": "yes_no"
   }
 ]
