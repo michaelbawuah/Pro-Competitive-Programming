@@ -3573,5 +3573,20 @@
     "space": "O(n)",
     "hint": "Every legal choice is a length-three substring.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc114_c",
+    "title": "755",
+    "url": "https://atcoder.jp/contests/abc114/tasks/abc114_c",
+    "solution": "solutions/atcoder/recursion/abc114_c_755.cpp",
+    "notes": "notes/atcoder/abc114_c_755.md",
+    "tests": "tests/cases/atcoder-abc114_c.json",
+    "tags": [
+      "recursion"
+    ],
+    "time": "O(3^digits(N))",
+    "space": "O(digits(N))",
+    "hint": "Build only numbers using 3, 5, and 7.",
+    "checker": "tokens"
   }
 ]
