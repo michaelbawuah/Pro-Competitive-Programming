@@ -11343,5 +11343,20 @@
     "space": "O(1)",
     "hint": "Include every problem whose score is at most X and add its score to the running total.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc328_b",
+    "title": "11/11",
+    "url": "https://atcoder.jp/contests/abc328/tasks/abc328_b",
+    "solution": "solutions/atcoder/implementation/abc328_b_11_11.cpp",
+    "notes": "notes/atcoder/abc328_b_11_11.md",
+    "tests": "tests/cases/atcoder-abc328_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(total days * digit count)",
+    "space": "O(1)",
+    "hint": "Enumerate all valid dates and concatenate the decimal month and day without leading zeros.",
+    "checker": "tokens"
   }
 ]
