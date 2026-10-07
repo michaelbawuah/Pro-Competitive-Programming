@@ -7923,5 +7923,20 @@
     "space": "O(1)",
     "hint": "XOR with A on both sides cancels A because A xor A is zero, leaving C=A xor B..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc213_b",
+    "title": "Booby Prize",
+    "url": "https://atcoder.jp/contests/abc213/tasks/abc213_b",
+    "solution": "solutions/atcoder/implementation/abc213_b_booby_prize.cpp",
+    "notes": "notes/atcoder/abc213_b_booby_prize.md",
+    "tests": "tests/cases/atcoder-abc213_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Smaller scores rank higher, so the second-lowest rank has the second-largest score.",
+    "checker": "tokens"
   }
 ]
