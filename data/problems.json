@@ -5613,5 +5613,20 @@
     "space": "O(1)",
     "hint": "Bottle one has A-B free capacity.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc136_b",
+    "title": "Uneven Numbers",
+    "url": "https://atcoder.jp/contests/abc136/tasks/abc136_b",
+    "solution": "solutions/atcoder/implementation/abc136_b_uneven_numbers.cpp",
+    "notes": "notes/atcoder/abc136_b_uneven_numbers.md",
+    "tests": "tests/cases/atcoder-abc136_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N log N)",
+    "space": "O(log N)",
+    "hint": "Enumerate the bounded range and count numbers whose decimal representation has odd length..",
+    "checker": "tokens"
   }
 ]
