@@ -1968,5 +1968,20 @@
     "space": "O(1)",
     "hint": "Pair consecutive terms as -1+2, -3+4, and so on.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-996A",
+    "title": "Hit the Lottery",
+    "url": "https://codeforces.com/problemset/problem/996/A",
+    "solution": "solutions/codeforces/greedy/996A_hit_the_lottery.cpp",
+    "notes": "notes/codeforces/996A_hit_the_lottery.md",
+    "tests": "tests/cases/codeforces-996A.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Take denominations from largest to smallest.",
+    "checker": "tokens"
   }
 ]
