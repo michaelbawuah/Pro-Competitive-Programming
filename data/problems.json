@@ -7233,5 +7233,20 @@
     "space": "O(1)",
     "hint": "More candies guarantee victory.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc190_b",
+    "title": "Magic 3",
+    "url": "https://atcoder.jp/contests/abc190/tasks/abc190_b",
+    "solution": "solutions/atcoder/implementation/abc190_b_magic_3.cpp",
+    "notes": "notes/atcoder/abc190_b_magic_3.md",
+    "tests": "tests/cases/atcoder-abc190_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "A damaging spell must satisfy both strict inequalities simultaneously; check whether any spell does so..",
+    "checker": "tokens"
   }
 ]
