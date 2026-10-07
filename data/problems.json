@@ -7803,5 +7803,20 @@
     "space": "O(1)",
     "hint": "Inclusive endpoints give B-A+1 integers when ordered, and zero when the interval is empty..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc209_b",
+    "title": "Can you buy them all?",
+    "url": "https://atcoder.jp/contests/abc209/tasks/abc209_b",
+    "solution": "solutions/atcoder/implementation/abc209_b_can_you_buy_them_all.cpp",
+    "notes": "notes/atcoder/abc209_b_can_you_buy_them_all.md",
+    "tests": "tests/cases/atcoder-abc209_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Apply the one-yen discount only to even one-based indices, sum the actual prices, and compare with the budget..",
+    "checker": "tokens"
   }
 ]
