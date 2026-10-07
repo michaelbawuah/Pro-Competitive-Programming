@@ -4233,5 +4233,20 @@
     "space": "O(n)",
     "hint": "Starting just after a chosen gap allows visiting all houses without crossing that gap.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc161_c",
+    "title": "Replacing Integer",
+    "url": "https://atcoder.jp/contests/abc161/tasks/abc161_c",
+    "solution": "solutions/atcoder/implementation/abc161_c_replacing_integer.cpp",
+    "notes": "notes/atcoder/abc161_c_replacing_integer.md",
+    "tests": "tests/cases/atcoder-abc161_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Repeated subtraction reaches the remainder modulo K.",
+    "checker": "tokens"
   }
 ]
