@@ -11058,5 +11058,20 @@
     "space": "O(100^2)",
     "hint": "All boundaries have integer coordinates, so decompose the plane into unit squares.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc319_a",
+    "title": "Legendary Players",
+    "url": "https://atcoder.jp/contests/abc319/tasks/abc319_a",
+    "solution": "solutions/atcoder/implementation/abc319_a_legendary_players.cpp",
+    "notes": "notes/atcoder/abc319_a_legendary_players.md",
+    "tests": "tests/cases/atcoder-abc319_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Use the fixed username-to-rating table supplied in the statement.",
+    "checker": "tokens"
   }
 ]

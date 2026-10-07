@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "tourist\n",
+    "output": "3858\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "semiexp\n",
+    "output": "3481\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "Benq\n",
+    "output": "3658\n"
+  }
+]
