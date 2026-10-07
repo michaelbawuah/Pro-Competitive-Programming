@@ -9363,5 +9363,20 @@
     "space": "O(1)",
     "hint": "The intersection begins at the larger left endpoint and ends at the smaller right endpoint.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc261_b",
+    "title": "Tournament Result",
+    "url": "https://atcoder.jp/contests/abc261/tasks/abc261_b",
+    "solution": "solutions/atcoder/implementation/abc261_b_tournament_result.cpp",
+    "notes": "notes/atcoder/abc261_b_tournament_result.md",
+    "tests": "tests/cases/atcoder-abc261_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n^2)",
+    "hint": "Each unordered player pair has two table entries.",
+    "checker": "tokens"
   }
 ]
