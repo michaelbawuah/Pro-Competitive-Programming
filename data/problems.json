@@ -11118,5 +11118,20 @@
     "space": "O(n)",
     "hint": "Every palindrome has a center at a character or between two characters.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc321_a",
+    "title": "321-like Checker",
+    "url": "https://atcoder.jp/contests/abc321/tasks/abc321_a",
+    "solution": "solutions/atcoder/implementation/abc321_a_321_like_checker.cpp",
+    "notes": "notes/atcoder/abc321_a_321_like_checker.md",
+    "tests": "tests/cases/atcoder-abc321_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(number of digits)",
+    "space": "O(number of digits)",
+    "hint": "Strictly decreasing digits mean every adjacent pair decreases.",
+    "checker": "tokens"
   }
 ]
