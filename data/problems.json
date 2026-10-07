@@ -4863,5 +4863,20 @@
     "space": "O(1)",
     "hint": "Rotate the edge vector counterclockwise by ninety degrees: (dx,dy) becomes (-dy,dx).",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc109_a",
+    "title": "ABC333",
+    "url": "https://atcoder.jp/contests/abc109/tasks/abc109_a",
+    "solution": "solutions/atcoder/implementation/abc109_a_abc333.cpp",
+    "notes": "notes/atcoder/abc109_a_abc333.md",
+    "tests": "tests/cases/atcoder-abc109_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A product is odd only if every factor is odd.",
+    "checker": "tokens"
   }
 ]
