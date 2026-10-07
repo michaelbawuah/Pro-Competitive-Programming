@@ -7713,5 +7713,20 @@
     "space": "O(1)",
     "hint": "Compute the floor of the tax-inclusive price with integer arithmetic, then compare that price with 206..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc206_b",
+    "title": "Savings",
+    "url": "https://atcoder.jp/contests/abc206/tasks/abc206_b",
+    "solution": "solutions/atcoder/implementation/abc206_b_savings.cpp",
+    "notes": "notes/atcoder/abc206_b_savings.md",
+    "tests": "tests/cases/atcoder-abc206_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(sqrt(N))",
+    "space": "O(1)",
+    "hint": "Accumulate daily deposits in chronological order until the first total meeting the target.",
+    "checker": "tokens"
   }
 ]
