@@ -2883,5 +2883,20 @@
     "space": "O(n)",
     "hint": "A doubled string must have even length and two identical halves.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1624A",
+    "title": "Plus One on the Subset",
+    "url": "https://codeforces.com/problemset/problem/1624/A",
+    "solution": "solutions/codeforces/greedy/1624A_plus_one_on_the_subset.cpp",
+    "notes": "notes/codeforces/1624A_plus_one_on_the_subset.md",
+    "tests": "tests/cases/codeforces-1624A.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n) per case",
+    "space": "O(n)",
+    "hint": "The smallest element needs at least maximum-minus-minimum increments, and one operation can increment it at most once.",
+    "checker": "tokens"
   }
 ]
