@@ -4893,5 +4893,20 @@
     "space": "O(1)",
     "hint": "Exactly one digit receives place value ten.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc111_a",
+    "title": "AtCoder Beginner Contest 999",
+    "url": "https://atcoder.jp/contests/abc111/tasks/abc111_a",
+    "solution": "solutions/atcoder/implementation/abc111_a_atcoder_beginner_contest_999.cpp",
+    "notes": "notes/atcoder/abc111_a_atcoder_beginner_contest_999.md",
+    "tests": "tests/cases/atcoder-abc111_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The replacement rule is independent at each character, so transform each digit once..",
+    "checker": "tokens"
   }
 ]
