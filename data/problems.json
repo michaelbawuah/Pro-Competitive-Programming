@@ -4683,5 +4683,20 @@
     "space": "O(1)",
     "hint": "Repeated remainder and division by ten extracts every digit.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc102_a",
+    "title": "Multiple of 2 and N",
+    "url": "https://atcoder.jp/contests/abc102/tasks/abc102_a",
+    "solution": "solutions/atcoder/implementation/abc102_a_multiple_of_2_and_n.cpp",
+    "notes": "notes/atcoder/abc102_a_multiple_of_2_and_n.md",
+    "tests": "tests/cases/atcoder-abc102_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "If N is even it already contains a factor of two; otherwise twice N is the smallest common multiple..",
+    "checker": "tokens"
   }
 ]
