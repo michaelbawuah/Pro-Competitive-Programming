@@ -9663,5 +9663,20 @@
     "space": "O(1)",
     "hint": "The quotient by sixteen is the high hexadecimal digit and the remainder is the low digit.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc271_b",
+    "title": "Maintain Multiple Sequences",
+    "url": "https://atcoder.jp/contests/abc271/tasks/abc271_b",
+    "solution": "solutions/atcoder/implementation/abc271_b_maintain_multiple_sequences.cpp",
+    "notes": "notes/atcoder/abc271_b_maintain_multiple_sequences.md",
+    "tests": "tests/cases/atcoder-abc271_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(total length+Q)",
+    "space": "O(total length+N)",
+    "hint": "Store each variable-length sequence in its own vector.",
+    "checker": "tokens"
   }
 ]
