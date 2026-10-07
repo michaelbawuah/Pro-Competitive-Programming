@@ -6888,5 +6888,20 @@
     "space": "O(1)",
     "hint": "For a fixed coordinate the product is linear in the other coordinate, so an optimum exists at interval endpoints.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc179_a",
+    "title": "Plural Form",
+    "url": "https://atcoder.jp/contests/abc179/tasks/abc179_a",
+    "solution": "solutions/atcoder/implementation/abc179_a_plural_form.cpp",
+    "notes": "notes/atcoder/abc179_a_plural_form.md",
+    "tests": "tests/cases/atcoder-abc179_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Inspect only the final character to choose the plural suffix, leaving the original word unchanged..",
+    "checker": "tokens"
   }
 ]

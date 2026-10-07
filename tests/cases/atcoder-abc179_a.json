@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "apple\n",
+    "output": "apples\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "bus\n",
+    "output": "buses\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "box\n",
+    "output": "boxs\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "s\n",
+    "output": "ses\n"
+  }
+]
