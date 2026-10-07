@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "5 3\r\nabc\r\naaaaa\r\nxyz\r\na\r\ndef\n",
+    "output": "aaaaa\r\nabc\r\nxyz\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "4 4\r\nz\r\nzyx\r\nzzz\r\nrbg\n",
+    "output": "rbg\r\nz\r\nzyx\r\nzzz\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "3 1\r\nabc\r\narc\r\nagc\n",
+    "output": "abc\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1 1\nabcdefghij\n",
+    "output": "abcdefghij\n"
+  }
+]

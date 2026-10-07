@@ -10173,5 +10173,20 @@
     "space": "O(1)",
     "hint": "Each pair is independent.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc288_b",
+    "title": "Qualification Contest",
+    "url": "https://atcoder.jp/contests/abc288/tasks/abc288_b",
+    "solution": "solutions/atcoder/implementation/abc288_b_qualification_contest.cpp",
+    "notes": "notes/atcoder/abc288_b_qualification_contest.md",
+    "tests": "tests/cases/atcoder-abc288_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(NL+K L log K)",
+    "space": "O(NL)",
+    "hint": "Qualification is determined by the original first K positions.",
+    "checker": "tokens"
   }
 ]
