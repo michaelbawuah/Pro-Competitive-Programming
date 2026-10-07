@@ -2268,5 +2268,20 @@
     "space": "O(1)",
     "hint": "Add force vectors component by component.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-144A",
+    "title": "Arrival of the General",
+    "url": "https://codeforces.com/problemset/problem/144/A",
+    "solution": "solutions/codeforces/greedy/144A_arrival_of_the_general.cpp",
+    "notes": "notes/codeforces/144A_arrival_of_the_general.md",
+    "tests": "tests/cases/codeforces-144A.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Use the leftmost maximum and rightmost minimum to minimize their travel.",
+    "checker": "tokens"
   }
 ]
