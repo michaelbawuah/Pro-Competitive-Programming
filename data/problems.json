@@ -10863,5 +10863,20 @@
     "space": "O(n)",
     "hint": "Represent the three seen letters with three bits.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc311_b",
+    "title": "Vacation Together",
+    "url": "https://atcoder.jp/contests/abc311/tasks/abc311_b",
+    "solution": "solutions/atcoder/implementation/abc311_b_vacation_together.cpp",
+    "notes": "notes/atcoder/abc311_b_vacation_together.md",
+    "tests": "tests/cases/atcoder-abc311_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(ND)",
+    "space": "O(D)",
+    "hint": "A day is available only when every person is free.",
+    "checker": "tokens"
   }
 ]

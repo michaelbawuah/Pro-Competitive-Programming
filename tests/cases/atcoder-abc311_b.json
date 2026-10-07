@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3 5\r\nxooox\r\noooxx\r\noooxo\n",
+    "output": "2\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3 3\r\noxo\r\noxo\r\noxo\n",
+    "output": "1\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "3 3\r\noox\r\noxo\r\nxoo\n",
+    "output": "0\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1 1\no\n",
+    "output": "1\n"
+  }
+]
