@@ -8913,5 +8913,20 @@
     "space": "O(1)",
     "hint": "Each of the rectangle two x-coordinates and two y-coordinates occurs twice.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc246_b",
+    "title": "Get Closer",
+    "url": "https://atcoder.jp/contests/abc246/tasks/abc246_b",
+    "solution": "solutions/atcoder/implementation/abc246_b_get_closer.cpp",
+    "notes": "notes/atcoder/abc246_b_get_closer.md",
+    "tests": "tests/cases/atcoder-abc246_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Divide the displacement vector by its positive Euclidean length.",
+    "checker": "floating_vector"
   }
 ]
