@@ -11568,5 +11568,20 @@
     "space": "O(1)",
     "hint": "Nested increasing loops over x, then y, then z produce lexicographic order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc336_a",
+    "title": "Long Loong",
+    "url": "https://atcoder.jp/contests/abc336/tasks/abc336_a",
+    "solution": "solutions/atcoder/implementation/abc336_a_long_loong.cpp",
+    "notes": "notes/atcoder/abc336_a_long_loong.md",
+    "tests": "tests/cases/atcoder-abc336_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Concatenate the fixed prefix L, exactly N lowercase o characters, and the fixed suffix ng..",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\n",
+    "output": "Looong\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "1\n",
+    "output": "Long\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\n",
+    "output": "Loong\n"
+  }
+]
