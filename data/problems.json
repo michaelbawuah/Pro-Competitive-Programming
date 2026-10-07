@@ -2433,5 +2433,20 @@
     "space": "O(1)",
     "hint": "Put the two rectangles side by side along their shorter dimension.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1360B",
+    "title": "Honest Coach",
+    "url": "https://codeforces.com/problemset/problem/1360/B",
+    "solution": "solutions/codeforces/sorting/1360B_honest_coach.cpp",
+    "notes": "notes/codeforces/1360B_honest_coach.md",
+    "tests": "tests/cases/codeforces-1360B.json",
+    "tags": [
+      "sorting"
+    ],
+    "time": "O(n log n) per case",
+    "space": "O(n)",
+    "hint": "Sort strengths and split between adjacent values.",
+    "checker": "tokens"
   }
 ]
