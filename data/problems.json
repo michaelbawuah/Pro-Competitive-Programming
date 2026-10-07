@@ -8088,5 +8088,20 @@
     "space": "O(1)",
     "hint": "Map each one-based alphabet rank to a lowercase character and emit it in input order..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc219_a",
+    "title": "AtCoder Quiz 2",
+    "url": "https://atcoder.jp/contests/abc219/tasks/abc219_a",
+    "solution": "solutions/atcoder/implementation/abc219_a_atcoder_quiz_2.cpp",
+    "notes": "notes/atcoder/abc219_a_atcoder_quiz_2.md",
+    "tests": "tests/cases/atcoder-abc219_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Choose the first rank threshold strictly above the score and subtract the score.",
+    "checker": "tokens"
   }
 ]
