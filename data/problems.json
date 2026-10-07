@@ -6273,5 +6273,20 @@
     "space": "O(1)",
     "hint": "A cross-company pair exists exactly when the three station labels are not all identical..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc158_b",
+    "title": "Count Balls",
+    "url": "https://atcoder.jp/contests/abc158/tasks/abc158_b",
+    "solution": "solutions/atcoder/implementation/abc158_b_count_balls.cpp",
+    "notes": "notes/atcoder/abc158_b_count_balls.md",
+    "tests": "tests/cases/atcoder-abc158_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each full block contributes A blue balls.",
+    "checker": "tokens"
   }
 ]
