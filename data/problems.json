@@ -12108,5 +12108,20 @@
     "space": "O(1)",
     "hint": "Fill the current ride with whole groups in queue order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc354_a",
+    "title": "Exponential Plant",
+    "url": "https://atcoder.jp/contests/abc354/tasks/abc354_a",
+    "solution": "solutions/atcoder/implementation/abc354_a_exponential_plant.cpp",
+    "notes": "notes/atcoder/abc354_a_exponential_plant.md",
+    "tests": "tests/cases/atcoder-abc354_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(log H)",
+    "space": "O(1)",
+    "hint": "Simulate nightly growth powers from one upward.",
+    "checker": "tokens"
   }
 ]
