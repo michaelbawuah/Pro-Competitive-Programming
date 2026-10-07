@@ -7758,5 +7758,20 @@
     "space": "O(1)",
     "hint": "After k operations the objective is A <= k(CD-B).",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc208_a",
+    "title": "Rolling Dice",
+    "url": "https://atcoder.jp/contests/abc208/tasks/abc208_a",
+    "solution": "solutions/atcoder/implementation/abc208_a_rolling_dice.cpp",
+    "notes": "notes/atcoder/abc208_a_rolling_dice.md",
+    "tests": "tests/cases/atcoder-abc208_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Starting with all ones gives sum A; distributing up to five extra pips per die reaches every integer through 6A..",
+    "checker": "tokens"
   }
 ]
