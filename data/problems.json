@@ -5583,5 +5583,20 @@
     "space": "O(1)",
     "hint": "The only point equally distant from two distinct coordinates is their midpoint.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc135_b",
+    "title": "0 or 1 Swap",
+    "url": "https://atcoder.jp/contests/abc135/tasks/abc135_b",
+    "solution": "solutions/atcoder/implementation/abc135_b_0_or_1_swap.cpp",
+    "notes": "notes/atcoder/abc135_b_0_or_1_swap.md",
+    "tests": "tests/cases/atcoder-abc135_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "A single swap changes at most two positions.",
+    "checker": "tokens"
   }
 ]
