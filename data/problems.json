@@ -4038,5 +4038,20 @@
     "space": "O(log(10^9))",
     "hint": "Price never decreases as the integer increases.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc147_c",
+    "title": "HonestOrUnkind2",
+    "url": "https://atcoder.jp/contests/abc147/tasks/abc147_c",
+    "solution": "solutions/atcoder/bitmasks/abc147_c_honestorunkind2.cpp",
+    "notes": "notes/atcoder/abc147_c_honestorunkind2.md",
+    "tests": "tests/cases/atcoder-abc147_c.json",
+    "tags": [
+      "bitmasks"
+    ],
+    "time": "O(2^n n^2)",
+    "space": "O(n^2)",
+    "hint": "Enumerate the set of honest people.",
+    "checker": "tokens"
   }
 ]
