@@ -4638,5 +4638,20 @@
     "space": "O(1)",
     "hint": "A person can occupy at most eight nonadjacent positions on a sixteen-cycle.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc100_b",
+    "title": "Ringo's Favorite Numbers",
+    "url": "https://atcoder.jp/contests/abc100/tasks/abc100_b",
+    "solution": "solutions/atcoder/implementation/abc100_b_ringo_s_favorite_numbers.cpp",
+    "notes": "notes/atcoder/abc100_b_ringo_s_favorite_numbers.md",
+    "tests": "tests/cases/atcoder-abc100_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(D)",
+    "space": "O(1)",
+    "hint": "After removing exactly D factors of 100, the remaining factor must not be divisible by 100.",
+    "checker": "tokens"
   }
 ]
