@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "1\r\n2\r\n4\r\n8\r\n9\r\n15\n",
+    "output": "Yay!\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "15\r\n18\r\n26\r\n35\r\n36\r\n18\n",
+    "output": ":(\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "0 1 2 3 4 4\n",
+    "output": "Yay!\n"
+  }
+]
