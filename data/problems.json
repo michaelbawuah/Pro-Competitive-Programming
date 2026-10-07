@@ -7503,5 +7503,20 @@
     "space": "O(1)",
     "hint": "Evaluate the two squared quantities exactly and keep the comparison strict..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc199_b",
+    "title": "Intersection",
+    "url": "https://atcoder.jp/contests/abc199/tasks/abc199_b",
+    "solution": "solutions/atcoder/implementation/abc199_b_intersection.cpp",
+    "notes": "notes/atcoder/abc199_b_intersection.md",
+    "tests": "tests/cases/atcoder-abc199_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Intersect all inclusive intervals by taking the largest lower bound and smallest upper bound; count the remaining integers if the interval is nonempty..",
+    "checker": "tokens"
   }
 ]
