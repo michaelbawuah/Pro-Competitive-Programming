@@ -7638,5 +7638,20 @@
     "space": "O(1)",
     "hint": "Room number is 100 times its floor plus its room index.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc204_a",
+    "title": "Rock-paper-scissors",
+    "url": "https://atcoder.jp/contests/abc204/tasks/abc204_a",
+    "solution": "solutions/atcoder/implementation/abc204_a_rock_paper_scissors.cpp",
+    "notes": "notes/atcoder/abc204_a_rock_paper_scissors.md",
+    "tests": "tests/cases/atcoder-abc204_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A three-player draw has all hands equal or all three different.",
+    "checker": "tokens"
   }
 ]
