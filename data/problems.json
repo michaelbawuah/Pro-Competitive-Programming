@@ -2613,5 +2613,20 @@
     "space": "O(1)",
     "hint": "Every factor two in either dimension permits one additional doubling of the number of pieces.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1472B",
+    "title": "Fair Division",
+    "url": "https://codeforces.com/problemset/problem/1472/B",
+    "solution": "solutions/codeforces/mathematics/1472B_fair_division.cpp",
+    "notes": "notes/codeforces/1472B_fair_division.md",
+    "tests": "tests/cases/codeforces-1472B.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(n) per case",
+    "space": "O(1)",
+    "hint": "An odd number of unit candies makes the total odd and impossible.",
+    "checker": "yes_no"
   }
 ]
