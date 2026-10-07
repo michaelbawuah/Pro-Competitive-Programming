@@ -10413,5 +10413,20 @@
     "space": "O(n)",
     "hint": "Alternation is equivalent to every adjacent character pair being different.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc296_b",
+    "title": "Chessboard",
+    "url": "https://atcoder.jp/contests/abc296/tasks/abc296_b",
+    "solution": "solutions/atcoder/implementation/abc296_b_chessboard.cpp",
+    "notes": "notes/atcoder/abc296_b_chessboard.md",
+    "tests": "tests/cases/atcoder-abc296_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The file letter increases left to right, while the rank decreases from eight to one as input rows move downward.",
+    "checker": "tokens"
   }
 ]
