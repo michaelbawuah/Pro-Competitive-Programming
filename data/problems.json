@@ -3168,5 +3168,20 @@
     "space": "O(1)",
     "hint": "A simultaneous division requires every number to remain even.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc087_b",
+    "title": "Coins",
+    "url": "https://atcoder.jp/contests/abc087/tasks/abc087_b",
+    "solution": "solutions/atcoder/implementation/abc087_b_coins.cpp",
+    "notes": "notes/atcoder/abc087_b_coins.md",
+    "tests": "tests/cases/atcoder-abc087_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(A B)",
+    "space": "O(1)",
+    "hint": "Fix the counts of 500-yen and 100-yen coins.",
+    "checker": "tokens"
   }
 ]
