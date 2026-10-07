@@ -2493,5 +2493,20 @@
     "space": "O(1)",
     "hint": "The geometric total is x times (2^k-1), with k at least two.",
     "checker": "candies_geometric"
+  },
+  {
+    "id": "codeforces-1343B",
+    "title": "Balanced Array",
+    "url": "https://codeforces.com/problemset/problem/1343/B",
+    "solution": "solutions/codeforces/constructive/1343B_balanced_array.cpp",
+    "notes": "notes/codeforces/1343B_balanced_array.md",
+    "tests": "tests/cases/codeforces-1343B.json",
+    "tags": [
+      "constructive"
+    ],
+    "time": "O(n) per case",
+    "space": "O(1)",
+    "hint": "The odd half must contain an even number of elements to have an even sum, requiring n divisible by four.",
+    "checker": "balanced_array"
   }
 ]
