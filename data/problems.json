@@ -6588,5 +6588,20 @@
     "space": "O(n)",
     "hint": "Truncate only when the length strictly exceeds K, then append exactly three dots..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc169_a",
+    "title": "Multiplication 1",
+    "url": "https://atcoder.jp/contests/abc169/tasks/abc169_a",
+    "solution": "solutions/atcoder/implementation/abc169_a_multiplication_1.cpp",
+    "notes": "notes/atcoder/abc169_a_multiplication_1.md",
+    "tests": "tests/cases/atcoder-abc169_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Read both operands and multiply them in an integer type wide enough for the bounded product..",
+    "checker": "tokens"
   }
 ]
