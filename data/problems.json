@@ -9288,5 +9288,20 @@
     "space": "O(n^2)",
     "hint": "A path is determined by its starting cell and one of eight directions.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc259_a",
+    "title": "Growth Record",
+    "url": "https://atcoder.jp/contests/abc259/tasks/abc259_a",
+    "solution": "solutions/atcoder/implementation/abc259_a_growth_record.cpp",
+    "notes": "notes/atcoder/abc259_a_growth_record.md",
+    "tests": "tests/cases/atcoder-abc259_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "All growth has finished by age X.",
+    "checker": "tokens"
   }
 ]
