@@ -12183,5 +12183,20 @@
     "space": "O(1)",
     "hint": "Positions outside the reversed interval retain their values.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc356_b",
+    "title": "Nutrients",
+    "url": "https://atcoder.jp/contests/abc356/tasks/abc356_b",
+    "solution": "solutions/atcoder/implementation/abc356_b_nutrients.cpp",
+    "notes": "notes/atcoder/abc356_b_nutrients.md",
+    "tests": "tests/cases/atcoder-abc356_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(NM)",
+    "space": "O(M)",
+    "hint": "Track the remaining requirement of every nutrient by subtracting each consumed amount.",
+    "checker": "tokens"
   }
 ]
