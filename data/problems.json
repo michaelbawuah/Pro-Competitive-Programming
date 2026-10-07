@@ -3633,5 +3633,20 @@
     "space": "O(M)",
     "hint": "One piece can cover a consecutive group at cost equal to its span.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc118_c",
+    "title": "Monsters Battle Royale",
+    "url": "https://atcoder.jp/contests/abc118/tasks/abc118_c",
+    "solution": "solutions/atcoder/number_theory/abc118_c_monsters_battle_royale.cpp",
+    "notes": "notes/atcoder/abc118_c_monsters_battle_royale.md",
+    "tests": "tests/cases/atcoder-abc118_c.json",
+    "tags": [
+      "number_theory"
+    ],
+    "time": "O(n log A)",
+    "space": "O(1)",
+    "hint": "Every health remains a multiple of the initial gcd, giving a lower bound on a positive survivor.",
+    "checker": "tokens"
   }
 ]
