@@ -5058,5 +5058,20 @@
     "space": "O(1)",
     "hint": "World B advances X times as quickly, so divide the required study duration by X to obtain elapsed time in World A..",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc117_b",
+    "title": "Polygon",
+    "url": "https://atcoder.jp/contests/abc117/tasks/abc117_b",
+    "solution": "solutions/atcoder/implementation/abc117_b_polygon.cpp",
+    "notes": "notes/atcoder/abc117_b_polygon.md",
+    "tests": "tests/cases/atcoder-abc117_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Apply the polygon inequality: the longest side must be strictly shorter than the sum of all other sides.",
+    "checker": "tokens"
   }
 ]
