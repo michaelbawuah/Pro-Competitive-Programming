@@ -11898,5 +11898,20 @@
     "space": "O(1)",
     "hint": "Any candidate substring has length W+B and one of twelve starting phases in the periodic keyboard.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc347_a",
+    "title": "Divisible",
+    "url": "https://atcoder.jp/contests/abc347/tasks/abc347_a",
+    "solution": "solutions/atcoder/implementation/abc347_a_divisible.cpp",
+    "notes": "notes/atcoder/abc347_a_divisible.md",
+    "tests": "tests/cases/atcoder-abc347_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Filter the already increasing sequence for divisibility by K and divide qualifying values by the same positive K.",
+    "checker": "tokens"
   }
 ]
