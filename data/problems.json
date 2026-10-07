@@ -6363,5 +6363,20 @@
     "space": "O(1)",
     "hint": "Perform the two swaps in the specified order; the second uses the already updated first box..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc161_b",
+    "title": "Popular Vote",
+    "url": "https://atcoder.jp/contests/abc161/tasks/abc161_b",
+    "solution": "solutions/atcoder/implementation/abc161_b_popular_vote.cpp",
+    "notes": "notes/atcoder/abc161_b_popular_vote.md",
+    "tests": "tests/cases/atcoder-abc161_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Clear the positive denominator from each threshold comparison.",
+    "checker": "tokens"
   }
 ]
