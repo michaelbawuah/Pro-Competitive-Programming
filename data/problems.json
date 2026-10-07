@@ -6348,5 +6348,20 @@
     "space": "O(1)",
     "hint": "A 500-yen coin yields more happiness per yen than 5-yen coins.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc161_a",
+    "title": "ABC Swap",
+    "url": "https://atcoder.jp/contests/abc161/tasks/abc161_a",
+    "solution": "solutions/atcoder/implementation/abc161_a_abc_swap.cpp",
+    "notes": "notes/atcoder/abc161_a_abc_swap.md",
+    "tests": "tests/cases/atcoder-abc161_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Perform the two swaps in the specified order; the second uses the already updated first box..",
+    "checker": "tokens"
   }
 ]
