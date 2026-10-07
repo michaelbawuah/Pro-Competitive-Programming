@@ -7878,5 +7878,20 @@
     "space": "O(1)",
     "hint": "All inputs belong to the four allowed labels, so four distinct entries imply exactly one of each..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc212_a",
+    "title": "Alloy",
+    "url": "https://atcoder.jp/contests/abc212/tasks/abc212_a",
+    "solution": "solutions/atcoder/implementation/abc212_a_alloy.cpp",
+    "notes": "notes/atcoder/abc212_a_alloy.md",
+    "tests": "tests/cases/atcoder-abc212_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "At least one component is positive.",
+    "checker": "tokens"
   }
 ]

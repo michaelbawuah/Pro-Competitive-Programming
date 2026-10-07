@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "50 50\n",
+    "output": "Alloy\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "100 0\n",
+    "output": "Gold\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "0 100\n",
+    "output": "Silver\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1 0\n",
+    "output": "Gold\n"
+  }
+]
