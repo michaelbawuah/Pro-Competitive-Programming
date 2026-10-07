@@ -11613,5 +11613,20 @@
     "space": "O(1)",
     "hint": "Sum each team score over all matches independently.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc337_b",
+    "title": "Extended ABC",
+    "url": "https://atcoder.jp/contests/abc337/tasks/abc337_b",
+    "solution": "solutions/atcoder/implementation/abc337_b_extended_abc.cpp",
+    "notes": "notes/atcoder/abc337_b_extended_abc.md",
+    "tests": "tests/cases/atcoder-abc337_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "A string of only A, B, and C consists of an A block, B block, and C block exactly when its characters are nondecreasing.",
+    "checker": "tokens"
   }
 ]
