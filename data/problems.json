@@ -12198,5 +12198,20 @@
     "space": "O(M)",
     "hint": "Track the remaining requirement of every nutrient by subtracting each consumed amount.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc357_a",
+    "title": "Sanitize Hands",
+    "url": "https://atcoder.jp/contests/abc357/tasks/abc357_a",
+    "solution": "solutions/atcoder/implementation/abc357_a_sanitize_hands.cpp",
+    "notes": "notes/atcoder/abc357_a_sanitize_hands.md",
+    "tests": "tests/cases/atcoder-abc357_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Process aliens in arrival order.",
+    "checker": "tokens"
   }
 ]
