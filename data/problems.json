@@ -10728,5 +10728,20 @@
     "space": "O(1)",
     "hint": "Each input bit controls one distinct power of two.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc307_a",
+    "title": "Weekly Records",
+    "url": "https://atcoder.jp/contests/abc307/tasks/abc307_a",
+    "solution": "solutions/atcoder/implementation/abc307_a_weekly_records.cpp",
+    "notes": "notes/atcoder/abc307_a_weekly_records.md",
+    "tests": "tests/cases/atcoder-abc307_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Partition the input into consecutive blocks of seven days and independently sum each block as one week..",
+    "checker": "tokens"
   }
 ]
