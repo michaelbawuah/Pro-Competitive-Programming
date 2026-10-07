@@ -10998,5 +10998,20 @@
     "space": "O(M)",
     "hint": "The middle day has one-based annual index (total+1)/2.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc317_a",
+    "title": "Potions",
+    "url": "https://atcoder.jp/contests/abc317/tasks/abc317_a",
+    "solution": "solutions/atcoder/implementation/abc317_a_potions.cpp",
+    "notes": "notes/atcoder/abc317_a_potions.md",
+    "tests": "tests/cases/atcoder-abc317_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Potions arrive in increasing effectiveness.",
+    "checker": "tokens"
   }
 ]
