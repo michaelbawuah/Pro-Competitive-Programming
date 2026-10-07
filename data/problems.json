@@ -11043,5 +11043,20 @@
     "space": "O(1)",
     "hint": "If the first full moon is after N, none occurs in range.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc318_b",
+    "title": "Overlapping sheets",
+    "url": "https://atcoder.jp/contests/abc318/tasks/abc318_b",
+    "solution": "solutions/atcoder/implementation/abc318_b_overlapping_sheets.cpp",
+    "notes": "notes/atcoder/abc318_b_overlapping_sheets.md",
+    "tests": "tests/cases/atcoder-abc318_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N*100^2)",
+    "space": "O(100^2)",
+    "hint": "All boundaries have integer coordinates, so decompose the plane into unit squares.",
+    "checker": "tokens"
   }
 ]
