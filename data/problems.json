@@ -9693,5 +9693,20 @@
     "space": "O(1)",
     "hint": "Maintain the sum of the values already read.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc272_b",
+    "title": "Everyone is Friends",
+    "url": "https://atcoder.jp/contests/abc272/tasks/abc272_b",
+    "solution": "solutions/atcoder/implementation/abc272_b_everyone_is_friends.cpp",
+    "notes": "notes/atcoder/abc272_b_everyone_is_friends.md",
+    "tests": "tests/cases/atcoder-abc272_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(sum(k_i^2)+N^2)",
+    "space": "O(N^2)",
+    "hint": "Every party establishes meetings for all pairs of its attendees.",
+    "checker": "tokens"
   }
 ]
