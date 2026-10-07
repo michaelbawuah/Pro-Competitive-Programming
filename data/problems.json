@@ -7308,5 +7308,20 @@
     "space": "O(n)",
     "hint": "Convert odd one-based positions to even zero-based indices.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc193_a",
+    "title": "Discount",
+    "url": "https://atcoder.jp/contests/abc193/tasks/abc193_a",
+    "solution": "solutions/atcoder/implementation/abc193_a_discount.cpp",
+    "notes": "notes/atcoder/abc193_a_discount.md",
+    "tests": "tests/cases/atcoder-abc193_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The discount fraction is the reduction divided by the original price.",
+    "checker": "floating"
   }
 ]
