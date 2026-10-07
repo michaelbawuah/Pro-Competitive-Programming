@@ -3303,5 +3303,20 @@
     "space": "O(1)",
     "hint": "Subtracting the first entry of each row cancels its row contribution.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc093_c",
+    "title": "Same Integers",
+    "url": "https://atcoder.jp/contests/abc093/tasks/arc094_a",
+    "solution": "solutions/atcoder/implementation/abc093_c_same_integers.cpp",
+    "notes": "notes/atcoder/abc093_c_same_integers.md",
+    "tests": "tests/cases/atcoder-abc093_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Every operation adds two to the total.",
+    "checker": "tokens"
   }
 ]
