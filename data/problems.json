@@ -4068,5 +4068,20 @@
     "space": "O(1)",
     "hint": "A valid snack count is a positive common multiple.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc149_c",
+    "title": "Next Prime",
+    "url": "https://atcoder.jp/contests/abc149/tasks/abc149_c",
+    "solution": "solutions/atcoder/number_theory/abc149_c_next_prime.cpp",
+    "notes": "notes/atcoder/abc149_c_next_prime.md",
+    "tests": "tests/cases/atcoder-abc149_c.json",
+    "tags": [
+      "number_theory"
+    ],
+    "time": "O((P-X+1) sqrt(P))",
+    "space": "O(1)",
+    "hint": "Test candidates in increasing order.",
+    "checker": "tokens"
   }
 ]
