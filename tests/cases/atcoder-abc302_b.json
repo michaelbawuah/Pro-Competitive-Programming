@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "6 6\r\nvgxgpu\r\namkxks\r\nzhkbpp\r\nhykink\r\nesnuke\r\nzplvfj\n",
+    "output": "5 2\r\n5 3\r\n5 4\r\n5 5\r\n5 6\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "5 5\r\nezzzz\r\nzkzzz\r\nezuzs\r\nzzznz\r\nzzzzs\n",
+    "output": "5 5\r\n4 4\r\n3 3\r\n2 2\r\n1 1\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "10 10\r\nkseeusenuk\r\nusesenesnn\r\nkskekeeses\r\nnesnusnkkn\r\nsnenuuenke\r\nkukknkeuss\r\nneunnennue\r\nsknuessuku\r\nnksneekknk\r\nneeeuknenk\n",
+    "output": "9 3\r\n8 3\r\n7 3\r\n6 3\r\n5 3\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "5 5\nsnuke\nzzzzz\nzzzzz\nzzzzz\nzzzzz\n",
+    "output": "1 1\n1 2\n1 3\n1 4\n1 5\n"
+  }
+]

@@ -10593,5 +10593,20 @@
     "space": "O(1)",
     "hint": "Each attack removes B stamina.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc302_b",
+    "title": "Find snuke",
+    "url": "https://atcoder.jp/contests/abc302/tasks/abc302_b",
+    "solution": "solutions/atcoder/implementation/abc302_b_find_snuke.cpp",
+    "notes": "notes/atcoder/abc302_b_find_snuke.md",
+    "tests": "tests/cases/atcoder-abc302_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(HW)",
+    "space": "O(HW)",
+    "hint": "A straight five-cell word is determined by its start and one of eight unit directions.",
+    "checker": "tokens"
   }
 ]
