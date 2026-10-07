@@ -1,0 +1,27 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "zeus\n",
+    "output": "18\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "map\n",
+    "output": "35\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "ares\n",
+    "output": "34\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a\n",
+    "output": "0\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "za\n",
+    "output": "2\n"
+  }
+]

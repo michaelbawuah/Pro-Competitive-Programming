@@ -2523,5 +2523,20 @@
     "space": "O(1)",
     "hint": "Try increasing shovel counts until the total ends in zero or the available coin value.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-731A",
+    "title": "Night at the Museum",
+    "url": "https://codeforces.com/problemset/problem/731/A",
+    "solution": "solutions/codeforces/greedy/731A_night_at_the_museum.cpp",
+    "notes": "notes/codeforces/731A_night_at_the_museum.md",
+    "tests": "tests/cases/codeforces-731A.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "For each next letter, choose the shorter clockwise or counterclockwise distance on the 26-letter circle.",
+    "checker": "tokens"
   }
 ]
