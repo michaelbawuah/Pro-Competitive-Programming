@@ -5403,5 +5403,20 @@
     "space": "O(n L)",
     "hint": "Sort by city ascending and negative score ascending, which is score descending.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc129_a",
+    "title": "Airplane",
+    "url": "https://atcoder.jp/contests/abc129/tasks/abc129_a",
+    "solution": "solutions/atcoder/implementation/abc129_a_airplane.cpp",
+    "notes": "notes/atcoder/abc129_a_airplane.md",
+    "tests": "tests/cases/atcoder-abc129_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Any two different flight edges form a route through all three airports.",
+    "checker": "tokens"
   }
 ]
