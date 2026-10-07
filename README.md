@@ -4,7 +4,7 @@ Michael Baffour Awuah's workspace for learning algorithms, writing clear C++, an
 
 Standalone C++17 solutions, a reusable algorithm library, explanations, and reproducible local checks. Each problem links to its original judge.
 
-**300 reference solutions:** 96 CSES, 114 Codeforces, and 90 AtCoder. Every solution has an explanation and checked-in tests. Browse the [complete catalogue](docs/problems.md).
+**500 reference solutions:** 96 CSES, 114 Codeforces, and 290 AtCoder. Every solution has an explanation and checked-in tests. Browse the [complete catalogue](docs/problems.md).
 
 This project starts with AI-assisted reference implementations, sample cases, and original local tests. Judge acceptances and contest results are recorded separately, with evidence. See [progress](docs/progress.md).
 

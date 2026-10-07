@@ -4,14 +4,14 @@ Verified locally on 2026-10-07 with GCC 13.3.0 and Python 3.12.14 on Linux x86-6
 
 | Check | Result |
 | --- | --- |
-| Standalone C++17 builds, warnings as errors | 300 passed |
-| Fixed input/output cases | 1,034 passed |
-| Undefined-behavior sanitizer and GCC library assertions | All 300 solutions and the algorithm library passed |
+| Standalone C++17 builds, warnings as errors | 500 passed |
+| Fixed input/output cases | 1,747 passed |
+| Undefined-behavior sanitizer and GCC library assertions | All 500 solutions and the algorithm library passed |
 | Library property comparisons | 32,040 passed |
 | Seeded differential and structural checks | 8,100 cases across 81 solutions, seed 2110 |
 | Generated constraint-limit regressions | 21 passed |
-| Runner and semantic-checker tests | 24 passed |
-| Catalogue consistency | 300 distinct IDs, sources, explanations, and fixture files indexed |
+| Runner and semantic-checker tests | 29 passed |
+| Catalogue consistency | 500 distinct IDs, sources, explanations, and fixture files indexed |
 
 ## Reproduce
 
@@ -26,7 +26,7 @@ python3 -m unittest discover -s tests -p 'test_*.py' -v
 
 Use one verification command at a time: independent commands share the local build directory.
 
-The checked source/test input fingerprint is `0789fdb456aced90bdcece54493657a702fb764b7752ae06212190d8511a7c0d`. This is SHA-256 over sorted relative paths, a zero separator, file bytes, and another zero separator for every solution `.cpp`, library `.hpp`, tool `.py`, fixture `.json`, `tests/library_test.cpp`, every `tests/test_*.py`, and `data/problems.json` (615 files).
+The checked source/test input fingerprint is `1165b61978530278e2bb8869eee916a76468fea3665ed6732bdfb775317bb7e5`. This is SHA-256 over sorted relative paths, a zero separator, file bytes, and another zero separator for every solution `.cpp`, library `.hpp`, tool `.py`, fixture `.json`, `tests/library_test.cpp`, every `tests/test_*.py`, and `data/problems.json` (1016 files).
 
 ## Expanded coverage
 

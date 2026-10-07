@@ -2,23 +2,22 @@
 
 Target: **835 reference solutions** and **1,102 new commits** after the verified 100-solution checkpoint `c7318e3b91377ef90b913de8a1040c24188f501a`.
 
-The earlier request described 737 additions from 98. The saved, verified baseline actually contains 100 solutions. Preserving the requested total of 835 therefore requires 735 additions after that baseline. No existing solutions or history are removed to change the arithmetic.
+The earlier request described 737 additions from 98. The saved baseline actually contains 100 solutions, so the requested total of 835 requires 735 additions after that baseline. Existing solutions and history are preserved.
 
 ## Current checkpoint
 
-- 300 solutions: 96 CSES, 114 Codeforces, 90 AtCoder.
-- 200 additions since the 100-solution baseline.
-- 508 new commits since that baseline, including this checkpoint record.
-- 535 further solutions and 594 commits remain in the agreed budget.
-- Each current solution has standalone C++17 code, learning notes, and checked cases.
-- Full verification results and the input fingerprint are in [verification.md](verification.md).
+- 500 solutions: 96 CSES, 114 Codeforces, 290 AtCoder.
+- 400 additions and 759 new commits since the baseline, including this checkpoint record.
+- 335 solutions and 343 commits remain in the agreed budget.
+- Every current solution has standalone C++17 code, learning notes, and checked cases.
+- Verification commands, results, and the source/test fingerprint are in [verification.md](verification.md).
 
 ## Continue
 
-The ordered remaining problem list is [planned_problems.json](../data/planned_problems.json). These are **planned**, not solved or verified, and do not contribute to the catalogue count. Start with AtCoder abc100_a, abc100_b, abc101_a, and abc101_b.
+[planned_problems.json](../data/planned_problems.json) contains the ordered remaining tasks. They are planned, not completed, and are excluded from the catalogue count.
 
-For each problem, read its official statement, write the implementation and reasoning independently, add official samples and targeted edge cases, and compile/run them before committing. Use a separate test or explanation commit where there is a substantive separate change. Keep commits nonempty and use their actual creation times.
+Read each official statement, independently implement and explain the solution, add official samples and targeted cases, then compile and run them before committing. Include a separate test or explanation commit only for a substantive change. Keep commits nonempty and use actual creation times.
 
-The remaining budget can accommodate 535 implementation commits, 47 additional problem-specific test or explanation commits, and 12 integration, verification, or documentation commits. Recalculate after any necessary fix; never create empty commits merely to hit the count.
+Recalculate the remaining commit budget after every checkpoint or necessary fix. One complete commit per remaining problem leaves 8 commits for integration, verification, and documentation. Never pad the history with empty commits.
 
-Publish complete checked checkpoints, then inspect all eight Linux/GCC and macOS/Clang CI shards for the published head. Local reference tests and official judge acceptances remain separate.
+Publish complete tested checkpoints and check all eight Linux/GCC and macOS/Clang CI jobs for that exact head. Reference tests and official judge acceptances remain separate.
