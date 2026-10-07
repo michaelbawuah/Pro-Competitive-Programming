@@ -2478,5 +2478,20 @@
     "space": "O(n)",
     "hint": "Replace the smallest available element of a with the largest available element of b whenever that increases the sum.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1343A",
+    "title": "Candies",
+    "url": "https://codeforces.com/problemset/problem/1343/A",
+    "solution": "solutions/codeforces/mathematics/1343A_candies.cpp",
+    "notes": "notes/codeforces/1343A_candies.md",
+    "tests": "tests/cases/codeforces-1343A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(log n) per case",
+    "space": "O(1)",
+    "hint": "The geometric total is x times (2^k-1), with k at least two.",
+    "checker": "candies_geometric"
   }
 ]
