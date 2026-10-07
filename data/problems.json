@@ -7533,5 +7533,20 @@
     "space": "O(1)",
     "hint": "Centuries are consecutive blocks of one hundred years starting at year one, so ceiling-divide the year by one hundred..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc200_b",
+    "title": "200th ABC-200",
+    "url": "https://atcoder.jp/contests/abc200/tasks/abc200_b",
+    "solution": "solutions/atcoder/implementation/abc200_b_200th_abc_200.cpp",
+    "notes": "notes/atcoder/abc200_b_200th_abc_200.md",
+    "tests": "tests/cases/atcoder-abc200_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(K)",
+    "space": "O(1)",
+    "hint": "Appending three decimal digits 200 is multiplication by one thousand plus two hundred.",
+    "checker": "tokens"
   }
 ]
