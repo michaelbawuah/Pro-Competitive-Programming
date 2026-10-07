@@ -3843,5 +3843,20 @@
     "space": "O(1)",
     "hint": "Inclusion-exclusion counts numbers divisible by C or D, with their overlap given by the lcm.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc132_c",
+    "title": "Divide the Problems",
+    "url": "https://atcoder.jp/contests/abc132/tasks/abc132_c",
+    "solution": "solutions/atcoder/sorting/abc132_c_divide_the_problems.cpp",
+    "notes": "notes/atcoder/abc132_c_divide_the_problems.md",
+    "tests": "tests/cases/atcoder-abc132_c.json",
+    "tags": [
+      "sorting"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "After sorting, exactly half are below K when K is strictly greater than the lower middle value and at most the upper middle value.",
+    "checker": "tokens"
   }
 ]
