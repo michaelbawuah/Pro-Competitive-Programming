@@ -3423,5 +3423,20 @@
     "space": "O(n)",
     "hint": "Validate the initial A, count C only in its allowed interval, and require every other character to be lowercase.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc105_b",
+    "title": "Cakes and Donuts",
+    "url": "https://atcoder.jp/contests/abc105/tasks/abc105_b",
+    "solution": "solutions/atcoder/implementation/abc105_b_cakes_and_donuts.cpp",
+    "notes": "notes/atcoder/abc105_b_cakes_and_donuts.md",
+    "tests": "tests/cases/atcoder-abc105_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Fix the cake count and check whether the nonnegative remaining budget is divisible by seven.",
+    "checker": "tokens"
   }
 ]
