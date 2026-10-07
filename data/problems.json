@@ -4323,5 +4323,20 @@
     "space": "O(n)",
     "hint": "Each road disqualifies an endpoint whose height is not strictly greater than the other.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1660",
+    "title": "Subarray Sums I",
+    "url": "https://cses.fi/problemset/task/1660/",
+    "solution": "solutions/cses/sliding_window/1660_subarray_sums_i.cpp",
+    "notes": "notes/cses/1660_subarray_sums_i.md",
+    "tests": "tests/cases/cses-1660.json",
+    "tags": [
+      "sliding_window"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Positive values make a window sum increase when extended and decrease when shortened.",
+    "checker": "tokens"
   }
 ]
