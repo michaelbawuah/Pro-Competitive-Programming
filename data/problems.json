@@ -6303,5 +6303,20 @@
     "space": "O(1)",
     "hint": "An even sum requires equal parities.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc159_b",
+    "title": "String Palindrome",
+    "url": "https://atcoder.jp/contests/abc159/tasks/abc159_b",
+    "solution": "solutions/atcoder/implementation/abc159_b_string_palindrome.cpp",
+    "notes": "notes/atcoder/abc159_b_string_palindrome.md",
+    "tests": "tests/cases/atcoder-abc159_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Check the whole string and each half excluding the central character.",
+    "checker": "tokens"
   }
 ]

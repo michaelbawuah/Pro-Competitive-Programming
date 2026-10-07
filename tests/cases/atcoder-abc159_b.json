@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "akasaka\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "level\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "atcoder\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "aba\n",
+    "output": "Yes\n"
+  }
+]
