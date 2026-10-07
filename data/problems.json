@@ -6618,5 +6618,20 @@
     "space": "O(n)",
     "hint": "Check for zero before overflow handling because it makes the entire product zero.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc170_a",
+    "title": "Five Variables",
+    "url": "https://atcoder.jp/contests/abc170/tasks/abc170_a",
+    "solution": "solutions/atcoder/implementation/abc170_a_five_variables.cpp",
+    "notes": "notes/atcoder/abc170_a_five_variables.md",
+    "tests": "tests/cases/atcoder-abc170_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The assignment changes exactly one value to zero.",
+    "checker": "tokens"
   }
 ]
