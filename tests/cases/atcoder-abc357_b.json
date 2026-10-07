@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "AtCoder\n",
+    "output": "atcoder\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "SunTORY\n",
+    "output": "SUNTORY\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "a\n",
+    "output": "a\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "aBC\n",
+    "output": "ABC\n"
+  }
+]
