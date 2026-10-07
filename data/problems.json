@@ -3528,5 +3528,20 @@
     "space": "O(V)",
     "hint": "Choose one value for each position parity and require them to differ.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc112_b",
+    "title": "Time Limit Exceeded",
+    "url": "https://atcoder.jp/contests/abc112/tasks/abc112_b",
+    "solution": "solutions/atcoder/implementation/abc112_b_time_limit_exceeded.cpp",
+    "notes": "notes/atcoder/abc112_b_time_limit_exceeded.md",
+    "tests": "tests/cases/atcoder-abc112_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Filter routes by the inclusive time limit and retain the cheapest feasible cost.",
+    "checker": "tokens"
   }
 ]
