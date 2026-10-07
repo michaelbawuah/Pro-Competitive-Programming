@@ -8343,5 +8343,20 @@
     "space": "O(1)",
     "hint": "Convert the starting person to zero-based position, advance K-1 places, then wrap modulo N and restore one-based numbering..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc227_b",
+    "title": "KEYENCE building",
+    "url": "https://atcoder.jp/contests/abc227/tasks/abc227_b",
+    "solution": "solutions/atcoder/implementation/abc227_b_keyence_building.cpp",
+    "notes": "notes/atcoder/abc227_b_keyence_building.md",
+    "tests": "tests/cases/atcoder-abc227_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(M^2+n), M=1000",
+    "space": "O(M)",
+    "hint": "Enumerate all positive side pairs whose expression is at most 1000.",
+    "checker": "tokens"
   }
 ]
