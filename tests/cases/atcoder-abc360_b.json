@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "atcoder toe\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "beginner r\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "verticalreading agh\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a a\n",
+    "output": "No\n"
+  }
+]

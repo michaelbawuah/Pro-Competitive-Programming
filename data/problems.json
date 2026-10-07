@@ -12303,5 +12303,20 @@
     "space": "O(1)",
     "hint": "Each plate marker occurs exactly once.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc360_b",
+    "title": "Vertical Reading",
+    "url": "https://atcoder.jp/contests/abc360/tasks/abc360_b",
+    "solution": "solutions/atcoder/implementation/abc360_b_vertical_reading.cpp",
+    "notes": "notes/atcoder/abc360_b_vertical_reading.md",
+    "tests": "tests/cases/atcoder-abc360_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(|S|^2)",
+    "space": "O(|S|+|T|)",
+    "hint": "For each allowed width and column, vertical reading takes positions column, column+width, and so on.",
+    "checker": "tokens"
   }
 ]
