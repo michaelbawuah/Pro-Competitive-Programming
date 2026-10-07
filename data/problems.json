@@ -12033,5 +12033,20 @@
     "space": "O(1)",
     "hint": "Subtract Aoki current total from Takahashi final total.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc351_b",
+    "title": "Spot the Difference",
+    "url": "https://atcoder.jp/contests/abc351/tasks/abc351_b",
+    "solution": "solutions/atcoder/implementation/abc351_b_spot_the_difference.cpp",
+    "notes": "notes/atcoder/abc351_b_spot_the_difference.md",
+    "tests": "tests/cases/atcoder-abc351_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n^2)",
+    "hint": "Compare corresponding cells in the two grids.",
+    "checker": "tokens"
   }
 ]

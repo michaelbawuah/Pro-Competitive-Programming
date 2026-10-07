@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\r\nabc\r\ndef\r\nghi\r\nabc\r\nbef\r\nghi\n",
+    "output": "2 1\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "1\r\nf\r\nq\n",
+    "output": "1 1\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "10\r\neixfumagit\r\nvtophbepfe\r\npxbfgsqcug\r\nugpugtsxzq\r\nbvfhxyehfk\r\nuqyfwtmglr\r\njaitenfqiq\r\nacwvufpfvv\r\njhaddglpva\r\naacxsyqvoj\r\neixfumagit\r\nvtophbepfe\r\npxbfgsqcug\r\nugpugtsxzq\r\nbvfhxyehok\r\nuqyfwtmglr\r\njaitenfqiq\r\nacwvufpfvv\r\njhaddglpva\r\naacxsyqvoj\n",
+    "output": "5 9\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\na\nb\n",
+    "output": "1 1\n"
+  }
+]
