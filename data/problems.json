@@ -5328,5 +5328,20 @@
     "space": "O(n)",
     "hint": "Translate the one-based position to a zero-based index and lowercase only that character.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc126_b",
+    "title": "YYMM or MMYY",
+    "url": "https://atcoder.jp/contests/abc126/tasks/abc126_b",
+    "solution": "solutions/atcoder/implementation/abc126_b_yymm_or_mmyy.cpp",
+    "notes": "notes/atcoder/abc126_b_yymm_or_mmyy.md",
+    "tests": "tests/cases/atcoder-abc126_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "A two-digit field is a valid month exactly from 01 through 12.",
+    "checker": "tokens"
   }
 ]
