@@ -1,0 +1,27 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "6\nADAAAA\n",
+    "output": "Anton\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "7\nDDDAADA\n",
+    "output": "Danik\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "6\nDADADA\n",
+    "output": "Friendship\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\nD\n",
+    "output": "Danik\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "2\nAD\n",
+    "output": "Friendship\n"
+  }
+]

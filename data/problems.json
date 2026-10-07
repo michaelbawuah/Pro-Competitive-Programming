@@ -1758,5 +1758,20 @@
     "space": "O(1)",
     "hint": "The decision is the logical OR of all opinions.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-734A",
+    "title": "Anton and Danik",
+    "url": "https://codeforces.com/problemset/problem/734/A",
+    "solution": "solutions/codeforces/counting/734A_anton_and_danik.cpp",
+    "notes": "notes/codeforces/734A_anton_and_danik.md",
+    "tests": "tests/cases/codeforces-734A.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Count Anton wins and compare with the remaining games, which Danik won.",
+    "checker": "tokens"
   }
 ]
