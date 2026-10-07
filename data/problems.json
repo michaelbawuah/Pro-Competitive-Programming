@@ -7743,5 +7743,20 @@
     "space": "O(1)",
     "hint": "Picking the two largest values is equivalent to subtracting the minimum from the sum of all three..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc207_b",
+    "title": "Hydrate",
+    "url": "https://atcoder.jp/contests/abc207/tasks/abc207_b",
+    "solution": "solutions/atcoder/implementation/abc207_b_hydrate.cpp",
+    "notes": "notes/atcoder/abc207_b_hydrate.md",
+    "tests": "tests/cases/atcoder-abc207_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "After k operations the objective is A <= k(CD-B).",
+    "checker": "tokens"
   }
 ]
