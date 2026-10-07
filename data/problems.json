@@ -1833,5 +1833,20 @@
     "space": "O(1)",
     "hint": "Test whether each dragon index is divisible by at least one attack interval.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-469A",
+    "title": "I Wanna Be the Guy",
+    "url": "https://codeforces.com/problemset/problem/469/A",
+    "solution": "solutions/codeforces/sets/469A_i_wanna_be_the_guy.cpp",
+    "notes": "notes/codeforces/469A_i_wanna_be_the_guy.md",
+    "tests": "tests/cases/codeforces-469A.json",
+    "tags": [
+      "sets"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Mark every level either player can pass.",
+    "checker": "tokens"
   }
 ]
