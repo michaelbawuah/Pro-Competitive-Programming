@@ -3738,5 +3738,20 @@
     "space": "O(n)",
     "hint": "There are only two alternating colorings, determined by the first color.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc125_c",
+    "title": "GCD on Blackboard",
+    "url": "https://atcoder.jp/contests/abc125/tasks/abc125_c",
+    "solution": "solutions/atcoder/prefix_sums/abc125_c_gcd_on_blackboard.cpp",
+    "notes": "notes/atcoder/abc125_c_gcd_on_blackboard.md",
+    "tests": "tests/cases/atcoder-abc125_c.json",
+    "tags": [
+      "prefix_sums"
+    ],
+    "time": "O(n log A)",
+    "space": "O(n)",
+    "hint": "After replacing one number, the final gcd cannot exceed the gcd of the untouched numbers.",
+    "checker": "tokens"
   }
 ]
