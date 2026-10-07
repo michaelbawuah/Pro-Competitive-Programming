@@ -8268,5 +8268,20 @@
     "space": "O(HW)",
     "hint": "Every required rectangular inequality is the sum of its adjacent two-by-two inequalities: all interior terms cancel.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc225_a",
+    "title": "Distinct Strings",
+    "url": "https://atcoder.jp/contests/abc225/tasks/abc225_a",
+    "solution": "solutions/atcoder/implementation/abc225_a_distinct_strings.cpp",
+    "notes": "notes/atcoder/abc225_a_distinct_strings.md",
+    "tests": "tests/cases/atcoder-abc225_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Sorting starts at the smallest permutation.",
+    "checker": "tokens"
   }
 ]
