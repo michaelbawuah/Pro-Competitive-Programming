@@ -5343,5 +5343,20 @@
     "space": "O(1)",
     "hint": "A two-digit field is a valid month exactly from 01 through 12.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc127_a",
+    "title": "Ferris Wheel",
+    "url": "https://atcoder.jp/contests/abc127/tasks/abc127_a",
+    "solution": "solutions/atcoder/implementation/abc127_a_ferris_wheel.cpp",
+    "notes": "notes/atcoder/abc127_a_ferris_wheel.md",
+    "tests": "tests/cases/atcoder-abc127_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Partition ages into the three disjoint inclusive fare brackets and select zero, half fare, or full fare..",
+    "checker": "tokens"
   }
 ]
