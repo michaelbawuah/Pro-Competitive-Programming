@@ -12423,5 +12423,20 @@
     "space": "O(n)",
     "hint": "Two consecutive sweets prevent eating any later dish.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc364_b",
+    "title": "Grid Walk",
+    "url": "https://atcoder.jp/contests/abc364/tasks/abc364_b",
+    "solution": "solutions/atcoder/implementation/abc364_b_grid_walk.cpp",
+    "notes": "notes/atcoder/abc364_b_grid_walk.md",
+    "tests": "tests/cases/atcoder-abc364_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(HW+|X|)",
+    "space": "O(HW+|X|)",
+    "hint": "For every command, compute a candidate destination without changing the current state.",
+    "checker": "tokens"
   }
 ]
