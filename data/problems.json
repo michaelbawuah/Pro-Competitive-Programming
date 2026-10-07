@@ -5238,5 +5238,20 @@
     "space": "O(1)",
     "hint": "The greatest antenna separation is between the extreme coordinates.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc123_b",
+    "title": "Five Dishes",
+    "url": "https://atcoder.jp/contests/abc123/tasks/abc123_b",
+    "solution": "solutions/atcoder/implementation/abc123_b_five_dishes.cpp",
+    "notes": "notes/atcoder/abc123_b_five_dishes.md",
+    "tests": "tests/cases/atcoder-abc123_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Round every serving duration up to the next ordering time.",
+    "checker": "tokens"
   }
 ]
