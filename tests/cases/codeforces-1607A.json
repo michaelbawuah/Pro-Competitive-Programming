@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "5\nabcdefghijklmnopqrstuvwxyz\nhello\nabcdefghijklmnopqrstuvwxyz\ni\nabcdefghijklmnopqrstuvwxyz\ncodeforces\nqwertyuiopasdfghjklzxcvbnm\nqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\nqwertyuiopasdfghjklzxcvbnm\nabacaba\n",
+    "output": "13\n0\n68\n0\n74\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\nabcdefghijklmnopqrstuvwxyz\na\n",
+    "output": "0\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "1\nabcdefghijklmnopqrstuvwxyz\naza\n",
+    "output": "50\n"
+  }
+]

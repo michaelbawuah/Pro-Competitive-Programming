@@ -2838,5 +2838,20 @@
     "space": "O(1)",
     "hint": "Evaluate each candidate independently while keeping the others fixed.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1607A",
+    "title": "Linear Keyboard",
+    "url": "https://codeforces.com/problemset/problem/1607/A",
+    "solution": "solutions/codeforces/strings/1607A_linear_keyboard.cpp",
+    "notes": "notes/codeforces/1607A_linear_keyboard.md",
+    "tests": "tests/cases/codeforces-1607A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n) per case",
+    "space": "O(n)",
+    "hint": "Invert the keyboard permutation to map each letter to its position.",
+    "checker": "tokens"
   }
 ]
