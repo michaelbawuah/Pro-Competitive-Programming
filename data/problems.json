@@ -11313,5 +11313,20 @@
     "space": "O(n)",
     "hint": "Adjacent a and b can appear in exactly two orders, ab and ba.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc327_b",
+    "title": "A^A",
+    "url": "https://atcoder.jp/contests/abc327/tasks/abc327_b",
+    "solution": "solutions/atcoder/implementation/abc327_b_a_a.cpp",
+    "notes": "notes/atcoder/abc327_b_a_a.md",
+    "tests": "tests/cases/atcoder-abc327_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(15^2)",
+    "space": "O(1)",
+    "hint": "The function A^A is strictly increasing for positive integers.",
+    "checker": "tokens"
   }
 ]
