@@ -11088,5 +11088,20 @@
     "space": "O(1)",
     "hint": "For each position, test candidate digits in increasing order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc320_a",
+    "title": "Leyland Number",
+    "url": "https://atcoder.jp/contests/abc320/tasks/abc320_a",
+    "solution": "solutions/atcoder/implementation/abc320_a_leyland_number.cpp",
+    "notes": "notes/atcoder/abc320_a_leyland_number.md",
+    "tests": "tests/cases/atcoder-abc320_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(A+B)",
+    "space": "O(1)",
+    "hint": "Compute both small integer powers by repeated multiplication, then add their exact values.",
+    "checker": "tokens"
   }
 ]
