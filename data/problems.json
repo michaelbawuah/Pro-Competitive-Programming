@@ -8103,5 +8103,20 @@
     "space": "O(1)",
     "hint": "Choose the first rank threshold strictly above the score and subtract the score.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc219_b",
+    "title": "Maritozzo",
+    "url": "https://atcoder.jp/contests/abc219/tasks/abc219_b",
+    "solution": "solutions/atcoder/implementation/abc219_b_maritozzo.cpp",
+    "notes": "notes/atcoder/abc219_b_maritozzo.md",
+    "tests": "tests/cases/atcoder-abc219_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(output length)",
+    "space": "O(input length)",
+    "hint": "Each control digit selects one of the three strings.",
+    "checker": "tokens"
   }
 ]

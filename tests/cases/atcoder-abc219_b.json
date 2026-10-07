@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "mari\r\nto\r\nzzo\r\n1321\n",
+    "output": "marizzotomari\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "abra\r\ncad\r\nabra\r\n123\n",
+    "output": "abracadabra\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "a\r\nb\r\nc\r\n1\n",
+    "output": "a\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a\nb\nc\n321\n",
+    "output": "cba\n"
+  }
+]
