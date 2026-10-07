@@ -4008,5 +4008,20 @@
     "space": "O(n)",
     "hint": "Each maximal run of one color fuses into one slime.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc144_c",
+    "title": "Walk on Multiplication Table",
+    "url": "https://atcoder.jp/contests/abc144/tasks/abc144_c",
+    "solution": "solutions/atcoder/number_theory/abc144_c_walk_on_multiplication_table.cpp",
+    "notes": "notes/atcoder/abc144_c_walk_on_multiplication_table.md",
+    "tests": "tests/cases/atcoder-abc144_c.json",
+    "tags": [
+      "number_theory"
+    ],
+    "time": "O(sqrt(N))",
+    "space": "O(1)",
+    "hint": "A square containing N corresponds to a factor pair (d,N/d).",
+    "checker": "tokens"
   }
 ]
