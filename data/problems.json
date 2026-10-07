@@ -4773,5 +4773,20 @@
     "space": "O(1)",
     "hint": "An even distribution uses floor(N/K) or ceil(N/K) crackers per person.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc106_a",
+    "title": "Garden",
+    "url": "https://atcoder.jp/contests/abc106/tasks/abc106_a",
+    "solution": "solutions/atcoder/implementation/abc106_a_garden.cpp",
+    "notes": "notes/atcoder/abc106_a_garden.md",
+    "tests": "tests/cases/atcoder-abc106_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Remove one unit of usable length in each dimension.",
+    "checker": "tokens"
   }
 ]
