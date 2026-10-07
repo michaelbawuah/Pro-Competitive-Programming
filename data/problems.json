@@ -4248,5 +4248,20 @@
     "space": "O(1)",
     "hint": "Repeated subtraction reaches the remainder modulo K.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc162_c",
+    "title": "Sum of gcd of Tuples (Easy)",
+    "url": "https://atcoder.jp/contests/abc162/tasks/abc162_c",
+    "solution": "solutions/atcoder/number_theory/abc162_c_sum_of_gcd_of_tuples_easy.cpp",
+    "notes": "notes/atcoder/abc162_c_sum_of_gcd_of_tuples_easy.md",
+    "tests": "tests/cases/atcoder-abc162_c.json",
+    "tags": [
+      "number_theory"
+    ],
+    "time": "O(K^3 log K)",
+    "space": "O(1)",
+    "hint": "Enumerate all ordered triples under the small K bound.",
+    "checker": "tokens"
   }
 ]
