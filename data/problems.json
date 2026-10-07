@@ -9843,5 +9843,20 @@
     "space": "O(1)",
     "hint": "Scan the permutation with one-based indices and report the index whose value matches X.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc277_b",
+    "title": "Playing Cards Validation",
+    "url": "https://atcoder.jp/contests/abc277/tasks/abc277_b",
+    "solution": "solutions/atcoder/implementation/abc277_b_playing_cards_validation.cpp",
+    "notes": "notes/atcoder/abc277_b_playing_cards_validation.md",
+    "tests": "tests/cases/atcoder-abc277_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Validate each character against its allowed alphabet and require every complete card code to be distinct.",
+    "checker": "tokens"
   }
 ]
