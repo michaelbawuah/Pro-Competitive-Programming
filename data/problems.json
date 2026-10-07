@@ -6768,5 +6768,20 @@
     "space": "O(1)",
     "hint": "Square the nonnegative distance inequality to avoid square roots.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc175_a",
+    "title": "Rainy Season",
+    "url": "https://atcoder.jp/contests/abc175/tasks/abc175_a",
+    "solution": "solutions/atcoder/implementation/abc175_a_rainy_season.cpp",
+    "notes": "notes/atcoder/abc175_a_rainy_season.md",
+    "tests": "tests/cases/atcoder-abc175_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Keep the current rainy-day streak and reset it on sunshine.",
+    "checker": "tokens"
   }
 ]
