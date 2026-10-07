@@ -158,5 +158,69 @@
     "space": "O(n)",
     "hint": "Choose the compatible movie that finishes earliest.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1643",
+    "title": "Maximum Subarray Sum",
+    "url": "https://cses.fi/problemset/task/1643/",
+    "solution": "solutions/cses/sorting_searching/1643_maximum_subarray_sum.cpp",
+    "notes": "notes/cses/1643_maximum_subarray_sum.md",
+    "tests": "tests/cases/cses-1643.json",
+    "tags": [
+      "dynamic programming",
+      "Kadane"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "What is the best nonempty subarray ending exactly here?",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1620",
+    "title": "Factory Machines",
+    "url": "https://cses.fi/problemset/task/1620/",
+    "solution": "solutions/cses/sorting_searching/1620_factory_machines.cpp",
+    "notes": "notes/cses/1620_factory_machines.md",
+    "tests": "tests/cases/cses-1620.json",
+    "tags": [
+      "binary search",
+      "monotone predicate"
+    ],
+    "time": "O(n log(min(k) * t))",
+    "space": "O(n)",
+    "hint": "Can a fixed amount of time produce at least the target?",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1141",
+    "title": "Playlist",
+    "url": "https://cses.fi/problemset/task/1141/",
+    "solution": "solutions/cses/sorting_searching/1141_playlist.cpp",
+    "notes": "notes/cses/1141_playlist.md",
+    "tests": "tests/cases/cses-1141.json",
+    "tags": [
+      "sliding window",
+      "map"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Move the left boundary beyond the previous occurrence of a repeated song.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1661",
+    "title": "Subarray Sums II",
+    "url": "https://cses.fi/problemset/task/1661/",
+    "solution": "solutions/cses/sorting_searching/1661_subarray_sums_ii.cpp",
+    "notes": "notes/cses/1661_subarray_sums_ii.md",
+    "tests": "tests/cases/cses-1661.json",
+    "tags": [
+      "prefix sums",
+      "map"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "A subarray sum is the difference of two prefix sums.",
+    "checker": "tokens"
   }
 ]

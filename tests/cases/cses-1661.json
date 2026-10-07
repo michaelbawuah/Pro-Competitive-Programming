@@ -1,0 +1,17 @@
+[
+  {
+    "name": "mixed",
+    "input": "5 3\n1 2 -1 1 2\n",
+    "output": "4\n"
+  },
+  {
+    "name": "zeros",
+    "input": "4 0\n0 0 0 0\n",
+    "output": "10\n"
+  },
+  {
+    "name": "none",
+    "input": "2 9\n1 2\n",
+    "output": "0\n"
+  }
+]
