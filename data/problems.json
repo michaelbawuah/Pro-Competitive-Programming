@@ -10713,5 +10713,20 @@
     "space": "O(n)",
     "hint": "Visit original characters in order and emit each twice.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc306_b",
+    "title": "Base 2",
+    "url": "https://atcoder.jp/contests/abc306/tasks/abc306_b",
+    "solution": "solutions/atcoder/implementation/abc306_b_base_2.cpp",
+    "notes": "notes/atcoder/abc306_b_base_2.md",
+    "tests": "tests/cases/atcoder-abc306_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each input bit controls one distinct power of two.",
+    "checker": "tokens"
   }
 ]
