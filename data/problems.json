@@ -6933,5 +6933,20 @@
     "space": "O(1)",
     "hint": "Apply the removal and addition to the original ball count..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc180_b",
+    "title": "Various distances",
+    "url": "https://atcoder.jp/contests/abc180/tasks/abc180_b",
+    "solution": "solutions/atcoder/implementation/abc180_b_various_distances.cpp",
+    "notes": "notes/atcoder/abc180_b_various_distances.md",
+    "tests": "tests/cases/atcoder-abc180_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Accumulate absolute values, squared values, and their maximum separately.",
+    "checker": "distance_vector"
   }
 ]
