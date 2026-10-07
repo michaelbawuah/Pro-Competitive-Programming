@@ -10278,5 +10278,20 @@
     "space": "O(n)",
     "hint": "Sorting places the N smallest and N largest grades at the ends.",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc292_a",
+    "title": "CAPS LOCK",
+    "url": "https://atcoder.jp/contests/abc292/tasks/abc292_a",
+    "solution": "solutions/atcoder/implementation/abc292_a_caps_lock.cpp",
+    "notes": "notes/atcoder/abc292_a_caps_lock.md",
+    "tests": "tests/cases/atcoder-abc292_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Preserve each letter alphabet position while changing the alphabet base from lowercase a to uppercase A..",
+    "checker": "tokens"
   }
 ]
