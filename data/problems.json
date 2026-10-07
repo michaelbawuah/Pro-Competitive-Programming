@@ -3348,5 +3348,20 @@
     "space": "O(n)",
     "hint": "For a chosen leader, west-facing people on the left and east-facing people on the right must turn.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc099_c",
+    "title": "Strange Bank",
+    "url": "https://atcoder.jp/contests/abc099/tasks/abc099_c",
+    "solution": "solutions/atcoder/dynamic_programming/abc099_c_strange_bank.cpp",
+    "notes": "notes/atcoder/abc099_c_strange_bank.md",
+    "tests": "tests/cases/atcoder-abc099_c.json",
+    "tags": [
+      "dynamic_programming"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "The last withdrawal is one available denomination.",
+    "checker": "tokens"
   }
 ]
