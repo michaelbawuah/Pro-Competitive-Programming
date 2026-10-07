@@ -12603,5 +12603,20 @@
     "space": "O(1)",
     "hint": "Equal hand states mean both or neither is raised, which is invalid.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc370_b",
+    "title": "Binary Alchemy",
+    "url": "https://atcoder.jp/contests/abc370/tasks/abc370_b",
+    "solution": "solutions/atcoder/implementation/abc370_b_binary_alchemy.cpp",
+    "notes": "notes/atcoder/abc370_b_binary_alchemy.md",
+    "tests": "tests/cases/atcoder-abc370_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n^2)",
+    "hint": "The combination table is stored in its lower triangle.",
+    "checker": "tokens"
   }
 ]
