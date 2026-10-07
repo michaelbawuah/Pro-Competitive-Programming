@@ -4263,5 +4263,20 @@
     "space": "O(1)",
     "hint": "Enumerate all ordered triples under the small K bound.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc163_c",
+    "title": "management",
+    "url": "https://atcoder.jp/contests/abc163/tasks/abc163_c",
+    "solution": "solutions/atcoder/implementation/abc163_c_management.cpp",
+    "notes": "notes/atcoder/abc163_c_management.md",
+    "tests": "tests/cases/atcoder-abc163_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Each listed boss gains exactly one immediate subordinate from that entry.",
+    "checker": "tokens"
   }
 ]
