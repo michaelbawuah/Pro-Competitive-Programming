@@ -13,10 +13,5 @@
     "name": "official-sample-3",
     "input": "7\r\natcoder\n",
     "output": "No\n"
-  },
-  {
-    "name": "edge-1",
-    "input": "2\nba\n",
-    "output": "Yes\n"
   }
 ]

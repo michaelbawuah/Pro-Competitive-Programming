@@ -13,10 +13,5 @@
     "name": "official-sample-3",
     "input": "ppq\r\nqqp\n",
     "output": "No\n"
-  },
-  {
-    "name": "edge-1",
-    "input": "z\na\n",
-    "output": "Yes\n"
   }
 ]

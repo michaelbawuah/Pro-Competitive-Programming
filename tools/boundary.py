@@ -53,6 +53,17 @@ def cases():
     yield 'cses-2181', '1000-column domino board', '2 1000\n', str(a)
     yield 'atcoder-abc131_c', '18-digit inclusion-exclusion bounds', '1 1000000000000000000 2 4\n', '500000000000000000'
 
+    yield 'atcoder-abc334_b', 'signed extreme endpoints', '1000000000000000000 1 -1000000000000000000 1000000000000000000\n', '2000000000000000001'
+    yield 'atcoder-abc341_b', '200000-country accumulated currency', f'{n}\n'+' '.join(['1000000000']*n)+'\n'+'1 1\n'*(n-1), str(n*10**9)
+    yield 'atcoder-abc306_b', 'unsigned high bit', ' '.join(['0']*63+['1'])+'\n', str(2**63)
+    yield 'atcoder-abc258_b', 'ten-digit toroidal path', '10\n'+('9'*10+'\n')*10, '9999999999'
+    yield 'atcoder-abc273_b', 'fifteen-place rounding carry', '999999999999999 15\n', '1000000000000000'
+    yield 'atcoder-abc275_b', 'product exceeds machine integers', '1000000000000000000 1000000000000000000 1000000000000000000 0 0 0\n', str((10**18)**3 % 998244353)
+    yield 'atcoder-abc285_b', '5000-character shifted comparisons', '5000\n'+'a'*2500+'b'*2500+'\n', '\n'.join(str(0 if shift<2500 else 5000-shift) for shift in range(1,5000))
+    yield 'atcoder-abc224_b', 'large Monge entries', '50 50\n'+'\n'.join(' '.join(str(10**9-i*j) for j in range(50)) for i in range(50))+'\n', 'Yes'
+    yield 'atcoder-abc368_b', 'maximum heap simulation length', '100\n'+' '.join(['100']*100)+'\n', '5000'
+    yield 'atcoder-abc226_b', '200000 distinct variable-length keys', f'{n}\n'+''.join(f'1 {i}\n' for i in range(n)), str(n)
+
 
 
 def run():

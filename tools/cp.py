@@ -125,12 +125,16 @@ def check_metadata():
     entries = problems()
     ids = set()
     solutions = set()
+    used_paths = {field: set() for field in ('solution', 'notes', 'tests')}
     for p in entries:
         if p['id'] in ids:
             raise ValueError(f"Duplicate ID: {p['id']}")
         ids.add(p['id'])
         solutions.add(p['solution'])
         for field in ('solution', 'notes', 'tests'):
+            if p[field] in used_paths[field]:
+                raise ValueError(f"Shared {field} path: {p['id']}")
+            used_paths[field].add(p[field])
             path = (ROOT / p[field]).resolve()
             if not path.is_relative_to(ROOT) or not path.is_file():
                 raise ValueError(f"Missing or invalid {field}: {p['id']}")
@@ -139,6 +143,8 @@ def check_metadata():
         cases = json.loads((ROOT / p['tests']).read_text())
         if not cases or len({c['name'] for c in cases}) != len(cases):
             raise ValueError(f"Missing tests or duplicate test names: {p['id']}")
+        if len({tuple(c['input'].split()) for c in cases}) != len(cases):
+            raise ValueError(f"Duplicate fixture inputs: {p['id']}")
         for case in cases:
             if not validate(p, case, case['output']):
                 raise ValueError(f"Invalid fixture answer: {p['id']}/{case['name']}")
