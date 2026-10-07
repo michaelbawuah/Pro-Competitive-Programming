@@ -6198,5 +6198,20 @@
     "space": "O(1)",
     "hint": "Reject only an even number divisible by neither three nor five.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc156_a",
+    "title": "Beginner",
+    "url": "https://atcoder.jp/contests/abc156/tasks/abc156_a",
+    "solution": "solutions/atcoder/implementation/abc156_a_beginner.cpp",
+    "notes": "notes/atcoder/abc156_a_beginner.md",
+    "tests": "tests/cases/atcoder-abc156_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Undo the displayed-rating deduction for fewer than ten contests; the deduction is zero afterward..",
+    "checker": "tokens"
   }
 ]
