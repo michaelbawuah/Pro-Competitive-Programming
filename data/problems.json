@@ -4698,5 +4698,20 @@
     "space": "O(1)",
     "hint": "If N is even it already contains a factor of two; otherwise twice N is the smallest common multiple..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc102_b",
+    "title": "Maximum Difference",
+    "url": "https://atcoder.jp/contests/abc102/tasks/abc102_b",
+    "solution": "solutions/atcoder/implementation/abc102_b_maximum_difference.cpp",
+    "notes": "notes/atcoder/abc102_b_maximum_difference.md",
+    "tests": "tests/cases/atcoder-abc102_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Every pair difference is bounded by maximum minus minimum, and choosing those extremes attains the bound..",
+    "checker": "tokens"
   }
 ]
