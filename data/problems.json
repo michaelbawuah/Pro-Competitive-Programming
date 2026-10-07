@@ -9738,5 +9738,20 @@
     "space": "O(1)",
     "hint": "At each scale, adding half the place value before integer division performs nearest rounding with ties upward.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc274_a",
+    "title": "Batting Average",
+    "url": "https://atcoder.jp/contests/abc274/tasks/abc274_a",
+    "solution": "solutions/atcoder/implementation/abc274_a_batting_average.cpp",
+    "notes": "notes/atcoder/abc274_a_batting_average.md",
+    "tests": "tests/cases/atcoder-abc274_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Compute the nearest integer to 1000B/A using integer arithmetic with half-up rounding.",
+    "checker": "tokens"
   }
 ]
