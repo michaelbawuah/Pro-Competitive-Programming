@@ -5688,5 +5688,20 @@
     "space": "O(1)",
     "hint": "Accumulate reciprocals in floating point and invert their positive sum.",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc139_a",
+    "title": "Tenki",
+    "url": "https://atcoder.jp/contests/abc139/tasks/abc139_a",
+    "solution": "solutions/atcoder/implementation/abc139_a_tenki.cpp",
+    "notes": "notes/atcoder/abc139_a_tenki.md",
+    "tests": "tests/cases/atcoder-abc139_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Compare each forecast with the actual weather at the same position and count equal pairs..",
+    "checker": "tokens"
   }
 ]

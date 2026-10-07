@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "CSS\r\nCSR\n",
+    "output": "2\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "SSR\r\nSSR\n",
+    "output": "3\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "RRR\r\nSSS\n",
+    "output": "0\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "SSS\nRRR\n",
+    "output": "0\n"
+  }
+]
