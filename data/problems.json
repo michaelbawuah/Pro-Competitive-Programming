@@ -10968,5 +10968,20 @@
     "space": "O(total bets+N)",
     "hint": "Consider only people who bet on the outcome.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc315_a",
+    "title": "tcdr",
+    "url": "https://atcoder.jp/contests/abc315/tasks/abc315_a",
+    "solution": "solutions/atcoder/implementation/abc315_a_tcdr.cpp",
+    "notes": "notes/atcoder/abc315_a_tcdr.md",
+    "tests": "tests/cases/atcoder-abc315_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Filter out characters belonging to the five-vowel set and emit every remaining character in original order..",
+    "checker": "tokens"
   }
 ]

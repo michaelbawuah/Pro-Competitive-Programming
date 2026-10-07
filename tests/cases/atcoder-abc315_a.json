@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "atcoder\n",
+    "output": "tcdr\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "xyz\n",
+    "output": "xyz\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "aaaabbbbcccc\n",
+    "output": "bbbbcccc\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "b\n",
+    "output": "b\n"
+  }
+]
