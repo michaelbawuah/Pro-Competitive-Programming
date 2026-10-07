@@ -3648,5 +3648,20 @@
     "space": "O(1)",
     "hint": "Every health remains a multiple of the initial gcd, giving a lower bound on a positive survivor.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc119_c",
+    "title": "Synthetic Kadomatsu",
+    "url": "https://atcoder.jp/contests/abc119/tasks/abc119_c",
+    "solution": "solutions/atcoder/enumeration/abc119_c_synthetic_kadomatsu.cpp",
+    "notes": "notes/atcoder/abc119_c_synthetic_kadomatsu.md",
+    "tests": "tests/cases/atcoder-abc119_c.json",
+    "tags": [
+      "enumeration"
+    ],
+    "time": "O(n 4^n)",
+    "space": "O(n)",
+    "hint": "Assign each bamboo to one of the three targets or leave it unused.",
+    "checker": "tokens"
   }
 ]
