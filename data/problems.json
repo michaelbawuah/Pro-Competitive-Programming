@@ -6633,5 +6633,20 @@
     "space": "O(1)",
     "hint": "The assignment changes exactly one value to zero.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc170_b",
+    "title": "Crane and Turtle",
+    "url": "https://atcoder.jp/contests/abc170/tasks/abc170_b",
+    "solution": "solutions/atcoder/implementation/abc170_b_crane_and_turtle.cpp",
+    "notes": "notes/atcoder/abc170_b_crane_and_turtle.md",
+    "tests": "tests/cases/atcoder-abc170_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Start with all cranes, giving 2X legs.",
+    "checker": "tokens"
   }
 ]
