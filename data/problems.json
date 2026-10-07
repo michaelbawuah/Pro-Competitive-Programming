@@ -5433,5 +5433,20 @@
     "space": "O(n)",
     "hint": "Enumerate every nonempty prefix split.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc130_a",
+    "title": "Rounding",
+    "url": "https://atcoder.jp/contests/abc130/tasks/abc130_a",
+    "solution": "solutions/atcoder/implementation/abc130_a_rounding.cpp",
+    "notes": "notes/atcoder/abc130_a_rounding.md",
+    "tests": "tests/cases/atcoder-abc130_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Compare using the strict less-than relation; equality follows the ten-output branch..",
+    "checker": "tokens"
   }
 ]
