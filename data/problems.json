@@ -2508,5 +2508,20 @@
     "space": "O(1)",
     "hint": "The odd half must contain an even number of elements to have an even sum, requiring n divisible by four.",
     "checker": "balanced_array"
+  },
+  {
+    "id": "codeforces-732A",
+    "title": "Buy a Shovel",
+    "url": "https://codeforces.com/problemset/problem/732/A",
+    "solution": "solutions/codeforces/enumeration/732A_buy_a_shovel.cpp",
+    "notes": "notes/codeforces/732A_buy_a_shovel.md",
+    "tests": "tests/cases/codeforces-732A.json",
+    "tags": [
+      "enumeration"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Try increasing shovel counts until the total ends in zero or the available coin value.",
+    "checker": "tokens"
   }
 ]
