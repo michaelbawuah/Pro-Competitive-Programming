@@ -12168,5 +12168,20 @@
     "space": "O(N+M)",
     "hint": "Attach an origin flag to each value before sorting the combined sequence.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc356_a",
+    "title": "Subsegment Reverse",
+    "url": "https://atcoder.jp/contests/abc356/tasks/abc356_a",
+    "solution": "solutions/atcoder/implementation/abc356_a_subsegment_reverse.cpp",
+    "notes": "notes/atcoder/abc356_a_subsegment_reverse.md",
+    "tests": "tests/cases/atcoder-abc356_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Positions outside the reversed interval retain their values.",
+    "checker": "tokens"
   }
 ]
