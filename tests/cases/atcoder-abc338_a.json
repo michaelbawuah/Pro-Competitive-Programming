@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "Capitalized\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "AtCoder\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "yes\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "A\n",
+    "output": "Yes\n"
+  }
+]

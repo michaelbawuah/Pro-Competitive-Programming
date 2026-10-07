@@ -11628,5 +11628,20 @@
     "space": "O(n)",
     "hint": "A string of only A, B, and C consists of an A block, B block, and C block exactly when its characters are nondecreasing.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc338_a",
+    "title": "Capitalized?",
+    "url": "https://atcoder.jp/contests/abc338/tasks/abc338_a",
+    "solution": "solutions/atcoder/implementation/abc338_a_capitalized.cpp",
+    "notes": "notes/atcoder/abc338_a_capitalized.md",
+    "tests": "tests/cases/atcoder-abc338_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Validate the first character against uppercase letters and every subsequent character against lowercase letters.",
+    "checker": "tokens"
   }
 ]
