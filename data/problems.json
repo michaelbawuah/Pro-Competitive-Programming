@@ -9213,5 +9213,20 @@
     "space": "O(1)",
     "hint": "Shifting the integer one left by N positions produces 2^N.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc256_b",
+    "title": "Batters",
+    "url": "https://atcoder.jp/contests/abc256/tasks/abc256_b",
+    "solution": "solutions/atcoder/implementation/abc256_b_batters.cpp",
+    "notes": "notes/atcoder/abc256_b_batters.md",
+    "tests": "tests/cases/atcoder-abc256_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Insert the new batter at zero, then move every existing piece into a fresh array so movement is simultaneous.",
+    "checker": "tokens"
   }
 ]
