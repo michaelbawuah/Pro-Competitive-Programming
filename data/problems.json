@@ -10458,5 +10458,20 @@
     "space": "O(1)",
     "hint": "Record both bishop and rook positions and the king position.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc298_a",
+    "title": "Job Interview",
+    "url": "https://atcoder.jp/contests/abc298/tasks/abc298_a",
+    "solution": "solutions/atcoder/implementation/abc298_a_job_interview.cpp",
+    "notes": "notes/atcoder/abc298_a_job_interview.md",
+    "tests": "tests/cases/atcoder-abc298_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Passing requires at least one good mark and no poor marks.",
+    "checker": "tokens"
   }
 ]
