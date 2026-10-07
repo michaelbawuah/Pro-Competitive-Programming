@@ -10788,5 +10788,20 @@
     "space": "O((N+M)L)",
     "hint": "Associate each named special color with its price.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc309_a",
+    "title": "Nine",
+    "url": "https://atcoder.jp/contests/abc309/tasks/abc309_a",
+    "solution": "solutions/atcoder/implementation/abc309_a_nine.cpp",
+    "notes": "notes/atcoder/abc309_a_nine.md",
+    "tests": "tests/cases/atcoder-abc309_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "In the row-major three-by-three board, horizontal neighbors have consecutive numbers and the same zero-based row.",
+    "checker": "tokens"
   }
 ]
