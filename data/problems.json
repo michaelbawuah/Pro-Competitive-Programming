@@ -11133,5 +11133,20 @@
     "space": "O(number of digits)",
     "hint": "Strictly decreasing digits mean every adjacent pair decreases.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc321_b",
+    "title": "Cutoff",
+    "url": "https://atcoder.jp/contests/abc321/tasks/abc321_b",
+    "solution": "solutions/atcoder/implementation/abc321_b_cutoff.cpp",
+    "notes": "notes/atcoder/abc321_b_cutoff.md",
+    "tests": "tests/cases/atcoder-abc321_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n+101)",
+    "space": "O(n)",
+    "hint": "Try the final score from zero through one hundred.",
+    "checker": "tokens"
   }
 ]
