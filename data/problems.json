@@ -2688,5 +2688,20 @@
     "space": "O(n)",
     "hint": "Rearrange the pair condition into a[i]-i = a[j]-j.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1535A",
+    "title": "Fair Playoff",
+    "url": "https://codeforces.com/problemset/problem/1535/A",
+    "solution": "solutions/codeforces/mathematics/1535A_fair_playoff.cpp",
+    "notes": "notes/codeforces/1535A_fair_playoff.md",
+    "tests": "tests/cases/codeforces-1535A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "The winners are the maxima of the two semifinal pairs.",
+    "checker": "yes_no"
   }
 ]
