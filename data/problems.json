@@ -9078,5 +9078,20 @@
     "space": "O(n+W)",
     "hint": "Enumerate every subset of one, two, or three distinct indices in increasing order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc252_a",
+    "title": "ASCII code",
+    "url": "https://atcoder.jp/contests/abc252/tasks/abc252_a",
+    "solution": "solutions/atcoder/implementation/abc252_a_ascii_code.cpp",
+    "notes": "notes/atcoder/abc252_a_ascii_code.md",
+    "tests": "tests/cases/atcoder-abc252_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The supplied code is an offset from ninety-seven.",
+    "checker": "tokens"
   }
 ]
