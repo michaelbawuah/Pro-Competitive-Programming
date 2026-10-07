@@ -1998,5 +1998,20 @@
     "space": "O(log n)",
     "hint": "Use one summand for each nonzero decimal digit at its original place value.",
     "checker": "round_sums"
+  },
+  {
+    "id": "codeforces-1328A",
+    "title": "Divisibility Problem",
+    "url": "https://codeforces.com/problemset/problem/1328/A",
+    "solution": "solutions/codeforces/mathematics/1328A_divisibility_problem.cpp",
+    "notes": "notes/codeforces/1328A_divisibility_problem.md",
+    "tests": "tests/cases/codeforces-1328A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Only the remainder of a modulo b matters.",
+    "checker": "tokens"
   }
 ]
