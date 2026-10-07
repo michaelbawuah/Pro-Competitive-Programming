@@ -36,7 +36,7 @@ Once the foundations are comfortable, choose a short virtual set from an officia
 
 The expanded catalogue also includes constructive problems, backtracking, ordered containers, and shortest paths with an extra state. Use its tags to find another problem on a technique you want to reinforce.
 
-The 300-problem catalogue now includes subtree sums, lowest common ancestors, profile DP, subset DP, and game DP. Next topics: strongly connected components, lazy propagation, modular inverses, and flow. Add them when an actual practice problem motivates the technique.
+The 835-problem catalogue includes subtree sums, lowest common ancestors, profile DP, subset DP, and game DP. Next topics: strongly connected components, lazy propagation, modular inverses, and flow. Add them when an actual practice problem motivates the technique.
 
 
 ## New practice sets
@@ -49,3 +49,16 @@ The 300-problem catalogue now includes subtree sums, lowest common ancestors, pr
 | Tree structure | CSES 1133, 1135, 1688 | Rerooting changes, ancestor jumps, and avoiding recursive stack overflow |
 | Small-state enumeration | AtCoder abc104_c, abc147_c, abc165_c; CSES 1653 | Why the state space contains every legal possibility |
 | State compression | CSES 1097, 2181, 2413 | Which information crosses an interval or column boundary |
+
+
+## Additional C++ practice sets
+
+| Focus | Problems | What to explain |
+| --- | --- | --- |
+| Signed division and integer width | AtCoder abc239_b, abc345_b, abc334_b, abc306_b, abc275_b | Floor versus truncation, modular normalization, and unsigned bit 63 |
+| State simulation | AtCoder abc257_b, abc292_b, abc332_b, abc339_b, abc364_b | The state before each step, update order, and boundary guards |
+| Bounded enumeration | AtCoder abc251_b, abc260_b, abc300_b, abc310_b, abc331_b | Why all legal candidates fit in the search and how ties are handled |
+| Strings and input structure | AtCoder abc231_b, abc247_b, abc281_b, abc352_b, abc366_b | Multiplicity, complete keys, format validation, and preserved positions |
+| Grids and geometry | AtCoder abc224_b, abc298_b, abc309_b, abc312_b, abc361_b | Simultaneous updates, rotation coordinates, and strict geometric overlap |
+
+Treat the short A/B tasks as focused drills. After solving several independently, combine them into a timed practice set and explain the most likely boundary mistake for each.

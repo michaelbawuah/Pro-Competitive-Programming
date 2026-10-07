@@ -1,23 +1,22 @@
-# Expansion checkpoint
+# Completed expansion
 
-Target: **835 reference solutions** and **1,102 new commits** after the verified 100-solution checkpoint `c7318e3b91377ef90b913de8a1040c24188f501a`.
+The agreed target is complete: **835 reference solutions** and **1,102 new, nonempty commits** after the verified 100-solution checkpoint `c7318e3b91377ef90b913de8a1040c24188f501a`. The commit count includes this final verification record.
 
-The earlier request described 737 additions from 98. The saved baseline actually contains 100 solutions, so the requested total of 835 requires 735 additions after that baseline. Existing solutions and history are preserved.
+The earlier request described 737 additions from 98. The recovered baseline already contained 100 solutions, so reaching 835 required **735 additions**. The original solutions and history are preserved.
 
-## Current checkpoint
+| Archive | Solutions |
+| --- | ---: |
+| CSES | 96 |
+| Codeforces | 114 |
+| AtCoder | 625 |
+| Total | 835 |
 
-- 500 solutions: 96 CSES, 114 Codeforces, 290 AtCoder.
-- 400 additions and 759 new commits since the baseline, including this checkpoint record.
-- 335 solutions and 343 commits remain in the agreed budget.
-- Every current solution has standalone C++17 code, learning notes, and checked cases.
-- Verification commands, results, and the source/test fingerprint are in [verification.md](verification.md).
+Every entry has a standalone C++17 implementation, a link to the official statement, reasoning, complexity, C++ learning notes, and checked fixtures. All requested tasks have been removed from the remaining-task manifest; [planned_problems.json](../data/planned_problems.json) is empty.
 
-## Continue
+The added history consists of complete solutions, separate explanation and regression improvements where substantive, runner and checker changes, readability improvements, and verification records. No empty commits or fabricated judge results were added.
 
-[planned_problems.json](../data/planned_problems.json) contains the ordered remaining tasks. They are planned, not completed, and are excluded from the catalogue count.
+See [verification.md](verification.md) for reproducible local results and the source/test fingerprint. The GitHub workflow checks the published commit on Linux/GCC and macOS/Clang. A local or CI pass is separate from official judge acceptance; [acceptances.json](../data/acceptances.json) remains an evidence-only ledger.
 
-Read each official statement, independently implement and explain the solution, add official samples and targeted cases, then compile and run them before committing. Include a separate test or explanation commit only for a substantive change. Keep commits nonempty and use actual creation times.
+## Continue practicing
 
-Recalculate the remaining commit budget after every checkpoint or necessary fix. One complete commit per remaining problem leaves 8 commits for integration, verification, and documentation. Never pad the history with empty commits.
-
-Publish complete tested checkpoints and check all eight Linux/GCC and macOS/Clang CI jobs for that exact head. Reference tests and official judge acceptances remain separate.
+Use [the practice route](roadmap.md) to select a technique, create a blank attempt, and explain the invariant before reading the reference. Record genuine judge submission links and lessons from your own attempts. Any future archive expansion should have its own scope and progress record.

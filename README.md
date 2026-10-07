@@ -4,7 +4,7 @@ Michael Baffour Awuah's workspace for learning algorithms, writing clear C++, an
 
 Standalone C++17 solutions, a reusable algorithm library, explanations, and reproducible local checks. Each problem links to its original judge.
 
-**500 reference solutions:** 96 CSES, 114 Codeforces, and 290 AtCoder. Every solution has an explanation and checked-in tests. Browse the [complete catalogue](docs/problems.md).
+**835 reference solutions:** 96 CSES, 114 Codeforces, and 625 AtCoder. Every solution has an explanation and checked-in tests. Browse the [complete catalogue](docs/problems.md).
 
 This project starts with AI-assisted reference implementations, sample cases, and original local tests. Judge acceptances and contest results are recorded separately, with evidence. See [progress](docs/progress.md).
 
@@ -28,7 +28,7 @@ Open the problem link, write your own solution in the generated practice file, t
 | [Problem index](docs/problems.md) | Source links, algorithms, complexity, and explanations |
 | [CSES](solutions/cses) | Foundations through graphs, range queries, and strings |
 | [Codeforces](solutions/codeforces) | Contest input handling and implementation practice |
-| [AtCoder](solutions/atcoder) | Dynamic programming state transitions |
+| [AtCoder](solutions/atcoder) | C++ foundations, strings, simulations, geometry, and dynamic programming |
 | [Algorithm library](include/cp) | Tested data structures and string algorithms |
 | [C++ field notes](docs/cpp.md) | Types, references, STL, overflow, and indexing |
 | [Practice route](docs/roadmap.md) | A staged path from basic C++ to timed sets |
@@ -37,13 +37,15 @@ Open the problem link, write your own solution in the generated practice file, t
 ## Verify everything
 
 ```sh
-python3 tools/cp.py test all
+python3 tools/cp.py test all --jobs 4
+python3 tools/cp.py test all --sanitize --jobs 4
 python3 tools/cp.py stress --cases 100
 python3 tools/boundary.py
 python3 tools/cp.py check
+python3 -m unittest discover -s tests -p 'test_*.py' -v
 ```
 
-`test` compiles with warnings as errors and runs the checked-in cases. `stress` runs 8,100 seeded cases across 81 solutions, using independent small-input oracles and structural checks. `boundary.py` covers long chains, large totals, and other constraint limits. Local passing results are separate from official judge acceptance.
+`test` compiles with warnings as errors and runs the checked-in cases. `stress` runs 10,100 seeded cases across 101 solutions, using independent small-input oracles and structural checks. `boundary.py` runs 31 constraint-limit regressions, including long chains, signed and unsigned extremes, and large totals. Local passing results are separate from official judge acceptance.
 
 Each file in `solutions/` compiles independently; no local headers are needed when submitting. Use `CXX=clang++` or `CXX=g++` to select your compiler. On macOS, install Apple's command-line tools with `xcode-select --install`; the sources use standard headers instead of `bits/stdc++.h`.
 

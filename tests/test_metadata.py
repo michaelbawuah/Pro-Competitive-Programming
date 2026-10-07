@@ -15,7 +15,8 @@ import cp
 class MetadataTests(unittest.TestCase):
     @contextlib.contextmanager
     def archive(self):
-        with tempfile.TemporaryDirectory() as folder, patch.object(cp, 'ROOT', Path(folder)):
+        # Match cp.ROOT's canonical-path contract; macOS temp paths use /var symlinks.
+        with tempfile.TemporaryDirectory() as folder, patch.object(cp, 'ROOT', Path(folder).resolve()):
             entries = []
             for index in range(2):
                 key = f'demo-{index}'
