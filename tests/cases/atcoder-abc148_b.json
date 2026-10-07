@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "2\r\nip cc\n",
+    "output": "icpc\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "8\r\nhmhmnknk uuuuuuuu\n",
+    "output": "humuhumunukunuku\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "5\r\naaaaa aaaaa\n",
+    "output": "aaaaaaaaaa\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\na z\n",
+    "output": "az\n"
+  }
+]

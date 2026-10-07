@@ -5973,5 +5973,20 @@
     "space": "O(1)",
     "hint": "The three choices sum to six; subtracting the two distinct rejected choices leaves the correct one..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc148_b",
+    "title": "Strings with the Same Length",
+    "url": "https://atcoder.jp/contests/abc148/tasks/abc148_b",
+    "solution": "solutions/atcoder/implementation/abc148_b_strings_with_the_same_length.cpp",
+    "notes": "notes/atcoder/abc148_b_strings_with_the_same_length.md",
+    "tests": "tests/cases/atcoder-abc148_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "For each index print the character from S followed by the corresponding character from T, preserving both orders..",
+    "checker": "tokens"
   }
 ]
