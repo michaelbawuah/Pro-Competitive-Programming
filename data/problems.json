@@ -5298,5 +5298,20 @@
     "space": "O(1)",
     "hint": "Every completed multiple of A by integer time T contributes B biscuits.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc125_b",
+    "title": "Resale",
+    "url": "https://atcoder.jp/contests/abc125/tasks/abc125_b",
+    "solution": "solutions/atcoder/implementation/abc125_b_resale.cpp",
+    "notes": "notes/atcoder/abc125_b_resale.md",
+    "tests": "tests/cases/atcoder-abc125_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Gem choices are independent.",
+    "checker": "tokens"
   }
 ]
