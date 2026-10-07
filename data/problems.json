@@ -4668,5 +4668,20 @@
     "space": "O(1)",
     "hint": "Each symbol contributes independently: add one for plus and subtract one for minus..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc101_b",
+    "title": "Digit Sums",
+    "url": "https://atcoder.jp/contests/abc101/tasks/abc101_b",
+    "solution": "solutions/atcoder/implementation/abc101_b_digit_sums.cpp",
+    "notes": "notes/atcoder/abc101_b_digit_sums.md",
+    "tests": "tests/cases/atcoder-abc101_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(log N)",
+    "space": "O(1)",
+    "hint": "Repeated remainder and division by ten extracts every digit.",
+    "checker": "tokens"
   }
 ]
