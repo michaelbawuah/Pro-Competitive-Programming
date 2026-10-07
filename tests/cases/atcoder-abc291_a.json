@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "aBc\n",
+    "output": "2\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "xxxxxxXxxx\n",
+    "output": "7\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "Zz\n",
+    "output": "1\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "aZ\n",
+    "output": "2\n"
+  }
+]

@@ -10248,5 +10248,20 @@
     "space": "O(n)",
     "hint": "Scan contestants in rank order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc291_a",
+    "title": "camel Case",
+    "url": "https://atcoder.jp/contests/abc291/tasks/abc291_a",
+    "solution": "solutions/atcoder/implementation/abc291_a_camel_case.cpp",
+    "notes": "notes/atcoder/abc291_a_camel_case.md",
+    "tests": "tests/cases/atcoder-abc291_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Scan the characters and identify the guaranteed unique uppercase letter by its character range.",
+    "checker": "tokens"
   }
 ]
