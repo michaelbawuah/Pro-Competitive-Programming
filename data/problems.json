@@ -3468,5 +3468,20 @@
     "space": "O(n)",
     "hint": "Any visited interval includes a consecutive block of K candles.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc108_c",
+    "title": "Triangular Relationship",
+    "url": "https://atcoder.jp/contests/abc108/tasks/arc102_a",
+    "solution": "solutions/atcoder/implementation/abc108_c_triangular_relationship.cpp",
+    "notes": "notes/atcoder/abc108_c_triangular_relationship.md",
+    "tests": "tests/cases/atcoder-abc108_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Pair-sum congruences force all three residues equal and twice that residue divisible by K.",
+    "checker": "tokens"
   }
 ]
