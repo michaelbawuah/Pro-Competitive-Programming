@@ -9918,5 +9918,20 @@
     "space": "O(|S|+|T|)",
     "hint": "A contiguous substring occurs at some starting position without skipping characters.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc280_a",
+    "title": "Pawn on a Grid",
+    "url": "https://atcoder.jp/contests/abc280/tasks/abc280_a",
+    "solution": "solutions/atcoder/implementation/abc280_a_pawn_on_a_grid.cpp",
+    "notes": "notes/atcoder/abc280_a_pawn_on_a_grid.md",
+    "tests": "tests/cases/atcoder-abc280_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(HW)",
+    "space": "O(W)",
+    "hint": "Each occupied cell is represented by one hash character.",
+    "checker": "tokens"
   }
 ]
