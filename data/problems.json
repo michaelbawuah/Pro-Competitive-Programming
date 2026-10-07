@@ -2748,5 +2748,20 @@
     "space": "O(n)",
     "hint": "Start at the unique required a and grow the constructed interval.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1560A",
+    "title": "Dislike of Threes",
+    "url": "https://codeforces.com/problemset/problem/1560/A",
+    "solution": "solutions/codeforces/enumeration/1560A_dislike_of_threes.cpp",
+    "notes": "notes/codeforces/1560A_dislike_of_threes.md",
+    "tests": "tests/cases/codeforces-1560A.json",
+    "tags": [
+      "enumeration"
+    ],
+    "time": "O(K + t), K = maximum supported rank",
+    "space": "O(K)",
+    "hint": "Enumerate positive integers and retain those satisfying both exclusion rules.",
+    "checker": "tokens"
   }
 ]
