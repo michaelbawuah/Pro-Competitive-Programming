@@ -1,0 +1,17 @@
+[
+  {
+    "name": "merges-and-cycle",
+    "input": "5 4\n1 2\n1 3\n2 3\n4 5\n",
+    "output": "4 2\n3 3\n3 3\n2 3\n"
+  },
+  {
+    "name": "repeat",
+    "input": "2 2\n1 2\n1 2\n",
+    "output": "1 2\n1 2\n"
+  },
+  {
+    "name": "join-large-components",
+    "input": "4 3\n1 2\n3 4\n2 3\n",
+    "output": "3 2\n2 2\n1 4\n"
+  }
+]

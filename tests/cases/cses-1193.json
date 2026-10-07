@@ -1,0 +1,17 @@
+[
+  {
+    "name": "turns",
+    "input": "3 4\nA..#\n##.#\n...B\n",
+    "output": "YES\n5\nRRDDR\n"
+  },
+  {
+    "name": "blocked",
+    "input": "2 3\nA#B\n###\n",
+    "output": "NO\n"
+  },
+  {
+    "name": "alternative-paths",
+    "input": "2 3\nA..\n..B\n",
+    "output": "YES\n3\nRRD\n"
+  }
+]

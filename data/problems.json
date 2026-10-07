@@ -1060,5 +1060,91 @@
     "space": "O(n)",
     "hint": "Sort by finishing day. For each project, find the last prefix that finishes before it begins.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1672",
+    "title": "Shortest Routes II",
+    "url": "https://cses.fi/problemset/task/1672/",
+    "solution": "solutions/cses/graphs/1672_shortest_routes_ii.cpp",
+    "notes": "notes/cses/1672_shortest_routes_ii.md",
+    "tests": "tests/cases/cses-1672.json",
+    "tags": [
+      "graphs",
+      "shortest-path",
+      "floyd-warshall"
+    ],
+    "time": "O(n^3 + m + q)",
+    "space": "O(n^2)",
+    "hint": "Use each vertex in turn as an allowed intermediate vertex.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1195",
+    "title": "Flight Discount",
+    "url": "https://cses.fi/problemset/task/1195/",
+    "solution": "solutions/cses/graphs/1195_flight_discount.cpp",
+    "notes": "notes/cses/1195_flight_discount.md",
+    "tests": "tests/cases/cses-1195.json",
+    "tags": [
+      "graphs",
+      "shortest-path",
+      "dijkstra",
+      "state-expansion"
+    ],
+    "time": "O((n + m) log(n + m))",
+    "space": "O(n + m)",
+    "hint": "The same city has two states: coupon available and coupon already used.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1676",
+    "title": "Road Construction",
+    "url": "https://cses.fi/problemset/task/1676/",
+    "solution": "solutions/cses/graphs/1676_road_construction.cpp",
+    "notes": "notes/cses/1676_road_construction.md",
+    "tests": "tests/cases/cses-1676.json",
+    "tags": [
+      "graphs",
+      "disjoint-set"
+    ],
+    "time": "O(n + m alpha(n))",
+    "space": "O(n)",
+    "hint": "Maintain connected components as sets, merging only when the new edge joins different sets.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1681",
+    "title": "Game Routes",
+    "url": "https://cses.fi/problemset/task/1681/",
+    "solution": "solutions/cses/graphs/1681_game_routes.cpp",
+    "notes": "notes/cses/1681_game_routes.md",
+    "tests": "tests/cases/cses-1681.json",
+    "tags": [
+      "graphs",
+      "dynamic-programming",
+      "topological-sort"
+    ],
+    "time": "O(n + m)",
+    "space": "O(n + m)",
+    "hint": "Process vertices after all of their incoming contributions are known.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1193",
+    "title": "Labyrinth",
+    "url": "https://cses.fi/problemset/task/1193/",
+    "solution": "solutions/cses/graphs/1193_labyrinth.cpp",
+    "notes": "notes/cses/1193_labyrinth.md",
+    "tests": "tests/cases/cses-1193.json",
+    "tags": [
+      "graphs",
+      "bfs",
+      "grid",
+      "path-reconstruction"
+    ],
+    "time": "O(n m)",
+    "space": "O(n m)",
+    "hint": "Breadth-first search finds shortest paths when every move costs one.",
+    "checker": "labyrinth"
   }
 ]
