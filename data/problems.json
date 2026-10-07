@@ -12633,5 +12633,20 @@
     "space": "O(n)",
     "hint": "Copy exactly the non-period characters in their original order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc373_a",
+    "title": "September",
+    "url": "https://atcoder.jp/contests/abc373/tasks/abc373_a",
+    "solution": "solutions/atcoder/implementation/abc373_a_september.cpp",
+    "notes": "notes/atcoder/abc373_a_september.md",
+    "tests": "tests/cases/atcoder-abc373_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(total characters)",
+    "space": "O(max length)",
+    "hint": "Read the twelve strings with one-based indices and count those whose length equals their index..",
+    "checker": "tokens"
   }
 ]

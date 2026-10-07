@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "january\r\nfebruary\r\nmarch\r\napril\r\nmay\r\njune\r\njuly\r\naugust\r\nseptember\r\noctober\r\nnovember\r\ndecember\n",
+    "output": "1\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "ve\r\ninrtfa\r\nnpccxva\r\ndjiq\r\nlmbkktngaovl\r\nmlfiv\r\nfmbvcmuxuwggfq\r\nqgmtwxmb\r\njii\r\nts\r\nbfxrvs\r\neqvy\n",
+    "output": "2\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a\naa\naaa\naaaa\naaaaa\naaaaaa\naaaaaaa\naaaaaaaa\naaaaaaaaa\naaaaaaaaaa\naaaaaaaaaaa\naaaaaaaaaaaa\n",
+    "output": "12\n"
+  }
+]
