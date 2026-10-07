@@ -3453,5 +3453,20 @@
     "space": "O(n)",
     "hint": "Leading ones never grow.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc107_c",
+    "title": "Candles",
+    "url": "https://atcoder.jp/contests/abc107/tasks/arc101_a",
+    "solution": "solutions/atcoder/sliding_window/abc107_c_candles.cpp",
+    "notes": "notes/atcoder/abc107_c_candles.md",
+    "tests": "tests/cases/atcoder-abc107_c.json",
+    "tags": [
+      "sliding_window"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Any visited interval includes a consecutive block of K candles.",
+    "checker": "tokens"
   }
 ]
