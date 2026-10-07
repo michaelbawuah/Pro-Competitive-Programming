@@ -1,0 +1,28 @@
+# Round decimals
+
+[Original problem](https://atcoder.jp/contests/abc226/tasks/abc226_a) · [C++ solution](../../solutions/atcoder/implementation/abc226_a_round_decimals.cpp)
+
+## Try first
+
+The first fractional digit determines round-half-up for a nonnegative decimal.
+
+## Reasoning
+
+The first fractional digit determines round-half-up for a nonnegative decimal. Parsing digits directly avoids binary floating-point rounding at halves.
+
+## Cost
+
+- Time: **O(1)**.
+- Extra space: **O(1)**.
+
+## C++ takeaway
+
+Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+
+## Watch for
+
+Follow the exact input and output formats; check the smallest allowed input.
+
+## Explain it back
+
+State the invariant without looking at the code. Give one input that breaks the most tempting incorrect approach, then add it to the tests.

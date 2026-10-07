@@ -8298,5 +8298,20 @@
     "space": "O(n)",
     "hint": "In a tree with N-1 edges, a vertex of degree N-1 touches every edge and every other vertex.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc226_a",
+    "title": "Round decimals",
+    "url": "https://atcoder.jp/contests/abc226/tasks/abc226_a",
+    "solution": "solutions/atcoder/implementation/abc226_a_round_decimals.cpp",
+    "notes": "notes/atcoder/abc226_a_round_decimals.md",
+    "tests": "tests/cases/atcoder-abc226_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The first fractional digit determines round-half-up for a nonnegative decimal.",
+    "checker": "tokens"
   }
 ]
