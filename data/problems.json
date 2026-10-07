@@ -3873,5 +3873,20 @@
     "space": "O(1)",
     "hint": "An interval spanning at least 2019 contains a multiple of 2019, producing zero with another element.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc134_c",
+    "title": "Exception Handling",
+    "url": "https://atcoder.jp/contests/abc134/tasks/abc134_c",
+    "solution": "solutions/atcoder/sorting/abc134_c_exception_handling.cpp",
+    "notes": "notes/atcoder/abc134_c_exception_handling.md",
+    "tests": "tests/cases/atcoder-abc134_c.json",
+    "tags": [
+      "sorting"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Keep the two largest values with multiplicity.",
+    "checker": "tokens"
   }
 ]
