@@ -1,0 +1,22 @@
+[
+  {
+    "name": "overlap",
+    "input": "aaaaa\naaa\n",
+    "output": "3\n"
+  },
+  {
+    "name": "none",
+    "input": "abc\nd\n",
+    "output": "0\n"
+  },
+  {
+    "name": "borders",
+    "input": "abababa\naba\n",
+    "output": "3\n"
+  },
+  {
+    "name": "long-pattern",
+    "input": "ab\nabc\n",
+    "output": "0\n"
+  }
+]

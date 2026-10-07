@@ -450,5 +450,22 @@
     "space": "O(n)",
     "hint": "Each node stores the minimum of its interval; queries combine disjoint covered intervals.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1753",
+    "title": "String Matching",
+    "url": "https://cses.fi/problemset/task/1753/",
+    "solution": "solutions/cses/strings/1753_string_matching.cpp",
+    "notes": "notes/cses/1753_string_matching.md",
+    "tests": "tests/cases/cses-1753.json",
+    "tags": [
+      "strings",
+      "KMP",
+      "prefix function"
+    ],
+    "time": "O(n + m)",
+    "space": "O(m) beyond input",
+    "hint": "After a mismatch, preserve the longest useful suffix of what already matched.",
+    "checker": "tokens"
   }
 ]
