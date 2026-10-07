@@ -4518,5 +4518,20 @@
     "space": "O(n log n)",
     "hint": "Precompute power-of-two ancestors.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1688",
+    "title": "Company Queries II",
+    "url": "https://cses.fi/problemset/task/1688/",
+    "solution": "solutions/cses/trees/1688_company_queries_ii.cpp",
+    "notes": "notes/cses/1688_company_queries_ii.md",
+    "tests": "tests/cases/cses-1688.json",
+    "tags": [
+      "trees"
+    ],
+    "time": "O((n+q) log n)",
+    "space": "O(n log n)",
+    "hint": "Boss identifiers are smaller than employee identifiers, allowing depths to be computed during input.",
+    "checker": "tokens"
   }
 ]
