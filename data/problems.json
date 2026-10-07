@@ -6018,5 +6018,20 @@
     "space": "O(1)",
     "hint": "Consume as many of the first pile as possible before applying the remaining operations to the second.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc150_a",
+    "title": "500 Yen Coins",
+    "url": "https://atcoder.jp/contests/abc150/tasks/abc150_a",
+    "solution": "solutions/atcoder/implementation/abc150_a_500_yen_coins.cpp",
+    "notes": "notes/atcoder/abc150_a_500_yen_coins.md",
+    "tests": "tests/cases/atcoder-abc150_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Multiply coin count by denomination and compare the total with the requested amount inclusively..",
+    "checker": "tokens"
   }
 ]
