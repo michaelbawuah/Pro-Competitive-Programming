@@ -6048,5 +6048,20 @@
     "space": "O(n)",
     "hint": "Test every start with room for three characters.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc151_a",
+    "title": "Next Alphabet",
+    "url": "https://atcoder.jp/contests/abc151/tasks/abc151_a",
+    "solution": "solutions/atcoder/implementation/abc151_a_next_alphabet.cpp",
+    "notes": "notes/atcoder/abc151_a_next_alphabet.md",
+    "tests": "tests/cases/atcoder-abc151_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The input excludes z, so incrementing its lowercase letter code gives the next letter without wrapping..",
+    "checker": "tokens"
   }
 ]
