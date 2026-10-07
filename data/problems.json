@@ -3048,5 +3048,20 @@
     "space": "O(1)",
     "hint": "Compare each of the other three distances with the first runner distance.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1692B",
+    "title": "All Distinct",
+    "url": "https://codeforces.com/problemset/problem/1692/B",
+    "solution": "solutions/codeforces/greedy/1692B_all_distinct.cpp",
+    "notes": "notes/codeforces/1692B_all_distinct.md",
+    "tests": "tests/cases/codeforces-1692B.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n log n) per case",
+    "space": "O(n)",
+    "hint": "At most one occurrence of each distinct value can remain.",
+    "checker": "tokens"
   }
 ]
