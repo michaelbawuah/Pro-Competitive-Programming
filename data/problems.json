@@ -9048,5 +9048,20 @@
     "space": "O(1)",
     "hint": "Integer division maps each cell to its tile row and column.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc251_a",
+    "title": "Six Characters",
+    "url": "https://atcoder.jp/contests/abc251/tasks/abc251_a",
+    "solution": "solutions/atcoder/implementation/abc251_a_six_characters.cpp",
+    "notes": "notes/atcoder/abc251_a_six_characters.md",
+    "tests": "tests/cases/atcoder-abc251_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Cycle through the original string positions modulo its length until six characters have been emitted.",
+    "checker": "tokens"
   }
 ]
