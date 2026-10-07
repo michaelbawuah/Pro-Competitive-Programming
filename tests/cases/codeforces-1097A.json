@@ -1,0 +1,27 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "AS\n2H 4C TH JH AD\n",
+    "output": "YES\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "2H\n3D 4C AC KD AS\n",
+    "output": "NO\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "4D\nAS AC AD AH 5H\n",
+    "output": "YES\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2H\n3H 4D 5C 6S 7D\n",
+    "output": "YES\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "AH\n2D 3C 4S 5D 6C\n",
+    "output": "NO\n"
+  }
+]

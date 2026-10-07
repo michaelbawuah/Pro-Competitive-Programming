@@ -2298,5 +2298,20 @@
     "space": "O(1)",
     "hint": "Maintain the minimum and maximum of earlier scores.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1097A",
+    "title": "Gennady and a Card Game",
+    "url": "https://codeforces.com/problemset/problem/1097/A",
+    "solution": "solutions/codeforces/strings/1097A_gennady_and_a_card_game.cpp",
+    "notes": "notes/codeforces/1097A_gennady_and_a_card_game.md",
+    "tests": "tests/cases/codeforces-1097A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Check each card for a matching rank or a matching suit.",
+    "checker": "yes_no"
   }
 ]
