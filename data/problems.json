@@ -4293,5 +4293,20 @@
     "space": "O(n L)",
     "hint": "A set stores one representative of each item name regardless of repeated draws.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc165_c",
+    "title": "Many Requirements",
+    "url": "https://atcoder.jp/contests/abc165/tasks/abc165_c",
+    "solution": "solutions/atcoder/recursion/abc165_c_many_requirements.cpp",
+    "notes": "notes/atcoder/abc165_c_many_requirements.md",
+    "tests": "tests/cases/atcoder-abc165_c.json",
+    "tags": [
+      "recursion"
+    ],
+    "time": "O(Q binomial(N+M-1,N))",
+    "space": "O(N+Q)",
+    "hint": "Generate only nondecreasing sequences by making each next value at least the previous one.",
+    "checker": "tokens"
   }
 ]
