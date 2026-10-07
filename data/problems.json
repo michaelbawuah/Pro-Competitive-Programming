@@ -11823,5 +11823,20 @@
     "space": "O(n)",
     "hint": "Keep the prefix before the first bar and the suffix after the second bar.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc344_b",
+    "title": "Delimiter",
+    "url": "https://atcoder.jp/contests/abc344/tasks/abc344_b",
+    "solution": "solutions/atcoder/implementation/abc344_b_delimiter.cpp",
+    "notes": "notes/atcoder/abc344_b_delimiter.md",
+    "tests": "tests/cases/atcoder-abc344_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Read values until the terminating zero, storing the zero as well.",
+    "checker": "tokens"
   }
 ]
