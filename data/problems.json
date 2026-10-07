@@ -11208,5 +11208,20 @@
     "space": "O(n)",
     "hint": "Count wins for each player.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc324_a",
+    "title": "Same",
+    "url": "https://atcoder.jp/contests/abc324/tasks/abc324_a",
+    "solution": "solutions/atcoder/implementation/abc324_a_same.cpp",
+    "notes": "notes/atcoder/abc324_a_same.md",
+    "tests": "tests/cases/atcoder-abc324_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "All values are equal exactly when each value equals the first one.",
+    "checker": "tokens"
   }
 ]
