@@ -2988,5 +2988,20 @@
     "space": "O(1)",
     "hint": "Compare the sums of the first and last three digits.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1676B",
+    "title": "Equal Candies",
+    "url": "https://codeforces.com/problemset/problem/1676/B",
+    "solution": "solutions/codeforces/greedy/1676B_equal_candies.cpp",
+    "notes": "notes/codeforces/1676B_equal_candies.md",
+    "tests": "tests/cases/codeforces-1676B.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n) per case",
+    "space": "O(n)",
+    "hint": "Removing candies cannot raise the smallest pile, so the final common size is at most the current minimum.",
+    "checker": "tokens"
   }
 ]
