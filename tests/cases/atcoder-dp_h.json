@@ -1,0 +1,17 @@
+[
+  {
+    "name": "obstacle",
+    "input": "3 4\n...#\n.#..\n....\n",
+    "output": "3\n"
+  },
+  {
+    "name": "open",
+    "input": "2 3\n...\n...\n",
+    "output": "3\n"
+  },
+  {
+    "name": "no-path",
+    "input": "2 2\n.#\n#.\n",
+    "output": "0\n"
+  }
+]

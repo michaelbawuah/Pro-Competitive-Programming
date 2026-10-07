@@ -1575,5 +1575,53 @@
     "space": "O(n + m)",
     "hint": "In a DAG, process each vertex only after all its predecessors.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-dp_h",
+    "title": "Grid 1",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_h",
+    "solution": "solutions/atcoder/dynamic_programming/dp_h_grid_1.cpp",
+    "notes": "notes/atcoder/dp_h_grid_1.md",
+    "tests": "tests/cases/atcoder-dp_h.json",
+    "tags": [
+      "dynamic-programming",
+      "grid"
+    ],
+    "time": "O(H W)",
+    "space": "O(W)",
+    "hint": "Combine paths arriving from above and left, treating walls as zero-count cells.",
+    "checker": "tokens"
+  },
+  {
+    "id": "atcoder-dp_i",
+    "title": "Coins",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_i",
+    "solution": "solutions/atcoder/dynamic_programming/dp_i_coins.cpp",
+    "notes": "notes/atcoder/dp_i_coins.md",
+    "tests": "tests/cases/atcoder-dp_i.json",
+    "tags": [
+      "dynamic-programming",
+      "probability"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Track a probability distribution over the number of heads after each toss.",
+    "checker": "probability"
+  },
+  {
+    "id": "atcoder-dp_k",
+    "title": "Stones",
+    "url": "https://atcoder.jp/contests/dp/tasks/dp_k",
+    "solution": "solutions/atcoder/dynamic_programming/dp_k_stones.cpp",
+    "notes": "notes/atcoder/dp_k_stones.md",
+    "tests": "tests/cases/atcoder-dp_k.json",
+    "tags": [
+      "dynamic-programming",
+      "game-theory"
+    ],
+    "time": "O(n K)",
+    "space": "O(n + K)",
+    "hint": "A position is winning if some move hands the opponent a losing position.",
+    "checker": "tokens"
   }
 ]
