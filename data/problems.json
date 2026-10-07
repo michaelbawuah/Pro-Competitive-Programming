@@ -3783,5 +3783,20 @@
     "space": "O(1)",
     "hint": "A card works at every gate exactly when it is in the intersection of all inclusive intervals.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc128_c",
+    "title": "Switches",
+    "url": "https://atcoder.jp/contests/abc128/tasks/abc128_c",
+    "solution": "solutions/atcoder/bitmasks/abc128_c_switches.cpp",
+    "notes": "notes/atcoder/abc128_c_switches.md",
+    "tests": "tests/cases/atcoder-abc128_c.json",
+    "tags": [
+      "bitmasks"
+    ],
+    "time": "O(2^N M N)",
+    "space": "O(M)",
+    "hint": "Encode each switch assignment as a bit mask.",
+    "checker": "tokens"
   }
 ]
