@@ -2568,5 +2568,20 @@
     "space": "O(n)",
     "hint": "Sort the values and inspect consecutive gaps.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1399B",
+    "title": "Gifts Fixing",
+    "url": "https://codeforces.com/problemset/problem/1399/B",
+    "solution": "solutions/codeforces/greedy/1399B_gifts_fixing.cpp",
+    "notes": "notes/codeforces/1399B_gifts_fixing.md",
+    "tests": "tests/cases/codeforces-1399B.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n) per case",
+    "space": "O(n)",
+    "hint": "The largest attainable common amounts are the separate minima because operations only remove items.",
+    "checker": "tokens"
   }
 ]
