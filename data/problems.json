@@ -3828,5 +3828,20 @@
     "space": "O(1)",
     "hint": "The initial bounce is at zero.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc131_c",
+    "title": "Anti-Division",
+    "url": "https://atcoder.jp/contests/abc131/tasks/abc131_c",
+    "solution": "solutions/atcoder/number_theory/abc131_c_anti_division.cpp",
+    "notes": "notes/atcoder/abc131_c_anti_division.md",
+    "tests": "tests/cases/atcoder-abc131_c.json",
+    "tags": [
+      "number_theory"
+    ],
+    "time": "O(log(min(C,D)))",
+    "space": "O(1)",
+    "hint": "Inclusion-exclusion counts numbers divisible by C or D, with their overlap given by the lcm.",
+    "checker": "tokens"
   }
 ]
