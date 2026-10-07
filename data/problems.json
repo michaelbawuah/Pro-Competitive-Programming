@@ -2343,5 +2343,20 @@
     "space": "O(1)",
     "hint": "The final equal amount must be the total divided by three.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1374A",
+    "title": "Required Remainder",
+    "url": "https://codeforces.com/problemset/problem/1374/A",
+    "solution": "solutions/codeforces/mathematics/1374A_required_remainder.cpp",
+    "notes": "notes/codeforces/1374A_required_remainder.md",
+    "tests": "tests/cases/codeforces-1374A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "All valid values have the form y plus a nonnegative multiple of x.",
+    "checker": "tokens"
   }
 ]
