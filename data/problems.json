@@ -12513,5 +12513,20 @@
     "space": "O(1)",
     "hint": "Measure both the shouting time and wake-up time clockwise from bedtime.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc367_b",
+    "title": "Cut .0",
+    "url": "https://atcoder.jp/contests/abc367/tasks/abc367_b",
+    "solution": "solutions/atcoder/implementation/abc367_b_cut_0.cpp",
+    "notes": "notes/atcoder/abc367_b_cut_0.md",
+    "tests": "tests/cases/atcoder-abc367_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The input has exactly three decimal places.",
+    "checker": "tokens"
   }
 ]
