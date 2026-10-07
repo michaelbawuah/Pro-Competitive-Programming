@@ -9408,5 +9408,20 @@
     "space": "O(n^2)",
     "hint": "Enumerate vertex triples in strictly increasing order so each candidate triangle appears once.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc263_a",
+    "title": "Full House",
+    "url": "https://atcoder.jp/contests/abc263/tasks/abc263_a",
+    "solution": "solutions/atcoder/implementation/abc263_a_full_house.cpp",
+    "notes": "notes/atcoder/abc263_a_full_house.md",
+    "tests": "tests/cases/atcoder-abc263_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "After sorting, a full house consists of a block of two equal values followed by three equal values, or the reverse.",
+    "checker": "tokens"
   }
 ]
