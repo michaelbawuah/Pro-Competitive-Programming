@@ -1728,5 +1728,20 @@
     "space": "O(1)",
     "hint": "A new group starts exactly when the orientation changes from the previous magnet.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-467A",
+    "title": "George and Accommodation",
+    "url": "https://codeforces.com/problemset/problem/467/A",
+    "solution": "solutions/codeforces/counting/467A_george_and_accommodation.cpp",
+    "notes": "notes/codeforces/467A_george_and_accommodation.md",
+    "tests": "tests/cases/codeforces-467A.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "A room can accommodate both friends exactly when capacity minus occupancy is at least two.",
+    "checker": "tokens"
   }
 ]
