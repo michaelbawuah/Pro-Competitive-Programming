@@ -9453,5 +9453,20 @@
     "space": "O(1)",
     "hint": "The first requested character has zero-based index L-1, and the inclusive interval contains R-L+1 characters.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc264_b",
+    "title": "Nice Grid",
+    "url": "https://atcoder.jp/contests/abc264/tasks/abc264_b",
+    "solution": "solutions/atcoder/implementation/abc264_b_nice_grid.cpp",
+    "notes": "notes/atcoder/abc264_b_nice_grid.md",
+    "tests": "tests/cases/atcoder-abc264_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The grid has alternating square rings beginning with a black outer border.",
+    "checker": "tokens"
   }
 ]
