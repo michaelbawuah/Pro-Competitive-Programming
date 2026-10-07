@@ -8823,5 +8823,20 @@
     "space": "O(1)",
     "hint": "Remove as many complete daily consumption cycles as possible.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc243_b",
+    "title": "Hit and Blow",
+    "url": "https://atcoder.jp/contests/abc243/tasks/abc243_b",
+    "solution": "solutions/atcoder/implementation/abc243_b_hit_and_blow.cpp",
+    "notes": "notes/atcoder/abc243_b_hit_and_blow.md",
+    "tests": "tests/cases/atcoder-abc243_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Compare every pair of positions across the sequences.",
+    "checker": "tokens"
   }
 ]
