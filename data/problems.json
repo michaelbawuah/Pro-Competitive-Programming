@@ -6693,5 +6693,20 @@
     "space": "O(1)",
     "hint": "Evaluate each of the three powers and add them; the small input bound keeps the result integral and exact..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc172_b",
+    "title": "Minor Change",
+    "url": "https://atcoder.jp/contests/abc172/tasks/abc172_b",
+    "solution": "solutions/atcoder/implementation/abc172_b_minor_change.cpp",
+    "notes": "notes/atcoder/abc172_b_minor_change.md",
+    "tests": "tests/cases/atcoder-abc172_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Every mismatching position needs one replacement, and replacing it once is sufficient.",
+    "checker": "tokens"
   }
 ]

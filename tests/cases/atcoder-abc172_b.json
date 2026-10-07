@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "cupofcoffee\r\ncupofhottea\n",
+    "output": "4\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "abcde\r\nbcdea\n",
+    "output": "5\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "apple\r\napple\n",
+    "output": "0\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "a\na\n",
+    "output": "0\n"
+  }
+]
