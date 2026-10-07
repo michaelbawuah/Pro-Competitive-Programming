@@ -2733,5 +2733,20 @@
     "space": "O(1)",
     "hint": "Manhattan distance is attainable unless the endpoints and obstacle lie on one straight segment with the obstacle strictly between them.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1547B",
+    "title": "Alphabetical Strings",
+    "url": "https://codeforces.com/problemset/problem/1547/B",
+    "solution": "solutions/codeforces/strings/1547B_alphabetical_strings.cpp",
+    "notes": "notes/codeforces/1547B_alphabetical_strings.md",
+    "tests": "tests/cases/codeforces-1547B.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n) per case",
+    "space": "O(n)",
+    "hint": "Start at the unique required a and grow the constructed interval.",
+    "checker": "yes_no"
   }
 ]

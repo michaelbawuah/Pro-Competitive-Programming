@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "11\na\nba\nab\nbac\nihfcbadeg\nz\naa\nca\nacb\nxyz\nddcba\n",
+    "output": "YES\nYES\nYES\nYES\nYES\nNO\nNO\nNO\nNO\nNO\nNO\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\na\nabca\n",
+    "output": "YES\nNO\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "1\ncbad\n",
+    "output": "YES\n"
+  }
+]
