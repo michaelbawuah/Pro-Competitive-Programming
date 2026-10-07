@@ -9243,5 +9243,20 @@
     "space": "O(1)",
     "hint": "Each letter occupies a block of N positions.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc257_b",
+    "title": "1D Pawn",
+    "url": "https://atcoder.jp/contests/abc257/tasks/abc257_b",
+    "solution": "solutions/atcoder/implementation/abc257_b_1d_pawn.cpp",
+    "notes": "notes/atcoder/abc257_b_1d_pawn.md",
+    "tests": "tests/cases/atcoder-abc257_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(K+Q)",
+    "space": "O(K)",
+    "hint": "Pieces never cross, so their left-to-right indices remain fixed.",
+    "checker": "tokens"
   }
 ]
