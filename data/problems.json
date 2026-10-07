@@ -4083,5 +4083,20 @@
     "space": "O(1)",
     "hint": "Test candidates in increasing order.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc150_c",
+    "title": "Count Order",
+    "url": "https://atcoder.jp/contests/abc150/tasks/abc150_c",
+    "solution": "solutions/atcoder/enumeration/abc150_c_count_order.cpp",
+    "notes": "notes/atcoder/abc150_c_count_order.md",
+    "tests": "tests/cases/atcoder-abc150_c.json",
+    "tags": [
+      "enumeration"
+    ],
+    "time": "O(n n!)",
+    "space": "O(n)",
+    "hint": "Starting from sorted order, next_permutation visits every permutation in lexicographic order.",
+    "checker": "tokens"
   }
 ]
