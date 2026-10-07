@@ -2973,5 +2973,20 @@
     "space": "O(1)",
     "hint": "An operation flips parity at all positions of one index parity simultaneously.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1676A",
+    "title": "Lucky?",
+    "url": "https://codeforces.com/problemset/problem/1676/A",
+    "solution": "solutions/codeforces/strings/1676A_lucky.cpp",
+    "notes": "notes/codeforces/1676A_lucky.md",
+    "tests": "tests/cases/codeforces-1676A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(1) per case",
+    "space": "O(1)",
+    "hint": "Compare the sums of the first and last three digits.",
+    "checker": "yes_no"
   }
 ]
