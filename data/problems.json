@@ -10473,5 +10473,20 @@
     "space": "O(n)",
     "hint": "Passing requires at least one good mark and no poor marks.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc298_b",
+    "title": "Coloring Matrix",
+    "url": "https://atcoder.jp/contests/abc298/tasks/abc298_b",
+    "solution": "solutions/atcoder/implementation/abc298_b_coloring_matrix.cpp",
+    "notes": "notes/atcoder/abc298_b_coloring_matrix.md",
+    "tests": "tests/cases/atcoder-abc298_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n^2)",
+    "hint": "A square has four orientations under quarter-turn rotations.",
+    "checker": "tokens"
   }
 ]
