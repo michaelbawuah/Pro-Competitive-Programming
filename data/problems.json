@@ -11748,5 +11748,20 @@
     "space": "O(n)",
     "hint": "Exchanges only move currency toward the next country.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc342_a",
+    "title": "Yay!",
+    "url": "https://atcoder.jp/contests/abc342/tasks/abc342_a",
+    "solution": "solutions/atcoder/implementation/abc342_a_yay.cpp",
+    "notes": "notes/atcoder/abc342_a_yay.md",
+    "tests": "tests/cases/atcoder-abc342_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Count letter occurrences, then locate the character whose frequency is one.",
+    "checker": "tokens"
   }
 ]
