@@ -1,0 +1,17 @@
+[
+  {
+    "name": "mixed",
+    "input": "4\n2 1\n2 2\n3 6\n10 2\n",
+    "output": "YES\nNO\nYES\nNO\n"
+  },
+  {
+    "name": "empty",
+    "input": "2\n0 0\n0 3\n",
+    "output": "YES\nNO\n"
+  },
+  {
+    "name": "balanced",
+    "input": "1\n1000000000 1000000000\n",
+    "output": "NO\n"
+  }
+]

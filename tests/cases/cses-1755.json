@@ -1,0 +1,17 @@
+[
+  {
+    "name": "paired",
+    "input": "AABB\n",
+    "output": "ABBA\n"
+  },
+  {
+    "name": "odd-center",
+    "input": "AAABB\n",
+    "output": "ABABA\n"
+  },
+  {
+    "name": "impossible",
+    "input": "ABC\n",
+    "output": "NO SOLUTION\n"
+  }
+]

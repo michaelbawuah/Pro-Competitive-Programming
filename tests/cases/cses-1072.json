@@ -1,0 +1,17 @@
+[
+  {
+    "name": "small",
+    "input": "3\n",
+    "output": "0\n6\n28\n"
+  },
+  {
+    "name": "one",
+    "input": "1\n",
+    "output": "0\n"
+  },
+  {
+    "name": "four",
+    "input": "4\n",
+    "output": "0\n6\n28\n96\n"
+  }
+]

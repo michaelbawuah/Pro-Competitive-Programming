@@ -579,5 +579,101 @@
     "space": "O(1)",
     "hint": "Remember yesterday\u2019s activity, because it determines today\u2019s legal choices.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1070",
+    "title": "Permutations",
+    "url": "https://cses.fi/problemset/task/1070/",
+    "solution": "solutions/cses/introductory/1070_permutations.cpp",
+    "notes": "notes/cses/1070_permutations.md",
+    "tests": "tests/cases/cses-1070.json",
+    "tags": [
+      "construction",
+      "parity"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Separate the numbers by parity and examine the boundary.",
+    "checker": "permutation"
+  },
+  {
+    "id": "cses-1071",
+    "title": "Number Spiral",
+    "url": "https://cses.fi/problemset/task/1071/",
+    "solution": "solutions/cses/introductory/1071_number_spiral.cpp",
+    "notes": "notes/cses/1071_number_spiral.md",
+    "tests": "tests/cases/cses-1071.json",
+    "tags": [
+      "arithmetic",
+      "pattern"
+    ],
+    "time": "O(q)",
+    "space": "O(1)",
+    "hint": "The larger coordinate determines the square layer; parity determines its direction.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1072",
+    "title": "Two Knights",
+    "url": "https://cses.fi/problemset/task/1072/",
+    "solution": "solutions/cses/introductory/1072_two_knights.cpp",
+    "notes": "notes/cses/1072_two_knights.md",
+    "tests": "tests/cases/cses-1072.json",
+    "tags": [
+      "combinatorics"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Count all pairs of squares, then subtract attacking pairs.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1092",
+    "title": "Two Sets",
+    "url": "https://cses.fi/problemset/task/1092/",
+    "solution": "solutions/cses/introductory/1092_two_sets.cpp",
+    "notes": "notes/cses/1092_two_sets.md",
+    "tests": "tests/cases/cses-1092.json",
+    "tags": [
+      "construction",
+      "greedy"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "A partition exists only when the total is even; build one half from large numbers downward.",
+    "checker": "two_sets"
+  },
+  {
+    "id": "cses-1755",
+    "title": "Palindrome Reorder",
+    "url": "https://cses.fi/problemset/task/1755/",
+    "solution": "solutions/cses/introductory/1755_palindrome_reorder.cpp",
+    "notes": "notes/cses/1755_palindrome_reorder.md",
+    "tests": "tests/cases/cses-1755.json",
+    "tags": [
+      "strings",
+      "construction",
+      "counting"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "All characters except possibly the center must occur in pairs.",
+    "checker": "palindrome"
+  },
+  {
+    "id": "cses-1754",
+    "title": "Coin Piles",
+    "url": "https://cses.fi/problemset/task/1754/",
+    "solution": "solutions/cses/introductory/1754_coin_piles.cpp",
+    "notes": "notes/cses/1754_coin_piles.md",
+    "tests": "tests/cases/cses-1754.json",
+    "tags": [
+      "arithmetic",
+      "invariants"
+    ],
+    "time": "O(q)",
+    "space": "O(1)",
+    "hint": "Solve for the number of moves of each type.",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "three",
+    "input": "3\n",
+    "output": "YES\n1\n3\n2\n1 2\n"
+  },
+  {
+    "name": "four",
+    "input": "4\n",
+    "output": "YES\n2\n4 1\n2\n2 3\n"
+  },
+  {
+    "name": "odd",
+    "input": "2\n",
+    "output": "NO\n"
+  }
+]
