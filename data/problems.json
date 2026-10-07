@@ -4608,5 +4608,20 @@
     "space": "O(4^n)",
     "hint": "A column mask records cells already occupied by horizontal dominoes from the preceding column.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1722",
+    "title": "Fibonacci Numbers",
+    "url": "https://cses.fi/problemset/task/1722/",
+    "solution": "solutions/cses/number_theory/1722_fibonacci_numbers.cpp",
+    "notes": "notes/cses/1722_fibonacci_numbers.md",
+    "tests": "tests/cases/cses-1722.json",
+    "tags": [
+      "number_theory"
+    ],
+    "time": "O(log n)",
+    "space": "O(log n)",
+    "hint": "Return the adjacent pair (F_k,F_{k+1}).",
+    "checker": "tokens"
   }
 ]
