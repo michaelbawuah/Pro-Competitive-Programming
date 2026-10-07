@@ -4188,5 +4188,20 @@
     "space": "O(n)",
     "hint": "An optimal meeting point lies between the extreme coordinates, since moving toward that interval reduces every squared distance.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc157_c",
+    "title": "Guess The Number",
+    "url": "https://atcoder.jp/contests/abc157/tasks/abc157_c",
+    "solution": "solutions/atcoder/implementation/abc157_c_guess_the_number.cpp",
+    "notes": "notes/atcoder/abc157_c_guess_the_number.md",
+    "tests": "tests/cases/atcoder-abc157_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(10^N M)",
+    "space": "O(M+N)",
+    "hint": "Enumerate candidates in increasing numeric order, checking the exact digit count and every digit constraint.",
+    "checker": "tokens"
   }
 ]
