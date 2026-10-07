@@ -2583,5 +2583,20 @@
     "space": "O(n)",
     "hint": "The largest attainable common amounts are the separate minima because operations only remove items.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1399C",
+    "title": "Boats Competition",
+    "url": "https://codeforces.com/problemset/problem/1399/C",
+    "solution": "solutions/codeforces/two_pointers/1399C_boats_competition.cpp",
+    "notes": "notes/codeforces/1399C_boats_competition.md",
+    "tests": "tests/cases/codeforces-1399C.json",
+    "tags": [
+      "two_pointers"
+    ],
+    "time": "O(n^2) per case",
+    "space": "O(n)",
+    "hint": "Enumerate the common pair sum.",
+    "checker": "tokens"
   }
 ]
