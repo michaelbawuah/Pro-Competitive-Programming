@@ -9198,5 +9198,20 @@
     "space": "O(N+K)",
     "hint": "Each person requires a radius at least their distance to the nearest lamp.",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc256_a",
+    "title": "2^N",
+    "url": "https://atcoder.jp/contests/abc256/tasks/abc256_a",
+    "solution": "solutions/atcoder/implementation/abc256_a_2_n.cpp",
+    "notes": "notes/atcoder/abc256_a_2_n.md",
+    "tests": "tests/cases/atcoder-abc256_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Shifting the integer one left by N positions produces 2^N.",
+    "checker": "tokens"
   }
 ]
