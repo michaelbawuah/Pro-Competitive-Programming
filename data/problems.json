@@ -9138,5 +9138,20 @@
     "space": "O(W)",
     "hint": "Each move changes exactly one coordinate by one, so at least the Manhattan distance is needed.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc254_a",
+    "title": "Last Two Digits",
+    "url": "https://atcoder.jp/contests/abc254/tasks/abc254_a",
+    "solution": "solutions/atcoder/implementation/abc254_a_last_two_digits.cpp",
+    "notes": "notes/atcoder/abc254_a_last_two_digits.md",
+    "tests": "tests/cases/atcoder-abc254_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Taking the final two characters preserves both digits exactly, including a leading zero in the tens position..",
+    "checker": "tokens"
   }
 ]
