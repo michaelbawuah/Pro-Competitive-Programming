@@ -7368,5 +7368,20 @@
     "space": "O(n)",
     "hint": "Enumerate the employees assigned to both tasks.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc195_a",
+    "title": "Health M Death",
+    "url": "https://atcoder.jp/contests/abc195/tasks/abc195_a",
+    "solution": "solutions/atcoder/implementation/abc195_a_health_m_death.cpp",
+    "notes": "notes/atcoder/abc195_a_health_m_death.md",
+    "tests": "tests/cases/atcoder-abc195_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The magic applies exactly to multiples of M, detected by a zero remainder..",
+    "checker": "tokens"
   }
 ]
