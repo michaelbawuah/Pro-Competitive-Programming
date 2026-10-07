@@ -995,5 +995,70 @@
     "space": "O(m)",
     "hint": "Track how many valid prefixes end at each possible value.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1744",
+    "title": "Rectangle Cutting",
+    "url": "https://cses.fi/problemset/task/1744/",
+    "solution": "solutions/cses/dynamic_programming/1744_rectangle_cutting.cpp",
+    "notes": "notes/cses/1744_rectangle_cutting.md",
+    "tests": "tests/cases/cses-1744.json",
+    "tags": [
+      "dynamic-programming"
+    ],
+    "time": "O(a b (a + b))",
+    "space": "O(a b)",
+    "hint": "Consider every possible first horizontal or vertical cut.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1745",
+    "title": "Money Sums",
+    "url": "https://cses.fi/problemset/task/1745/",
+    "solution": "solutions/cses/dynamic_programming/1745_money_sums.cpp",
+    "notes": "notes/cses/1745_money_sums.md",
+    "tests": "tests/cases/cses-1745.json",
+    "tags": [
+      "dynamic-programming",
+      "subset-sum"
+    ],
+    "time": "O(n S), S = sum of coins",
+    "space": "O(S)",
+    "hint": "Record which sums can be formed after each coin; each physical coin is usable once.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1093",
+    "title": "Two Sets II",
+    "url": "https://cses.fi/problemset/task/1093/",
+    "solution": "solutions/cses/dynamic_programming/1093_two_sets_ii.cpp",
+    "notes": "notes/cses/1093_two_sets_ii.md",
+    "tests": "tests/cases/cses-1093.json",
+    "tags": [
+      "dynamic-programming",
+      "subset-sum",
+      "counting"
+    ],
+    "time": "O(n^3)",
+    "space": "O(n^2)",
+    "hint": "Count only the half of each partition that does not contain n.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1140",
+    "title": "Projects",
+    "url": "https://cses.fi/problemset/task/1140/",
+    "solution": "solutions/cses/dynamic_programming/1140_projects.cpp",
+    "notes": "notes/cses/1140_projects.md",
+    "tests": "tests/cases/cses-1140.json",
+    "tags": [
+      "dynamic-programming",
+      "sorting",
+      "binary-search"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Sort by finishing day. For each project, find the last prefix that finishes before it begins.",
+    "checker": "tokens"
   }
 ]

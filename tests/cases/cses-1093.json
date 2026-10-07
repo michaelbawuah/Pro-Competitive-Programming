@@ -1,0 +1,17 @@
+[
+  {
+    "name": "sample",
+    "input": "7\n",
+    "output": "4\n"
+  },
+  {
+    "name": "small",
+    "input": "3\n",
+    "output": "1\n"
+  },
+  {
+    "name": "odd-total",
+    "input": "2\n",
+    "output": "0\n"
+  }
+]
