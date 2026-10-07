@@ -10518,5 +10518,20 @@
     "space": "O(n)",
     "hint": "First select the eligible color: T if present, otherwise player one color.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc300_a",
+    "title": "N-choice question",
+    "url": "https://atcoder.jp/contests/abc300/tasks/abc300_a",
+    "solution": "solutions/atcoder/implementation/abc300_a_n_choice_question.cpp",
+    "notes": "notes/atcoder/abc300_a_n_choice_question.md",
+    "tests": "tests/cases/atcoder-abc300_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Compute the required sum and scan the answer choices with one-based indices.",
+    "checker": "tokens"
   }
 ]
