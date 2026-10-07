@@ -3663,5 +3663,20 @@
     "space": "O(n)",
     "hint": "Assign each bamboo to one of the three targets or leave it unused.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc120_c",
+    "title": "Unification",
+    "url": "https://atcoder.jp/contests/abc120/tasks/abc120_c",
+    "solution": "solutions/atcoder/implementation/abc120_c_unification.cpp",
+    "notes": "notes/atcoder/abc120_c_unification.md",
+    "tests": "tests/cases/atcoder-abc120_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Each removal consumes one cube of each color.",
+    "checker": "tokens"
   }
 ]
