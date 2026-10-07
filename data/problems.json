@@ -4908,5 +4908,20 @@
     "space": "O(1)",
     "hint": "The replacement rule is independent at each character, so transform each digit once..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc111_b",
+    "title": "AtCoder Beginner Contest 111",
+    "url": "https://atcoder.jp/contests/abc111/tasks/abc111_b",
+    "solution": "solutions/atcoder/implementation/abc111_b_atcoder_beginner_contest_111.cpp",
+    "notes": "notes/atcoder/abc111_b_atcoder_beginner_contest_111.md",
+    "tests": "tests/cases/atcoder-abc111_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The three-digit repeated-digit numbers are precisely 111 times an integer from one to nine.",
+    "checker": "tokens"
   }
 ]
