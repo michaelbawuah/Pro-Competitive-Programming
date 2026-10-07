@@ -10503,5 +10503,20 @@
     "space": "O(n)",
     "hint": "Find the first and last bar and the unique star.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc299_b",
+    "title": "Trick Taking",
+    "url": "https://atcoder.jp/contests/abc299/tasks/abc299_b",
+    "solution": "solutions/atcoder/implementation/abc299_b_trick_taking.cpp",
+    "notes": "notes/atcoder/abc299_b_trick_taking.md",
+    "tests": "tests/cases/atcoder-abc299_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "First select the eligible color: T if present, otherwise player one color.",
+    "checker": "tokens"
   }
 ]
