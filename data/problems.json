@@ -10008,5 +10008,20 @@
     "space": "O(NM)",
     "hint": "Enumerate each unordered participant pair once.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc283_a",
+    "title": "Power",
+    "url": "https://atcoder.jp/contests/abc283/tasks/abc283_a",
+    "solution": "solutions/atcoder/implementation/abc283_a_power.cpp",
+    "notes": "notes/atcoder/abc283_a_power.md",
+    "tests": "tests/cases/atcoder-abc283_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(B)",
+    "space": "O(1)",
+    "hint": "Multiply by A exactly B times starting from one.",
+    "checker": "tokens"
   }
 ]
