@@ -11988,5 +11988,20 @@
     "space": "O(n)",
     "hint": "Count each letter, then count how many distinct letters have each positive frequency.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc350_a",
+    "title": "Past ABCs",
+    "url": "https://atcoder.jp/contests/abc350/tasks/abc350_a",
+    "solution": "solutions/atcoder/implementation/abc350_a_past_abcs.cpp",
+    "notes": "notes/atcoder/abc350_a_past_abcs.md",
+    "tests": "tests/cases/atcoder-abc350_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The statement defines a fixed historical list: contest numbers one through 349 except 316.",
+    "checker": "tokens"
   }
 ]
