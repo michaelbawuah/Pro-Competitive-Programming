@@ -4,7 +4,7 @@
 
 ## Try first
 
-Every day flips the color, so odd elapsed days give black and even elapsed days restore white..
+Every day flips the color, so odd elapsed days give black and even elapsed days restore white.
 
 ## Reasoning
 

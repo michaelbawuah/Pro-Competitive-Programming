@@ -4,7 +4,7 @@
 
 ## Try first
 
-The first boy can receive any integer from one to N-1, and each choice uniquely fixes the second share..
+The first boy can receive any integer from one to N-1, and each choice uniquely fixes the second share.
 
 ## Reasoning
 

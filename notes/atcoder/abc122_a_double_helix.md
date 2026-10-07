@@ -4,7 +4,7 @@
 
 ## Try first
 
-Use the two complementary pairs in both directions: A with T, and C with G..
+Use the two complementary pairs in both directions: A with T, and C with G.
 
 ## Reasoning
 

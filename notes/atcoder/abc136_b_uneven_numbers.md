@@ -4,7 +4,7 @@
 
 ## Try first
 
-Enumerate the bounded range and count numbers whose decimal representation has odd length..
+Enumerate the bounded range and count numbers whose decimal representation has odd length.
 
 ## Reasoning
 

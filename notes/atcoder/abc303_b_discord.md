@@ -17,11 +17,11 @@ Mark every neighboring pair in every photo, symmetrically. Count unordered pairs
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+A vector of vectors gives indexed rows with independently allocated storage. For simultaneous grid updates, read from the old grid and write into a separate result grid.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Check row and column dimensions separately and avoid reading an out-of-bounds neighbor.
 
 ## Explain it back
 

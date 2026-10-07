@@ -4,7 +4,7 @@
 
 ## Try first
 
-Each attack removes A health, so ceiling division counts the attacks needed to remove at least H..
+Each attack removes A health, so ceiling division counts the attacks needed to remove at least H.
 
 ## Reasoning
 

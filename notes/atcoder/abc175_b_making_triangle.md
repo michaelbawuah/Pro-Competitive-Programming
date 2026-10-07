@@ -4,7 +4,7 @@
 
 ## Try first
 
-After sorting, check strict differences of the three lengths and the single nontrivial triangle inequality: the two smaller lengths must exceed the largest..
+After sorting, check strict differences of the three lengths and the single nontrivial triangle inequality: the two smaller lengths must exceed the largest.
 
 ## Reasoning
 

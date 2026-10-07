@@ -4,7 +4,7 @@
 
 ## Try first
 
-Convert each whole apple into three pieces, then take one pie per complete pair of pieces..
+Convert each whole apple into three pieces, then take one pie per complete pair of pieces.
 
 ## Reasoning
 

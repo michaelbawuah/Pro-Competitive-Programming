@@ -4,7 +4,7 @@
 
 ## Try first
 
-The height threshold is inclusive, so count each height at least K..
+The height threshold is inclusive, so count each height at least K.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Construct both repeated-digit strings and use the standard lexicographic string comparison, which also handles equality..
+Construct both repeated-digit strings and use the standard lexicographic string comparison, which also handles equality.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Acceptance requires passing every test, so compare the passed count with the total count..
+Acceptance requires passing every test, so compare the passed count with the total count.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Truncate only when the length strictly exceeds K, then append exactly three dots..
+Truncate only when the length strictly exceeds K, then append exactly three dots.
 
 ## Reasoning
 

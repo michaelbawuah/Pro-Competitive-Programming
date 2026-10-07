@@ -4,7 +4,7 @@
 
 ## Try first
 
-Perform the two swaps in the specified order; the second uses the already updated first box..
+Perform the two swaps in the specified order; the second uses the already updated first box.
 
 ## Reasoning
 

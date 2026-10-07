@@ -4,7 +4,7 @@
 
 ## Try first
 
-The first two sides meet at the right angle, so their product is twice the triangle area..
+The first two sides meet at the right angle, so their product is twice the triangle area.
 
 ## Reasoning
 

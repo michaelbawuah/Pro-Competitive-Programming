@@ -17,11 +17,11 @@ Map each pin to one of seven columns and mark columns with a standing pin. A spl
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+vector<bool> stores packed flags and returns a proxy on indexed access. Assign flags through indexing instead of trying to bind a bool& to an element.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Initialize every flag and preserve the distinction between a zero-based position and a one-based label.
 
 ## Explain it back
 

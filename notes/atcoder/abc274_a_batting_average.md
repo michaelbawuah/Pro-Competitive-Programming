@@ -17,11 +17,11 @@ Compute the nearest integer to 1000B/A using integer arithmetic with half-up rou
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+setw affects the next formatted field only, while setfill remains active. Set the width immediately before the numeric field that needs leading zeros.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Preserve required leading or trailing zeros; a numerically equal string may have the wrong format.
 
 ## Explain it back
 

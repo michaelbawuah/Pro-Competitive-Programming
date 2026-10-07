@@ -4,7 +4,7 @@
 
 ## Try first
 
-For each index print the character from S followed by the corresponding character from T, preserving both orders..
+For each index print the character from S followed by the corresponding character from T, preserving both orders.
 
 ## Reasoning
 

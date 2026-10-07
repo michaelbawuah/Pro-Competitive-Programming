@@ -17,11 +17,11 @@ Qualification is determined by the original first K positions. Sort only that pr
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Sorting changes element positions. Store an original index alongside each value when the answer refers to input positions, and make any tie-break explicit in the ordering.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Check repeated values and ties; a rank by occurrence differs from a rank by distinct value.
 
 ## Explain it back
 

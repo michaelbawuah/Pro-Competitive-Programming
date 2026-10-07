@@ -17,11 +17,11 @@ The inclusive one-based interval [L,R] becomes the half-open zero-based iterator
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Standard algorithms use half-open ranges: the begin iterator is included and the end iterator is excluded. An inclusive one-based interval [L,R] becomes [begin+L-1,begin+R).
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Convert both endpoints consistently; a one-element reversal must leave that element unchanged.
 
 ## Explain it back
 

@@ -17,11 +17,11 @@ Enumerate pack counts up to the number of that pack type alone needed to reach N
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Parenthesize conditional expressions sent to an output stream so the stream insertion operator does not change their grouping. Use separate variables for quantities with different roles.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Check whether the condition is strict or inclusive, particularly at the smallest and largest permitted values.
 
 ## Explain it back
 

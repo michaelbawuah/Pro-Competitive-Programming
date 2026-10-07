@@ -4,7 +4,7 @@
 
 ## Try first
 
-The budget allows floor(B/A) purchases and satisfaction imposes the independent cap C; both constraints require their minimum..
+The budget allows floor(B/A) purchases and satisfaction imposes the independent cap C; both constraints require their minimum.
 
 ## Reasoning
 

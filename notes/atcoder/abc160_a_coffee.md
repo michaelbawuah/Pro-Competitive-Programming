@@ -4,7 +4,7 @@
 
 ## Try first
 
-Translate the two required one-based character pairs to indices (2,3) and (4,5)..
+Translate the two required one-based character pairs to indices (2,3) and (4,5).
 
 ## Reasoning
 

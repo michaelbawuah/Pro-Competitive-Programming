@@ -17,11 +17,11 @@ Place each hand initially at its first required key for zero cost. Thereafter th
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Subtract coordinates in a sufficiently wide signed type before applying abs or squaring. The operand types determine the arithmetic width of the intermediate result.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Squared distances can exceed individual coordinate bounds; ties and zero differences deserve separate attention.
 
 ## Explain it back
 

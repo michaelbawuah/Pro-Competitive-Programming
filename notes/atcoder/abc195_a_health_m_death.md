@@ -4,7 +4,7 @@
 
 ## Try first
 
-The magic applies exactly to multiples of M, detected by a zero remainder..
+The magic applies exactly to multiples of M, detected by a zero remainder.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Apply one step of the given three-state weather cycle..
+Apply one step of the given three-state weather cycle.
 
 ## Reasoning
 

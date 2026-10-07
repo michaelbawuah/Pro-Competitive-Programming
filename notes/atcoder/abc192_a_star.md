@@ -4,7 +4,7 @@
 
 ## Try first
 
-The next prize is strictly after the current count, so an exact multiple still needs one hundred further coins..
+The next prize is strictly after the current count, so an exact multiple still needs one hundred further coins.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Each opposite-face pair sums to seven, so the three bottom faces sum to twenty-one minus the three top faces..
+Each opposite-face pair sums to seven, so the three bottom faces sum to twenty-one minus the three top faces.
 
 ## Reasoning
 

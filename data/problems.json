@@ -3151,7 +3151,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Each one corresponds to exactly one marble, so count the one characters..",
+    "hint": "Each one corresponds to exactly one marble, so count the one characters.",
     "checker": "tokens"
   },
   {
@@ -3196,7 +3196,7 @@
     ],
     "time": "O(n log n)",
     "space": "O(1)",
-    "hint": "Enumerate each candidate once, compute its decimal digit sum, and add the candidate when that sum lies in the inclusive interval..",
+    "hint": "Enumerate each candidate once, compute its decimal digit sum, and add the candidate when that sum lies in the inclusive interval.",
     "checker": "tokens"
   },
   {
@@ -4666,7 +4666,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Each symbol contributes independently: add one for plus and subtract one for minus..",
+    "hint": "Each symbol contributes independently: add one for plus and subtract one for minus.",
     "checker": "tokens"
   },
   {
@@ -4696,7 +4696,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "If N is even it already contains a factor of two; otherwise twice N is the smallest common multiple..",
+    "hint": "If N is even it already contains a factor of two; otherwise twice N is the smallest common multiple.",
     "checker": "tokens"
   },
   {
@@ -4711,7 +4711,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Every pair difference is bounded by maximum minus minimum, and choosing those extremes attains the bound..",
+    "hint": "Every pair difference is bounded by maximum minus minimum, and choosing those extremes attains the bound.",
     "checker": "tokens"
   },
   {
@@ -4756,7 +4756,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Check the rating thresholds in ascending order; each threshold is strict..",
+    "hint": "Check the rating thresholds in ascending order; each threshold is strict.",
     "checker": "tokens"
   },
   {
@@ -4816,7 +4816,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The first and last positions add to N+1, so reversing the direction maps i to N-i+1..",
+    "hint": "The first and last positions add to N+1, so reversing the direction maps i to N-i+1.",
     "checker": "tokens"
   },
   {
@@ -4846,7 +4846,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Choose one of floor(K/2) even values and one of ceil(K/2) odd values independently..",
+    "hint": "Choose one of floor(K/2) even values and one of ceil(K/2) odd values independently.",
     "checker": "tokens"
   },
   {
@@ -4906,7 +4906,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The replacement rule is independent at each character, so transform each digit once..",
+    "hint": "The replacement rule is independent at each character, so transform each digit once.",
     "checker": "tokens"
   },
   {
@@ -4981,7 +4981,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The accepted ages form the explicit set {3,5,7}; test membership..",
+    "hint": "The accepted ages form the explicit set {3,5,7}; test membership.",
     "checker": "tokens"
   },
   {
@@ -4996,7 +4996,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Print the base greeting and append one Eve for every day remaining until the twenty-fifth..",
+    "hint": "Print the base greeting and append one Eve for every day remaining until the twenty-fifth.",
     "checker": "tokens"
   },
   {
@@ -5026,7 +5026,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The first two sides meet at the right angle, so their product is twice the triangle area..",
+    "hint": "The first two sides meet at the right angle, so their product is twice the triangle area.",
     "checker": "tokens"
   },
   {
@@ -5056,7 +5056,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "World B advances X times as quickly, so divide the required study duration by X to obtain elapsed time in World A..",
+    "hint": "World B advances X times as quickly, so divide the required study duration by X to obtain elapsed time in World A.",
     "checker": "floating"
   },
   {
@@ -5086,7 +5086,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Use the remainder to decide divisibility, then select the specified sum or difference..",
+    "hint": "Use the remainder to decide divisibility, then select the specified sum or difference.",
     "checker": "tokens"
   },
   {
@@ -5146,7 +5146,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The budget allows floor(B/A) purchases and satisfaction imposes the independent cap C; both constraints require their minimum..",
+    "hint": "The budget allows floor(B/A) purchases and satisfaction imposes the independent cap C; both constraints require their minimum.",
     "checker": "tokens"
   },
   {
@@ -5206,7 +5206,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Use the two complementary pairs in both directions: A with T, and C with G..",
+    "hint": "Use the two complementary pairs in both directions: A with T, and C with G.",
     "checker": "tokens"
   },
   {
@@ -5356,7 +5356,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Partition ages into the three disjoint inclusive fare brackets and select zero, half fare, or full fare..",
+    "hint": "Partition ages into the three disjoint inclusive fare brackets and select zero, half fare, or full fare.",
     "checker": "tokens"
   },
   {
@@ -5371,7 +5371,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Apply the recurrence ten times, printing each newly computed yearly weight rather than the initial value..",
+    "hint": "Apply the recurrence ten times, printing each newly computed yearly weight rather than the initial value.",
     "checker": "tokens"
   },
   {
@@ -5386,7 +5386,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Convert each whole apple into three pieces, then take one pie per complete pair of pieces..",
+    "hint": "Convert each whole apple into three pieces, then take one pie per complete pair of pieces.",
     "checker": "tokens"
   },
   {
@@ -5446,7 +5446,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Compare using the strict less-than relation; equality follows the ten-output branch..",
+    "hint": "Compare using the strict less-than relation; equality follows the ten-output branch.",
     "checker": "tokens"
   },
   {
@@ -5506,7 +5506,7 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "With distinct permutation values, the center is the median precisely when the three consecutive values are strictly increasing or strictly decreasing..",
+    "hint": "With distinct permutation values, the center is the median precisely when the three consecutive values are strictly increasing or strictly decreasing.",
     "checker": "tokens"
   },
   {
@@ -5521,7 +5521,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Compare the total per-person train fare with the single taxi fare shared by the group..",
+    "hint": "Compare the total per-person train fare with the single taxi fare shared by the group.",
     "checker": "tokens"
   },
   {
@@ -5551,7 +5551,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Substitute the radius into the area formula given by the statement..",
+    "hint": "Substitute the radius into the area formula given by the statement.",
     "checker": "tokens"
   },
   {
@@ -5626,7 +5626,7 @@
     ],
     "time": "O(N log N)",
     "space": "O(log N)",
-    "hint": "Enumerate the bounded range and count numbers whose decimal representation has odd length..",
+    "hint": "Enumerate the bounded range and count numbers whose decimal representation has odd length.",
     "checker": "tokens"
   },
   {
@@ -5641,7 +5641,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Compute all three allowed expressions, including negative results, and take their maximum..",
+    "hint": "Compute all three allowed expressions, including negative results, and take their maximum.",
     "checker": "tokens"
   },
   {
@@ -5671,7 +5671,7 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "At the inclusive threshold 3200 the supplied color is used; lower ratings produce red..",
+    "hint": "At the inclusive threshold 3200 the supplied color is used; lower ratings produce red.",
     "checker": "tokens"
   },
   {
@@ -5701,7 +5701,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Compare each forecast with the actual weather at the same position and count equal pairs..",
+    "hint": "Compare each forecast with the actual weather at the same position and count equal pairs.",
     "checker": "tokens"
   },
   {
@@ -5731,7 +5731,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Each of three positions has N independent choices, giving N cubed possible passwords..",
+    "hint": "Each of three positions has N independent choices, giving N cubed possible passwords.",
     "checker": "tokens"
   },
   {
@@ -5761,7 +5761,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Apply one step of the given three-state weather cycle..",
+    "hint": "Apply one step of the given three-state weather cycle.",
     "checker": "tokens"
   },
   {
@@ -5806,7 +5806,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "The height threshold is inclusive, so count each height at least K..",
+    "hint": "The height threshold is inclusive, so count each height at least K.",
     "checker": "tokens"
   },
   {
@@ -5851,7 +5851,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Both factors must individually belong to the known one-through-nine multiplication table..",
+    "hint": "Both factors must individually belong to the known one-through-nine multiplication table.",
     "checker": "tokens"
   },
   {
@@ -5866,7 +5866,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Enumerate the 81 legal factor pairs and check whether any product equals N..",
+    "hint": "Enumerate the 81 legal factor pairs and check whether any product equals N.",
     "checker": "tokens"
   },
   {
@@ -5881,7 +5881,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Circle area scales with the square of the radius; dividing the two areas cancels pi..",
+    "hint": "Circle area scales with the square of the radius; dividing the two areas cancels pi.",
     "checker": "tokens"
   },
   {
@@ -5926,7 +5926,7 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "Convert each letter to an index, add the shift modulo 26, and convert back; modulo implements the wrap from Z to A..",
+    "hint": "Convert each letter to an index, add the shift modulo 26, and convert back; modulo implements the wrap from Z to A.",
     "checker": "tokens"
   },
   {
@@ -5941,7 +5941,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Sum the three cards and compare with the inclusive bust threshold..",
+    "hint": "Sum the three cards and compare with the inclusive bust threshold.",
     "checker": "tokens"
   },
   {
@@ -5971,7 +5971,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The three choices sum to six; subtracting the two distinct rejected choices leaves the correct one..",
+    "hint": "The three choices sum to six; subtracting the two distinct rejected choices leaves the correct one.",
     "checker": "tokens"
   },
   {
@@ -5986,7 +5986,7 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "For each index print the character from S followed by the corresponding character from T, preserving both orders..",
+    "hint": "For each index print the character from S followed by the corresponding character from T, preserving both orders.",
     "checker": "tokens"
   },
   {
@@ -6001,7 +6001,7 @@
     ],
     "time": "O(|S|+|T|)",
     "space": "O(|S|+|T|)",
-    "hint": "Print T first and S second with no separator, matching the requested concatenation order..",
+    "hint": "Print T first and S second with no separator, matching the requested concatenation order.",
     "checker": "tokens"
   },
   {
@@ -6031,7 +6031,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Multiply coin count by denomination and compare the total with the requested amount inclusively..",
+    "hint": "Multiply coin count by denomination and compare the total with the requested amount inclusively.",
     "checker": "tokens"
   },
   {
@@ -6061,7 +6061,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The input excludes z, so incrementing its lowercase letter code gives the next letter without wrapping..",
+    "hint": "The input excludes z, so incrementing its lowercase letter code gives the next letter without wrapping.",
     "checker": "tokens"
   },
   {
@@ -6091,7 +6091,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Acceptance requires passing every test, so compare the passed count with the total count..",
+    "hint": "Acceptance requires passing every test, so compare the passed count with the total count.",
     "checker": "tokens"
   },
   {
@@ -6106,7 +6106,7 @@
     ],
     "time": "O(a+b)",
     "space": "O(a+b)",
-    "hint": "Construct both repeated-digit strings and use the standard lexicographic string comparison, which also handles equality..",
+    "hint": "Construct both repeated-digit strings and use the standard lexicographic string comparison, which also handles equality.",
     "checker": "tokens"
   },
   {
@@ -6121,7 +6121,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Every move can be used once and deals positive damage, so their sum is the maximum available damage..",
+    "hint": "Every move can be used once and deals positive damage, so their sum is the maximum available damage.",
     "checker": "tokens"
   },
   {
@@ -6136,7 +6136,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Each attack removes A health, so ceiling division counts the attacks needed to remove at least H..",
+    "hint": "Each attack removes A health, so ceiling division counts the attacks needed to remove at least H.",
     "checker": "tokens"
   },
   {
@@ -6166,7 +6166,7 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "Only the input length matters; construct that many copies of x..",
+    "hint": "Only the input length matters; construct that many copies of x.",
     "checker": "tokens"
   },
   {
@@ -6181,7 +6181,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Exactly two equal values create exactly one equal pair; all equal values create three pairs..",
+    "hint": "Exactly two equal values create exactly one equal pair; all equal values create three pairs.",
     "checker": "tokens"
   },
   {
@@ -6211,7 +6211,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Undo the displayed-rating deduction for fewer than ten contests; the deduction is zero afterward..",
+    "hint": "Undo the displayed-rating deduction for fewer than ten contests; the deduction is zero afterward.",
     "checker": "tokens"
   },
   {
@@ -6241,7 +6241,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "A sheet holds two pages, so use ceiling division to include an unmatched final page..",
+    "hint": "A sheet holds two pages, so use ceiling division to include an unmatched final page.",
     "checker": "tokens"
   },
   {
@@ -6271,7 +6271,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "A cross-company pair exists exactly when the three station labels are not all identical..",
+    "hint": "A cross-company pair exists exactly when the three station labels are not all identical.",
     "checker": "tokens"
   },
   {
@@ -6331,7 +6331,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Translate the two required one-based character pairs to indices (2,3) and (4,5)..",
+    "hint": "Translate the two required one-based character pairs to indices (2,3) and (4,5).",
     "checker": "tokens"
   },
   {
@@ -6361,7 +6361,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Perform the two swaps in the specified order; the second uses the already updated first box..",
+    "hint": "Perform the two swaps in the specified order; the second uses the already updated first box.",
     "checker": "tokens"
   },
   {
@@ -6391,7 +6391,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Search the decimal representation for a seven; any matching position suffices..",
+    "hint": "Search the decimal representation for a seven; any matching position suffices.",
     "checker": "tokens"
   },
   {
@@ -6451,7 +6451,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Wolves attack at equality as well as when they outnumber sheep; use an inclusive comparison..",
+    "hint": "Wolves attack at equality as well as when they outnumber sheep; use an inclusive comparison.",
     "checker": "tokens"
   },
   {
@@ -6586,7 +6586,7 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "Truncate only when the length strictly exceeds K, then append exactly three dots..",
+    "hint": "Truncate only when the length strictly exceeds K, then append exactly three dots.",
     "checker": "tokens"
   },
   {
@@ -6601,7 +6601,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Read both operands and multiply them in an integer type wide enough for the bounded product..",
+    "hint": "Read both operands and multiply them in an integer type wide enough for the bounded product.",
     "checker": "tokens"
   },
   {
@@ -6661,7 +6661,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The input is an English letter, so membership in the uppercase range determines which case marker to print..",
+    "hint": "The input is an English letter, so membership in the uppercase range determines which case marker to print.",
     "checker": "tokens"
   },
   {
@@ -6691,7 +6691,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Evaluate each of the three powers and add them; the small input bound keeps the result integral and exact..",
+    "hint": "Evaluate each of the three powers and add them; the small input bound keeps the result integral and exact.",
     "checker": "tokens"
   },
   {
@@ -6736,7 +6736,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Count verdicts by category and emit the four categories in the prescribed order, including categories with zero occurrences..",
+    "hint": "Count verdicts by category and emit the four categories in the prescribed order, including categories with zero occurrences.",
     "checker": "tokens"
   },
   {
@@ -6751,7 +6751,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The air-conditioner threshold includes thirty degrees..",
+    "hint": "The air-conditioner threshold includes thirty degrees.",
     "checker": "tokens"
   },
   {
@@ -6796,7 +6796,7 @@
     ],
     "time": "O(n^3)",
     "space": "O(n)",
-    "hint": "After sorting, check strict differences of the three lengths and the single nontrivial triangle inequality: the two smaller lengths must exceed the largest..",
+    "hint": "After sorting, check strict differences of the three lengths and the single nontrivial triangle inequality: the two smaller lengths must exceed the largest.",
     "checker": "tokens"
   },
   {
@@ -6811,7 +6811,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Ceiling-divide demand by batch capacity, then multiply the batch count by its fixed cooking duration..",
+    "hint": "Ceiling-divide demand by batch capacity, then multiply the batch count by its fixed cooking duration.",
     "checker": "tokens"
   },
   {
@@ -6901,7 +6901,7 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "Inspect only the final character to choose the plural suffix, leaving the original word unchanged..",
+    "hint": "Inspect only the final character to choose the plural suffix, leaving the original word unchanged.",
     "checker": "tokens"
   },
   {
@@ -6916,7 +6916,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Count the current consecutive doublet streak and remember whether it ever reaches three, even if a later roll breaks it..",
+    "hint": "Count the current consecutive doublet streak and remember whether it ever reaches three, even if a later roll breaks it.",
     "checker": "tokens"
   },
   {
@@ -6931,7 +6931,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Apply the removal and addition to the original ball count..",
+    "hint": "Apply the removal and addition to the original ball count.",
     "checker": "tokens"
   },
   {
@@ -6961,7 +6961,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Every day flips the color, so odd elapsed days give black and even elapsed days restore white..",
+    "hint": "Every day flips the color, so odd elapsed days give black and even elapsed days restore white.",
     "checker": "tokens"
   },
   {
@@ -6991,7 +6991,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Subtract the current following count from the allowed total; the constraints guarantee the result is nonnegative..",
+    "hint": "Subtract the current following count from the allowed total; the constraints guarantee the result is nonnegative.",
     "checker": "tokens"
   },
   {
@@ -7021,7 +7021,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "ReLU preserves positive values and replaces negative values with zero..",
+    "hint": "ReLU preserves positive values and replaces negative values with zero.",
     "checker": "tokens"
   },
   {
@@ -7051,7 +7051,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Apply the two-by-two determinant formula with the two diagonal products in the specified order..",
+    "hint": "Apply the two-by-two determinant formula with the two diagonal products in the specified order.",
     "checker": "tokens"
   },
   {
@@ -7111,7 +7111,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Whole bricks fit according to floor capacity divided by individual weight; any additional brick would exceed capacity..",
+    "hint": "Whole bricks fit according to floor capacity divided by individual weight; any additional brick would exceed capacity.",
     "checker": "tokens"
   },
   {
@@ -7141,7 +7141,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Compute each decimal digit sum independently and select the larger sum..",
+    "hint": "Compute each decimal digit sum independently and select the larger sum.",
     "checker": "tokens"
   },
   {
@@ -7171,7 +7171,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "A three-point goal wins only when the current deficit is strictly below three..",
+    "hint": "A three-point goal wins only when the current deficit is strictly below three.",
     "checker": "tokens"
   },
   {
@@ -7186,7 +7186,7 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "Pair corresponding vector coordinates, sum their products, and compare the resulting inner product with zero..",
+    "hint": "Pair corresponding vector coordinates, sum their products, and compare the resulting inner product with zero.",
     "checker": "tokens"
   },
   {
@@ -7201,7 +7201,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Three equal symbols require equality of both adjacent pairs..",
+    "hint": "Three equal symbols require equality of both adjacent pairs.",
     "checker": "tokens"
   },
   {
@@ -7246,7 +7246,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "A damaging spell must satisfy both strict inequalities simultaneously; check whether any spell does so..",
+    "hint": "A damaging spell must satisfy both strict inequalities simultaneously; check whether any spell does so.",
     "checker": "tokens"
   },
   {
@@ -7291,7 +7291,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The next prize is strictly after the current count, so an exact multiple still needs one hundred further coins..",
+    "hint": "The next prize is strictly after the current count, so an exact multiple still needs one hundred further coins.",
     "checker": "tokens"
   },
   {
@@ -7381,7 +7381,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The magic applies exactly to multiples of M, detected by a zero remainder..",
+    "hint": "The magic applies exactly to multiples of M, detected by a zero remainder.",
     "checker": "tokens"
   },
   {
@@ -7411,7 +7411,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Increase x and decrease y to maximize their difference; both interval endpoints are allowed..",
+    "hint": "Increase x and decrease y to maximize their difference; both interval endpoints are allowed.",
     "checker": "tokens"
   },
   {
@@ -7441,7 +7441,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Print the suffix after the first character, followed by that first character..",
+    "hint": "Print the suffix after the first character, followed by that first character.",
     "checker": "tokens"
   },
   {
@@ -7471,7 +7471,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "The first boy can receive any integer from one to N-1, and each choice uniquely fixes the second share..",
+    "hint": "The first boy can receive any integer from one to N-1, and each choice uniquely fixes the second share.",
     "checker": "tokens"
   },
   {
@@ -7501,7 +7501,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Evaluate the two squared quantities exactly and keep the comparison strict..",
+    "hint": "Evaluate the two squared quantities exactly and keep the comparison strict.",
     "checker": "tokens"
   },
   {
@@ -7516,7 +7516,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Intersect all inclusive intervals by taking the largest lower bound and smallest upper bound; count the remaining integers if the interval is nonempty..",
+    "hint": "Intersect all inclusive intervals by taking the largest lower bound and smallest upper bound; count the remaining integers if the interval is nonempty.",
     "checker": "tokens"
   },
   {
@@ -7531,7 +7531,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Centuries are consecutive blocks of one hundred years starting at year one, so ceiling-divide the year by one hundred..",
+    "hint": "Centuries are consecutive blocks of one hundred years starting at year one, so ceiling-divide the year by one hundred.",
     "checker": "tokens"
   },
   {
@@ -7591,7 +7591,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Each opposite-face pair sums to seven, so the three bottom faces sum to twenty-one minus the three top faces..",
+    "hint": "Each opposite-face pair sums to seven, so the three bottom faces sum to twenty-one minus the three top faces.",
     "checker": "tokens"
   },
   {
@@ -7606,7 +7606,7 @@
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "A half-turn reverses character order and swaps six with nine; zero, one, and eight retain their appearance..",
+    "hint": "A half-turn reverses character order and swaps six with nine; zero, one, and eight retain their appearance.",
     "checker": "tokens"
   },
   {
@@ -7666,7 +7666,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Each tree contributes only its excess over ten nuts; nonpositive excess contributes zero..",
+    "hint": "Each tree contributes only its excess over ten nuts; nonpositive excess contributes zero.",
     "checker": "tokens"
   },
   {
@@ -7681,7 +7681,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Scale energy per hundred milliliters by B/100 using floating-point arithmetic..",
+    "hint": "Scale energy per hundred milliliters by B/100 using floating-point arithmetic.",
     "checker": "floating"
   },
   {
@@ -7711,7 +7711,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Compute the floor of the tax-inclusive price with integer arithmetic, then compare that price with 206..",
+    "hint": "Compute the floor of the tax-inclusive price with integer arithmetic, then compare that price with 206.",
     "checker": "tokens"
   },
   {
@@ -7741,7 +7741,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Picking the two largest values is equivalent to subtracting the minimum from the sum of all three..",
+    "hint": "Picking the two largest values is equivalent to subtracting the minimum from the sum of all three.",
     "checker": "tokens"
   },
   {
@@ -7771,7 +7771,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Starting with all ones gives sum A; distributing up to five extra pips per die reaches every integer through 6A..",
+    "hint": "Starting with all ones gives sum A; distributing up to five extra pips per die reaches every integer through 6A.",
     "checker": "tokens"
   },
   {
@@ -7801,7 +7801,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Inclusive endpoints give B-A+1 integers when ordered, and zero when the interval is empty..",
+    "hint": "Inclusive endpoints give B-A+1 integers when ordered, and zero when the interval is empty.",
     "checker": "tokens"
   },
   {
@@ -7816,7 +7816,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Apply the one-yen discount only to even one-based indices, sum the actual prices, and compare with the budget..",
+    "hint": "Apply the one-yen discount only to even one-based indices, sum the actual prices, and compare with the budget.",
     "checker": "tokens"
   },
   {
@@ -7831,7 +7831,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Split purchased heads into the first A at regular price and any excess at the discounted price..",
+    "hint": "Split purchased heads into the first A at regular price and any excess at the discounted price.",
     "checker": "tokens"
   },
   {
@@ -7842,7 +7842,8 @@
     "notes": "notes/atcoder/abc210_b_bouzu_mekuri.md",
     "tests": "tests/cases/atcoder-abc210_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -7861,7 +7862,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Evaluate the supplied expression in floating point so division by three retains its fractional part..",
+    "hint": "Evaluate the supplied expression in floating point so division by three retains its fractional part.",
     "checker": "floating"
   },
   {
@@ -7872,11 +7873,13 @@
     "notes": "notes/atcoder/abc211_b_cycle_hit.md",
     "tests": "tests/cases/atcoder-abc211_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "All inputs belong to the four allowed labels, so four distinct entries imply exactly one of each..",
+    "hint": "All inputs belong to the four allowed labels, so four distinct entries imply exactly one of each.",
     "checker": "tokens"
   },
   {
@@ -7902,7 +7905,8 @@
     "notes": "notes/atcoder/abc212_b_weak_password.md",
     "tests": "tests/cases/atcoder-abc212_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -7921,7 +7925,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "XOR with A on both sides cancels A because A xor A is zero, leaving C=A xor B..",
+    "hint": "XOR with A on both sides cancels A because A xor A is zero, leaving C=A xor B.",
     "checker": "tokens"
   },
   {
@@ -7932,7 +7936,8 @@
     "notes": "notes/atcoder/abc213_b_booby_prize.md",
     "tests": "tests/cases/atcoder-abc213_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "sorting"
     ],
     "time": "O(n log n)",
     "space": "O(n)",
@@ -7951,7 +7956,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Use the three contest-number intervals given in the problem, including each upper boundary..",
+    "hint": "Use the three contest-number intervals given in the problem, including each upper boundary.",
     "checker": "tokens"
   },
   {
@@ -7977,11 +7982,12 @@
     "notes": "notes/atcoder/abc215_a_your_first_judge.md",
     "tests": "tests/cases/atcoder-abc215_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "Exact string equality checks length, letter case, comma, and exclamation mark simultaneously..",
+    "hint": "Exact string equality checks length, letter case, comma, and exclamation mark simultaneously.",
     "checker": "tokens"
   },
   {
@@ -8011,7 +8017,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Parse the single decimal digit separately and apply its three disjoint suffix ranges without rounding the number..",
+    "hint": "Parse the single decimal digit separately and apply its three disjoint suffix ranges without rounding the number.",
     "checker": "tokens"
   },
   {
@@ -8022,7 +8028,9 @@
     "notes": "notes/atcoder/abc216_b_same_name.md",
     "tests": "tests/cases/atcoder-abc216_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O(n L log n)",
     "space": "O(n L)",
@@ -8037,11 +8045,12 @@
     "notes": "notes/atcoder/abc217_a_lexicographic_order.md",
     "tests": "tests/cases/atcoder-abc217_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(|S|+|T|)",
     "space": "O(|S|+|T|)",
-    "hint": "The standard string less-than operator implements lexicographic ordering, including the shorter-prefix rule..",
+    "hint": "The standard string less-than operator implements lexicographic ordering, including the shorter-prefix rule.",
     "checker": "tokens"
   },
   {
@@ -8052,7 +8061,9 @@
     "notes": "notes/atcoder/abc217_b_atcoder_quiz.md",
     "tests": "tests/cases/atcoder-abc217_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -8067,7 +8078,8 @@
     "notes": "notes/atcoder/abc218_a_weather_forecast.md",
     "tests": "tests/cases/atcoder-abc218_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -8086,7 +8098,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Map each one-based alphabet rank to a lowercase character and emit it in input order..",
+    "hint": "Map each one-based alphabet rank to a lowercase character and emit it in input order.",
     "checker": "tokens"
   },
   {
@@ -8112,7 +8124,8 @@
     "notes": "notes/atcoder/abc219_b_maritozzo.md",
     "tests": "tests/cases/atcoder-abc219_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(output length)",
     "space": "O(input length)",
@@ -8142,7 +8155,8 @@
     "notes": "notes/atcoder/abc220_b_base_k.md",
     "tests": "tests/cases/atcoder-abc220_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(|A|+|B|)",
     "space": "O(|A|+|B|)",
@@ -8172,7 +8186,8 @@
     "notes": "notes/atcoder/abc221_b_typo.md",
     "tests": "tests/cases/atcoder-abc221_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n^2)",
     "space": "O(n)",
@@ -8206,7 +8221,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Failing means strictly below P; count those scores and preserve passing scores equal to the threshold..",
+    "hint": "Failing means strictly below P; count those scores and preserve passing scores equal to the threshold.",
     "checker": "tokens"
   },
   {
@@ -8221,7 +8236,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "One or more hundred-yen coins produce exactly the positive multiples of one hundred; zero is excluded..",
+    "hint": "One or more hundred-yen coins produce exactly the positive multiples of one hundred; zero is excluded.",
     "checker": "tokens"
   },
   {
@@ -8232,7 +8247,8 @@
     "notes": "notes/atcoder/abc223_b_string_shifting.md",
     "tests": "tests/cases/atcoder-abc223_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n^2)",
     "space": "O(n)",
@@ -8247,11 +8263,12 @@
     "notes": "notes/atcoder/abc224_a_tires.md",
     "tests": "tests/cases/atcoder-abc224_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "The two promised suffixes have different final letters, so the last character determines which suffix occurs..",
+    "hint": "The two promised suffixes have different final letters, so the last character determines which suffix occurs.",
     "checker": "tokens"
   },
   {
@@ -8262,7 +8279,8 @@
     "notes": "notes/atcoder/abc224_b_mongeness.md",
     "tests": "tests/cases/atcoder-abc224_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "matrices"
     ],
     "time": "O(HW)",
     "space": "O(HW)",
@@ -8277,7 +8295,9 @@
     "notes": "notes/atcoder/abc225_a_distinct_strings.md",
     "tests": "tests/cases/atcoder-abc225_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "sorting"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -8307,7 +8327,8 @@
     "notes": "notes/atcoder/abc226_a_round_decimals.md",
     "tests": "tests/cases/atcoder-abc226_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -8322,7 +8343,8 @@
     "notes": "notes/atcoder/abc226_b_counting_arrays.md",
     "tests": "tests/cases/atcoder-abc226_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "ordered-containers"
     ],
     "time": "O(L log n), L = total input length",
     "space": "O(L)",
@@ -8341,7 +8363,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Convert the starting person to zero-based position, advance K-1 places, then wrap modulo N and restore one-based numbering..",
+    "hint": "Convert the starting person to zero-based position, advance K-1 places, then wrap modulo N and restore one-based numbering.",
     "checker": "tokens"
   },
   {
@@ -8397,7 +8419,8 @@
     "notes": "notes/atcoder/abc229_a_first_grid.md",
     "tests": "tests/cases/atcoder-abc229_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -8442,7 +8465,8 @@
     "notes": "notes/atcoder/abc230_b_triple_metre.md",
     "tests": "tests/cases/atcoder-abc230_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -8461,7 +8485,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "One hectopascal is one hundred pascals, so divide the input by one hundred in floating point..",
+    "hint": "One hectopascal is one hundred pascals, so divide the input by one hundred in floating point.",
     "checker": "floating"
   },
   {
@@ -8472,7 +8496,9 @@
     "notes": "notes/atcoder/abc231_b_election.md",
     "tests": "tests/cases/atcoder-abc231_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O(n L log n)",
     "space": "O(n L)",
@@ -8487,7 +8513,8 @@
     "notes": "notes/atcoder/abc232_a_qq_solver.md",
     "tests": "tests/cases/atcoder-abc232_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -8502,7 +8529,8 @@
     "notes": "notes/atcoder/abc232_b_caesar_cipher.md",
     "tests": "tests/cases/atcoder-abc232_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -8532,7 +8560,8 @@
     "notes": "notes/atcoder/abc233_b_a_reverse.md",
     "tests": "tests/cases/atcoder-abc233_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -8577,7 +8606,8 @@
     "notes": "notes/atcoder/abc235_a_rotate.md",
     "tests": "tests/cases/atcoder-abc235_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -8607,7 +8637,8 @@
     "notes": "notes/atcoder/abc236_a_chukodai.md",
     "tests": "tests/cases/atcoder-abc236_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -8652,7 +8683,8 @@
     "notes": "notes/atcoder/abc237_b_matrix_transposition.md",
     "tests": "tests/cases/atcoder-abc237_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "matrices"
     ],
     "time": "O(HW)",
     "space": "O(HW)",
@@ -8682,7 +8714,8 @@
     "notes": "notes/atcoder/abc238_b_pizza.md",
     "tests": "tests/cases/atcoder-abc238_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "sorting"
     ],
     "time": "O(n log n)",
     "space": "O(n)",
@@ -8701,7 +8734,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Evaluate the given square-root expression using floating-point multiplication and enough output precision..",
+    "hint": "Evaluate the given square-root expression using floating-point multiplication and enough output precision.",
     "checker": "floating"
   },
   {
@@ -8742,7 +8775,8 @@
     "notes": "notes/atcoder/abc240_b_count_distinct_integers.md",
     "tests": "tests/cases/atcoder-abc240_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "ordered-containers"
     ],
     "time": "O(n log n)",
     "space": "O(n)",
@@ -8772,7 +8806,8 @@
     "notes": "notes/atcoder/abc241_b_pasta.md",
     "tests": "tests/cases/atcoder-abc241_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "ordered-containers"
     ],
     "time": "O((N+M) log N)",
     "space": "O(N)",
@@ -8791,7 +8826,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Ranks through A always win, ranks above B never win, and each of the B-A middle ranks has the same inclusion probability C/(B-A)..",
+    "hint": "Ranks through A always win, ranks above B never win, and each of the B-A middle ranks has the same inclusion probability C/(B-A).",
     "checker": "probability"
   },
   {
@@ -8802,7 +8837,9 @@
     "notes": "notes/atcoder/abc242_b_minimize_ordering.md",
     "tests": "tests/cases/atcoder-abc242_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "sorting"
     ],
     "time": "O(n log n)",
     "space": "O(n)",
@@ -8847,7 +8884,8 @@
     "notes": "notes/atcoder/abc244_a_last_letter.md",
     "tests": "tests/cases/atcoder-abc244_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -8862,7 +8900,8 @@
     "notes": "notes/atcoder/abc244_b_go_straight_and_turn_right.md",
     "tests": "tests/cases/atcoder-abc244_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -8937,7 +8976,8 @@
     "notes": "notes/atcoder/abc247_a_move_right.md",
     "tests": "tests/cases/atcoder-abc247_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -8952,7 +8992,8 @@
     "notes": "notes/atcoder/abc247_b_unique_nicknames.md",
     "tests": "tests/cases/atcoder-abc247_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n^2 L)",
     "space": "O(n L)",
@@ -8967,7 +9008,8 @@
     "notes": "notes/atcoder/abc248_a_lacked_number.md",
     "tests": "tests/cases/atcoder-abc248_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -9012,7 +9054,9 @@
     "notes": "notes/atcoder/abc249_b_perfect_string.md",
     "tests": "tests/cases/atcoder-abc249_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O(n log 52)",
     "space": "O(n)",
@@ -9031,7 +9075,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Each of the four directions contributes one adjacent square exactly when moving that way remains inside the grid..",
+    "hint": "Each of the four directions contributes one adjacent square exactly when moving that way remains inside the grid.",
     "checker": "tokens"
   },
   {
@@ -9057,7 +9101,8 @@
     "notes": "notes/atcoder/abc251_a_six_characters.md",
     "tests": "tests/cases/atcoder-abc251_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -9132,7 +9177,8 @@
     "notes": "notes/atcoder/abc253_b_distance_between_tokens.md",
     "tests": "tests/cases/atcoder-abc253_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(HW)",
     "space": "O(W)",
@@ -9147,11 +9193,12 @@
     "notes": "notes/atcoder/abc254_a_last_two_digits.md",
     "tests": "tests/cases/atcoder-abc254_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Taking the final two characters preserves both digits exactly, including a leading zero in the tens position..",
+    "hint": "Taking the final two characters preserves both digits exactly, including a leading zero in the tens position.",
     "checker": "tokens"
   },
   {
@@ -9181,7 +9228,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Read the matrix in row-major order, then convert the requested one-based row and column to zero-based array indices..",
+    "hint": "Read the matrix in row-major order, then convert the requested one-based row and column to zero-based array indices.",
     "checker": "tokens"
   },
   {
@@ -9282,7 +9329,8 @@
     "notes": "notes/atcoder/abc258_b_number_box.md",
     "tests": "tests/cases/atcoder-abc258_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n^3)",
     "space": "O(n^2)",
@@ -9327,7 +9375,8 @@
     "notes": "notes/atcoder/abc260_a_a_unique_letter.md",
     "tests": "tests/cases/atcoder-abc260_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -9342,7 +9391,8 @@
     "notes": "notes/atcoder/abc260_b_better_students_are_needed.md",
     "tests": "tests/cases/atcoder-abc260_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "sorting"
     ],
     "time": "O(n log n)",
     "space": "O(n)",
@@ -9372,7 +9422,8 @@
     "notes": "notes/atcoder/abc261_b_tournament_result.md",
     "tests": "tests/cases/atcoder-abc261_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n^2)",
     "space": "O(n^2)",
@@ -9402,7 +9453,8 @@
     "notes": "notes/atcoder/abc262_b_triangle_easier.md",
     "tests": "tests/cases/atcoder-abc262_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "matrices"
     ],
     "time": "O(n^3+M)",
     "space": "O(n^2)",
@@ -9417,7 +9469,8 @@
     "notes": "notes/atcoder/abc263_a_full_house.md",
     "tests": "tests/cases/atcoder-abc263_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "sorting"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -9447,7 +9500,8 @@
     "notes": "notes/atcoder/abc264_a_atcoder_substr.md",
     "tests": "tests/cases/atcoder-abc264_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -9507,7 +9561,8 @@
     "notes": "notes/atcoder/abc266_a_middle_letter.md",
     "tests": "tests/cases/atcoder-abc266_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -9537,7 +9592,8 @@
     "notes": "notes/atcoder/abc267_a_saturday.md",
     "tests": "tests/cases/atcoder-abc267_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -9552,7 +9608,8 @@
     "notes": "notes/atcoder/abc267_b_split.md",
     "tests": "tests/cases/atcoder-abc267_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -9567,7 +9624,8 @@
     "notes": "notes/atcoder/abc268_a_five_integers.md",
     "tests": "tests/cases/atcoder-abc268_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "ordered-containers"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -9582,7 +9640,8 @@
     "notes": "notes/atcoder/abc268_b_prefix.md",
     "tests": "tests/cases/atcoder-abc268_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(|S|+|T|)",
     "space": "O(|S|+|T|)",
@@ -9601,7 +9660,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Use parentheses to enforce the requested grouping of the sum and difference, then print the fixed second line..",
+    "hint": "Use parentheses to enforce the requested grouping of the sum and difference, then print the fixed second line.",
     "checker": "tokens"
   },
   {
@@ -9612,7 +9671,8 @@
     "notes": "notes/atcoder/abc269_b_rectangle_detection.md",
     "tests": "tests/cases/atcoder-abc269_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -9657,7 +9717,8 @@
     "notes": "notes/atcoder/abc271_a_484558.md",
     "tests": "tests/cases/atcoder-abc271_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -9672,7 +9733,8 @@
     "notes": "notes/atcoder/abc271_b_maintain_multiple_sequences.md",
     "tests": "tests/cases/atcoder-abc271_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "matrices"
     ],
     "time": "O(total length+Q)",
     "space": "O(total length+N)",
@@ -9702,7 +9764,8 @@
     "notes": "notes/atcoder/abc272_b_everyone_is_friends.md",
     "tests": "tests/cases/atcoder-abc272_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "matrices"
     ],
     "time": "O(sum(k_i^2)+N^2)",
     "space": "O(N^2)",
@@ -9762,7 +9825,8 @@
     "notes": "notes/atcoder/abc274_b_line_sensor.md",
     "tests": "tests/cases/atcoder-abc274_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(HW)",
     "space": "O(W)",
@@ -9807,7 +9871,8 @@
     "notes": "notes/atcoder/abc276_a_rightmost.md",
     "tests": "tests/cases/atcoder-abc276_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -9822,7 +9887,9 @@
     "notes": "notes/atcoder/abc276_b_adjacency_list.md",
     "tests": "tests/cases/atcoder-abc276_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "sorting",
+      "matrices"
     ],
     "time": "O(N+M log M)",
     "space": "O(N+M)",
@@ -9852,7 +9919,9 @@
     "notes": "notes/atcoder/abc277_b_playing_cards_validation.md",
     "tests": "tests/cases/atcoder-abc277_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O(n log n)",
     "space": "O(n)",
@@ -9897,7 +9966,8 @@
     "notes": "notes/atcoder/abc279_a_wwwvvvvvv.md",
     "tests": "tests/cases/atcoder-abc279_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -9912,7 +9982,8 @@
     "notes": "notes/atcoder/abc279_b_lookup.md",
     "tests": "tests/cases/atcoder-abc279_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(|S||T|)",
     "space": "O(|S|+|T|)",
@@ -9927,7 +9998,8 @@
     "notes": "notes/atcoder/abc280_a_pawn_on_a_grid.md",
     "tests": "tests/cases/atcoder-abc280_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(HW)",
     "space": "O(W)",
@@ -9961,7 +10033,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Start at N and decrement through zero, printing each value before moving to the next smaller one..",
+    "hint": "Start at N and decrement through zero, printing each value before moving to the next smaller one.",
     "checker": "tokens"
   },
   {
@@ -9972,7 +10044,8 @@
     "notes": "notes/atcoder/abc281_b_sandwich_number.md",
     "tests": "tests/cases/atcoder-abc281_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -9991,7 +10064,7 @@
     ],
     "time": "O(K)",
     "space": "O(1)",
-    "hint": "Emit the first K consecutive uppercase letters by adding zero-based offsets to A..",
+    "hint": "Emit the first K consecutive uppercase letters by adding zero-based offsets to A.",
     "checker": "tokens"
   },
   {
@@ -10002,7 +10075,8 @@
     "notes": "notes/atcoder/abc282_b_let_s_get_a_perfect_score.md",
     "tests": "tests/cases/atcoder-abc282_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(N^2 M)",
     "space": "O(NM)",
@@ -10047,7 +10121,8 @@
     "notes": "notes/atcoder/abc284_a_sequence_of_strings.md",
     "tests": "tests/cases/atcoder-abc284_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(total characters)",
     "space": "O(total characters)",
@@ -10066,7 +10141,7 @@
     ],
     "time": "O(total N)",
     "space": "O(1)",
-    "hint": "Reset a counter for every test case and add one for each positive value with remainder one modulo two..",
+    "hint": "Reset a counter for every test case and add one for each positive value with remainder one modulo two.",
     "checker": "tokens"
   },
   {
@@ -10092,7 +10167,8 @@
     "notes": "notes/atcoder/abc285_b_longest_uncommon_prefix.md",
     "tests": "tests/cases/atcoder-abc285_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n^2)",
     "space": "O(n)",
@@ -10122,7 +10198,8 @@
     "notes": "notes/atcoder/abc286_b_cat.md",
     "tests": "tests/cases/atcoder-abc286_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10137,7 +10214,8 @@
     "notes": "notes/atcoder/abc287_a_majority.md",
     "tests": "tests/cases/atcoder-abc287_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(1)",
@@ -10152,7 +10230,9 @@
     "notes": "notes/atcoder/abc287_b_postal_card.md",
     "tests": "tests/cases/atcoder-abc287_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O((N+M) log M)",
     "space": "O(N+M)",
@@ -10182,7 +10262,9 @@
     "notes": "notes/atcoder/abc288_b_qualification_contest.md",
     "tests": "tests/cases/atcoder-abc288_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "sorting"
     ],
     "time": "O(NL+K L log K)",
     "space": "O(NL)",
@@ -10197,7 +10279,8 @@
     "notes": "notes/atcoder/abc289_a_flip.md",
     "tests": "tests/cases/atcoder-abc289_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10242,7 +10325,8 @@
     "notes": "notes/atcoder/abc290_b_qual_b.md",
     "tests": "tests/cases/atcoder-abc290_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10257,7 +10341,8 @@
     "notes": "notes/atcoder/abc291_a_camel_case.md",
     "tests": "tests/cases/atcoder-abc291_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10272,7 +10357,8 @@
     "notes": "notes/atcoder/abc291_b_trimmed_mean.md",
     "tests": "tests/cases/atcoder-abc291_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "sorting"
     ],
     "time": "O(n log n)",
     "space": "O(n)",
@@ -10287,11 +10373,12 @@
     "notes": "notes/atcoder/abc292_a_caps_lock.md",
     "tests": "tests/cases/atcoder-abc292_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "Preserve each letter alphabet position while changing the alphabet base from lowercase a to uppercase A..",
+    "hint": "Preserve each letter alphabet position while changing the alphabet base from lowercase a to uppercase A.",
     "checker": "tokens"
   },
   {
@@ -10317,7 +10404,8 @@
     "notes": "notes/atcoder/abc293_a_swap_odd_and_even.md",
     "tests": "tests/cases/atcoder-abc293_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10377,7 +10465,9 @@
     "notes": "notes/atcoder/abc295_a_probably_english.md",
     "tests": "tests/cases/atcoder-abc295_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O(total characters)",
     "space": "O(1)",
@@ -10392,7 +10482,8 @@
     "notes": "notes/atcoder/abc295_b_bombs.md",
     "tests": "tests/cases/atcoder-abc295_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(R^2 C^2)",
     "space": "O(RC)",
@@ -10407,7 +10498,8 @@
     "notes": "notes/atcoder/abc296_a_alternately.md",
     "tests": "tests/cases/atcoder-abc296_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10422,7 +10514,8 @@
     "notes": "notes/atcoder/abc296_b_chessboard.md",
     "tests": "tests/cases/atcoder-abc296_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -10452,7 +10545,8 @@
     "notes": "notes/atcoder/abc297_b_chess960.md",
     "tests": "tests/cases/atcoder-abc297_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -10467,7 +10561,8 @@
     "notes": "notes/atcoder/abc298_a_job_interview.md",
     "tests": "tests/cases/atcoder-abc298_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10482,7 +10577,8 @@
     "notes": "notes/atcoder/abc298_b_coloring_matrix.md",
     "tests": "tests/cases/atcoder-abc298_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "matrices"
     ],
     "time": "O(n^2)",
     "space": "O(n^2)",
@@ -10497,7 +10593,8 @@
     "notes": "notes/atcoder/abc299_a_treasure_chest.md",
     "tests": "tests/cases/atcoder-abc299_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10542,7 +10639,8 @@
     "notes": "notes/atcoder/abc300_b_same_map_in_the_rpg_world.md",
     "tests": "tests/cases/atcoder-abc300_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(H^2 W^2)",
     "space": "O(HW)",
@@ -10557,7 +10655,8 @@
     "notes": "notes/atcoder/abc301_a_overall_winner.md",
     "tests": "tests/cases/atcoder-abc301_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10602,7 +10701,8 @@
     "notes": "notes/atcoder/abc302_b_find_snuke.md",
     "tests": "tests/cases/atcoder-abc302_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(HW)",
     "space": "O(HW)",
@@ -10617,7 +10717,8 @@
     "notes": "notes/atcoder/abc303_a_similar_string.md",
     "tests": "tests/cases/atcoder-abc303_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10632,7 +10733,8 @@
     "notes": "notes/atcoder/abc303_b_discord.md",
     "tests": "tests/cases/atcoder-abc303_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "matrices"
     ],
     "time": "O(NM+N^2)",
     "space": "O(N^2)",
@@ -10647,7 +10749,8 @@
     "notes": "notes/atcoder/abc304_a_first_player.md",
     "tests": "tests/cases/atcoder-abc304_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(total name length+N)",
     "space": "O(total name length+N)",
@@ -10662,7 +10765,8 @@
     "notes": "notes/atcoder/abc304_b_subscribers.md",
     "tests": "tests/cases/atcoder-abc304_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(number of digits)",
     "space": "O(number of digits)",
@@ -10707,7 +10811,8 @@
     "notes": "notes/atcoder/abc306_a_echo.md",
     "tests": "tests/cases/atcoder-abc306_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10741,7 +10846,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Partition the input into consecutive blocks of seven days and independently sum each block as one week..",
+    "hint": "Partition the input into consecutive blocks of seven days and independently sum each block as one week.",
     "checker": "tokens"
   },
   {
@@ -10752,7 +10857,8 @@
     "notes": "notes/atcoder/abc307_b_racecar.md",
     "tests": "tests/cases/atcoder-abc307_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n^2 L)",
     "space": "O(nL)",
@@ -10771,7 +10877,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Check every value against the permitted range and divisibility requirement, and compare it with the previous value to enforce nondecreasing order..",
+    "hint": "Check every value against the permitted range and divisibility requirement, and compare it with the previous value to enforce nondecreasing order.",
     "checker": "tokens"
   },
   {
@@ -10782,7 +10888,9 @@
     "notes": "notes/atcoder/abc308_b_default_price.md",
     "tests": "tests/cases/atcoder-abc308_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O((N+M)L log M)",
     "space": "O((N+M)L)",
@@ -10812,7 +10920,8 @@
     "notes": "notes/atcoder/abc309_b_rotate.md",
     "tests": "tests/cases/atcoder-abc309_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n^2)",
     "space": "O(n^2)",
@@ -10842,7 +10951,8 @@
     "notes": "notes/atcoder/abc310_b_strictly_superior.md",
     "tests": "tests/cases/atcoder-abc310_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "matrices"
     ],
     "time": "O(N^2 M)",
     "space": "O(NM)",
@@ -10857,7 +10967,8 @@
     "notes": "notes/atcoder/abc311_a_first_abc.md",
     "tests": "tests/cases/atcoder-abc311_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -10872,7 +10983,8 @@
     "notes": "notes/atcoder/abc311_b_vacation_together.md",
     "tests": "tests/cases/atcoder-abc311_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(ND)",
     "space": "O(D)",
@@ -10887,11 +10999,13 @@
     "notes": "notes/atcoder/abc312_a_chord.md",
     "tests": "tests/cases/atcoder-abc312_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Store the seven allowed strings exactly as listed and test the input for membership..",
+    "hint": "Store the seven allowed strings exactly as listed and test the input for membership.",
     "checker": "tokens"
   },
   {
@@ -10902,7 +11016,8 @@
     "notes": "notes/atcoder/abc312_b_tak_code.md",
     "tests": "tests/cases/atcoder-abc312_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(NM)",
     "space": "O(NM)",
@@ -10947,7 +11062,8 @@
     "notes": "notes/atcoder/abc314_a_3_14.md",
     "tests": "tests/cases/atcoder-abc314_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(N)",
     "space": "O(1)",
@@ -10962,7 +11078,8 @@
     "notes": "notes/atcoder/abc314_b_roulette.md",
     "tests": "tests/cases/atcoder-abc314_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "matrices"
     ],
     "time": "O(total bets)",
     "space": "O(total bets+N)",
@@ -10977,11 +11094,12 @@
     "notes": "notes/atcoder/abc315_a_tcdr.md",
     "tests": "tests/cases/atcoder-abc315_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "Filter out characters belonging to the five-vowel set and emit every remaining character in original order..",
+    "hint": "Filter out characters belonging to the five-vowel set and emit every remaining character in original order.",
     "checker": "tokens"
   },
   {
@@ -11022,7 +11140,8 @@
     "notes": "notes/atcoder/abc317_b_missingno.md",
     "tests": "tests/cases/atcoder-abc317_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "sorting"
     ],
     "time": "O(n log n)",
     "space": "O(n)",
@@ -11052,7 +11171,8 @@
     "notes": "notes/atcoder/abc318_b_overlapping_sheets.md",
     "tests": "tests/cases/atcoder-abc318_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "matrices"
     ],
     "time": "O(N*100^2)",
     "space": "O(100^2)",
@@ -11067,7 +11187,9 @@
     "notes": "notes/atcoder/abc319_a_legendary_players.md",
     "tests": "tests/cases/atcoder-abc319_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -11112,7 +11234,8 @@
     "notes": "notes/atcoder/abc320_b_longest_palindrome.md",
     "tests": "tests/cases/atcoder-abc320_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n^2)",
     "space": "O(n)",
@@ -11127,7 +11250,8 @@
     "notes": "notes/atcoder/abc321_a_321_like_checker.md",
     "tests": "tests/cases/atcoder-abc321_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(number of digits)",
     "space": "O(number of digits)",
@@ -11157,7 +11281,8 @@
     "notes": "notes/atcoder/abc322_a_first_abc_2.md",
     "tests": "tests/cases/atcoder-abc322_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11172,7 +11297,8 @@
     "notes": "notes/atcoder/abc322_b_prefix_and_suffix.md",
     "tests": "tests/cases/atcoder-abc322_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(N+M)",
     "space": "O(N+M)",
@@ -11187,7 +11313,8 @@
     "notes": "notes/atcoder/abc323_a_weak_beats.md",
     "tests": "tests/cases/atcoder-abc323_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -11202,7 +11329,9 @@
     "notes": "notes/atcoder/abc323_b_round_robin_tournament.md",
     "tests": "tests/cases/atcoder-abc323_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "sorting"
     ],
     "time": "O(n^2+n log n)",
     "space": "O(n)",
@@ -11247,11 +11376,12 @@
     "notes": "notes/atcoder/abc325_a_takahashi_san.md",
     "tests": "tests/cases/atcoder-abc325_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(input length)",
     "space": "O(input length)",
-    "hint": "Read both names to consume the input and print only the surname followed by the specified space and honorific..",
+    "hint": "Read both names to consume the input and print only the surname followed by the specified space and honorific.",
     "checker": "tokens"
   },
   {
@@ -11307,7 +11437,8 @@
     "notes": "notes/atcoder/abc327_a_ab.md",
     "tests": "tests/cases/atcoder-abc327_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11352,7 +11483,8 @@
     "notes": "notes/atcoder/abc328_b_11_11.md",
     "tests": "tests/cases/atcoder-abc328_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(total days * digit count)",
     "space": "O(1)",
@@ -11367,11 +11499,12 @@
     "notes": "notes/atcoder/abc329_a_spread.md",
     "tests": "tests/cases/atcoder-abc329_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "Output the characters in original order and place one space between neighboring characters, with a newline after the last..",
+    "hint": "Output the characters in original order and place one space between neighboring characters, with a newline after the last.",
     "checker": "tokens"
   },
   {
@@ -11382,7 +11515,8 @@
     "notes": "notes/atcoder/abc329_b_next.md",
     "tests": "tests/cases/atcoder-abc329_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "ordered-containers"
     ],
     "time": "O(n log n)",
     "space": "O(n)",
@@ -11487,11 +11621,12 @@
     "notes": "notes/atcoder/abc333_a_three_threes.md",
     "tests": "tests/cases/atcoder-abc333_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Construct a string containing N repetitions of the single digit character representing N..",
+    "hint": "Construct a string containing N repetitions of the single digit character representing N.",
     "checker": "tokens"
   },
   {
@@ -11502,7 +11637,8 @@
     "notes": "notes/atcoder/abc333_b_pentagon.md",
     "tests": "tests/cases/atcoder-abc333_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -11521,7 +11657,7 @@
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Compare the two distinct prices and choose the item with the larger price..",
+    "hint": "Compare the two distinct prices and choose the item with the larger price.",
     "checker": "tokens"
   },
   {
@@ -11547,7 +11683,8 @@
     "notes": "notes/atcoder/abc335_a_202_s_3_s.md",
     "tests": "tests/cases/atcoder-abc335_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11577,11 +11714,12 @@
     "notes": "notes/atcoder/abc336_a_long_loong.md",
     "tests": "tests/cases/atcoder-abc336_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
-    "hint": "Concatenate the fixed prefix L, exactly N lowercase o characters, and the fixed suffix ng..",
+    "hint": "Concatenate the fixed prefix L, exactly N lowercase o characters, and the fixed suffix ng.",
     "checker": "tokens"
   },
   {
@@ -11622,7 +11760,8 @@
     "notes": "notes/atcoder/abc337_b_extended_abc.md",
     "tests": "tests/cases/atcoder-abc337_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11637,7 +11776,8 @@
     "notes": "notes/atcoder/abc338_a_capitalized.md",
     "tests": "tests/cases/atcoder-abc338_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11652,7 +11792,8 @@
     "notes": "notes/atcoder/abc338_b_frequency.md",
     "tests": "tests/cases/atcoder-abc338_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11667,7 +11808,8 @@
     "notes": "notes/atcoder/abc339_a_tld.md",
     "tests": "tests/cases/atcoder-abc339_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11682,7 +11824,8 @@
     "notes": "notes/atcoder/abc339_b_langton_s_takahashi.md",
     "tests": "tests/cases/atcoder-abc339_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(N+HW)",
     "space": "O(HW)",
@@ -11757,7 +11900,8 @@
     "notes": "notes/atcoder/abc342_a_yay.md",
     "tests": "tests/cases/atcoder-abc342_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11817,7 +11961,8 @@
     "notes": "notes/atcoder/abc344_a_spoiler.md",
     "tests": "tests/cases/atcoder-abc344_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11847,7 +11992,8 @@
     "notes": "notes/atcoder/abc345_a_leftrightarrow.md",
     "tests": "tests/cases/atcoder-abc345_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11892,7 +12038,8 @@
     "notes": "notes/atcoder/abc346_b_piano.md",
     "tests": "tests/cases/atcoder-abc346_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(12(W+B))",
     "space": "O(1)",
@@ -11922,7 +12069,9 @@
     "notes": "notes/atcoder/abc347_b_substring.md",
     "tests": "tests/cases/atcoder-abc347_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "ordered-containers"
     ],
     "time": "O(n^3 log n)",
     "space": "O(n^3)",
@@ -11941,7 +12090,7 @@
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Use one-based kick numbers and emit failure exactly at multiples of three, success at all other positions..",
+    "hint": "Use one-based kick numbers and emit failure exactly at multiples of three, success at all other positions.",
     "checker": "tokens"
   },
   {
@@ -11982,7 +12131,8 @@
     "notes": "notes/atcoder/abc349_b_commencement.md",
     "tests": "tests/cases/atcoder-abc349_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -11997,7 +12147,8 @@
     "notes": "notes/atcoder/abc350_a_past_abcs.md",
     "tests": "tests/cases/atcoder-abc350_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -12042,7 +12193,8 @@
     "notes": "notes/atcoder/abc351_b_spot_the_difference.md",
     "tests": "tests/cases/atcoder-abc351_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n^2)",
     "space": "O(n^2)",
@@ -12072,7 +12224,8 @@
     "notes": "notes/atcoder/abc352_b_typing.md",
     "tests": "tests/cases/atcoder-abc352_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(|S|+|T|)",
     "space": "O(|S|+|T|)",
@@ -12132,7 +12285,9 @@
     "notes": "notes/atcoder/abc354_b_atcoder_janken_2.md",
     "tests": "tests/cases/atcoder-abc354_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings",
+      "sorting"
     ],
     "time": "O(n L log n)",
     "space": "O(nL)",
@@ -12162,7 +12317,8 @@
     "notes": "notes/atcoder/abc355_b_piano_2.md",
     "tests": "tests/cases/atcoder-abc355_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "sorting"
     ],
     "time": "O((N+M) log(N+M))",
     "space": "O(N+M)",
@@ -12222,7 +12378,8 @@
     "notes": "notes/atcoder/abc357_b_uppercase_and_lowercase.md",
     "tests": "tests/cases/atcoder-abc357_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -12237,11 +12394,12 @@
     "notes": "notes/atcoder/abc358_a_welcome_to_atcoder_land.md",
     "tests": "tests/cases/atcoder-abc358_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(|S|+|T|)",
     "space": "O(|S|+|T|)",
-    "hint": "Require both words to equal their specified spellings exactly, including letter case..",
+    "hint": "Require both words to equal their specified spellings exactly, including letter case.",
     "checker": "tokens"
   },
   {
@@ -12267,11 +12425,12 @@
     "notes": "notes/atcoder/abc359_a_count_takahashi.md",
     "tests": "tests/cases/atcoder-abc359_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(1)",
-    "hint": "Compare each complete name with Takahashi and count exact matches..",
+    "hint": "Compare each complete name with Takahashi and count exact matches.",
     "checker": "tokens"
   },
   {
@@ -12297,7 +12456,8 @@
     "notes": "notes/atcoder/abc360_a_a_healthy_breakfast.md",
     "tests": "tests/cases/atcoder-abc360_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -12312,7 +12472,8 @@
     "notes": "notes/atcoder/abc360_b_vertical_reading.md",
     "tests": "tests/cases/atcoder-abc360_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(|S|^2)",
     "space": "O(|S|+|T|)",
@@ -12357,11 +12518,12 @@
     "notes": "notes/atcoder/abc362_a_buy_a_pen.md",
     "tests": "tests/cases/atcoder-abc362_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
-    "hint": "Exclude the disliked color and choose the smaller of the two remaining pen prices..",
+    "hint": "Exclude the disliked color and choose the smaller of the two remaining pen prices.",
     "checker": "tokens"
   },
   {
@@ -12372,7 +12534,8 @@
     "notes": "notes/atcoder/abc362_b_right_triangle.md",
     "tests": "tests/cases/atcoder-abc362_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "sorting"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -12402,7 +12565,8 @@
     "notes": "notes/atcoder/abc363_b_japanese_cursed_doll.md",
     "tests": "tests/cases/atcoder-abc363_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "sorting"
     ],
     "time": "O(n log n)",
     "space": "O(n)",
@@ -12417,7 +12581,8 @@
     "notes": "notes/atcoder/abc364_a_glutton_takahashi.md",
     "tests": "tests/cases/atcoder-abc364_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -12432,7 +12597,8 @@
     "notes": "notes/atcoder/abc364_b_grid_walk.md",
     "tests": "tests/cases/atcoder-abc364_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(HW+|X|)",
     "space": "O(HW+|X|)",
@@ -12462,7 +12628,8 @@
     "notes": "notes/atcoder/abc365_b_second_best.md",
     "tests": "tests/cases/atcoder-abc365_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "sorting"
     ],
     "time": "O(n log n)",
     "space": "O(n)",
@@ -12492,7 +12659,8 @@
     "notes": "notes/atcoder/abc366_b_vertical_writing.md",
     "tests": "tests/cases/atcoder-abc366_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(NM), M=max length",
     "space": "O(total characters+N)",
@@ -12522,7 +12690,8 @@
     "notes": "notes/atcoder/abc367_b_cut_0.md",
     "tests": "tests/cases/atcoder-abc367_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(1)",
     "space": "O(1)",
@@ -12552,7 +12721,8 @@
     "notes": "notes/atcoder/abc368_b_decrease_2_max_elements.md",
     "tests": "tests/cases/atcoder-abc368_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "heaps"
     ],
     "time": "O((N+sum A) log N)",
     "space": "O(N)",
@@ -12612,7 +12782,8 @@
     "notes": "notes/atcoder/abc370_b_binary_alchemy.md",
     "tests": "tests/cases/atcoder-abc370_b.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "matrices"
     ],
     "time": "O(n^2)",
     "space": "O(n^2)",
@@ -12627,7 +12798,8 @@
     "notes": "notes/atcoder/abc372_a_delete.md",
     "tests": "tests/cases/atcoder-abc372_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(n)",
     "space": "O(n)",
@@ -12642,11 +12814,12 @@
     "notes": "notes/atcoder/abc373_a_september.md",
     "tests": "tests/cases/atcoder-abc373_a.json",
     "tags": [
-      "implementation"
+      "implementation",
+      "strings"
     ],
     "time": "O(total characters)",
     "space": "O(max length)",
-    "hint": "Read the twelve strings with one-based indices and count those whose length equals their index..",
+    "hint": "Read the twelve strings with one-based indices and count those whose length equals their index.",
     "checker": "tokens"
   }
 ]

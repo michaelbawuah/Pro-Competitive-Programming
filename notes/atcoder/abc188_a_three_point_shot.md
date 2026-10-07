@@ -4,7 +4,7 @@
 
 ## Try first
 
-A three-point goal wins only when the current deficit is strictly below three..
+A three-point goal wins only when the current deficit is strictly below three.
 
 ## Reasoning
 

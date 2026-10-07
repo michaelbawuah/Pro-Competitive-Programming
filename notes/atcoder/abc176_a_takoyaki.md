@@ -4,7 +4,7 @@
 
 ## Try first
 
-Ceiling-divide demand by batch capacity, then multiply the batch count by its fixed cooking duration..
+Ceiling-divide demand by batch capacity, then multiply the batch count by its fixed cooking duration.
 
 ## Reasoning
 

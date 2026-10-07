@@ -4,7 +4,7 @@
 
 ## Try first
 
-Convert each letter to an index, add the shift modulo 26, and convert back; modulo implements the wrap from Z to A..
+Convert each letter to an index, add the shift modulo 26, and convert back; modulo implements the wrap from Z to A.
 
 ## Reasoning
 

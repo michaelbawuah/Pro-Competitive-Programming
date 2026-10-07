@@ -4,7 +4,7 @@
 
 ## Try first
 
-Taking the final two characters preserves both digits exactly, including a leading zero in the tens position..
+Taking the final two characters preserves both digits exactly, including a leading zero in the tens position.
 
 ## Reasoning
 
@@ -17,11 +17,11 @@ Taking the final two characters preserves both digits exactly, including a leadi
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+substr(start,length) uses a zero-based start and a character count, not an ending index. Omitting the length copies the suffix through the end.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Distinguish an inclusive endpoint from a substring length; check the shortest permitted input.
 
 ## Explain it back
 

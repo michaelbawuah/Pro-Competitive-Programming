@@ -4,7 +4,7 @@
 
 ## Try first
 
-Evaluate the given square-root expression using floating-point multiplication and enough output precision..
+Evaluate the given square-root expression using floating-point multiplication and enough output precision.
 
 ## Reasoning
 
@@ -17,11 +17,11 @@ Evaluate the given square-root expression using floating-point multiplication an
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+setprecision controls significant digits unless fixed is enabled. Compute with floating-point operands before division, then print enough digits for the stated error tolerance.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Avoid integer division before conversion, and treat exact-format decimal tasks differently from tolerance-based outputs.
 
 ## Explain it back
 

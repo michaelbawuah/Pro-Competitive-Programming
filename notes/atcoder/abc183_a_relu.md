@@ -4,7 +4,7 @@
 
 ## Try first
 
-ReLU preserves positive values and replaces negative values with zero..
+ReLU preserves positive values and replaces negative values with zero.
 
 ## Reasoning
 

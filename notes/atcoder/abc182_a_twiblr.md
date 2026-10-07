@@ -4,7 +4,7 @@
 
 ## Try first
 
-Subtract the current following count from the allowed total; the constraints guarantee the result is nonnegative..
+Subtract the current following count from the allowed total; the constraints guarantee the result is nonnegative.
 
 ## Reasoning
 

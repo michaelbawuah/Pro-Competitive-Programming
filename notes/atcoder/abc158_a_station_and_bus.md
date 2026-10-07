@@ -4,7 +4,7 @@
 
 ## Try first
 
-A cross-company pair exists exactly when the three station labels are not all identical..
+A cross-company pair exists exactly when the three station labels are not all identical.
 
 ## Reasoning
 

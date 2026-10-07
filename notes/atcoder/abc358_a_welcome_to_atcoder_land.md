@@ -4,7 +4,7 @@
 
 ## Try first
 
-Require both words to equal their specified spellings exactly, including letter case..
+Require both words to equal their specified spellings exactly, including letter case.
 
 ## Reasoning
 
@@ -17,11 +17,11 @@ Require both words to equal their specified spellings exactly, including letter 
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+std::string provides zero-based character access, while size() returns an unsigned count. Guard neighbor indices and use the string length when scanning its characters.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Preserve letter case and exact symbols; a character index and its one-based reported position differ by one.
 
 ## Explain it back
 

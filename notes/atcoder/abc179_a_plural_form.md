@@ -4,7 +4,7 @@
 
 ## Try first
 
-Inspect only the final character to choose the plural suffix, leaving the original word unchanged..
+Inspect only the final character to choose the plural suffix, leaving the original word unchanged.
 
 ## Reasoning
 

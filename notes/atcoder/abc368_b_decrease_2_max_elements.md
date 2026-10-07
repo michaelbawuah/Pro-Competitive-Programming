@@ -17,11 +17,11 @@ A max-heap provides the same largest two values as sorting on every iteration. I
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+A default priority_queue exposes the largest value through top(). Save that value before pop(), and reinsert updated values to restore the ordering.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Check the second-largest value before decreasing it; zero marks the stopping condition.
 
 ## Explain it back
 

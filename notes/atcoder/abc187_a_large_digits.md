@@ -4,7 +4,7 @@
 
 ## Try first
 
-Compute each decimal digit sum independently and select the larger sum..
+Compute each decimal digit sum independently and select the larger sum.
 
 ## Reasoning
 

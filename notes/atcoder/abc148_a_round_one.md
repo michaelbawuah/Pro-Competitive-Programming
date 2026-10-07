@@ -4,7 +4,7 @@
 
 ## Try first
 
-The three choices sum to six; subtracting the two distinct rejected choices leaves the correct one..
+The three choices sum to six; subtracting the two distinct rejected choices leaves the correct one.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Print T first and S second with no separator, matching the requested concatenation order..
+Print T first and S second with no separator, matching the requested concatenation order.
 
 ## Reasoning
 

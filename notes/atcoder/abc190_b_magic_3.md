@@ -4,7 +4,7 @@
 
 ## Try first
 
-A damaging spell must satisfy both strict inequalities simultaneously; check whether any spell does so..
+A damaging spell must satisfy both strict inequalities simultaneously; check whether any spell does so.
 
 ## Reasoning
 

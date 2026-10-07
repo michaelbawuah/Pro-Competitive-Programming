@@ -4,7 +4,7 @@
 
 ## Try first
 
-Intersect all inclusive intervals by taking the largest lower bound and smallest upper bound; count the remaining integers if the interval is nonempty..
+Intersect all inclusive intervals by taking the largest lower bound and smallest upper bound; count the remaining integers if the interval is nonempty.
 
 ## Reasoning
 

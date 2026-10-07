@@ -4,7 +4,7 @@
 
 ## Try first
 
-World B advances X times as quickly, so divide the required study duration by X to obtain elapsed time in World A..
+World B advances X times as quickly, so divide the required study duration by X to obtain elapsed time in World A.
 
 ## Reasoning
 

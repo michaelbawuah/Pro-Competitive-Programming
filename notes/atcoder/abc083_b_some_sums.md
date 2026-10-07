@@ -4,7 +4,7 @@
 
 ## Try first
 
-Enumerate each candidate once, compute its decimal digit sum, and add the candidate when that sum lies in the inclusive interval..
+Enumerate each candidate once, compute its decimal digit sum, and add the candidate when that sum lies in the inclusive interval.
 
 ## Reasoning
 

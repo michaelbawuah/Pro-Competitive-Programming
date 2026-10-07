@@ -4,7 +4,7 @@
 
 ## Try first
 
-All inputs belong to the four allowed labels, so four distinct entries imply exactly one of each..
+All inputs belong to the four allowed labels, so four distinct entries imply exactly one of each.
 
 ## Reasoning
 
@@ -17,11 +17,11 @@ All inputs belong to the four allowed labels, so four distinct entries imply exa
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+A set keeps distinct keys in sorted order. insert() reports whether a key was new; size() counts distinct keys rather than the number of insertion attempts.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Decide whether the problem asks for distinct values or occurrences before choosing a set.
 
 ## Explain it back
 

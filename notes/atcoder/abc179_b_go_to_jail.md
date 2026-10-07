@@ -4,7 +4,7 @@
 
 ## Try first
 
-Count the current consecutive doublet streak and remember whether it ever reaches three, even if a later roll breaks it..
+Count the current consecutive doublet streak and remember whether it ever reaches three, even if a later roll breaks it.
 
 ## Reasoning
 

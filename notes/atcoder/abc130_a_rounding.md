@@ -4,7 +4,7 @@
 
 ## Try first
 
-Compare using the strict less-than relation; equality follows the ten-output branch..
+Compare using the strict less-than relation; equality follows the ten-output branch.
 
 ## Reasoning
 

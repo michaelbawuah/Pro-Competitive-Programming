@@ -4,7 +4,7 @@
 
 ## Try first
 
-Undo the displayed-rating deduction for fewer than ten contests; the deduction is zero afterward..
+Undo the displayed-rating deduction for fewer than ten contests; the deduction is zero afterward.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-The replacement rule is independent at each character, so transform each digit once..
+The replacement rule is independent at each character, so transform each digit once.
 
 ## Reasoning
 

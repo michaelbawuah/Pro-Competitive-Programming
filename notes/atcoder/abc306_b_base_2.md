@@ -17,11 +17,11 @@ Each input bit controls one distinct power of two. Use an unsigned 64-bit value 
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Use an unsigned 64-bit type for the entire bit pattern. The shifted literal must also be unsigned before shifting into bit 63; converting a signed result afterward is too late.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Do not store a value as large as 2^64-1 in a signed long long.
 
 ## Explain it back
 

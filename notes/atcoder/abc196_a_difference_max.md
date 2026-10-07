@@ -4,7 +4,7 @@
 
 ## Try first
 
-Increase x and decrease y to maximize their difference; both interval endpoints are allowed..
+Increase x and decrease y to maximize their difference; both interval endpoints are allowed.
 
 ## Reasoning
 

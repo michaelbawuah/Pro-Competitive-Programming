@@ -17,11 +17,11 @@ Read values until the terminating zero, storing the zero as well. Traverse the s
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+A vector initializes its sized elements before use and provides zero-based indexing. Keep an input count separate from indices when the same count is needed later.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Translate one-based input indices once and keep every access within the allocated range.
 
 ## Explain it back
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Whole bricks fit according to floor capacity divided by individual weight; any additional brick would exceed capacity..
+Whole bricks fit according to floor capacity divided by individual weight; any additional brick would exceed capacity.
 
 ## Reasoning
 

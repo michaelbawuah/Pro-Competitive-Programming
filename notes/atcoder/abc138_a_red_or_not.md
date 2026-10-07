@@ -4,7 +4,7 @@
 
 ## Try first
 
-At the inclusive threshold 3200 the supplied color is used; lower ratings produce red..
+At the inclusive threshold 3200 the supplied color is used; lower ratings produce red.
 
 ## Reasoning
 

@@ -17,11 +17,11 @@ The desired suffix starts immediately after the final period. The input guarante
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+String rfind() locates the last matching occurrence. Its return type is unsigned, and string::npos represents failure rather than a valid position.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Keep the character after the delimiter when forming the suffix, and respect any nonempty-suffix guarantee.
 
 ## Explain it back
 

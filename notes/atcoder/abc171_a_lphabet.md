@@ -4,7 +4,7 @@
 
 ## Try first
 
-The input is an English letter, so membership in the uppercase range determines which case marker to print..
+The input is an English letter, so membership in the uppercase range determines which case marker to print.
 
 ## Reasoning
 

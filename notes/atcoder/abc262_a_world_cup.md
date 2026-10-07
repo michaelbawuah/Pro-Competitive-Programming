@@ -17,11 +17,11 @@ Choose the smallest nonnegative offset that makes the year congruent to two modu
 
 ## C++ takeaway
 
-Integer division truncates toward zero; use remainder to test divisibility. Evaluate products in long long before assigning the result.
+The types of operands control intermediate arithmetic. Read large values into long long before forming sums, products, or differences so the arithmetic itself uses 64 bits.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Integer division truncates toward zero; floor and ceiling formulas need special care for negative values.
 
 ## Explain it back
 

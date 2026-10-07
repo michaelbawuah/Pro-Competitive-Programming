@@ -4,7 +4,7 @@
 
 ## Try first
 
-Apply the recurrence ten times, printing each newly computed yearly weight rather than the initial value..
+Apply the recurrence ten times, printing each newly computed yearly weight rather than the initial value.
 
 ## Reasoning
 

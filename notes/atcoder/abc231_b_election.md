@@ -17,11 +17,11 @@ Count every candidate name, then select the greatest frequency. The promised uni
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+A map associates each key with a value. operator[] inserts an absent key, while find() checks membership without insertion and at() requires the key to exist.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Distinguish a missing key from a stored zero, and count repeated inputs when multiplicity matters.
 
 ## Explain it back
 

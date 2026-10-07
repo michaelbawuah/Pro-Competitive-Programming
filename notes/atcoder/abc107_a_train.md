@@ -4,7 +4,7 @@
 
 ## Try first
 
-The first and last positions add to N+1, so reversing the direction maps i to N-i+1..
+The first and last positions add to N+1, so reversing the direction maps i to N-i+1.
 
 ## Reasoning
 

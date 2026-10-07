@@ -4,7 +4,7 @@
 
 ## Try first
 
-Each symbol contributes independently: add one for plus and subtract one for minus..
+Each symbol contributes independently: add one for plus and subtract one for minus.
 
 ## Reasoning
 

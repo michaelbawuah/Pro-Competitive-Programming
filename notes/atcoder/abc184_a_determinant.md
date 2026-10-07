@@ -4,7 +4,7 @@
 
 ## Try first
 
-Apply the two-by-two determinant formula with the two diagonal products in the specified order..
+Apply the two-by-two determinant formula with the two diagonal products in the specified order.
 
 ## Reasoning
 

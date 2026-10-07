@@ -4,7 +4,7 @@
 
 ## Try first
 
-Exactly two equal values create exactly one equal pair; all equal values create three pairs..
+Exactly two equal values create exactly one equal pair; all equal values create three pairs.
 
 ## Reasoning
 

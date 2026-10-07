@@ -4,7 +4,7 @@
 
 ## Try first
 
-Apply the removal and addition to the original ball count..
+Apply the removal and addition to the original ball count.
 
 ## Reasoning
 

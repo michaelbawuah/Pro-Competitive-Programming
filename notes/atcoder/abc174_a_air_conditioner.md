@@ -4,7 +4,7 @@
 
 ## Try first
 
-The air-conditioner threshold includes thirty degrees..
+The air-conditioner threshold includes thirty degrees.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Compare each forecast with the actual weather at the same position and count equal pairs..
+Compare each forecast with the actual weather at the same position and count equal pairs.
 
 ## Reasoning
 

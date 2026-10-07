@@ -4,7 +4,7 @@
 
 ## Try first
 
-Multiply coin count by denomination and compare the total with the requested amount inclusively..
+Multiply coin count by denomination and compare the total with the requested amount inclusively.
 
 ## Reasoning
 

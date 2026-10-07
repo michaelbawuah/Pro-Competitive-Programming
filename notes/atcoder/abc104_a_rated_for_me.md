@@ -4,7 +4,7 @@
 
 ## Try first
 
-Check the rating thresholds in ascending order; each threshold is strict..
+Check the rating thresholds in ascending order; each threshold is strict.
 
 ## Reasoning
 

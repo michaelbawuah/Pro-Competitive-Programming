@@ -17,11 +17,11 @@ Find locates the first contiguous occurrence of ABC. Convert its zero-based posi
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+String find() returns a zero-based position or string::npos. Test the sentinel before adding one or converting the position to a signed output type.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Check the not-found case and whether the requested occurrence is the first or the last.
 
 ## Explain it back
 

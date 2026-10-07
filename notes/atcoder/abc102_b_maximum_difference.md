@@ -4,7 +4,7 @@
 
 ## Try first
 
-Every pair difference is bounded by maximum minus minimum, and choosing those extremes attains the bound..
+Every pair difference is bounded by maximum minus minimum, and choosing those extremes attains the bound.
 
 ## Reasoning
 

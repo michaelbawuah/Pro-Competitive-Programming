@@ -4,7 +4,7 @@
 
 ## Try first
 
-Wolves attack at equality as well as when they outnumber sheep; use an inclusive comparison..
+Wolves attack at equality as well as when they outnumber sheep; use an inclusive comparison.
 
 ## Reasoning
 

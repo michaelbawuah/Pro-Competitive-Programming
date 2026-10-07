@@ -4,7 +4,7 @@
 
 ## Try first
 
-Inclusive endpoints give B-A+1 integers when ordered, and zero when the interval is empty..
+Inclusive endpoints give B-A+1 integers when ordered, and zero when the interval is empty.
 
 ## Reasoning
 
@@ -17,11 +17,11 @@ Inclusive endpoints give B-A+1 integers when ordered, and zero when the interval
 
 ## C++ takeaway
 
-Integer division truncates toward zero; use remainder to test divisibility. Evaluate products in long long before assigning the result.
+The types of operands control intermediate arithmetic. Read large values into long long before forming sums, products, or differences so the arithmetic itself uses 64 bits.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Integer division truncates toward zero; floor and ceiling formulas need special care for negative values.
 
 ## Explain it back
 

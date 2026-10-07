@@ -4,7 +4,7 @@
 
 ## Try first
 
-Every move can be used once and deals positive damage, so their sum is the maximum available damage..
+Every move can be used once and deals positive damage, so their sum is the maximum available damage.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Evaluate the two squared quantities exactly and keep the comparison strict..
+Evaluate the two squared quantities exactly and keep the comparison strict.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Read both operands and multiply them in an integer type wide enough for the bounded product..
+Read both operands and multiply them in an integer type wide enough for the bounded product.
 
 ## Reasoning
 

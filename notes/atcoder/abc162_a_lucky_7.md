@@ -4,7 +4,7 @@
 
 ## Try first
 
-Search the decimal representation for a seven; any matching position suffices..
+Search the decimal representation for a seven; any matching position suffices.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-One or more hundred-yen coins produce exactly the positive multiples of one hundred; zero is excluded..
+One or more hundred-yen coins produce exactly the positive multiples of one hundred; zero is excluded.
 
 ## Reasoning
 
@@ -17,11 +17,11 @@ One or more hundred-yen coins produce exactly the positive multiples of one hund
 
 ## C++ takeaway
 
-Integer division truncates toward zero; use remainder to test divisibility. Evaluate products in long long before assigning the result.
+The types of operands control intermediate arithmetic. Read large values into long long before forming sums, products, or differences so the arithmetic itself uses 64 bits.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Integer division truncates toward zero; floor and ceiling formulas need special care for negative values.
 
 ## Explain it back
 

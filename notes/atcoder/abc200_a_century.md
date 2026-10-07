@@ -4,7 +4,7 @@
 
 ## Try first
 
-Centuries are consecutive blocks of one hundred years starting at year one, so ceiling-divide the year by one hundred..
+Centuries are consecutive blocks of one hundred years starting at year one, so ceiling-divide the year by one hundred.
 
 ## Reasoning
 

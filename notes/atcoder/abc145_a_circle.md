@@ -4,7 +4,7 @@
 
 ## Try first
 
-Circle area scales with the square of the radius; dividing the two areas cancels pi..
+Circle area scales with the square of the radius; dividing the two areas cancels pi.
 
 ## Reasoning
 

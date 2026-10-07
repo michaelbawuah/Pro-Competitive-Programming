@@ -4,7 +4,7 @@
 
 ## Try first
 
-Evaluate each of the three powers and add them; the small input bound keeps the result integral and exact..
+Evaluate each of the three powers and add them; the small input bound keeps the result integral and exact.
 
 ## Reasoning
 

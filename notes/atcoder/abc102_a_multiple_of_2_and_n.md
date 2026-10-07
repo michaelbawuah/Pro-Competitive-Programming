@@ -4,7 +4,7 @@
 
 ## Try first
 
-If N is even it already contains a factor of two; otherwise twice N is the smallest common multiple..
+If N is even it already contains a factor of two; otherwise twice N is the smallest common multiple.
 
 ## Reasoning
 

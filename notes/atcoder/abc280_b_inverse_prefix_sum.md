@@ -17,11 +17,11 @@ Subtract consecutive prefix sums to isolate each original element. Treat the pre
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+The types of operands control intermediate arithmetic. Read large values into long long before forming sums, products, or differences so the arithmetic itself uses 64 bits.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Integer division truncates toward zero; floor and ceiling formulas need special care for negative values.
 
 ## Explain it back
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Each one corresponds to exactly one marble, so count the one characters..
+Each one corresponds to exactly one marble, so count the one characters.
 
 ## Reasoning
 

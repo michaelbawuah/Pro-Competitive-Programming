@@ -4,7 +4,7 @@
 
 ## Try first
 
-A sheet holds two pages, so use ceiling division to include an unmatched final page..
+A sheet holds two pages, so use ceiling division to include an unmatched final page.
 
 ## Reasoning
 

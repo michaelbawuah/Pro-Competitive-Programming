@@ -4,7 +4,7 @@
 
 ## Try first
 
-Substitute the radius into the area formula given by the statement..
+Substitute the radius into the area formula given by the statement.
 
 ## Reasoning
 

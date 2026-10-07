@@ -4,7 +4,7 @@
 
 ## Try first
 
-The input excludes z, so incrementing its lowercase letter code gives the next letter without wrapping..
+The input excludes z, so incrementing its lowercase letter code gives the next letter without wrapping.
 
 ## Reasoning
 

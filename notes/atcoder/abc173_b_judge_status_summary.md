@@ -4,7 +4,7 @@
 
 ## Try first
 
-Count verdicts by category and emit the four categories in the prescribed order, including categories with zero occurrences..
+Count verdicts by category and emit the four categories in the prescribed order, including categories with zero occurrences.
 
 ## Reasoning
 

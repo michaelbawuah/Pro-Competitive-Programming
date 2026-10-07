@@ -4,7 +4,7 @@
 
 ## Try first
 
-Print the suffix after the first character, followed by that first character..
+Print the suffix after the first character, followed by that first character.
 
 ## Reasoning
 

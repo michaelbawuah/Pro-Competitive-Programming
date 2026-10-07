@@ -4,7 +4,7 @@
 
 ## Try first
 
-Sum the three cards and compare with the inclusive bust threshold..
+Sum the three cards and compare with the inclusive bust threshold.
 
 ## Reasoning
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Choose one of floor(K/2) even values and one of ceil(K/2) odd values independently..
+Choose one of floor(K/2) even values and one of ceil(K/2) odd values independently.
 
 ## Reasoning
 

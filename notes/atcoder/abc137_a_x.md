@@ -4,7 +4,7 @@
 
 ## Try first
 
-Compute all three allowed expressions, including negative results, and take their maximum..
+Compute all three allowed expressions, including negative results, and take their maximum.
 
 ## Reasoning
 

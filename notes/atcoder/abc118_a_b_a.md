@@ -4,7 +4,7 @@
 
 ## Try first
 
-Use the remainder to decide divisibility, then select the specified sum or difference..
+Use the remainder to decide divisibility, then select the specified sum or difference.
 
 ## Reasoning
 

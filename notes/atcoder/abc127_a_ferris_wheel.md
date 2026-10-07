@@ -4,7 +4,7 @@
 
 ## Try first
 
-Partition ages into the three disjoint inclusive fare brackets and select zero, half fare, or full fare..
+Partition ages into the three disjoint inclusive fare brackets and select zero, half fare, or full fare.
 
 ## Reasoning
 

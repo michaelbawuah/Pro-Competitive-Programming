@@ -4,7 +4,7 @@
 
 ## Try first
 
-Output the characters in original order and place one space between neighboring characters, with a newline after the last..
+Output the characters in original order and place one space between neighboring characters, with a newline after the last.
 
 ## Reasoning
 
@@ -17,11 +17,11 @@ Output the characters in original order and place one space between neighboring 
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+std::string provides zero-based character access, while size() returns an unsigned count. Guard neighbor indices and use the string length when scanning its characters.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Preserve letter case and exact symbols; a character index and its one-based reported position differ by one.
 
 ## Explain it back
 

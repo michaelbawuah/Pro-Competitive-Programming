@@ -4,7 +4,7 @@
 
 ## Try first
 
-With distinct permutation values, the center is the median precisely when the three consecutive values are strictly increasing or strictly decreasing..
+With distinct permutation values, the center is the median precisely when the three consecutive values are strictly increasing or strictly decreasing.
 
 ## Reasoning
 

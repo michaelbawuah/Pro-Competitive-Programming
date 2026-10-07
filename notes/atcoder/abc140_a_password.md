@@ -4,7 +4,7 @@
 
 ## Try first
 
-Each of three positions has N independent choices, giving N cubed possible passwords..
+Each of three positions has N independent choices, giving N cubed possible passwords.
 
 ## Reasoning
 

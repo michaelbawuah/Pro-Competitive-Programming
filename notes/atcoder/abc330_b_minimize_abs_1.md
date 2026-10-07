@@ -17,11 +17,11 @@ An input inside the interval is already distance zero. Below the interval the ne
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+std::clamp(value,low,high) returns the closest endpoint outside the interval and the value itself inside it. Its precondition is low<=high.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Equality with either endpoint is already valid and must not move the value outside the interval.
 
 ## Explain it back
 

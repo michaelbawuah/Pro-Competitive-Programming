@@ -4,7 +4,7 @@
 
 ## Try first
 
-Only the input length matters; construct that many copies of x..
+Only the input length matters; construct that many copies of x.
 
 ## Reasoning
 

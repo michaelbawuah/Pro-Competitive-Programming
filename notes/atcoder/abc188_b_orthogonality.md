@@ -4,7 +4,7 @@
 
 ## Try first
 
-Pair corresponding vector coordinates, sum their products, and compare the resulting inner product with zero..
+Pair corresponding vector coordinates, sum their products, and compare the resulting inner product with zero.
 
 ## Reasoning
 

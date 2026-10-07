@@ -4,7 +4,7 @@
 
 ## Try first
 
-Compare the total per-person train fare with the single taxi fare shared by the group..
+Compare the total per-person train fare with the single taxi fare shared by the group.
 
 ## Reasoning
 

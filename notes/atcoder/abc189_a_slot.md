@@ -4,7 +4,7 @@
 
 ## Try first
 
-Three equal symbols require equality of both adjacent pairs..
+Three equal symbols require equality of both adjacent pairs.
 
 ## Reasoning
 

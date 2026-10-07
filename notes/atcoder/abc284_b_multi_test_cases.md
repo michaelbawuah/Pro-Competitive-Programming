@@ -4,7 +4,7 @@
 
 ## Try first
 
-Reset a counter for every test case and add one for each positive value with remainder one modulo two..
+Reset a counter for every test case and add one for each positive value with remainder one modulo two.
 
 ## Reasoning
 
@@ -17,11 +17,11 @@ Reset a counter for every test case and add one for each positive value with rem
 
 ## C++ takeaway
 
-Keep the state variables named after the quantities in the invariant. Use standard C++17 containers and check the stated integer bounds.
+Parenthesize conditional expressions sent to an output stream so the stream insertion operator does not change their grouping. Use separate variables for quantities with different roles.
 
 ## Watch for
 
-Follow the exact input and output formats; check the smallest allowed input.
+Check whether the condition is strict or inclusive, particularly at the smallest and largest permitted values.
 
 ## Explain it back
 

@@ -4,7 +4,7 @@
 
 ## Try first
 
-Print the base greeting and append one Eve for every day remaining until the twenty-fifth..
+Print the base greeting and append one Eve for every day remaining until the twenty-fifth.
 
 ## Reasoning
 
