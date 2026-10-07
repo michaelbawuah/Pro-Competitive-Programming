@@ -6558,5 +6558,20 @@
     "space": "O(1)",
     "hint": "Choose as many positive cards as possible, then zero cards.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc168_a",
+    "title": "\u2234 (Therefore)",
+    "url": "https://atcoder.jp/contests/abc168/tasks/abc168_a",
+    "solution": "solutions/atcoder/implementation/abc168_a_therefore.cpp",
+    "notes": "notes/atcoder/abc168_a_therefore.md",
+    "tests": "tests/cases/atcoder-abc168_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Only the final decimal digit determines the pronunciation.",
+    "checker": "tokens"
   }
 ]
