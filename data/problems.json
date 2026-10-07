@@ -2028,5 +2028,20 @@
     "space": "O(n)",
     "hint": "Nobody can lose money, so the common final wealth must be at least the current maximum.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-581A",
+    "title": "Vasya the Hipster",
+    "url": "https://codeforces.com/problemset/problem/581/A",
+    "solution": "solutions/codeforces/mathematics/581A_vasya_the_hipster.cpp",
+    "notes": "notes/codeforces/581A_vasya_the_hipster.md",
+    "tests": "tests/cases/codeforces-581A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each mixed-color day consumes one sock of each color, so the smaller count bounds and attains the maximum.",
+    "checker": "tokens"
   }
 ]
