@@ -1,0 +1,17 @@
+[
+  {
+    "name": "dag",
+    "input": "4 3\n1 3\n2 3\n3 4\n",
+    "output": "1 2 3 4\n"
+  },
+  {
+    "name": "cycle",
+    "input": "2 2\n1 2\n2 1\n",
+    "output": "IMPOSSIBLE\n"
+  },
+  {
+    "name": "isolated",
+    "input": "4 1\n4 2\n",
+    "output": "1 3 4 2\n"
+  }
+]

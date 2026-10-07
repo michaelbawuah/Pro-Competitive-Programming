@@ -318,5 +318,89 @@
     "space": "O(n)",
     "hint": "For each subsequence length, retain the smallest possible final value.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-1192",
+    "title": "Counting Rooms",
+    "url": "https://cses.fi/problemset/task/1192/",
+    "solution": "solutions/cses/graphs/1192_counting_rooms.cpp",
+    "notes": "notes/cses/1192_counting_rooms.md",
+    "tests": "tests/cases/cses-1192.json",
+    "tags": [
+      "graphs",
+      "flood fill",
+      "iterative DFS"
+    ],
+    "time": "O(n * m)",
+    "space": "O(n * m)",
+    "hint": "Every room is one connected component of floor cells.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1668",
+    "title": "Building Teams",
+    "url": "https://cses.fi/problemset/task/1668/",
+    "solution": "solutions/cses/graphs/1668_building_teams.cpp",
+    "notes": "notes/cses/1668_building_teams.md",
+    "tests": "tests/cases/cses-1668.json",
+    "tags": [
+      "graphs",
+      "BFS",
+      "bipartite"
+    ],
+    "time": "O(n + m)",
+    "space": "O(n + m)",
+    "hint": "Assign alternating teams as you traverse every connected component.",
+    "checker": "bipartite"
+  },
+  {
+    "id": "cses-1671",
+    "title": "Shortest Routes I",
+    "url": "https://cses.fi/problemset/task/1671/",
+    "solution": "solutions/cses/graphs/1671_shortest_routes_i.cpp",
+    "notes": "notes/cses/1671_shortest_routes_i.md",
+    "tests": "tests/cases/cses-1671.json",
+    "tags": [
+      "graphs",
+      "Dijkstra",
+      "priority queue"
+    ],
+    "time": "O((n + m) log(n + m))",
+    "space": "O(n + m)",
+    "hint": "Always expand the smallest unsettled distance.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1675",
+    "title": "Road Reparation",
+    "url": "https://cses.fi/problemset/task/1675/",
+    "solution": "solutions/cses/graphs/1675_road_reparation.cpp",
+    "notes": "notes/cses/1675_road_reparation.md",
+    "tests": "tests/cases/cses-1675.json",
+    "tags": [
+      "graphs",
+      "Kruskal",
+      "DSU"
+    ],
+    "time": "O(m log m + n)",
+    "space": "O(n + m)",
+    "hint": "Add the cheapest edge that joins two different components.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1679",
+    "title": "Course Schedule",
+    "url": "https://cses.fi/problemset/task/1679/",
+    "solution": "solutions/cses/graphs/1679_course_schedule.cpp",
+    "notes": "notes/cses/1679_course_schedule.md",
+    "tests": "tests/cases/cses-1679.json",
+    "tags": [
+      "graphs",
+      "topological sort"
+    ],
+    "time": "O(n + m)",
+    "space": "O(n + m)",
+    "hint": "A course is ready when no unfinished prerequisite remains.",
+    "checker": "topological"
   }
 ]
