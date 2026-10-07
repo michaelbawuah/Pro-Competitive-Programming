@@ -4353,5 +4353,20 @@
     "space": "O(n)",
     "hint": "A subarray sum is divisible by n exactly when its two prefix sums have equal remainders.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-2428",
+    "title": "Distinct Values Subarrays II",
+    "url": "https://cses.fi/problemset/task/2428/",
+    "solution": "solutions/cses/sliding_window/2428_distinct_values_subarrays_ii.cpp",
+    "notes": "notes/cses/2428_distinct_values_subarrays_ii.md",
+    "tests": "tests/cases/cses-2428.json",
+    "tags": [
+      "sliding_window"
+    ],
+    "time": "O(n log k)",
+    "space": "O(n)",
+    "hint": "Keep the longest suffix ending at the current right endpoint with at most k distinct values.",
+    "checker": "tokens"
   }
 ]
