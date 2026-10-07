@@ -11253,5 +11253,20 @@
     "space": "O(input length)",
     "hint": "Read both names to consume the input and print only the surname followed by the specified space and honorific..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc325_b",
+    "title": "World Meeting",
+    "url": "https://atcoder.jp/contests/abc325/tasks/abc325_b",
+    "solution": "solutions/atcoder/implementation/abc325_b_world_meeting.cpp",
+    "notes": "notes/atcoder/abc325_b_world_meeting.md",
+    "tests": "tests/cases/atcoder-abc325_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(24N)",
+    "space": "O(N)",
+    "hint": "An optimal one-hour meeting can start at an integer hour because all availability boundaries are integer hours.",
+    "checker": "tokens"
   }
 ]
