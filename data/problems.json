@@ -8643,5 +8643,20 @@
     "space": "O(1)",
     "hint": "A signed 32-bit integer ranges from negative 2^31 through 2^31-1.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc237_b",
+    "title": "Matrix Transposition",
+    "url": "https://atcoder.jp/contests/abc237/tasks/abc237_b",
+    "solution": "solutions/atcoder/implementation/abc237_b_matrix_transposition.cpp",
+    "notes": "notes/atcoder/abc237_b_matrix_transposition.md",
+    "tests": "tests/cases/atcoder-abc237_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(HW)",
+    "space": "O(HW)",
+    "hint": "Transposition exchanges row and column indices.",
+    "checker": "tokens"
   }
 ]
