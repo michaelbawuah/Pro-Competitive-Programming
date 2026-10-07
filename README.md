@@ -44,9 +44,10 @@ python3 tools/cp.py check
 
 Each file in `solutions/` compiles independently; no local headers are needed when submitting. Use `CXX=clang++` or `CXX=g++` to select your compiler. On macOS, install Apple's command-line tools with `xcode-select --install`; the sources use standard headers instead of `bits/stdc++.h`.
 
+The GitHub Actions workflow is configured for Linux/GCC and macOS/Clang. In VS Code, open the repository folder and choose **Tasks: Run Test Task**. See [verification](docs/verification.md) for the checks actually run on this version.
+
 ## Working agreement
 
 Keep one meaningful change per commit: a solution and explanation, a regression fix, or a reusable technique. Add a test for the mistake that taught you something. Keep the actual submission URL when you record an acceptance.
 
 Archive organization inspired by [thecodingwizard/competitive-programming](https://github.com/thecodingwizard/competitive-programming). This is an independently created project; it contains no copied solutions or inherited commit history. Problem statements remain on the original platforms.
-

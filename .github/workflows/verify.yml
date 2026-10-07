@@ -1,0 +1,44 @@
+name: Verify C++ archive
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: ${{ matrix.os }} / ${{ matrix.compiler }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            compiler: g++
+          - os: macos-latest
+            compiler: clang++
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    env:
+      CXX: ${{ matrix.compiler }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+      - name: Validate catalogue
+        run: python3 tools/cp.py check
+      - name: Verify runner behavior
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Compile and test every solution and library
+        run: python3 tools/cp.py test all
+      - name: Check undefined behavior
+        if: matrix.os == 'ubuntu-latest'
+        run: python3 tools/cp.py test all --sanitize
+      - name: Compare optimized algorithms with brute force
+        if: matrix.os == 'ubuntu-latest'
+        run: python3 tools/cp.py stress --cases 100 --seed 2110
