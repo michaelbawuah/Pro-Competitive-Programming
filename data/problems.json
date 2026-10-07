@@ -3153,5 +3153,20 @@
     "space": "O(1)",
     "hint": "Each one corresponds to exactly one marble, so count the one characters..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc081_b",
+    "title": "Shift only",
+    "url": "https://atcoder.jp/contests/abc081/tasks/abc081_b",
+    "solution": "solutions/atcoder/implementation/abc081_b_shift_only.cpp",
+    "notes": "notes/atcoder/abc081_b_shift_only.md",
+    "tests": "tests/cases/atcoder-abc081_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log A)",
+    "space": "O(1)",
+    "hint": "A simultaneous division requires every number to remain even.",
+    "checker": "tokens"
   }
 ]
