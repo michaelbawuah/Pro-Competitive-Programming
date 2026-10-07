@@ -8433,5 +8433,20 @@
     "space": "O(1)",
     "hint": "Contest number 042 is skipped, so indices from 42 onward shift by one.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc230_b",
+    "title": "Triple Metre",
+    "url": "https://atcoder.jp/contests/abc230/tasks/abc230_b",
+    "solution": "solutions/atcoder/implementation/abc230_b_triple_metre.cpp",
+    "notes": "notes/atcoder/abc230_b_triple_metre.md",
+    "tests": "tests/cases/atcoder-abc230_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "A substring of a period-three infinite string has one of three starting phases.",
+    "checker": "tokens"
   }
 ]
