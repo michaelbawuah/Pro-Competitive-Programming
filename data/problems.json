@@ -5073,5 +5073,20 @@
     "space": "O(1)",
     "hint": "Apply the polygon inequality: the longest side must be strictly shorter than the sum of all other sides.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc118_a",
+    "title": "B +/- A",
+    "url": "https://atcoder.jp/contests/abc118/tasks/abc118_a",
+    "solution": "solutions/atcoder/implementation/abc118_a_b_a.cpp",
+    "notes": "notes/atcoder/abc118_a_b_a.md",
+    "tests": "tests/cases/atcoder-abc118_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Use the remainder to decide divisibility, then select the specified sum or difference..",
+    "checker": "tokens"
   }
 ]
