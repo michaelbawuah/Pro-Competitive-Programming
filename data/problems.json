@@ -3693,5 +3693,20 @@
     "space": "O(n)",
     "hint": "Buying a more expensive can while a cheaper one remains can be improved by exchanging them.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc122_c",
+    "title": "GeT AC",
+    "url": "https://atcoder.jp/contests/abc122/tasks/abc122_c",
+    "solution": "solutions/atcoder/prefix_sums/abc122_c_get_ac.cpp",
+    "notes": "notes/atcoder/abc122_c_get_ac.md",
+    "tests": "tests/cases/atcoder-abc122_c.json",
+    "tags": [
+      "prefix_sums"
+    ],
+    "time": "O(n+q)",
+    "space": "O(n)",
+    "hint": "Count AC occurrences by their ending position in a prefix sum.",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "8 3\r\nACACTACG\r\n3 7\r\n2 3\r\n1 8\n",
+    "output": "2\r\n0\r\n3\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2 1\nAC\n1 2\n",
+    "output": "1\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "3 1\nACA\n2 3\n",
+    "output": "0\n"
+  }
+]
