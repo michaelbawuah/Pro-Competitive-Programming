@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "10\r\nZABCDBABCQ\n",
+    "output": "2\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "19\r\nTHREEONEFOURONEFIVE\n",
+    "output": "0\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "33\r\nABCCABCBABCCABACBCBBABCBCBCBCABCB\n",
+    "output": "5\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\nA\n",
+    "output": "0\n"
+  }
+]

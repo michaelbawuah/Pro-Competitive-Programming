@@ -6033,5 +6033,20 @@
     "space": "O(1)",
     "hint": "Multiply coin count by denomination and compare the total with the requested amount inclusively..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc150_b",
+    "title": "Count ABC",
+    "url": "https://atcoder.jp/contests/abc150/tasks/abc150_b",
+    "solution": "solutions/atcoder/implementation/abc150_b_count_abc.cpp",
+    "notes": "notes/atcoder/abc150_b_count_abc.md",
+    "tests": "tests/cases/atcoder-abc150_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Test every start with room for three characters.",
+    "checker": "tokens"
   }
 ]
