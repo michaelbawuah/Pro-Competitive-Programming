@@ -8583,5 +8583,20 @@
     "space": "O(1)",
     "hint": "Across the three rotations, each digit appears once in each decimal position.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc235_b",
+    "title": "Climbing Takahashi",
+    "url": "https://atcoder.jp/contests/abc235/tasks/abc235_b",
+    "solution": "solutions/atcoder/implementation/abc235_b_climbing_takahashi.cpp",
+    "notes": "notes/atcoder/abc235_b_climbing_takahashi.md",
+    "tests": "tests/cases/atcoder-abc235_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Keep climbing only while each next height is strictly greater.",
+    "checker": "tokens"
   }
 ]
