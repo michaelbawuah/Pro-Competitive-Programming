@@ -4593,5 +4593,20 @@
     "space": "O(2^n)",
     "hint": "For each subset keep the lexicographically smallest pair of ride count and last-ride load.",
     "checker": "tokens"
+  },
+  {
+    "id": "cses-2181",
+    "title": "Counting Tilings",
+    "url": "https://cses.fi/problemset/task/2181/",
+    "solution": "solutions/cses/profile_dp/2181_counting_tilings.cpp",
+    "notes": "notes/cses/2181_counting_tilings.md",
+    "tests": "tests/cases/cses-2181.json",
+    "tags": [
+      "profile_dp"
+    ],
+    "time": "O(m 4^n)",
+    "space": "O(4^n)",
+    "hint": "A column mask records cells already occupied by horizontal dominoes from the preceding column.",
+    "checker": "tokens"
   }
 ]
