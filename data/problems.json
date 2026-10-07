@@ -10878,5 +10878,20 @@
     "space": "O(D)",
     "hint": "A day is available only when every person is free.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc312_a",
+    "title": "Chord",
+    "url": "https://atcoder.jp/contests/abc312/tasks/abc312_a",
+    "solution": "solutions/atcoder/implementation/abc312_a_chord.cpp",
+    "notes": "notes/atcoder/abc312_a_chord.md",
+    "tests": "tests/cases/atcoder-abc312_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Store the seven allowed strings exactly as listed and test the input for membership..",
+    "checker": "tokens"
   }
 ]
