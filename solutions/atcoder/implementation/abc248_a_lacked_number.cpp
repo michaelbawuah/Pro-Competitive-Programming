@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;int missing=45;for(char c:s)missing-=c-'0';std::cout<<missing<<'\n';
+    std::string s;
+    std::cin>>s;
+    int missing=45;
+    for(char c:s)missing-=c-'0';
+    std::cout<<missing<<'\n';
 }
 
 int main() {

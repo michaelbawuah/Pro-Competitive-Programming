@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;int number=std::stoi(s.substr(3));std::cout<<(1<=number&&number<=349&&number!=316?"Yes":"No")<<'\n';
+    std::string s;
+    std::cin>>s;
+    int number=std::stoi(s.substr(3));
+    std::cout<<(1<=number&&number<=349&&number!=316?"Yes":"No")<<'\n';
 }
 
 int main() {

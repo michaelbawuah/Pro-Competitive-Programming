@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,d;std::cin>>n>>d;int previous=0,answer=-1;for(int i=0;i<n;++i){int t;std::cin>>t;if(i>0&&t-previous<=d&&answer==-1)answer=t;previous=t;}std::cout<<answer<<'\n';
+    int n,d;
+    std::cin>>n>>d;
+    int previous=0,answer=-1;
+    for(int i=0;i<n;++i) {
+        int t;
+        std::cin>>t;
+        if(i>0&&t-previous<=d&&answer==-1)answer=t;
+        previous=t;
+    }
+    std::cout<<answer<<'\n';
 }
 
 int main() {

@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<std::string>name(n);std::vector<int>age(n);int youngest=0;for(int i=0;i<n;++i){std::cin>>name[i]>>age[i];if(age[i]<age[youngest])youngest=i;}for(int offset=0;offset<n;++offset)std::cout<<name[(youngest+offset)%n]<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<std::string>name(n);
+    std::vector<int>age(n);
+    int youngest=0;
+    for(int i=0;i<n;++i) {
+        std::cin>>name[i]>>age[i];
+        if(age[i]<age[youngest])youngest=i;
+    }
+    for(int offset=0;offset<n;++offset)std::cout<<name[(youngest+offset)%n]<<'\n';
 }
 
 int main() {

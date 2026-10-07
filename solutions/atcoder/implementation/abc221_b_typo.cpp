@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s,t;std::cin>>s>>t;bool ok=s==t;for(std::size_t i=1;i<s.size();++i){std::swap(s[i-1],s[i]);ok=ok||s==t;std::swap(s[i-1],s[i]);}std::cout<<(ok?"Yes":"No")<<'\n';
+    std::string s,t;
+    std::cin>>s>>t;
+    bool ok=s==t;
+    for(std::size_t i=1;i<s.size();++i) {
+        std::swap(s[i-1],s[i]);
+        ok=ok||s==t;
+        std::swap(s[i-1],s[i]);
+    }
+    std::cout<<(ok?"Yes":"No")<<'\n';
 }
 
 int main() {

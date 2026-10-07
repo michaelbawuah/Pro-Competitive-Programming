@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;std::cout<<(s=="Hello,World!"?"AC":"WA")<<'\n';
+    std::string s;
+    std::cin>>s;
+    std::cout<<(s=="Hello,World!"?"AC":"WA")<<'\n';
 }
 
 int main() {

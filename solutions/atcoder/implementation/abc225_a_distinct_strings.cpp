@@ -5,10 +5,14 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;std::sort(s.begin(),s.end());int count=0;do{++count;}while(std::next_permutation(s.begin(),s.end()));std::cout<<count<<'\n';
+    std::string s;
+    std::cin>>s;
+    std::sort(s.begin(),s.end());
+    int count=0;
+    do{++count;
+    }while(std::next_permutation(s.begin(),s.end()));
+    std::cout<<count<<'\n';
 }
 
 int main() {

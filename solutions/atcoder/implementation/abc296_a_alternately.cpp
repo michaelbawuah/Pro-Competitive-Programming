@@ -5,10 +5,13 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::string s;std::cin>>n>>s;bool ok=true;for(int i=1;i<n;++i)ok=ok&&s[i]!=s[i-1];std::cout<<(ok?"Yes":"No")<<'\n';
+    int n;
+    std::string s;
+    std::cin>>n>>s;
+    bool ok=true;
+    for(int i=1;i<n;++i)ok=ok&&s[i]!=s[i-1];
+    std::cout<<(ok?"Yes":"No")<<'\n';
 }
 
 int main() {

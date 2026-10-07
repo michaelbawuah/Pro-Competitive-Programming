@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<std::string>s(n);for(auto&x:s)std::cin>>x;for(int i=n-1;i>=0;--i)std::cout<<s[i]<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<std::string>s(n);
+    for(auto&x:s)std::cin>>x;
+    for(int i=n-1;i>=0;--i)std::cout<<s[i]<<'\n';
 }
 
 int main() {

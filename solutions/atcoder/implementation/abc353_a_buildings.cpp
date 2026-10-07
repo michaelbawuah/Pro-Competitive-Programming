@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,first,answer=-1;std::cin>>n>>first;for(int i=2;i<=n;++i){int height;std::cin>>height;if(answer==-1&&height>first)answer=i;}std::cout<<answer<<'\n';
+    int n,first,answer=-1;
+    std::cin>>n>>first;
+    for(int i=2;i<=n;++i) {
+        int height;
+        std::cin>>height;
+        if(answer==-1&&height>first)answer=i;
+    }
+    std::cout<<answer<<'\n';
 }
 
 int main() {

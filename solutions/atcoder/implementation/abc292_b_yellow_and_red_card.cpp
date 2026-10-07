@@ -5,10 +5,18 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,q;std::cin>>n>>q;std::vector<int>cards(n);while(q--){int type,x;std::cin>>type>>x;--x;if(type==1)++cards[x];else if(type==2)cards[x]=2;else std::cout<<(cards[x]>=2?"Yes":"No")<<'\n';}
+    int n,q;
+    std::cin>>n>>q;
+    std::vector<int>cards(n);
+    while(q--) {
+        int type,x;
+        std::cin>>type>>x;
+        --x;
+        if(type==1)++cards[x];
+        else if(type==2)cards[x]=2;
+        else std::cout<<(cards[x]>=2?"Yes":"No")<<'\n';
+    }
 }
 
 int main() {

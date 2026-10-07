@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n,m,x,t,d;std::cin>>n>>m>>x>>t>>d;std::cout<<(t-std::max(0LL,x-m)*d)<<'\n';
+    long long n,m,x,t,d;
+    std::cin>>n>>m>>x>>t>>d;
+    std::cout<<(t-std::max(0LL,x-m)*d)<<'\n';
 }
 
 int main() {

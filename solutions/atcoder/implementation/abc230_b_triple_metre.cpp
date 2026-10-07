@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s,pattern="oxx";std::cin>>s;bool possible=false;for(int start=0;start<3;++start){bool ok=true;for(std::size_t i=0;i<s.size();++i)ok=ok&&s[i]==pattern[(i+start)%3];possible=possible||ok;}std::cout<<(possible?"Yes":"No")<<'\n';
+    std::string s,pattern="oxx";
+    std::cin>>s;
+    bool possible=false;
+    for(int start=0;start<3;++start) {
+        bool ok=true;
+        for(std::size_t i=0;i<s.size();++i)ok=ok&&s[i]==pattern[(i+start)%3];
+        possible=possible||ok;
+    }
+    std::cout<<(possible?"Yes":"No")<<'\n';
 }
 
 int main() {

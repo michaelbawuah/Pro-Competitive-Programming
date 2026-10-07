@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,s,m,l;std::cin>>n>>s>>m>>l;int best=1000000000;for(int a=0;a<=(n+5)/6;++a)for(int b=0;b<=(n+7)/8;++b)for(int c=0;c<=(n+11)/12;++c)if(6*a+8*b+12*c>=n)best=std::min(best,a*s+b*m+c*l);std::cout<<best<<'\n';
+    int n,s,m,l;
+    std::cin>>n>>s>>m>>l;
+    int best=1000000000;
+    for(int a=0;a<=(n+5)/6;++a)for(int b=0;b<=(n+7)/8;++b)for(int c=0;c<=(n+11)/12;++c)if(6*a+8*b+12*c>=n)best=std::min(best,a*s+b*m+c*l);
+    std::cout<<best<<'\n';
 }
 
 int main() {

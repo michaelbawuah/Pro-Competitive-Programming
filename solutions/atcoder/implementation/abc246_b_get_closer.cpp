@@ -4,10 +4,11 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    double a,b;std::cin>>a>>b;double length=std::hypot(a,b);std::cout<<std::setprecision(15)<<a/length<<' '<<b/length<<'\n';
+    double a,b;
+    std::cin>>a>>b;
+    double length=std::hypot(a,b);
+    std::cout<<std::setprecision(15)<<a/length<<' '<<b/length<<'\n';
 }
 
 int main() {

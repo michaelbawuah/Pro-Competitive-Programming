@@ -5,10 +5,20 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<int>a(n);for(int&x:a)std::cin>>x;int q;std::cin>>q;while(q--){int type,k;std::cin>>type>>k;--k;if(type==1)std::cin>>a[k];else std::cout<<a[k]<<'\n';}
+    int n;
+    std::cin>>n;
+    std::vector<int>a(n);
+    for(int&x:a)std::cin>>x;
+    int q;
+    std::cin>>q;
+    while(q--) {
+        int type,k;
+        std::cin>>type>>k;
+        --k;
+        if(type==1)std::cin>>a[k];
+        else std::cout<<a[k]<<'\n';
+    }
 }
 
 int main() {

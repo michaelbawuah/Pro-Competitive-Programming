@@ -3,10 +3,10 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::cout<<std::setfill('0')<<std::setw(4)<<n<<'\n';
+    int n;
+    std::cin>>n;
+    std::cout<<std::setfill('0')<<std::setw(4)<<n<<'\n';
 }
 
 int main() {

@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;bool same=true,consecutive=true;for(int i=1;i<4;++i){same=same&&s[i]==s[0];consecutive=consecutive&&(s[i]-'0')==(s[i-1]-'0'+1)%10;}std::cout<<(same||consecutive?"Weak":"Strong")<<'\n';
+    std::string s;
+    std::cin>>s;
+    bool same=true,consecutive=true;
+    for(int i=1;i<4;++i) {
+        same=same&&s[i]==s[0];
+        consecutive=consecutive&&(s[i]-'0')==(s[i-1]-'0'+1)%10;
+    }
+    std::cout<<(same||consecutive?"Weak":"Strong")<<'\n';
 }
 
 int main() {

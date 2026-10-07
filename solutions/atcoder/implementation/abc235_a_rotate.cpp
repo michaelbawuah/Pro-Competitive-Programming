@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;int sum=0;for(char c:s)sum+=c-'0';std::cout<<111*sum<<'\n';
+    std::string s;
+    std::cin>>s;
+    int sum=0;
+    for(char c:s)sum+=c-'0';
+    std::cout<<111*sum<<'\n';
 }
 
 int main() {

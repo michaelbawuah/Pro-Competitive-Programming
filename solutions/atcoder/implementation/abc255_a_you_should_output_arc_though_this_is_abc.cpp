@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int r,c,a[2][2];std::cin>>r>>c;for(auto&row:a)for(int&x:row)std::cin>>x;std::cout<<a[r-1][c-1]<<'\n';
+    int r,c,a[2][2];
+    std::cin>>r>>c;
+    for(auto&row:a)for(int&x:row)std::cin>>x;
+    std::cout<<a[r-1][c-1]<<'\n';
 }
 
 int main() {

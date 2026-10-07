@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string a,b;std::cin>>a>>b;bool disconnected=(a=="#."&&b==".#")||(a==".#"&&b=="#.");std::cout<<(disconnected?"No":"Yes")<<'\n';
+    std::string a,b;
+    std::cin>>a>>b;
+    bool disconnected=(a=="#."&&b==".#")||(a==".#"&&b=="#.");
+    std::cout<<(disconnected?"No":"Yes")<<'\n';
 }
 
 int main() {

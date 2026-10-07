@@ -5,10 +5,20 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,m;std::cin>>n>>m;std::vector<std::string>s(n);for(auto&x:s)std::cin>>x;std::set<std::string>suffix;while(m--){std::string t;std::cin>>t;suffix.insert(t);}int answer=0;for(const auto&x:s)answer+=suffix.count(x.substr(3))!=0;std::cout<<answer<<'\n';
+    int n,m;
+    std::cin>>n>>m;
+    std::vector<std::string>s(n);
+    for(auto&x:s)std::cin>>x;
+    std::set<std::string>suffix;
+    while(m--) {
+        std::string t;
+        std::cin>>t;
+        suffix.insert(t);
+    }
+    int answer=0;
+    for(const auto&x:s)answer+=suffix.count(x.substr(3))!=0;
+    std::cout<<answer<<'\n';
 }
 
 int main() {

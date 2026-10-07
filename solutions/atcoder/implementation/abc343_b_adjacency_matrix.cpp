@@ -5,10 +5,22 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;for(int i=0;i<n;++i){bool first=true;for(int j=0;j<n;++j){int edge;std::cin>>edge;if(edge){if(!first)std::cout<<' ';std::cout<<j+1;first=false;}}std::cout<<'\n';}
+    int n;
+    std::cin>>n;
+    for(int i=0;i<n;++i) {
+        bool first=true;
+        for(int j=0;j<n;++j) {
+            int edge;
+            std::cin>>edge;
+            if(edge) {
+                if(!first)std::cout<<' ';
+                std::cout<<j+1;
+                first=false;
+            }
+        }
+        std::cout<<'\n';
+    }
 }
 
 int main() {

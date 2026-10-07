@@ -5,10 +5,23 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,x;std::cin>>n>>x;--x;std::vector<int>next(n);for(int&v:next){std::cin>>v;--v;}std::vector<bool>seen(n);int count=0;while(!seen[x]){seen[x]=true;++count;x=next[x];}std::cout<<count<<'\n';
+    int n,x;
+    std::cin>>n>>x;
+    --x;
+    std::vector<int>next(n);
+    for(int&v:next) {
+        std::cin>>v;
+        --v;
+    }
+    std::vector<bool>seen(n);
+    int count=0;
+    while(!seen[x]) {
+        seen[x]=true;
+        ++count;
+        x=next[x];
+    }
+    std::cout<<count<<'\n';
 }
 
 int main() {

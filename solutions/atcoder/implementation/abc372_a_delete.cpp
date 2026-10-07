@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;for(char c:s)if(c!='.')std::cout<<c;std::cout<<'\n';
+    std::string s;
+    std::cin>>s;
+    for(char c:s)if(c!='.')std::cout<<c;
+    std::cout<<'\n';
 }
 
 int main() {

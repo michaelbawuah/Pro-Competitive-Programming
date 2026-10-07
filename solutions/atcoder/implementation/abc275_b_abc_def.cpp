@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    const long long mod=998244353;long long first=1,second=1;for(int i=0;i<6;++i){long long x;std::cin>>x;if(i<3)first=first*(x%mod)%mod;else second=second*(x%mod)%mod;}std::cout<<(first-second+mod)%mod<<'\n';
+    const long long mod=998244353;
+    long long first=1,second=1;
+    for(int i=0;i<6;++i) {
+        long long x;
+        std::cin>>x;
+        if(i<3)first=first*(x%mod)%mod;
+        else second=second*(x%mod)%mod;
+    }
+    std::cout<<(first-second+mod)%mod<<'\n';
 }
 
 int main() {

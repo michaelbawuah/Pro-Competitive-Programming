@@ -5,10 +5,23 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<std::string>a(n);for(auto&s:a)std::cin>>s;long long best=0;for(int i=0;i<n;++i)for(int j=0;j<n;++j)for(int dx=-1;dx<=1;++dx)for(int dy=-1;dy<=1;++dy)if(dx||dy){int x=i,y=j;long long value=0;for(int step=0;step<n;++step){value=10*value+a[x][y]-'0';x=(x+dx+n)%n;y=(y+dy+n)%n;}best=std::max(best,value);}std::cout<<best<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<std::string>a(n);
+    for(auto&s:a)std::cin>>s;
+    long long best=0;
+    for(int i=0;i<n;++i)for(int j=0;j<n;++j)for(int dx=-1;dx<=1;++dx)for(int dy=-1;dy<=1;++dy)if(dx||dy) {
+        int x=i,y=j;
+        long long value=0;
+        for(int step=0;step<n;++step) {
+            value=10*value+a[x][y]-'0';
+            x=(x+dx+n)%n;
+            y=(y+dy+n)%n;
+        }
+        best=std::max(best,value);
+    }
+    std::cout<<best<<'\n';
 }
 
 int main() {

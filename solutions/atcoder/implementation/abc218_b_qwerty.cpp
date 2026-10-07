@@ -5,10 +5,13 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    for(int i=0;i<26;++i){int x;std::cin>>x;std::cout<<static_cast<char>('a'+x-1);}std::cout<<'\n';
+    for(int i=0;i<26;++i) {
+        int x;
+        std::cin>>x;
+        std::cout<<static_cast<char>('a'+x-1);
+    }
+    std::cout<<'\n';
 }
 
 int main() {

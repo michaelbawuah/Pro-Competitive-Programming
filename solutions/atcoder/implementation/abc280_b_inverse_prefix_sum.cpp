@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;long long previous=0;for(int i=0;i<n;++i){long long sum;std::cin>>sum;std::cout<<sum-previous<<(i+1==n?'\n':' ');previous=sum;}
+    int n;
+    std::cin>>n;
+    long long previous=0;
+    for(int i=0;i<n;++i) {
+        long long sum;
+        std::cin>>sum;
+        std::cout<<sum-previous<<(i+1==n?'\n':' ');
+        previous=sum;
+    }
 }
 
 int main() {

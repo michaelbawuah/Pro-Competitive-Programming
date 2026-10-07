@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n,k,a;std::cin>>n>>k>>a;std::cout<<((a+k-2)%n+1)<<'\n';
+    long long n,k,a;
+    std::cin>>n>>k>>a;
+    std::cout<<((a+k-2)%n+1)<<'\n';
 }
 
 int main() {

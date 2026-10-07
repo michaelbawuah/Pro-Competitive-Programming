@@ -5,10 +5,15 @@
 #include <iostream>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<int>a(5*n);for(int&x:a)std::cin>>x;std::sort(a.begin(),a.end());long long sum=0;for(int i=n;i<4*n;++i)sum+=a[i];std::cout<<std::setprecision(15)<<static_cast<double>(sum)/(3*n)<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<int>a(5*n);
+    for(int&x:a)std::cin>>x;
+    std::sort(a.begin(),a.end());
+    long long sum=0;
+    for(int i=n;i<4*n;++i)sum+=a[i];
+    std::cout<<std::setprecision(15)<<static_cast<double>(sum)/(3*n)<<'\n';
 }
 
 int main() {

@@ -5,10 +5,13 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::string s;std::cin>>n>>s;int t=std::count(s.begin(),s.end(),'T');char winner=2*t>n?'T':2*t<n?'A':s.back()=='T'?'A':'T';std::cout<<winner<<'\n';
+    int n;
+    std::string s;
+    std::cin>>n>>s;
+    int t=std::count(s.begin(),s.end(),'T');
+    char winner=2*t>n?'T':2*t<n?'A':s.back()=='T'?'A':'T';
+    std::cout<<winner<<'\n';
 }
 
 int main() {

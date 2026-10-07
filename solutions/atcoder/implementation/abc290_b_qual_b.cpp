@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,k;std::string s;std::cin>>n>>k>>s;for(char&c:s)if(c=='o'){if(k>0)--k;else c='x';}std::cout<<s<<'\n';
+    int n,k;
+    std::string s;
+    std::cin>>n>>k>>s;
+    for(char&c:s)if(c=='o') {
+        if(k>0)--k;
+        else c='x';
+    }
+    std::cout<<s<<'\n';
 }
 
 int main() {

@@ -3,10 +3,14 @@
 #include <cstdint>
 #include <iostream>
 
-
-
 void solve() {
-    std::uint64_t answer=0;for(int i=0;i<64;++i){int bit;std::cin>>bit;if(bit)answer|=std::uint64_t{1}<<i;}std::cout<<answer<<'\n';
+    std::uint64_t answer=0;
+    for(int i=0;i<64;++i) {
+        int bit;
+        std::cin>>bit;
+        if(bit)answer|=std::uint64_t{1}<<i;
+    }
+    std::cout<<answer<<'\n';
 }
 
 int main() {

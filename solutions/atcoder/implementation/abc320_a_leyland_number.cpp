@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int a,b;std::cin>>a>>b;auto power=[](int base,int exponent){long long value=1;while(exponent--)value*=base;return value;};std::cout<<power(a,b)+power(b,a)<<'\n';
+    int a,b;
+    std::cin>>a>>b;
+    auto power=[](int base,int exponent) {
+        long long value=1;
+        while(exponent--)value*=base;
+        return value;
+    };
+    std::cout<<power(a,b)+power(b,a)<<'\n';
 }
 
 int main() {

@@ -4,10 +4,10 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    double h;std::cin>>h;std::cout<<std::setprecision(15)<<std::sqrt(h*(12800000+h))<<'\n';
+    double h;
+    std::cin>>h;
+    std::cout<<std::setprecision(15)<<std::sqrt(h*(12800000+h))<<'\n';
 }
 
 int main() {

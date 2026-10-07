@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int h,w;std::cin>>h>>w;for(int i=0;i<h;++i){for(int j=0;j<w;++j){int x;std::cin>>x;std::cout<<(x==0?'.':static_cast<char>('A'+x-1));}std::cout<<'\n';}
+    int h,w;
+    std::cin>>h>>w;
+    for(int i=0;i<h;++i) {
+        for(int j=0;j<w;++j) {
+            int x;
+            std::cin>>x;
+            std::cout<<(x==0?'.':static_cast<char>('A'+x-1));
+        }
+        std::cout<<'\n';
+    }
 }
 
 int main() {

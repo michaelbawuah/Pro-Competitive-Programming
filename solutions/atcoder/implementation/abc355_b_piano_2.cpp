@@ -5,10 +5,19 @@
 #include <utility>
 #include <vector>
 
-
-
 void solve() {
-    int n,m;std::cin>>n>>m;std::vector<std::pair<int,bool>>value;for(int i=0;i<n+m;++i){int x;std::cin>>x;value.push_back({x,i<n});}std::sort(value.begin(),value.end());bool found=false;for(std::size_t i=1;i<value.size();++i)found=found||(value[i-1].second&&value[i].second);std::cout<<(found?"Yes":"No")<<'\n';
+    int n,m;
+    std::cin>>n>>m;
+    std::vector<std::pair<int,bool>>value;
+    for(int i=0;i<n+m;++i) {
+        int x;
+        std::cin>>x;
+        value.push_back({x,i<n});
+    }
+    std::sort(value.begin(),value.end());
+    bool found=false;
+    for(std::size_t i=1;i<value.size();++i)found=found||(value[i-1].second&&value[i].second);
+    std::cout<<(found?"Yes":"No")<<'\n';
 }
 
 int main() {

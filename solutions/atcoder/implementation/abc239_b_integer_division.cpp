@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long x;std::cin>>x;std::cout<<(x/10-(x<0&&x%10!=0))<<'\n';
+    long long x;
+    std::cin>>x;
+    std::cout<<(x/10-(x<0&&x%10!=0))<<'\n';
 }
 
 int main() {

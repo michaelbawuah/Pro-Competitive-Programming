@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n;std::cin>>n;std::cout<<((n%998244353+998244353)%998244353)<<'\n';
+    long long n;
+    std::cin>>n;
+    std::cout<<((n%998244353+998244353)%998244353)<<'\n';
 }
 
 int main() {

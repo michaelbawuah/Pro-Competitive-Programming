@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::string s;std::cin>>n>>s;auto position=s.find("ABC");std::cout<<(position==std::string::npos?-1:static_cast<int>(position)+1)<<'\n';
+    int n;
+    std::string s;
+    std::cin>>n>>s;
+    auto position=s.find("ABC");
+    std::cout<<(position==std::string::npos?-1:static_cast<int>(position)+1)<<'\n';
 }
 
 int main() {

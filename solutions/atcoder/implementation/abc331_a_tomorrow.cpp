@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int months,days,y,m,d;std::cin>>months>>days>>y>>m>>d;if(++d>days){d=1;if(++m>months){m=1;++y;}}std::cout<<y<<' '<<m<<' '<<d<<'\n';
+    int months,days,y,m,d;
+    std::cin>>months>>days>>y>>m>>d;
+    if(++d>days) {
+        d=1;
+        if(++m>months) {
+            m=1;
+            ++y;
+        }
+    }
+    std::cout<<y<<' '<<m<<' '<<d<<'\n';
 }
 
 int main() {

@@ -3,10 +3,22 @@
 #include <iostream>
 #include <map>
 
-
-
 void solve() {
-    int n,m;std::cin>>n>>m;std::map<int,int>count;while(n--){int x;std::cin>>x;++count[x];}bool ok=true;while(m--){int x;std::cin>>x;if(--count[x]<0)ok=false;}std::cout<<(ok?"Yes":"No")<<'\n';
+    int n,m;
+    std::cin>>n>>m;
+    std::map<int,int>count;
+    while(n--) {
+        int x;
+        std::cin>>x;
+        ++count[x];
+    }
+    bool ok=true;
+    while(m--) {
+        int x;
+        std::cin>>x;
+        if(--count[x]<0)ok=false;
+    }
+    std::cout<<(ok?"Yes":"No")<<'\n';
 }
 
 int main() {

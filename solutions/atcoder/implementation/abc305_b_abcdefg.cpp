@@ -3,10 +3,11 @@
 #include <cstdlib>
 #include <iostream>
 
-
-
 void solve() {
-    char p,q;std::cin>>p>>q;int position[]={0,3,4,8,9,14,23};std::cout<<std::abs(position[p-'A']-position[q-'A'])<<'\n';
+    char p,q;
+    std::cin>>p>>q;
+    int position[]={0,3,4,8,9,14,23};
+    std::cout<<std::abs(position[p-'A']-position[q-'A'])<<'\n';
 }
 
 int main() {

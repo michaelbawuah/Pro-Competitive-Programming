@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n;std::cin>>n;int k=0;while(n>=2){n/=2;++k;}std::cout<<k<<'\n';
+    long long n;
+    std::cin>>n;
+    int k=0;
+    while(n>=2) {
+        n/=2;
+        ++k;
+    }
+    std::cout<<k<<'\n';
 }
 
 int main() {

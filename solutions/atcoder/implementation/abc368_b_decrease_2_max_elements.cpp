@@ -4,10 +4,27 @@
 #include <queue>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::priority_queue<int>values;while(n--){int x;std::cin>>x;values.push(x);}int operations=0;while(true){int a=values.top();values.pop();int b=values.top();values.pop();if(b==0)break;values.push(a-1);values.push(b-1);++operations;}std::cout<<operations<<'\n';
+    int n;
+    std::cin>>n;
+    std::priority_queue<int>values;
+    while(n--) {
+        int x;
+        std::cin>>x;
+        values.push(x);
+    }
+    int operations=0;
+    while(true) {
+        int a=values.top();
+        values.pop();
+        int b=values.top();
+        values.pop();
+        if(b==0)break;
+        values.push(a-1);
+        values.push(b-1);
+        ++operations;
+    }
+    std::cout<<operations<<'\n';
 }
 
 int main() {

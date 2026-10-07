@@ -4,10 +4,11 @@
 #include <set>
 #include <string>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;std::set<std::string>chords{"ACE","BDF","CEG","DFA","EGB","FAC","GBD"};std::cout<<(chords.count(s)?"Yes":"No")<<'\n';
+    std::string s;
+    std::cin>>s;
+    std::set<std::string>chords{"ACE","BDF","CEG","DFA","EGB","FAC","GBD"};
+    std::cout<<(chords.count(s)?"Yes":"No")<<'\n';
 }
 
 int main() {

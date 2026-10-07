@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,mask=0;std::string s;std::cin>>n>>s;for(int i=0;i<n;++i){mask|=1<<(s[i]-'A');if(mask==7){std::cout<<i+1<<'\n';break;}}
+    int n,mask=0;
+    std::string s;
+    std::cin>>n>>s;
+    for(int i=0;i<n;++i) {
+        mask|=1<<(s[i]-'A');
+        if(mask==7) {
+            std::cout<<i+1<<'\n';
+            break;
+        }
+    }
 }
 
 int main() {

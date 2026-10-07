@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,count=0;std::cin>>n;for(int i=0;i<n;++i){std::string s;std::cin>>s;count+=s=="For";}std::cout<<(2*count>n?"Yes":"No")<<'\n';
+    int n,count=0;
+    std::cin>>n;
+    for(int i=0;i<n;++i) {
+        std::string s;
+        std::cin>>s;
+        count+=s=="For";
+    }
+    std::cout<<(2*count>n?"Yes":"No")<<'\n';
 }
 
 int main() {

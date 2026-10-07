@@ -4,10 +4,14 @@
 #include <set>
 #include <string>
 
-
-
 void solve() {
-    std::set<std::string>remaining{"ABC","ARC","AGC","AHC"};for(int i=0;i<3;++i){std::string s;std::cin>>s;remaining.erase(s);}std::cout<<*remaining.begin()<<'\n';
+    std::set<std::string>remaining{"ABC","ARC","AGC","AHC"};
+    for(int i=0;i<3;++i) {
+        std::string s;
+        std::cin>>s;
+        remaining.erase(s);
+    }
+    std::cout<<*remaining.begin()<<'\n';
 }
 
 int main() {

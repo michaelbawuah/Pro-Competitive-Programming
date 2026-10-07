@@ -5,10 +5,14 @@
 #include <iostream>
 #include <string>
 
-
-
 void solve() {
-    std::string s,t;std::cin>>s>>t;auto length=[](const std::string&segment){int d=std::abs(segment[0]-segment[1]);return std::min(d,5-d);};std::cout<<(length(s)==length(t)?"Yes":"No")<<'\n';
+    std::string s,t;
+    std::cin>>s>>t;
+    auto length=[](const std::string&segment) {
+        int d=std::abs(segment[0]-segment[1]);
+        return std::min(d,5-d);
+    };
+    std::cout<<(length(s)==length(t)?"Yes":"No")<<'\n';
 }
 
 int main() {

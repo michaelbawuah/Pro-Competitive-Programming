@@ -5,10 +5,25 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,m;std::cin>>n>>m;std::vector<std::vector<bool>>adjacent(n,std::vector<bool>(n));while(m--){int previous;std::cin>>previous;--previous;for(int i=1;i<n;++i){int current;std::cin>>current;--current;adjacent[previous][current]=adjacent[current][previous]=true;previous=current;}}int answer=0;for(int i=0;i<n;++i)for(int j=0;j<i;++j)answer+=!adjacent[i][j];std::cout<<answer<<'\n';
+    int n,m;
+    std::cin>>n>>m;
+    std::vector<std::vector<bool>>adjacent(n,std::vector<bool>(n));
+    while(m--) {
+        int previous;
+        std::cin>>previous;
+        --previous;
+        for(int i=1;i<n;++i) {
+            int current;
+            std::cin>>current;
+            --current;
+            adjacent[previous][current]=adjacent[current][previous]=true;
+            previous=current;
+        }
+    }
+    int answer=0;
+    for(int i=0;i<n;++i)for(int j=0;j<i;++j)answer+=!adjacent[i][j];
+    std::cout<<answer<<'\n';
 }
 
 int main() {

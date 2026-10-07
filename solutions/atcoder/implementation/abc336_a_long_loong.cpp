@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::cout<<'L'<<std::string(n,'o')<<"ng\n";
+    int n;
+    std::cin>>n;
+    std::cout<<'L'<<std::string(n,'o')<<"ng\n";
 }
 
 int main() {

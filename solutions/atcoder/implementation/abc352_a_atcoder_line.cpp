@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n,x,y,z;std::cin>>n>>x>>y>>z;std::cout<<(std::min(x,y)<z&&z<std::max(x,y)?"Yes":"No")<<'\n';
+    long long n,x,y,z;
+    std::cin>>n>>x>>y>>z;
+    std::cout<<(std::min(x,y)<z&&z<std::max(x,y)?"Yes":"No")<<'\n';
 }
 
 int main() {

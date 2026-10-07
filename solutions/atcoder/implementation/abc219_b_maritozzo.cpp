@@ -5,10 +5,13 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::vector<std::string>s(3);for(auto&x:s)std::cin>>x;std::string order;std::cin>>order;for(char c:order)std::cout<<s[c-'1'];std::cout<<'\n';
+    std::vector<std::string>s(3);
+    for(auto&x:s)std::cin>>x;
+    std::string order;
+    std::cin>>order;
+    for(char c:order)std::cout<<s[c-'1'];
+    std::cout<<'\n';
 }
 
 int main() {

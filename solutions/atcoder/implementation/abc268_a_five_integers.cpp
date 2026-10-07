@@ -3,10 +3,14 @@
 #include <iostream>
 #include <set>
 
-
-
 void solve() {
-    std::set<int>s;for(int i=0;i<5;++i){int x;std::cin>>x;s.insert(x);}std::cout<<s.size()<<'\n';
+    std::set<int>s;
+    for(int i=0;i<5;++i) {
+        int x;
+        std::cin>>x;
+        s.insert(x);
+    }
+    std::cout<<s.size()<<'\n';
 }
 
 int main() {

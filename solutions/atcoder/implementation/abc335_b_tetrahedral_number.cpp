@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;for(int x=0;x<=n;++x)for(int y=0;x+y<=n;++y)for(int z=0;x+y+z<=n;++z)std::cout<<x<<' '<<y<<' '<<z<<'\n';
+    int n;
+    std::cin>>n;
+    for(int x=0;x<=n;++x)for(int y=0;x+y<=n;++y)for(int z=0;x+y+z<=n;++z)std::cout<<x<<' '<<y<<' '<<z<<'\n';
 }
 
 int main() {

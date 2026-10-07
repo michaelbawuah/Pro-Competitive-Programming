@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int h,w,answer=0;std::cin>>h>>w;while(h--){std::string s;std::cin>>s;answer+=std::count(s.begin(),s.end(),'#');}std::cout<<answer<<'\n';
+    int h,w,answer=0;
+    std::cin>>h>>w;
+    while(h--) {
+        std::string s;
+        std::cin>>s;
+        answer+=std::count(s.begin(),s.end(),'#');
+    }
+    std::cout<<answer<<'\n';
 }
 
 int main() {

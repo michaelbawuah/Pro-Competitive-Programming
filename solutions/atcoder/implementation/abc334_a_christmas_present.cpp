@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long b,g;std::cin>>b>>g;std::cout<<(b>g?"Bat":"Glove")<<'\n';
+    long long b,g;
+    std::cin>>b>>g;
+    std::cout<<(b>g?"Bat":"Glove")<<'\n';
 }
 
 int main() {

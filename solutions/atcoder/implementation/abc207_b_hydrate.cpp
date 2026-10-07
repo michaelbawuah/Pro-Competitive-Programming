@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long a,b,c,d;std::cin>>a>>b>>c>>d;long long gain=c*d-b;std::cout<<(gain<=0?-1:(a+gain-1)/gain)<<'\n';
+    long long a,b,c,d;
+    std::cin>>a>>b>>c>>d;
+    long long gain=c*d-b;
+    std::cout<<(gain<=0?-1:(a+gain-1)/gain)<<'\n';
 }
 
 int main() {

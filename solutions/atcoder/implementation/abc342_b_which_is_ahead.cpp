@@ -5,10 +5,22 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<int>position(n+1);for(int i=0;i<n;++i){int person;std::cin>>person;position[person]=i;}int q;std::cin>>q;while(q--){int a,b;std::cin>>a>>b;std::cout<<(position[a]<position[b]?a:b)<<'\n';}
+    int n;
+    std::cin>>n;
+    std::vector<int>position(n+1);
+    for(int i=0;i<n;++i) {
+        int person;
+        std::cin>>person;
+        position[person]=i;
+    }
+    int q;
+    std::cin>>q;
+    while(q--) {
+        int a,b;
+        std::cin>>a>>b;
+        std::cout<<(position[a]<position[b]?a:b)<<'\n';
+    }
 }
 
 int main() {

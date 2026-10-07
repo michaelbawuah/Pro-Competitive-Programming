@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,sum=0;std::cin>>n;for(int i=1;i<n;++i){int a;std::cin>>a;sum+=a;}std::cout<<-sum<<'\n';
+    int n,sum=0;
+    std::cin>>n;
+    for(int i=1;i<n;++i) {
+        int a;
+        std::cin>>a;
+        sum+=a;
+    }
+    std::cout<<-sum<<'\n';
 }
 
 int main() {

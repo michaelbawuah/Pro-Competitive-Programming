@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::string s,t;std::cin>>n>>s>>t;auto normalize=[](char c){return c=='1'?'l':c=='0'?'o':c;};bool ok=true;for(int i=0;i<n;++i)ok=ok&&normalize(s[i])==normalize(t[i]);std::cout<<(ok?"Yes":"No")<<'\n';
+    int n;
+    std::string s,t;
+    std::cin>>n>>s>>t;
+    auto normalize=[](char c) {
+        return c=='1'?'l':c=='0'?'o':c;
+    };
+    bool ok=true;
+    for(int i=0;i<n;++i)ok=ok&&normalize(s[i])==normalize(t[i]);
+    std::cout<<(ok?"Yes":"No")<<'\n';
 }
 
 int main() {

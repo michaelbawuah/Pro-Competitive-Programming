@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n;std::cin>>n;std::cout<<(-2147483648LL<=n&&n<=2147483647LL?"Yes":"No")<<'\n';
+    long long n;
+    std::cin>>n;
+    std::cout<<(-2147483648LL<=n&&n<=2147483647LL?"Yes":"No")<<'\n';
 }
 
 int main() {

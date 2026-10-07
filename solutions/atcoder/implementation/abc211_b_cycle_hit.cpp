@@ -4,10 +4,14 @@
 #include <set>
 #include <string>
 
-
-
 void solve() {
-    std::set<std::string>s;for(int i=0;i<4;++i){std::string x;std::cin>>x;s.insert(x);}std::cout<<(s.size()==4?"Yes":"No")<<'\n';
+    std::set<std::string>s;
+    for(int i=0;i<4;++i) {
+        std::string x;
+        std::cin>>x;
+        s.insert(x);
+    }
+    std::cout<<(s.size()==4?"Yes":"No")<<'\n';
 }
 
 int main() {

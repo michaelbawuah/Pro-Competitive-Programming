@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,p,ans=0;std::cin>>n>>p;while(n--){int x;std::cin>>x;ans+=x<p;}std::cout<<ans<<'\n';
+    int n,p,ans=0;
+    std::cin>>n>>p;
+    while(n--) {
+        int x;
+        std::cin>>x;
+        ans+=x<p;
+    }
+    std::cout<<ans<<'\n';
 }
 
 int main() {

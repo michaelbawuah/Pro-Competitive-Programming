@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;auto first=s.find('|'),last=s.rfind('|');std::cout<<s.substr(0,first)<<s.substr(last+1)<<'\n';
+    std::string s;
+    std::cin>>s;
+    auto first=s.find('|'),last=s.rfind('|');
+    std::cout<<s.substr(0,first)<<s.substr(last+1)<<'\n';
 }
 
 int main() {

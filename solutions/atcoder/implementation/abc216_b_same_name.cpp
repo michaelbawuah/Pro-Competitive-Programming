@@ -5,10 +5,17 @@
 #include <string>
 #include <utility>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::set<std::pair<std::string,std::string>>seen;bool duplicate=false;while(n--){std::string first,last;std::cin>>first>>last;if(!seen.insert({first,last}).second)duplicate=true;}std::cout<<(duplicate?"Yes":"No")<<'\n';
+    int n;
+    std::cin>>n;
+    std::set<std::pair<std::string,std::string>>seen;
+    bool duplicate=false;
+    while(n--) {
+        std::string first,last;
+        std::cin>>first>>last;
+        if(!seen.insert({first,last}).second)duplicate=true;
+    }
+    std::cout<<(duplicate?"Yes":"No")<<'\n';
 }
 
 int main() {

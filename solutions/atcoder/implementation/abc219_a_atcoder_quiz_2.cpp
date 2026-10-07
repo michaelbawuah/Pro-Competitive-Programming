@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int x;std::cin>>x;if(x>=90)std::cout<<"expert\n";else std::cout<<(x<40?40-x:x<70?70-x:90-x)<<'\n';
+    int x;
+    std::cin>>x;
+    if(x>=90)std::cout<<"expert\n";
+    else std::cout<<(x<40?40-x:x<70?70-x:90-x)<<'\n';
 }
 
 int main() {

@@ -3,10 +3,16 @@
 #include <iostream>
 #include <set>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::set<int>values;while(n--){int x;std::cin>>x;values.insert(x);}std::cout<<values.size()<<'\n';
+    int n;
+    std::cin>>n;
+    std::set<int>values;
+    while(n--) {
+        int x;
+        std::cin>>x;
+        values.insert(x);
+    }
+    std::cout<<values.size()<<'\n';
 }
 
 int main() {

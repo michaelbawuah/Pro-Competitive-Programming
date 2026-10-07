@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,m,count=0;std::cin>>n>>m;while(n--){int hands;std::cin>>hands;if(m>=hands)++count;m=std::max(0,m-hands);}std::cout<<count<<'\n';
+    int n,m,count=0;
+    std::cin>>n>>m;
+    while(n--) {
+        int hands;
+        std::cin>>hands;
+        if(m>=hands)++count;
+        m=std::max(0,m-hands);
+    }
+    std::cout<<count<<'\n';
 }
 
 int main() {

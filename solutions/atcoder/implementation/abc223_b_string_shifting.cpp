@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;std::string low=s,high=s;for(std::size_t i=1;i<s.size();++i){std::string t=s.substr(i)+s.substr(0,i);low=std::min(low,t);high=std::max(high,t);}std::cout<<low<<'\n'<<high<<'\n';
+    std::string s;
+    std::cin>>s;
+    std::string low=s,high=s;
+    for(std::size_t i=1;i<s.size();++i) {
+        std::string t=s.substr(i)+s.substr(0,i);
+        low=std::min(low,t);
+        high=std::max(high,t);
+    }
+    std::cout<<low<<'\n'<<high<<'\n';
 }
 
 int main() {

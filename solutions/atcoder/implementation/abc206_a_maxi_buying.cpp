@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;int cost=108*n/100;std::cout<<(cost<206?"Yay!":cost==206?"so-so":":(")<<'\n';
+    int n;
+    std::cin>>n;
+    int cost=108*n/100;
+    std::cout<<(cost<206?"Yay!":cost==206?"so-so":":(")<<'\n';
 }
 
 int main() {

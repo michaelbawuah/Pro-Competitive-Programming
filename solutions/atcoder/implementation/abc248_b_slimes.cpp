@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long a,b,k;std::cin>>a>>b>>k;int count=0;while(a<b){a*=k;++count;}std::cout<<count<<'\n';
+    long long a,b,k;
+    std::cin>>a>>b>>k;
+    int count=0;
+    while(a<b) {
+        a*=k;
+        ++count;
+    }
+    std::cout<<count<<'\n';
 }
 
 int main() {

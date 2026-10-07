@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<int>parent(n+1);for(int i=2;i<=n;++i)std::cin>>parent[i];int steps=0;while(n!=1){n=parent[n];++steps;}std::cout<<steps<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<int>parent(n+1);
+    for(int i=2;i<=n;++i)std::cin>>parent[i];
+    int steps=0;
+    while(n!=1) {
+        n=parent[n];
+        ++steps;
+    }
+    std::cout<<steps<<'\n';
 }
 
 int main() {

@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s,vowels="aeiou";std::cin>>s;for(char c:s)if(vowels.find(c)==std::string::npos)std::cout<<c;std::cout<<'\n';
+    std::string s,vowels="aeiou";
+    std::cin>>s;
+    for(char c:s)if(vowels.find(c)==std::string::npos)std::cout<<c;
+    std::cout<<'\n';
 }
 
 int main() {

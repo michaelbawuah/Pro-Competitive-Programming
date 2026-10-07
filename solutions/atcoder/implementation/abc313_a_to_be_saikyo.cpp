@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,first;std::cin>>n>>first;int answer=0;for(int i=1;i<n;++i){int p;std::cin>>p;answer=std::max(answer,p-first+1);}std::cout<<answer<<'\n';
+    int n,first;
+    std::cin>>n>>first;
+    int answer=0;
+    for(int i=1;i<n;++i) {
+        int p;
+        std::cin>>p;
+        answer=std::max(answer,p-first+1);
+    }
+    std::cout<<answer<<'\n';
 }
 
 int main() {

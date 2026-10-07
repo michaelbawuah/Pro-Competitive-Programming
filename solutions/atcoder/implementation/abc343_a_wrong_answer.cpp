@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int a,b;std::cin>>a>>b;std::cout<<(a+b+1)%10<<'\n';
+    int a,b;
+    std::cin>>a>>b;
+    std::cout<<(a+b+1)%10<<'\n';
 }
 
 int main() {

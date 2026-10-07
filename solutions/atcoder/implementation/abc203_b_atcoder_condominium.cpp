@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n,k;std::cin>>n>>k;std::cout<<(100*k*n*(n+1)/2+n*k*(k+1)/2)<<'\n';
+    long long n,k;
+    std::cin>>n>>k;
+    std::cout<<(100*k*n*(n+1)/2+n*k*(k+1)/2)<<'\n';
 }
 
 int main() {

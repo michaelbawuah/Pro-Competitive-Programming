@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<std::string>a(n);for(auto&s:a)std::cin>>s;for(int i=0;i<n;++i){std::string b;std::cin>>b;for(int j=0;j<n;++j)if(a[i][j]!=b[j])std::cout<<i+1<<' '<<j+1<<'\n';}
+    int n;
+    std::cin>>n;
+    std::vector<std::string>a(n);
+    for(auto&s:a)std::cin>>s;
+    for(int i=0;i<n;++i) {
+        std::string b;
+        std::cin>>b;
+        for(int j=0;j<n;++j)if(a[i][j]!=b[j])std::cout<<i+1<<' '<<j+1<<'\n';
+    }
 }
 
 int main() {

@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::string s;std::cin>>n>>s;std::cout<<(s.find('o')!=std::string::npos&&s.find('x')==std::string::npos?"Yes":"No")<<'\n';
+    int n;
+    std::string s;
+    std::cin>>n>>s;
+    std::cout<<(s.find('o')!=std::string::npos&&s.find('x')==std::string::npos?"Yes":"No")<<'\n';
 }
 
 int main() {

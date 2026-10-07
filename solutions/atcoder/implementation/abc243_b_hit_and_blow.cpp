@@ -5,10 +5,18 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<int>a(n),b(n);for(int&x:a)std::cin>>x;for(int&x:b)std::cin>>x;int hit=0,blow=0;for(int i=0;i<n;++i)for(int j=0;j<n;++j)if(a[i]==b[j]){if(i==j)++hit;else ++blow;}std::cout<<hit<<'\n'<<blow<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<int>a(n),b(n);
+    for(int&x:a)std::cin>>x;
+    for(int&x:b)std::cin>>x;
+    int hit=0,blow=0;
+    for(int i=0;i<n;++i)for(int j=0;j<n;++j)if(a[i]==b[j]) {
+        if(i==j)++hit;
+        else ++blow;
+    }
+    std::cout<<hit<<'\n'<<blow<<'\n';
 }
 
 int main() {

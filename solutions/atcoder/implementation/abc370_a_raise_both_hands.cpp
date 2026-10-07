@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int l,r;std::cin>>l>>r;std::cout<<(l==r?"Invalid":l==1?"Yes":"No")<<'\n';
+    int l,r;
+    std::cin>>l>>r;
+    std::cout<<(l==r?"Invalid":l==1?"Yes":"No")<<'\n';
 }
 
 int main() {

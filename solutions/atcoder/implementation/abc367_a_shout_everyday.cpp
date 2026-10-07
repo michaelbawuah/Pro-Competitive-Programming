@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long a,b,c;std::cin>>a>>b>>c;std::cout<<((a-b+24)%24>(c-b+24)%24?"Yes":"No")<<'\n';
+    long long a,b,c;
+    std::cin>>a>>b>>c;
+    std::cout<<((a-b+24)%24>(c-b+24)%24?"Yes":"No")<<'\n';
 }
 
 int main() {

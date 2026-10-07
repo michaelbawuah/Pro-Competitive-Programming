@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::string s;std::cin>>n>>s;for(int i=0;i<n;++i){std::cout<<s[i];if(s[i]=='n'&&i+1<n&&s[i+1]=='a')std::cout<<'y';}std::cout<<'\n';
+    int n;
+    std::string s;
+    std::cin>>n>>s;
+    for(int i=0;i<n;++i) {
+        std::cout<<s[i];
+        if(s[i]=='n'&&i+1<n&&s[i+1]=='a')std::cout<<'y';
+    }
+    std::cout<<'\n';
 }
 
 int main() {

@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;std::vector<int>letter(26),frequency(s.size()+1);for(char c:s)++letter[c-'a'];for(int count:letter)if(count>0)++frequency[count];bool ok=true;for(std::size_t i=1;i<frequency.size();++i)ok=ok&&(frequency[i]==0||frequency[i]==2);std::cout<<(ok?"Yes":"No")<<'\n';
+    std::string s;
+    std::cin>>s;
+    std::vector<int>letter(26),frequency(s.size()+1);
+    for(char c:s)++letter[c-'a'];
+    for(int count:letter)if(count>0)++frequency[count];
+    bool ok=true;
+    for(std::size_t i=1;i<frequency.size();++i)ok=ok&&(frequency[i]==0||frequency[i]==2);
+    std::cout<<(ok?"Yes":"No")<<'\n';
 }
 
 int main() {

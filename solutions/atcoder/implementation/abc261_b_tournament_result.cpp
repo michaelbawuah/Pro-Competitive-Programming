@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<std::string>a(n);for(auto&s:a)std::cin>>s;bool ok=true;for(int i=0;i<n;++i)for(int j=0;j<i;++j){char expected=a[i][j]=='W'?'L':a[i][j]=='L'?'W':'D';ok=ok&&a[j][i]==expected;}std::cout<<(ok?"correct":"incorrect")<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<std::string>a(n);
+    for(auto&s:a)std::cin>>s;
+    bool ok=true;
+    for(int i=0;i<n;++i)for(int j=0;j<i;++j) {
+        char expected=a[i][j]=='W'?'L':a[i][j]=='L'?'W':'D';
+        ok=ok&&a[j][i]==expected;
+    }
+    std::cout<<(ok?"correct":"incorrect")<<'\n';
 }
 
 int main() {

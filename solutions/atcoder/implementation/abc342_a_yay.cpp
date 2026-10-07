@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;std::vector<int>frequency(26);for(char c:s)++frequency[c-'a'];for(std::size_t i=0;i<s.size();++i)if(frequency[s[i]-'a']==1)std::cout<<i+1<<'\n';
+    std::string s;
+    std::cin>>s;
+    std::vector<int>frequency(26);
+    for(char c:s)++frequency[c-'a'];
+    for(std::size_t i=0;i<s.size();++i)if(frequency[s[i]-'a']==1)std::cout<<i+1<<'\n';
 }
 
 int main() {

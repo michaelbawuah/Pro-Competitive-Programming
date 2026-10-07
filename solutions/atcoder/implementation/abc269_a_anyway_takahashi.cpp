@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long a,b,c,d;std::cin>>a>>b>>c>>d;std::cout<<(a+b)*(c-d)<<"\nTakahashi\n";
+    long long a,b,c,d;
+    std::cin>>a>>b>>c>>d;
+    std::cout<<(a+b)*(c-d)<<"\nTakahashi\n";
 }
 
 int main() {

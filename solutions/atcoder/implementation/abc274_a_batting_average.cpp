@@ -3,10 +3,11 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    int a,b;std::cin>>a>>b;int thousandths=(2000*b+a)/(2*a);std::cout<<thousandths/1000<<'.'<<std::setfill('0')<<std::setw(3)<<thousandths%1000<<'\n';
+    int a,b;
+    std::cin>>a>>b;
+    int thousandths=(2000*b+a)/(2*a);
+    std::cout<<thousandths/1000<<'.'<<std::setfill('0')<<std::setw(3)<<thousandths%1000<<'\n';
 }
 
 int main() {

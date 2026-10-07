@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;while(n/100*(n/10%10)!=n%10)++n;std::cout<<n<<'\n';
+    int n;
+    std::cin>>n;
+    while(n/100*(n/10%10)!=n%10)++n;
+    std::cout<<n<<'\n';
 }
 
 int main() {

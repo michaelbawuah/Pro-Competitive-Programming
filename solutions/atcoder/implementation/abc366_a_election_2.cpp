@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n,t,a;std::cin>>n>>t>>a;std::cout<<(2*std::max(t,a)>n?"Yes":"No")<<'\n';
+    long long n,t,a;
+    std::cin>>n>>t>>a;
+    std::cout<<(2*std::max(t,a)>n?"Yes":"No")<<'\n';
 }
 
 int main() {

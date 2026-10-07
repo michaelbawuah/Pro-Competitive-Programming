@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int r,g,b;std::string c;std::cin>>r>>g>>b>>c;std::cout<<(c=="Red"?std::min(g,b):c=="Green"?std::min(r,b):std::min(r,g))<<'\n';
+    int r,g,b;
+    std::string c;
+    std::cin>>r>>g>>b>>c;
+    std::cout<<(c=="Red"?std::min(g,b):c=="Green"?std::min(r,b):std::min(r,g))<<'\n';
 }
 
 int main() {

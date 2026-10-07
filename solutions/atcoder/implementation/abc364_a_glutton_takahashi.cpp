@@ -5,10 +5,14 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<std::string>s(n);for(auto&x:s)std::cin>>x;bool possible=true;for(int i=1;i+1<n;++i)if(s[i-1]=="sweet"&&s[i]=="sweet")possible=false;std::cout<<(possible?"Yes":"No")<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<std::string>s(n);
+    for(auto&x:s)std::cin>>x;
+    bool possible=true;
+    for(int i=1;i+1<n;++i)if(s[i-1]=="sweet"&&s[i]=="sweet")possible=false;
+    std::cout<<(possible?"Yes":"No")<<'\n';
 }
 
 int main() {

@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;for(std::size_t i=0;i<s.size();++i)std::cout<<s[i]<<(i+1==s.size()?'\n':' ');
+    std::string s;
+    std::cin>>s;
+    for(std::size_t i=0;i<s.size();++i)std::cout<<s[i]<<(i+1==s.size()?'\n':' ');
 }
 
 int main() {

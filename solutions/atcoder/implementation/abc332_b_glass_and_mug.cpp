@@ -5,10 +5,20 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int k,g,m;std::cin>>k>>g>>m;int glass=0,mug=0;while(k--){if(glass==g)glass=0;else if(mug==0)mug=m;else{int transfer=std::min(g-glass,mug);glass+=transfer;mug-=transfer;}}std::cout<<glass<<' '<<mug<<'\n';
+    int k,g,m;
+    std::cin>>k>>g>>m;
+    int glass=0,mug=0;
+    while(k--) {
+        if(glass==g)glass=0;
+        else if(mug==0)mug=m;
+        else {
+            int transfer=std::min(g-glass,mug);
+            glass+=transfer;
+            mug-=transfer;
+        }
+    }
+    std::cout<<glass<<' '<<mug<<'\n';
 }
 
 int main() {

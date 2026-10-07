@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int a,b,c;std::cin>>a>>b>>c;int first=(a+c-1)/c*c;std::cout<<(first<=b?first:-1)<<'\n';
+    int a,b,c;
+    std::cin>>a>>b>>c;
+    int first=(a+c-1)/c*c;
+    std::cout<<(first<=b?first:-1)<<'\n';
 }
 
 int main() {

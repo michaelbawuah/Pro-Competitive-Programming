@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long r;std::cin>>r;std::cout<<(100-r%100)<<'\n';
+    long long r;
+    std::cin>>r;
+    std::cout<<(100-r%100)<<'\n';
 }
 
 int main() {

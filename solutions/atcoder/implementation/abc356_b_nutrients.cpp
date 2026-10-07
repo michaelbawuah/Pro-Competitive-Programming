@@ -5,10 +5,19 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,m;std::cin>>n>>m;std::vector<long long>need(m);for(auto&x:need)std::cin>>x;while(n--)for(int j=0;j<m;++j){long long amount;std::cin>>amount;need[j]-=amount;}bool ok=true;for(long long remaining:need)ok=ok&&remaining<=0;std::cout<<(ok?"Yes":"No")<<'\n';
+    int n,m;
+    std::cin>>n>>m;
+    std::vector<long long>need(m);
+    for(auto&x:need)std::cin>>x;
+    while(n--)for(int j=0;j<m;++j) {
+        long long amount;
+        std::cin>>amount;
+        need[j]-=amount;
+    }
+    bool ok=true;
+    for(long long remaining:need)ok=ok&&remaining<=0;
+    std::cout<<(ok?"Yes":"No")<<'\n';
 }
 
 int main() {

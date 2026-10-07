@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int q;std::cin>>q;std::vector<int>a;while(q--){int type,x;std::cin>>type>>x;if(type==1)a.push_back(x);else std::cout<<a[a.size()-x]<<'\n';}
+    int q;
+    std::cin>>q;
+    std::vector<int>a;
+    while(q--) {
+        int type,x;
+        std::cin>>type>>x;
+        if(type==1)a.push_back(x);
+        else std::cout<<a[a.size()-x]<<'\n';
+    }
 }
 
 int main() {

@@ -5,10 +5,14 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,x;std::cin>>n>>x;for(int i=1;i<=n;++i){int value;std::cin>>value;if(value==x)std::cout<<i<<'\n';}
+    int n,x;
+    std::cin>>n>>x;
+    for(int i=1;i<=n;++i) {
+        int value;
+        std::cin>>value;
+        if(value==x)std::cout<<i<<'\n';
+    }
 }
 
 int main() {

@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long y;std::cin>>y;std::cout<<(y+(2-y%4+4)%4)<<'\n';
+    long long y;
+    std::cin>>y;
+    std::cout<<(y+(2-y%4+4)%4)<<'\n';
 }
 
 int main() {

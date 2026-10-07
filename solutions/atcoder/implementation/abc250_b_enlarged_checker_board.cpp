@@ -5,10 +5,13 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,a,b;std::cin>>n>>a>>b;for(int i=0;i<n*a;++i){for(int j=0;j<n*b;++j)std::cout<<((i/a+j/b)%2?'#':'.');std::cout<<'\n';}
+    int n,a,b;
+    std::cin>>n>>a>>b;
+    for(int i=0;i<n*a;++i) {
+        for(int j=0;j<n*b;++j)std::cout<<((i/a+j/b)%2?'#':'.');
+        std::cout<<'\n';
+    }
 }
 
 int main() {

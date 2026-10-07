@@ -5,10 +5,22 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,score=0;std::cin>>n;std::vector<int>base(4);while(n--){int advance;std::cin>>advance;base[0]=1;std::vector<int>next(4);for(int i=0;i<4;++i)if(base[i]){if(i+advance>=4)++score;else next[i+advance]=1;}base=next;}std::cout<<score<<'\n';
+    int n,score=0;
+    std::cin>>n;
+    std::vector<int>base(4);
+    while(n--) {
+        int advance;
+        std::cin>>advance;
+        base[0]=1;
+        std::vector<int>next(4);
+        for(int i=0;i<4;++i)if(base[i]) {
+            if(i+advance>=4)++score;
+            else next[i+advance]=1;
+        }
+        base=next;
+    }
+    std::cout<<score<<'\n';
 }
 
 int main() {

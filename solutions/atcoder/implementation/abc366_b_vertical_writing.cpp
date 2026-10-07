@@ -5,10 +5,21 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<std::string>s(n);std::size_t longest=0;for(auto&row:s){std::cin>>row;longest=std::max(longest,row.size());}for(std::size_t column=0;column<longest;++column){std::string line;for(int i=n-1;i>=0;--i)line+=column<s[i].size()?s[i][column]:'*';while(!line.empty()&&line.back()=='*')line.pop_back();std::cout<<line<<'\n';}
+    int n;
+    std::cin>>n;
+    std::vector<std::string>s(n);
+    std::size_t longest=0;
+    for(auto&row:s) {
+        std::cin>>row;
+        longest=std::max(longest,row.size());
+    }
+    for(std::size_t column=0;column<longest;++column) {
+        std::string line;
+        for(int i=n-1;i>=0;--i)line+=column<s[i].size()?s[i][column]:'*';
+        while(!line.empty()&&line.back()=='*')line.pop_back();
+        std::cout<<line<<'\n';
+    }
 }
 
 int main() {

@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long a,b,c;std::cin>>a>>b>>c;std::cout<<(a+b+c-std::min({a,b,c}))<<'\n';
+    long long a,b,c;
+    std::cin>>a>>b>>c;
+    std::cout<<(a+b+c-std::min({a,b,c}))<<'\n';
 }
 
 int main() {

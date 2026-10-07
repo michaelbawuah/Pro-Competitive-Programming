@@ -4,10 +4,11 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    double a,b,d;std::cin>>a>>b>>d;double angle=d*std::acos(-1.0)/180;std::cout<<std::setprecision(15)<<a*std::cos(angle)-b*std::sin(angle)<<' '<<a*std::sin(angle)+b*std::cos(angle)<<'\n';
+    double a,b,d;
+    std::cin>>a>>b>>d;
+    double angle=d*std::acos(-1.0)/180;
+    std::cout<<std::setprecision(15)<<a*std::cos(angle)-b*std::sin(angle)<<' '<<a*std::sin(angle)+b*std::cos(angle)<<'\n';
 }
 
 int main() {

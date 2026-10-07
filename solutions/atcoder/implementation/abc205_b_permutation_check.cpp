@@ -5,10 +5,18 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<bool>seen(n);bool ok=true;while(n--){int x;std::cin>>x;if(seen[x-1])ok=false;seen[x-1]=true;}std::cout<<(ok?"Yes":"No")<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<bool>seen(n);
+    bool ok=true;
+    while(n--) {
+        int x;
+        std::cin>>x;
+        if(seen[x-1])ok=false;
+        seen[x-1]=true;
+    }
+    std::cout<<(ok?"Yes":"No")<<'\n';
 }
 
 int main() {

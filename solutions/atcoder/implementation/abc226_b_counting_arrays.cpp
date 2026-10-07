@@ -4,10 +4,18 @@
 #include <set>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::set<std::vector<int>>sequences;while(n--){int length;std::cin>>length;std::vector<int>a(length);for(int&x:a)std::cin>>x;sequences.insert(a);}std::cout<<sequences.size()<<'\n';
+    int n;
+    std::cin>>n;
+    std::set<std::vector<int>>sequences;
+    while(n--) {
+        int length;
+        std::cin>>length;
+        std::vector<int>a(length);
+        for(int&x:a)std::cin>>x;
+        sequences.insert(a);
+    }
+    std::cout<<sequences.size()<<'\n';
 }
 
 int main() {

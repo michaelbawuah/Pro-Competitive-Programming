@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long v,a,b,c;std::cin>>v>>a>>b>>c;v%=a+b+c;std::cout<<(v<a?"F":v<a+b?"M":"T")<<'\n';
+    long long v,a,b,c;
+    std::cin>>v>>a>>b>>c;
+    v%=a+b+c;
+    std::cout<<(v<a?"F":v<a+b?"M":"T")<<'\n';
 }
 
 int main() {

@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,ans=0;std::cin>>n;while(n--){int x;std::cin>>x;ans+=std::max(0,x-10);}std::cout<<ans<<'\n';
+    int n,ans=0;
+    std::cin>>n;
+    while(n--) {
+        int x;
+        std::cin>>x;
+        ans+=std::max(0,x-10);
+    }
+    std::cout<<ans<<'\n';
 }
 
 int main() {

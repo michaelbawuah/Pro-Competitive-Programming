@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n,sum=0,day=0;std::cin>>n;while(sum<n)sum+=++day;std::cout<<day<<'\n';
+    long long n,sum=0,day=0;
+    std::cin>>n;
+    while(sum<n)sum+=++day;
+    std::cout<<day<<'\n';
 }
 
 int main() {

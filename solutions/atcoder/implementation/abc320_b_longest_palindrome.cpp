@@ -5,10 +5,19 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;int n=static_cast<int>(s.size()),best=1;for(int center=0;center<n;++center)for(int even=0;even<2;++even){int l=center,r=center+even;while(l>=0&&r<n&&s[l]==s[r]){best=std::max(best,r-l+1);--l;++r;}}std::cout<<best<<'\n';
+    std::string s;
+    std::cin>>s;
+    int n=static_cast<int>(s.size()),best=1;
+    for(int center=0;center<n;++center)for(int even=0;even<2;++even) {
+        int l=center,r=center+even;
+        while(l>=0&&r<n&&s[l]==s[r]) {
+            best=std::max(best,r-l+1);
+            --l;
+            ++r;
+        }
+    }
+    std::cout<<best<<'\n';
 }
 
 int main() {

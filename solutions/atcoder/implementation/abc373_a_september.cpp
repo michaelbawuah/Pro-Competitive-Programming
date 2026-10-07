@@ -5,10 +5,14 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int count=0;for(std::size_t i=1;i<=12;++i){std::string s;std::cin>>s;count+=s.size()==i;}std::cout<<count<<'\n';
+    int count=0;
+    for(std::size_t i=1;i<=12;++i) {
+        std::string s;
+        std::cin>>s;
+        count+=s.size()==i;
+    }
+    std::cout<<count<<'\n';
 }
 
 int main() {

@@ -7,10 +7,26 @@
 #include <limits>
 #include <vector>
 
-
-
 void solve() {
-    int n,k;std::cin>>n>>k;std::vector<int>lights(k);for(int&i:lights){std::cin>>i;--i;}std::vector<long long>x(n),y(n);for(int i=0;i<n;++i)std::cin>>x[i]>>y[i];long long required=0;for(int i=0;i<n;++i){long long nearest=std::numeric_limits<long long>::max();for(int j:lights){long long dx=x[i]-x[j],dy=y[i]-y[j];nearest=std::min(nearest,dx*dx+dy*dy);}required=std::max(required,nearest);}std::cout<<std::setprecision(15)<<std::sqrt(static_cast<double>(required))<<'\n';
+    int n,k;
+    std::cin>>n>>k;
+    std::vector<int>lights(k);
+    for(int&i:lights) {
+        std::cin>>i;
+        --i;
+    }
+    std::vector<long long>x(n),y(n);
+    for(int i=0;i<n;++i)std::cin>>x[i]>>y[i];
+    long long required=0;
+    for(int i=0;i<n;++i) {
+        long long nearest=std::numeric_limits<long long>::max();
+        for(int j:lights) {
+            long long dx=x[i]-x[j],dy=y[i]-y[j];
+            nearest=std::min(nearest,dx*dx+dy*dy);
+        }
+        required=std::max(required,nearest);
+    }
+    std::cout<<std::setprecision(15)<<std::sqrt(static_cast<double>(required))<<'\n';
 }
 
 int main() {

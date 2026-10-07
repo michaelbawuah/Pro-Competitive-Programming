@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string surname,given;std::cin>>surname>>given;std::cout<<surname<<" san\n";
+    std::string surname,given;
+    std::cin>>surname>>given;
+    std::cout<<surname<<" san\n";
 }
 
 int main() {

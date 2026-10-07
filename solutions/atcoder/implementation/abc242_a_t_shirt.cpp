@@ -3,10 +3,11 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    int a,b,c,x;std::cin>>a>>b>>c>>x;double probability=x<=a?1.0:x<=b?static_cast<double>(c)/(b-a):0.0;std::cout<<std::setprecision(15)<<probability<<'\n';
+    int a,b,c,x;
+    std::cin>>a>>b>>c>>x;
+    double probability=x<=a?1.0:x<=b?static_cast<double>(c)/(b-a):0.0;
+    std::cout<<std::setprecision(15)<<probability<<'\n';
 }
 
 int main() {

@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int p;std::cin>>p;std::vector<int>factorial(11,1);for(int i=1;i<=10;++i)factorial[i]=factorial[i-1]*i;int ans=0;for(int i=10;i>=1;--i){ans+=p/factorial[i];p%=factorial[i];}std::cout<<ans<<'\n';
+    int p;
+    std::cin>>p;
+    std::vector<int>factorial(11,1);
+    for(int i=1;i<=10;++i)factorial[i]=factorial[i-1]*i;
+    int ans=0;
+    for(int i=10;i>=1;--i) {
+        ans+=p/factorial[i];
+        p%=factorial[i];
+    }
+    std::cout<<ans<<'\n';
 }
 
 int main() {

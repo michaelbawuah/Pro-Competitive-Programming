@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,first=0,second=0;std::cin>>n;while(n--){int x,y;std::cin>>x>>y;first+=x;second+=y;}std::cout<<(first>second?"Takahashi":first<second?"Aoki":"Draw")<<'\n';
+    int n,first=0,second=0;
+    std::cin>>n;
+    while(n--) {
+        int x,y;
+        std::cin>>x>>y;
+        first+=x;
+        second+=y;
+    }
+    std::cout<<(first>second?"Takahashi":first<second?"Aoki":"Draw")<<'\n';
 }
 
 int main() {

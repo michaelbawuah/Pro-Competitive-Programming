@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,x;std::cin>>n>>x;int sum=0;for(int i=1;i<=n;++i){int price;std::cin>>price;sum+=price-(i%2==0);}std::cout<<(sum<=x?"Yes":"No")<<'\n';
+    int n,x;
+    std::cin>>n>>x;
+    int sum=0;
+    for(int i=1;i<=n;++i) {
+        int price;
+        std::cin>>price;
+        sum+=price-(i%2==0);
+    }
+    std::cout<<(sum<=x?"Yes":"No")<<'\n';
 }
 
 int main() {

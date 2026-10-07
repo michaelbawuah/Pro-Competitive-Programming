@@ -5,10 +5,19 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,k;std::cin>>n>>k;std::vector<int>a(n);for(int&x:a)std::cin>>x;int best=*std::max_element(a.begin(),a.end());bool possible=false;while(k--){int b;std::cin>>b;possible=possible||a[b-1]==best;}std::cout<<(possible?"Yes":"No")<<'\n';
+    int n,k;
+    std::cin>>n>>k;
+    std::vector<int>a(n);
+    for(int&x:a)std::cin>>x;
+    int best=*std::max_element(a.begin(),a.end());
+    bool possible=false;
+    while(k--) {
+        int b;
+        std::cin>>b;
+        possible=possible||a[b-1]==best;
+    }
+    std::cout<<(possible?"Yes":"No")<<'\n';
 }
 
 int main() {

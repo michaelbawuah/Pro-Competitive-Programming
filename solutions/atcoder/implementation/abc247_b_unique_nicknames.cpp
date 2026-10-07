@@ -5,10 +5,21 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<std::string>s(n),t(n);for(int i=0;i<n;++i)std::cin>>s[i]>>t[i];bool possible=true;for(int i=0;i<n;++i){bool first=true,last=true;for(int j=0;j<n;++j)if(i!=j){first=first&&s[i]!=s[j]&&s[i]!=t[j];last=last&&t[i]!=s[j]&&t[i]!=t[j];}possible=possible&&(first||last);}std::cout<<(possible?"Yes":"No")<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<std::string>s(n),t(n);
+    for(int i=0;i<n;++i)std::cin>>s[i]>>t[i];
+    bool possible=true;
+    for(int i=0;i<n;++i) {
+        bool first=true,last=true;
+        for(int j=0;j<n;++j)if(i!=j) {
+            first=first&&s[i]!=s[j]&&s[i]!=t[j];
+            last=last&&t[i]!=s[j]&&t[i]!=t[j];
+        }
+        possible=possible&&(first||last);
+    }
+    std::cout<<(possible?"Yes":"No")<<'\n';
 }
 
 int main() {

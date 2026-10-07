@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;for(std::size_t i=0;i<s.size();++i)if('A'<=s[i]&&s[i]<='Z')std::cout<<i+1<<'\n';
+    std::string s;
+    std::cin>>s;
+    for(std::size_t i=0;i<s.size();++i)if('A'<=s[i]&&s[i]<='Z')std::cout<<i+1<<'\n';
 }
 
 int main() {

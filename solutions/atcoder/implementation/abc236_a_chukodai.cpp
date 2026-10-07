@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;int a,b;std::cin>>s>>a>>b;std::swap(s[a-1],s[b-1]);std::cout<<s<<'\n';
+    std::string s;
+    int a,b;
+    std::cin>>s>>a>>b;
+    std::swap(s[a-1],s[b-1]);
+    std::cout<<s<<'\n';
 }
 
 int main() {

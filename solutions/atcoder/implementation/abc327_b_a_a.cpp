@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long b;std::cin>>b;int answer=-1;for(int a=1;a<=15;++a){long long value=1;for(int i=0;i<a;++i)value*=a;if(value==b)answer=a;}std::cout<<answer<<'\n';
+    long long b;
+    std::cin>>b;
+    int answer=-1;
+    for(int a=1;a<=15;++a) {
+        long long value=1;
+        for(int i=0;i<a;++i)value*=a;
+        if(value==b)answer=a;
+    }
+    std::cout<<answer<<'\n';
 }
 
 int main() {

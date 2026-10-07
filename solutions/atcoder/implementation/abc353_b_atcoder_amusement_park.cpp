@@ -5,10 +5,20 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,k;std::cin>>n>>k;int rides=1,used=0;while(n--){int group;std::cin>>group;if(used+group>k){++rides;used=0;}used+=group;}std::cout<<rides<<'\n';
+    int n,k;
+    std::cin>>n>>k;
+    int rides=1,used=0;
+    while(n--) {
+        int group;
+        std::cin>>group;
+        if(used+group>k) {
+            ++rides;
+            used=0;
+        }
+        used+=group;
+    }
+    std::cout<<rides<<'\n';
 }
 
 int main() {

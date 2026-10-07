@@ -5,10 +5,18 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<bool>present(2002);while(n--){int x;std::cin>>x;present[x]=true;}int answer=0;while(present[answer])++answer;std::cout<<answer<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<bool>present(2002);
+    while(n--) {
+        int x;
+        std::cin>>x;
+        present[x]=true;
+    }
+    int answer=0;
+    while(present[answer])++answer;
+    std::cout<<answer<<'\n';
 }
 
 int main() {

@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,q;std::cin>>n>>q;std::vector<bool>tooth(n,true);while(q--){int t;std::cin>>t;tooth[t-1]=!tooth[t-1];}std::cout<<std::count(tooth.begin(),tooth.end(),true)<<'\n';
+    int n,q;
+    std::cin>>n>>q;
+    std::vector<bool>tooth(n,true);
+    while(q--) {
+        int t;
+        std::cin>>t;
+        tooth[t-1]=!tooth[t-1];
+    }
+    std::cout<<std::count(tooth.begin(),tooth.end(),true)<<'\n';
 }
 
 int main() {

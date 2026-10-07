@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;int answer=-1;for(std::size_t i=0;i<s.size();++i)if(s[i]=='a')answer=static_cast<int>(i)+1;std::cout<<answer<<'\n';
+    std::string s;
+    std::cin>>s;
+    int answer=-1;
+    for(std::size_t i=0;i<s.size();++i)if(s[i]=='a')answer=static_cast<int>(i)+1;
+    std::cout<<answer<<'\n';
 }
 
 int main() {

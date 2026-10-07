@@ -3,10 +3,11 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    int n;std::cin>>n;if(n>=42)++n;std::cout<<"AGC"<<std::setfill('0')<<std::setw(3)<<n<<'\n';
+    int n;
+    std::cin>>n;
+    if(n>=42)++n;
+    std::cout<<"AGC"<<std::setfill('0')<<std::setw(3)<<n<<'\n';
 }
 
 int main() {

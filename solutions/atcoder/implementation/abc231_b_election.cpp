@@ -4,10 +4,22 @@
 #include <map>
 #include <string>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::map<std::string,int>counts;while(n--){std::string s;std::cin>>s;++counts[s];}int best=0;std::string winner;for(const auto&entry:counts)if(entry.second>best){best=entry.second;winner=entry.first;}std::cout<<winner<<'\n';
+    int n;
+    std::cin>>n;
+    std::map<std::string,int>counts;
+    while(n--) {
+        std::string s;
+        std::cin>>s;
+        ++counts[s];
+    }
+    int best=0;
+    std::string winner;
+    for(const auto&entry:counts)if(entry.second>best) {
+        best=entry.second;
+        winner=entry.first;
+    }
+    std::cout<<winner<<'\n';
 }
 
 int main() {

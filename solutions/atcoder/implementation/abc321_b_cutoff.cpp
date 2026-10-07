@@ -5,10 +5,21 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,x;std::cin>>n>>x;std::vector<int>a(n-1);int sum=0;for(int&v:a){std::cin>>v;sum+=v;}int low=*std::min_element(a.begin(),a.end()),high=*std::max_element(a.begin(),a.end()),answer=-1;for(int last=0;last<=100;++last)if(sum+last-std::min(low,last)-std::max(high,last)>=x){answer=last;break;}std::cout<<answer<<'\n';
+    int n,x;
+    std::cin>>n>>x;
+    std::vector<int>a(n-1);
+    int sum=0;
+    for(int&v:a) {
+        std::cin>>v;
+        sum+=v;
+    }
+    int low=*std::min_element(a.begin(),a.end()),high=*std::max_element(a.begin(),a.end()),answer=-1;
+    for(int last=0;last<=100;++last)if(sum+last-std::min(low,last)-std::max(high,last)>=x) {
+        answer=last;
+        break;
+    }
+    std::cout<<answer<<'\n';
 }
 
 int main() {

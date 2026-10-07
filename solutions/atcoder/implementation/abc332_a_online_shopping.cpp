@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,s,k;std::cin>>n>>s>>k;long long total=0;while(n--){long long p,q;std::cin>>p>>q;total+=p*q;}if(total<s)total+=k;std::cout<<total<<'\n';
+    int n,s,k;
+    std::cin>>n>>s>>k;
+    long long total=0;
+    while(n--) {
+        long long p,q;
+        std::cin>>p>>q;
+        total+=p*q;
+    }
+    if(total<s)total+=k;
+    std::cout<<total<<'\n';
 }
 
 int main() {

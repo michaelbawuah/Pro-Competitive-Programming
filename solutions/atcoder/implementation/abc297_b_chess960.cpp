@@ -5,10 +5,18 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;std::vector<int>bishop,rook;int king=-1;for(int i=0;i<8;++i){if(s[i]=='B')bishop.push_back(i);if(s[i]=='R')rook.push_back(i);if(s[i]=='K')king=i;}bool ok=bishop[0]%2!=bishop[1]%2&&rook[0]<king&&king<rook[1];std::cout<<(ok?"Yes":"No")<<'\n';
+    std::string s;
+    std::cin>>s;
+    std::vector<int>bishop,rook;
+    int king=-1;
+    for(int i=0;i<8;++i) {
+        if(s[i]=='B')bishop.push_back(i);
+        if(s[i]=='R')rook.push_back(i);
+        if(s[i]=='K')king=i;
+    }
+    bool ok=bishop[0]%2!=bishop[1]%2&&rook[0]<king&&king<rook[1];
+    std::cout<<(ok?"Yes":"No")<<'\n';
 }
 
 int main() {

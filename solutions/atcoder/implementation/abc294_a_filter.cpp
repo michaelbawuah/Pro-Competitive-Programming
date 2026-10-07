@@ -5,10 +5,20 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;bool first=true;while(n--){int x;std::cin>>x;if(x%2==0){if(!first)std::cout<<' ';std::cout<<x;first=false;}}std::cout<<'\n';
+    int n;
+    std::cin>>n;
+    bool first=true;
+    while(n--) {
+        int x;
+        std::cin>>x;
+        if(x%2==0) {
+            if(!first)std::cout<<' ';
+            std::cout<<x;
+            first=false;
+        }
+    }
+    std::cout<<'\n';
 }
 
 int main() {

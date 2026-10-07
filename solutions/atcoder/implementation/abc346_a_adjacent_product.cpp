@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,previous;std::cin>>n>>previous;for(int i=1;i<n;++i){int current;std::cin>>current;std::cout<<previous*current<<(i+1==n?'\n':' ');previous=current;}
+    int n,previous;
+    std::cin>>n>>previous;
+    for(int i=1;i<n;++i) {
+        int current;
+        std::cin>>current;
+        std::cout<<previous*current<<(i+1==n?'\n':' ');
+        previous=current;
+    }
 }
 
 int main() {

@@ -5,10 +5,18 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,best=-1,index=0;std::cin>>n;for(int i=1;i<=n;++i){int h;std::cin>>h;if(h>best){best=h;index=i;}}std::cout<<index<<'\n';
+    int n,best=-1,index=0;
+    std::cin>>n;
+    for(int i=1;i<=n;++i) {
+        int h;
+        std::cin>>h;
+        if(h>best) {
+            best=h;
+            index=i;
+        }
+    }
+    std::cout<<index<<'\n';
 }
 
 int main() {

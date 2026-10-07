@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,p,q,cheapest=100001;std::cin>>n>>p>>q;while(n--){int d;std::cin>>d;cheapest=std::min(cheapest,d);}std::cout<<std::min(p,q+cheapest)<<'\n';
+    int n,p,q,cheapest=100001;
+    std::cin>>n>>p>>q;
+    while(n--) {
+        int d;
+        std::cin>>d;
+        cheapest=std::min(cheapest,d);
+    }
+    std::cout<<std::min(p,q+cheapest)<<'\n';
 }
 
 int main() {

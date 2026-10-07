@@ -5,10 +5,14 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int x,y;char dot;std::cin>>x>>dot>>y;std::cout<<x;if(y<=2)std::cout<<'-';else if(y>=7)std::cout<<'+';std::cout<<'\n';
+    int x,y;
+    char dot;
+    std::cin>>x>>dot>>y;
+    std::cout<<x;
+    if(y<=2)std::cout<<'-';
+    else if(y>=7)std::cout<<'+';
+    std::cout<<'\n';
 }
 
 int main() {

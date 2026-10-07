@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n;std::cin>>n;std::cout<<((n+2)/5*5)<<'\n';
+    long long n;
+    std::cin>>n;
+    std::cout<<((n+2)/5*5)<<'\n';
 }
 
 int main() {

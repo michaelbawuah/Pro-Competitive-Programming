@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<int>degree(n);for(int i=1;i<n;++i){int u,v;std::cin>>u>>v;++degree[u-1];++degree[v-1];}std::cout<<(*std::max_element(degree.begin(),degree.end())==n-1?"Yes":"No")<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<int>degree(n);
+    for(int i=1;i<n;++i) {
+        int u,v;
+        std::cin>>u>>v;
+        ++degree[u-1];
+        ++degree[v-1];
+    }
+    std::cout<<(*std::max_element(degree.begin(),degree.end())==n-1?"Yes":"No")<<'\n';
 }
 
 int main() {

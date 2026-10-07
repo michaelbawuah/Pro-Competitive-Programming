@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,k;std::cin>>n>>k;std::vector<int>a(n);for(int&x:a)std::cin>>x;for(int i=0;i<n;++i)std::cout<<(i+k<n?a[i+k]:0)<<(i+1==n?'\n':' ');
+    int n,k;
+    std::cin>>n>>k;
+    std::vector<int>a(n);
+    for(int&x:a)std::cin>>x;
+    for(int i=0;i<n;++i)std::cout<<(i+k<n?a[i+k]:0)<<(i+1==n?'\n':' ');
 }
 
 int main() {

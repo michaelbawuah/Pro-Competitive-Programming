@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long x,y;std::cin>>x>>y;std::cout<<(x==y?x:3-x-y)<<'\n';
+    long long x,y;
+    std::cin>>x>>y;
+    std::cout<<(x==y?x:3-x-y)<<'\n';
 }
 
 int main() {

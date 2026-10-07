@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;while(s.back()=='0')s.pop_back();if(s.back()=='.')s.pop_back();std::cout<<s<<'\n';
+    std::string s;
+    std::cin>>s;
+    while(s.back()=='0')s.pop_back();
+    if(s.back()=='.')s.pop_back();
+    std::cout<<s<<'\n';
 }
 
 int main() {

@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int l,r;std::string s;std::cin>>l>>r>>s;std::reverse(s.begin()+l-1,s.begin()+r);std::cout<<s<<'\n';
+    int l,r;
+    std::string s;
+    std::cin>>l>>r>>s;
+    std::reverse(s.begin()+l-1,s.begin()+r);
+    std::cout<<s<<'\n';
 }
 
 int main() {

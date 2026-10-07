@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int r,c;std::cin>>r>>c;int layer=std::min({r-1,c-1,15-r,15-c});std::cout<<(layer%2==0?"black":"white")<<'\n';
+    int r,c;
+    std::cin>>r>>c;
+    int layer=std::min({r-1,c-1,15-r,15-c});
+    std::cout<<(layer%2==0?"black":"white")<<'\n';
 }
 
 int main() {

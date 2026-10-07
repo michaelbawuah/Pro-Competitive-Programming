@@ -5,10 +5,18 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;for(int week=0;week<n;++week){int sum=0;for(int day=0;day<7;++day){int x;std::cin>>x;sum+=x;}std::cout<<sum<<(week+1==n?'\n':' ');}
+    int n;
+    std::cin>>n;
+    for(int week=0;week<n;++week) {
+        int sum=0;
+        for(int day=0;day<7;++day) {
+            int x;
+            std::cin>>x;
+            sum+=x;
+        }
+        std::cout<<sum<<(week+1==n?'\n':' ');
+    }
 }
 
 int main() {

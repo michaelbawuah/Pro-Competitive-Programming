@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int w,b;std::cin>>w>>b;std::string pattern="wbwbwwbwbwbw";bool possible=false;for(int start=0;start<12;++start){int white=0;for(int i=0;i<w+b;++i)white+=pattern[(start+i)%12]=='w';possible=possible||white==w;}std::cout<<(possible?"Yes":"No")<<'\n';
+    int w,b;
+    std::cin>>w>>b;
+    std::string pattern="wbwbwwbwbwbw";
+    bool possible=false;
+    for(int start=0;start<12;++start) {
+        int white=0;
+        for(int i=0;i<w+b;++i)white+=pattern[(start+i)%12]=='w';
+        possible=possible||white==w;
+    }
+    std::cout<<(possible?"Yes":"No")<<'\n';
 }
 
 int main() {

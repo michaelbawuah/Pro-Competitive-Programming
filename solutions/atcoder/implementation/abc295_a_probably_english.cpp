@@ -4,10 +4,17 @@
 #include <set>
 #include <string>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::set<std::string>target{"and","not","that","the","you"};bool found=false;while(n--){std::string s;std::cin>>s;found=found||target.count(s)!=0;}std::cout<<(found?"Yes":"No")<<'\n';
+    int n;
+    std::cin>>n;
+    std::set<std::string>target{"and","not","that","the","you"};
+    bool found=false;
+    while(n--) {
+        std::string s;
+        std::cin>>s;
+        found=found||target.count(s)!=0;
+    }
+    std::cout<<(found?"Yes":"No")<<'\n';
 }
 
 int main() {

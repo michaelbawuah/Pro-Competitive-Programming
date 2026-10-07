@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::string digit="0123456789ABCDEF";std::cout<<digit[n/16]<<digit[n%16]<<'\n';
+    int n;
+    std::cin>>n;
+    std::string digit="0123456789ABCDEF";
+    std::cout<<digit[n/16]<<digit[n%16]<<'\n';
 }
 
 int main() {

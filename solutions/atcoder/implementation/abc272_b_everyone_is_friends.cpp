@@ -5,10 +5,23 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,m;std::cin>>n>>m;std::vector<std::vector<bool>>met(n,std::vector<bool>(n));while(m--){int k;std::cin>>k;std::vector<int>guest(k);for(int&v:guest){std::cin>>v;--v;}for(int u:guest)for(int v:guest)met[u][v]=true;}bool ok=true;for(int i=0;i<n;++i)for(int j=0;j<i;++j)ok=ok&&met[i][j];std::cout<<(ok?"Yes":"No")<<'\n';
+    int n,m;
+    std::cin>>n>>m;
+    std::vector<std::vector<bool>>met(n,std::vector<bool>(n));
+    while(m--) {
+        int k;
+        std::cin>>k;
+        std::vector<int>guest(k);
+        for(int&v:guest) {
+            std::cin>>v;
+            --v;
+        }
+        for(int u:guest)for(int v:guest)met[u][v]=true;
+    }
+    bool ok=true;
+    for(int i=0;i<n;++i)for(int j=0;j<i;++j)ok=ok&&met[i][j];
+    std::cout<<(ok?"Yes":"No")<<'\n';
 }
 
 int main() {

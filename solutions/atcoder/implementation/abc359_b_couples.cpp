@@ -5,10 +5,14 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<int>a(2*n);for(int&x:a)std::cin>>x;int answer=0;for(int i=0;i+2<2*n;++i)answer+=a[i]==a[i+2];std::cout<<answer<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<int>a(2*n);
+    for(int&x:a)std::cin>>x;
+    int answer=0;
+    for(int i=0;i+2<2*n;++i)answer+=a[i]==a[i+2];
+    std::cout<<answer<<'\n';
 }
 
 int main() {

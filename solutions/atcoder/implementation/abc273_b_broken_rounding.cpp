@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long x;int k;std::cin>>x>>k;long long place=10;for(int i=0;i<k;++i){x=(x+place/2)/place*place;place*=10;}std::cout<<x<<'\n';
+    long long x;
+    int k;
+    std::cin>>x>>k;
+    long long place=10;
+    for(int i=0;i<k;++i) {
+        x=(x+place/2)/place*place;
+        place*=10;
+    }
+    std::cout<<x<<'\n';
 }
 
 int main() {

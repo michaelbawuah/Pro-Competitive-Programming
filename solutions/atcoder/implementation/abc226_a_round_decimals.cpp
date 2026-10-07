@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;auto dot=s.find('.');int answer=std::stoi(s.substr(0,dot))+(s[dot+1]>='5');std::cout<<answer<<'\n';
+    std::string s;
+    std::cin>>s;
+    auto dot=s.find('.');
+    int answer=std::stoi(s.substr(0,dot))+(s[dot+1]>='5');
+    std::cout<<answer<<'\n';
 }
 
 int main() {

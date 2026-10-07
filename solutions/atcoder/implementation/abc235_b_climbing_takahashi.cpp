@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,height;std::cin>>n>>height;bool moving=true;for(int i=1;i<n;++i){int next;std::cin>>next;if(moving&&next>height)height=next;else moving=false;}std::cout<<height<<'\n';
+    int n,height;
+    std::cin>>n>>height;
+    bool moving=true;
+    for(int i=1;i<n;++i) {
+        int next;
+        std::cin>>next;
+        if(moving&&next>height)height=next;
+        else moving=false;
+    }
+    std::cout<<height<<'\n';
 }
 
 int main() {

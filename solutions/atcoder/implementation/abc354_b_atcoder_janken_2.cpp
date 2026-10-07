@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,total=0;std::cin>>n;std::vector<std::string>name(n);for(auto&s:name){int rating;std::cin>>s>>rating;total+=rating;}std::sort(name.begin(),name.end());std::cout<<name[total%n]<<'\n';
+    int n,total=0;
+    std::cin>>n;
+    std::vector<std::string>name(n);
+    for(auto&s:name) {
+        int rating;
+        std::cin>>s>>rating;
+        total+=rating;
+    }
+    std::sort(name.begin(),name.end());
+    std::cout<<name[total%n]<<'\n';
 }
 
 int main() {

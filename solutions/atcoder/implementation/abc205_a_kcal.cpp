@@ -3,10 +3,10 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    double a,b;std::cin>>a>>b;std::cout<<std::setprecision(15)<<a*b/100<<'\n';
+    double a,b;
+    std::cin>>a>>b;
+    std::cout<<std::setprecision(15)<<a*b/100<<'\n';
 }
 
 int main() {

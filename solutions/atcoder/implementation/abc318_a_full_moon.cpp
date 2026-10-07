@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n,m,p;std::cin>>n>>m>>p;std::cout<<(n<m?0:(n-m)/p+1)<<'\n';
+    long long n,m,p;
+    std::cin>>n>>m>>p;
+    std::cout<<(n<m?0:(n-m)/p+1)<<'\n';
 }
 
 int main() {

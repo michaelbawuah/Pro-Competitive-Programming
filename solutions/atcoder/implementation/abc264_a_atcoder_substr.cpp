@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int l,r;std::cin>>l>>r;std::string s="atcoder";std::cout<<s.substr(l-1,r-l+1)<<'\n';
+    int l,r;
+    std::cin>>l>>r;
+    std::string s="atcoder";
+    std::cout<<s.substr(l-1,r-l+1)<<'\n';
 }
 
 int main() {

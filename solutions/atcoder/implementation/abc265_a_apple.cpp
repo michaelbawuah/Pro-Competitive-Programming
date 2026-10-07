@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long x,y,n;std::cin>>x>>y>>n;std::cout<<(n/3*std::min(3*x,y)+n%3*x)<<'\n';
+    long long x,y,n;
+    std::cin>>x>>y>>n;
+    std::cout<<(n/3*std::min(3*x,y)+n%3*x)<<'\n';
 }
 
 int main() {

@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::cout<<static_cast<char>('a'+n-97)<<'\n';
+    int n;
+    std::cin>>n;
+    std::cout<<static_cast<char>('a'+n-97)<<'\n';
 }
 
 int main() {

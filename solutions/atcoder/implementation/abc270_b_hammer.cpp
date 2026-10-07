@@ -3,10 +3,19 @@
 #include <cstdlib>
 #include <iostream>
 
-
-
 void solve() {
-    int x,y,z;std::cin>>x>>y>>z;if(x<0){x=-x;y=-y;z=-z;}int answer;if(y<0||y>x)answer=x;else if(z>y)answer=-1;else answer=std::abs(z)+std::abs(x-z);std::cout<<answer<<'\n';
+    int x,y,z;
+    std::cin>>x>>y>>z;
+    if(x<0) {
+        x=-x;
+        y=-y;
+        z=-z;
+    }
+    int answer;
+    if(y<0||y>x)answer=x;
+    else if(z>y)answer=-1;
+    else answer=std::abs(z)+std::abs(x-z);
+    std::cout<<answer<<'\n';
 }
 
 int main() {

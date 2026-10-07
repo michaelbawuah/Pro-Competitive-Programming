@@ -5,10 +5,14 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int difference=0;for(int i=0;i<17;++i){int score;std::cin>>score;difference+=i<9?score:-score;}std::cout<<difference+1<<'\n';
+    int difference=0;
+    for(int i=0;i<17;++i) {
+        int score;
+        std::cin>>score;
+        difference+=i<9?score:-score;
+    }
+    std::cout<<difference+1<<'\n';
 }
 
 int main() {

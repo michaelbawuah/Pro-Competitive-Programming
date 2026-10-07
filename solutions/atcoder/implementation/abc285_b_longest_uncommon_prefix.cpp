@@ -5,10 +5,15 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::string s;std::cin>>n>>s;for(int shift=1;shift<n;++shift){int length=0;while(length+shift<n&&s[length]!=s[length+shift])++length;std::cout<<length<<'\n';}
+    int n;
+    std::string s;
+    std::cin>>n>>s;
+    for(int shift=1;shift<n;++shift) {
+        int length=0;
+        while(length+shift<n&&s[length]!=s[length+shift])++length;
+        std::cout<<length<<'\n';
+    }
 }
 
 int main() {

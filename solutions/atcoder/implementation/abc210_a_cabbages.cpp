@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n,a,x,y;std::cin>>n>>a>>x>>y;std::cout<<(std::min(n,a)*x+std::max(0LL,n-a)*y)<<'\n';
+    long long n,a,x,y;
+    std::cin>>n>>a>>x>>y;
+    std::cout<<(std::min(n,a)*x+std::max(0LL,n-a)*y)<<'\n';
 }
 
 int main() {

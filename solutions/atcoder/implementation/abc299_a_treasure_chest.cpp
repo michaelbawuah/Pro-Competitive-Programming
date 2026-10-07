@@ -5,10 +5,12 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::string s;std::cin>>n>>s;auto star=s.find('*');std::cout<<(s.find('|')<star&&star<s.rfind('|')?"in":"out")<<'\n';
+    int n;
+    std::string s;
+    std::cin>>n>>s;
+    auto star=s.find('*');
+    std::cout<<(s.find('|')<star&&star<s.rfind('|')?"in":"out")<<'\n';
 }
 
 int main() {

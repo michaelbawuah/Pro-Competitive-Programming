@@ -5,10 +5,13 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::vector<int>a(6),b(6);for(int&x:a)std::cin>>x;for(int&x:b)std::cin>>x;bool positive=true;for(int axis=0;axis<3;++axis)positive=positive&&std::max(a[axis],b[axis])<std::min(a[axis+3],b[axis+3]);std::cout<<(positive?"Yes":"No")<<'\n';
+    std::vector<int>a(6),b(6);
+    for(int&x:a)std::cin>>x;
+    for(int&x:b)std::cin>>x;
+    bool positive=true;
+    for(int axis=0;axis<3;++axis)positive=positive&&std::max(a[axis],b[axis])<std::min(a[axis+3],b[axis+3]);
+    std::cout<<(positive?"Yes":"No")<<'\n';
 }
 
 int main() {

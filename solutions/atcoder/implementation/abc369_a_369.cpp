@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long a,b;std::cin>>a>>b;std::cout<<(a==b?1:2+(a%2==b%2))<<'\n';
+    long long a,b;
+    std::cin>>a>>b;
+    std::cout<<(a==b?1:2+(a%2==b%2))<<'\n';
 }
 
 int main() {

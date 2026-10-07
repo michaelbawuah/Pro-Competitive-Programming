@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long a,b,c,d;std::cin>>a>>b>>c>>d;std::cout<<(60*a+b<=60*c+d?"Takahashi":"Aoki")<<'\n';
+    long long a,b,c,d;
+    std::cin>>a>>b>>c>>d;
+    std::cout<<(60*a+b<=60*c+d?"Takahashi":"Aoki")<<'\n';
 }
 
 int main() {

@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,first;std::cin>>n>>first;bool same=true;for(int i=1;i<n;++i){int x;std::cin>>x;same=same&&x==first;}std::cout<<(same?"Yes":"No")<<'\n';
+    int n,first;
+    std::cin>>n>>first;
+    bool same=true;
+    for(int i=1;i<n;++i) {
+        int x;
+        std::cin>>x;
+        same=same&&x==first;
+    }
+    std::cout<<(same?"Yes":"No")<<'\n';
 }
 
 int main() {

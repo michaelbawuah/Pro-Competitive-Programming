@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long x,y;std::cin>>x>>y;std::cout<<(-3<=y-x&&y-x<=2?"Yes":"No")<<'\n';
+    long long x,y;
+    std::cin>>x>>y;
+    std::cout<<(-3<=y-x&&y-x<=2?"Yes":"No")<<'\n';
 }
 
 int main() {

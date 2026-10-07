@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;long long a,finish=0;std::cin>>n>>a;while(n--){long long arrival;std::cin>>arrival;finish=std::max(finish,arrival)+a;std::cout<<finish<<'\n';}
+    int n;
+    long long a,finish=0;
+    std::cin>>n>>a;
+    while(n--) {
+        long long arrival;
+        std::cin>>arrival;
+        finish=std::max(finish,arrival)+a;
+        std::cout<<finish<<'\n';
+    }
 }
 
 int main() {

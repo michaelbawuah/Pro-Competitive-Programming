@@ -5,10 +5,20 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int m,sum=0;std::cin>>m;std::vector<int>d(m);for(int&x:d){std::cin>>x;sum+=x;}int day=(sum+1)/2,month=0;while(day>d[month]){day-=d[month];++month;}std::cout<<month+1<<' '<<day<<'\n';
+    int m,sum=0;
+    std::cin>>m;
+    std::vector<int>d(m);
+    for(int&x:d) {
+        std::cin>>x;
+        sum+=x;
+    }
+    int day=(sum+1)/2,month=0;
+    while(day>d[month]) {
+        day-=d[month];
+        ++month;
+    }
+    std::cout<<month+1<<' '<<day<<'\n';
 }
 
 int main() {

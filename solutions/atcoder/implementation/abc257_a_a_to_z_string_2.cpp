@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,x;std::cin>>n>>x;std::cout<<static_cast<char>('A'+(x-1)/n)<<'\n';
+    int n,x;
+    std::cin>>n>>x;
+    std::cout<<static_cast<char>('A'+(x-1)/n)<<'\n';
 }
 
 int main() {

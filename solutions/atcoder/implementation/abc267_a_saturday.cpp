@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    std::string s;std::cin>>s;std::vector<std::string>day{"Monday","Tuesday","Wednesday","Thursday","Friday"};for(int i=0;i<5;++i)if(day[i]==s)std::cout<<5-i<<'\n';
+    std::string s;
+    std::cin>>s;
+    std::vector<std::string>day{"Monday","Tuesday","Wednesday","Thursday","Friday"};
+    for(int i=0;i<5;++i)if(day[i]==s)std::cout<<5-i<<'\n';
 }
 
 int main() {

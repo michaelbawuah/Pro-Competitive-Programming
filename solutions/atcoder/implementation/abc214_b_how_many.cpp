@@ -5,10 +5,11 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int s,t,ans=0;std::cin>>s>>t;for(int a=0;a<=s;++a)for(int b=0;a+b<=s;++b)for(int c=0;a+b+c<=s;++c)ans+=a*b*c<=t;std::cout<<ans<<'\n';
+    int s,t,ans=0;
+    std::cin>>s>>t;
+    for(int a=0;a<=s;++a)for(int b=0;a+b<=s;++b)for(int c=0;a+b+c<=s;++c)ans+=a*b*c<=t;
+    std::cout<<ans<<'\n';
 }
 
 int main() {

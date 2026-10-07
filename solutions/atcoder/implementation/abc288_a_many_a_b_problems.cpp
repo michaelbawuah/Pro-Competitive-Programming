@@ -5,10 +5,14 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;while(n--){long long a,b;std::cin>>a>>b;std::cout<<a+b<<'\n';}
+    int n;
+    std::cin>>n;
+    while(n--) {
+        long long a,b;
+        std::cin>>a>>b;
+        std::cout<<a+b<<'\n';
+    }
 }
 
 int main() {

@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long h,height=0,growth=1;std::cin>>h;int day=0;while(height<=h){height+=growth;growth*=2;++day;}std::cout<<day<<'\n';
+    long long h,height=0,growth=1;
+    std::cin>>h;
+    int day=0;
+    while(height<=h) {
+        height+=growth;
+        growth*=2;
+        ++day;
+    }
+    std::cout<<day<<'\n';
 }
 
 int main() {

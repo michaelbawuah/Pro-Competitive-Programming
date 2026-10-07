@@ -5,10 +5,14 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int a,b,c,d,e,f,x;std::cin>>a>>b>>c>>d>>e>>f>>x;auto distance=[&](int walk,int speed,int rest){return (x/(walk+rest)*walk+std::min(walk,x%(walk+rest)))*speed;};int first=distance(a,b,c),second=distance(d,e,f);std::cout<<(first>second?"Takahashi":first<second?"Aoki":"Draw")<<'\n';
+    int a,b,c,d,e,f,x;
+    std::cin>>a>>b>>c>>d>>e>>f>>x;
+    auto distance=[&](int walk,int speed,int rest) {
+        return (x/(walk+rest)*walk+std::min(walk,x%(walk+rest)))*speed;
+    };
+    int first=distance(a,b,c),second=distance(d,e,f);
+    std::cout<<(first>second?"Takahashi":first<second?"Aoki":"Draw")<<'\n';
 }
 
 int main() {

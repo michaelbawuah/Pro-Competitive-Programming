@@ -5,10 +5,13 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n,k;std::cin>>n>>k;std::vector<std::string>s(n);for(auto&x:s)std::cin>>x;std::sort(s.begin(),s.begin()+k);for(int i=0;i<k;++i)std::cout<<s[i]<<'\n';
+    int n,k;
+    std::cin>>n>>k;
+    std::vector<std::string>s(n);
+    for(auto&x:s)std::cin>>x;
+    std::sort(s.begin(),s.begin()+k);
+    for(int i=0;i<k;++i)std::cout<<s[i]<<'\n';
 }
 
 int main() {

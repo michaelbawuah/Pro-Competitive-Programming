@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int k;std::string a,b;std::cin>>k>>a>>b;auto decode=[&](const std::string&s){long long x=0;for(char c:s)x=x*k+c-'0';return x;};std::cout<<decode(a)*decode(b)<<'\n';
+    int k;
+    std::string a,b;
+    std::cin>>k>>a>>b;
+    auto decode=[&](const std::string&s) {
+        long long x=0;
+        for(char c:s)x=x*k+c-'0';
+        return x;
+    };
+    std::cout<<decode(a)*decode(b)<<'\n';
 }
 
 int main() {

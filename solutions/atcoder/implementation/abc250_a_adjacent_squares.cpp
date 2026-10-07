@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long h,w,r,c;std::cin>>h>>w>>r>>c;std::cout<<((r>1)+(r<h)+(c>1)+(c<w))<<'\n';
+    long long h,w,r,c;
+    std::cin>>h>>w>>r>>c;
+    std::cout<<((r>1)+(r<h)+(c>1)+(c<w))<<'\n';
 }
 
 int main() {

@@ -5,10 +5,17 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<long long>a(n);for(auto&x:a)std::cin>>x;for(int i=0;i<n-1;++i){long long s,t;std::cin>>s>>t;a[i+1]+=a[i]/s*t;}std::cout<<a.back()<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<long long>a(n);
+    for(auto&x:a)std::cin>>x;
+    for(int i=0;i<n-1;++i) {
+        long long s,t;
+        std::cin>>s>>t;
+        a[i+1]+=a[i]/s*t;
+    }
+    std::cout<<a.back()<<'\n';
 }
 
 int main() {

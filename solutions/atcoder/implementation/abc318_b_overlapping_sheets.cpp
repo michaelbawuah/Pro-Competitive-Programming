@@ -5,10 +5,18 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int n;std::cin>>n;std::vector<std::vector<bool>>covered(100,std::vector<bool>(100));while(n--){int a,b,c,d;std::cin>>a>>b>>c>>d;for(int x=a;x<b;++x)for(int y=c;y<d;++y)covered[x][y]=true;}int area=0;for(const auto&row:covered)for(bool cell:row)area+=cell;std::cout<<area<<'\n';
+    int n;
+    std::cin>>n;
+    std::vector<std::vector<bool>>covered(100,std::vector<bool>(100));
+    while(n--) {
+        int a,b,c,d;
+        std::cin>>a>>b>>c>>d;
+        for(int x=a;x<b;++x)for(int y=c;y<d;++y)covered[x][y]=true;
+    }
+    int area=0;
+    for(const auto&row:covered)for(bool cell:row)area+=cell;
+    std::cout<<area<<'\n';
 }
 
 int main() {

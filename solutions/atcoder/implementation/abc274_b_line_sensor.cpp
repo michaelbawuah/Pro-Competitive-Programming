@@ -5,10 +5,16 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    int h,w;std::cin>>h>>w;std::vector<int>count(w);while(h--){std::string s;std::cin>>s;for(int j=0;j<w;++j)count[j]+=s[j]=='#';}for(int j=0;j<w;++j)std::cout<<count[j]<<(j+1==w?'\n':' ');
+    int h,w;
+    std::cin>>h>>w;
+    std::vector<int>count(w);
+    while(h--) {
+        std::string s;
+        std::cin>>s;
+        for(int j=0;j<w;++j)count[j]+=s[j]=='#';
+    }
+    for(int j=0;j<w;++j)std::cout<<count[j]<<(j+1==w?'\n':' ');
 }
 
 int main() {

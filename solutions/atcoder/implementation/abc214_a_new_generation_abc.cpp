@@ -5,10 +5,10 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long n;std::cin>>n;std::cout<<(n<=125?4:n<=211?6:8)<<'\n';
+    long long n;
+    std::cin>>n;
+    std::cout<<(n<=125?4:n<=211?6:8)<<'\n';
 }
 
 int main() {

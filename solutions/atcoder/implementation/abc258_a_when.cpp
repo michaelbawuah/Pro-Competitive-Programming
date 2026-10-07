@@ -3,10 +3,10 @@
 #include <iomanip>
 #include <iostream>
 
-
-
 void solve() {
-    int k;std::cin>>k;std::cout<<21+k/60<<':'<<std::setfill('0')<<std::setw(2)<<k%60<<'\n';
+    int k;
+    std::cin>>k;
+    std::cout<<21+k/60<<':'<<std::setfill('0')<<std::setw(2)<<k%60<<'\n';
 }
 
 int main() {

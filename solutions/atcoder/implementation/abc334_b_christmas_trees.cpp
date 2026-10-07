@@ -5,10 +5,13 @@
 #include <string>
 #include <vector>
 
-
-
 void solve() {
-    long long a,m,l,r;std::cin>>a>>m>>l>>r;auto floor_div=[&](long long x){return x/m-(x<0&&x%m!=0);};std::cout<<floor_div(r-a)-floor_div(l-a-1)<<'\n';
+    long long a,m,l,r;
+    std::cin>>a>>m>>l>>r;
+    auto floor_div=[&](long long x) {
+        return x/m-(x<0&&x%m!=0);
+    };
+    std::cout<<floor_div(r-a)-floor_div(l-a-1)<<'\n';
 }
 
 int main() {
