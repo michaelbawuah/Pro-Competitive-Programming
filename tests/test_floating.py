@@ -59,6 +59,14 @@ class ConstructionTests(unittest.TestCase):
         self.assertFalse(unique_letter({'input': 'aba'}, 'a'))
         self.assertTrue(unique_letter({'input': 'aaa'}, '-1'))
 
+    def test_wrong_sum_checks_range_and_inequality(self):
+        from checkers import not_sum
+        case = {'input': '2 3', 'output': '0'}
+        for answer in range(10):
+            self.assertEqual(not_sum(case, str(answer)), answer != 5)
+        for answer in ('-1', '10', '5.5', 'nan', '0 1', ''):
+            self.assertFalse(not_sum(case, answer))
+
 
 if __name__ == '__main__':
     unittest.main()

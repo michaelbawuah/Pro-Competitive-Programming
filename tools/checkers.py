@@ -339,3 +339,18 @@ def unique_letter(case, actual):
 
 
 CHECKERS['unique_letter'] = unique_letter
+
+
+def not_sum(case, actual):
+    tokens = actual.split()
+    if len(tokens) != 1:
+        return False
+    try:
+        answer = int(tokens[0])
+        a, b = map(int, case['input'].split())
+    except ValueError:
+        return False
+    return 0 <= answer <= 9 and answer != a + b
+
+
+CHECKERS['not_sum'] = not_sum
