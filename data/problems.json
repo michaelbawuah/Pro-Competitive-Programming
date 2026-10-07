@@ -9108,5 +9108,20 @@
     "space": "O(N)",
     "hint": "Only foods with maximum tastiness can be selected.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc253_a",
+    "title": "Median?",
+    "url": "https://atcoder.jp/contests/abc253/tasks/abc253_a",
+    "solution": "solutions/atcoder/implementation/abc253_a_median.cpp",
+    "notes": "notes/atcoder/abc253_a_median.md",
+    "tests": "tests/cases/atcoder-abc253_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The middle value lies inclusively between the other two values.",
+    "checker": "tokens"
   }
 ]
