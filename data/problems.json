@@ -6723,5 +6723,20 @@
     "space": "O(1)",
     "hint": "The change is the distance to the next multiple of one thousand.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc173_b",
+    "title": "Judge Status Summary",
+    "url": "https://atcoder.jp/contests/abc173/tasks/abc173_b",
+    "solution": "solutions/atcoder/implementation/abc173_b_judge_status_summary.cpp",
+    "notes": "notes/atcoder/abc173_b_judge_status_summary.md",
+    "tests": "tests/cases/atcoder-abc173_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Count verdicts by category and emit the four categories in the prescribed order, including categories with zero occurrences..",
+    "checker": "tokens"
   }
 ]

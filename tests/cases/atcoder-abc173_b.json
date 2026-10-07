@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "6\r\nAC\r\nTLE\r\nAC\r\nAC\r\nWA\r\nTLE\n",
+    "output": "AC x 3\r\nWA x 1\r\nTLE x 2\r\nRE x 0\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "10\r\nAC\r\nAC\r\nAC\r\nAC\r\nAC\r\nAC\r\nAC\r\nAC\r\nAC\r\nAC\n",
+    "output": "AC x 10\r\nWA x 0\r\nTLE x 0\r\nRE x 0\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\nRE\n",
+    "output": "AC x 0\nWA x 0\nTLE x 0\nRE x 1\n"
+  }
+]
