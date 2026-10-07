@@ -8688,5 +8688,20 @@
     "space": "O(n)",
     "hint": "Cumulative rotation modulo 360 gives cut positions up to a reflection, which preserves sector sizes.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc239_a",
+    "title": "Horizon",
+    "url": "https://atcoder.jp/contests/abc239/tasks/abc239_a",
+    "solution": "solutions/atcoder/implementation/abc239_a_horizon.cpp",
+    "notes": "notes/atcoder/abc239_a_horizon.md",
+    "tests": "tests/cases/atcoder-abc239_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Evaluate the given square-root expression using floating-point multiplication and enough output precision..",
+    "checker": "floating"
   }
 ]
