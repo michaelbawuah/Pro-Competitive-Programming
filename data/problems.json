@@ -3753,5 +3753,20 @@
     "space": "O(n)",
     "hint": "After replacing one number, the final gcd cannot exceed the gcd of the untouched numbers.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc126_c",
+    "title": "Dice and Coin",
+    "url": "https://atcoder.jp/contests/abc126/tasks/abc126_c",
+    "solution": "solutions/atcoder/probability/abc126_c_dice_and_coin.cpp",
+    "notes": "notes/atcoder/abc126_c_dice_and_coin.md",
+    "tests": "tests/cases/atcoder-abc126_c.json",
+    "tags": [
+      "probability"
+    ],
+    "time": "O(n log K)",
+    "space": "O(1)",
+    "hint": "Condition on the equally likely die result.",
+    "checker": "probability"
   }
 ]
