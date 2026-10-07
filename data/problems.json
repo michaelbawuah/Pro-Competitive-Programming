@@ -9648,5 +9648,20 @@
     "space": "O(1)",
     "hint": "Reflect the line if needed so the goal is positive.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc271_a",
+    "title": "484558",
+    "url": "https://atcoder.jp/contests/abc271/tasks/abc271_a",
+    "solution": "solutions/atcoder/implementation/abc271_a_484558.cpp",
+    "notes": "notes/atcoder/abc271_a_484558.md",
+    "tests": "tests/cases/atcoder-abc271_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The quotient by sixteen is the high hexadecimal digit and the remainder is the low digit.",
+    "checker": "tokens"
   }
 ]

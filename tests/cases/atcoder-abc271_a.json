@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "99\n",
+    "output": "63\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "12\n",
+    "output": "0C\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "0\n",
+    "output": "00\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "255\n",
+    "output": "FF\n"
+  }
+]
