@@ -2643,5 +2643,20 @@
     "space": "O(n)",
     "hint": "Every jump moves to a strictly larger index, so compute achievable scores from right to left.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1520A",
+    "title": "Do Not Be Distracted!",
+    "url": "https://codeforces.com/problemset/problem/1520/A",
+    "solution": "solutions/codeforces/strings/1520A_do_not_be_distracted.cpp",
+    "notes": "notes/codeforces/1520A_do_not_be_distracted.md",
+    "tests": "tests/cases/codeforces-1520A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n) per case",
+    "space": "O(n)",
+    "hint": "Each task letter must occupy a single contiguous run.",
+    "checker": "yes_no"
   }
 ]
