@@ -243,3 +243,19 @@ def candies_geometric(case, actual):
 
 
 CHECKERS['candies_geometric'] = candies_geometric
+
+
+def floating(case, actual):
+    """Finite scalar output, with a 1e-6 absolute or relative tolerance."""
+    expected = case['output'].split()
+    tokens = actual.split()
+    if len(tokens) != 1 or len(expected) != 1:
+        return False
+    try:
+        a, b = float(tokens[0]), float(expected[0])
+    except ValueError:
+        return False
+    return math.isfinite(a) and math.isfinite(b) and math.isclose(a, b, rel_tol=1e-6, abs_tol=1e-6)
+
+
+CHECKERS['floating'] = floating
