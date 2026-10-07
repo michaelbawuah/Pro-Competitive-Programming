@@ -8673,5 +8673,20 @@
     "space": "O(1)",
     "hint": "Directly check N=1 through 4; only 1 succeeds.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc238_b",
+    "title": "Pizza",
+    "url": "https://atcoder.jp/contests/abc238/tasks/abc238_b",
+    "solution": "solutions/atcoder/implementation/abc238_b_pizza.cpp",
+    "notes": "notes/atcoder/abc238_b_pizza.md",
+    "tests": "tests/cases/atcoder-abc238_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Cumulative rotation modulo 360 gives cut positions up to a reflection, which preserves sector sizes.",
+    "checker": "tokens"
   }
 ]
