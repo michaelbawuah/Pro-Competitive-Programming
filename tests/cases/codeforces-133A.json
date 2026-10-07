@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "Hi!\n",
+    "output": "YES\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "Codeforces\n",
+    "output": "NO\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "+\n",
+    "output": "NO\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "Q\n",
+    "output": "YES\n"
+  }
+]

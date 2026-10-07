@@ -1908,5 +1908,20 @@
     "space": "O(n)",
     "hint": "Ignore punctuation and spaces, marking only lowercase letters.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-133A",
+    "title": "HQ9+",
+    "url": "https://codeforces.com/problemset/problem/133/A",
+    "solution": "solutions/codeforces/strings/133A_hq9.cpp",
+    "notes": "notes/codeforces/133A_hq9.md",
+    "tests": "tests/cases/codeforces-133A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Only H, Q, and 9 produce output in this language.",
+    "checker": "yes_no"
   }
 ]

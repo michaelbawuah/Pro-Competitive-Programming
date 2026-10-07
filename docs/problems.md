@@ -123,3 +123,4 @@ Reference implementations are locally tested; official acceptances are tracked s
 | `codeforces-41A` | [Translation](https://codeforces.com/problemset/problem/41/A) | strings | O(n) / O(n) | [C++](../solutions/codeforces/strings/41A_translation.cpp) · [Notes](../notes/codeforces/41A_translation.md) |
 | `codeforces-520A` | [Pangram](https://codeforces.com/problemset/problem/520/A) | strings | O(n) / O(n) | [C++](../solutions/codeforces/strings/520A_pangram.cpp) · [Notes](../notes/codeforces/520A_pangram.md) |
 | `codeforces-443A` | [Anton and Letters](https://codeforces.com/problemset/problem/443/A) | strings | O(n) / O(n) | [C++](../solutions/codeforces/strings/443A_anton_and_letters.cpp) · [Notes](../notes/codeforces/443A_anton_and_letters.md) |
+| `codeforces-133A` | [HQ9+](https://codeforces.com/problemset/problem/133/A) | strings | O(n) / O(n) | [C++](../solutions/codeforces/strings/133A_hq9.cpp) · [Notes](../notes/codeforces/133A_hq9.md) |
