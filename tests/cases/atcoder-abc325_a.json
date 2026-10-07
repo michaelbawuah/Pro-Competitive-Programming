@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "Takahashi Chokudai\n",
+    "output": "Takahashi san\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "K Eyence\n",
+    "output": "K san\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "A B\n",
+    "output": "A san\n"
+  }
+]

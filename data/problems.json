@@ -11238,5 +11238,20 @@
     "space": "O(1)",
     "hint": "Remove all factors of two and three.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc325_a",
+    "title": "Takahashi san",
+    "url": "https://atcoder.jp/contests/abc325/tasks/abc325_a",
+    "solution": "solutions/atcoder/implementation/abc325_a_takahashi_san.cpp",
+    "notes": "notes/atcoder/abc325_a_takahashi_san.md",
+    "tests": "tests/cases/atcoder-abc325_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(input length)",
+    "space": "O(input length)",
+    "hint": "Read both names to consume the input and print only the surname followed by the specified space and honorific..",
+    "checker": "tokens"
   }
 ]
