@@ -1773,5 +1773,20 @@
     "space": "O(n)",
     "hint": "Count Anton wins and compare with the remaining games, which Danik won.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-200B",
+    "title": "Drinks",
+    "url": "https://codeforces.com/problemset/problem/200/B",
+    "solution": "solutions/codeforces/mathematics/200B_drinks.cpp",
+    "notes": "notes/codeforces/200B_drinks.md",
+    "tests": "tests/cases/codeforces-200B.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Equal drink volumes make the final percentage the arithmetic mean.",
+    "checker": "percentage"
   }
 ]
