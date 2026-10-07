@@ -10578,5 +10578,20 @@
     "space": "O(1)",
     "hint": "For each original adjacent pair, walk in unit steps toward the second value and emit each reached value.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc302_a",
+    "title": "Attack",
+    "url": "https://atcoder.jp/contests/abc302/tasks/abc302_a",
+    "solution": "solutions/atcoder/implementation/abc302_a_attack.cpp",
+    "notes": "notes/atcoder/abc302_a_attack.md",
+    "tests": "tests/cases/atcoder-abc302_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each attack removes B stamina.",
+    "checker": "tokens"
   }
 ]
