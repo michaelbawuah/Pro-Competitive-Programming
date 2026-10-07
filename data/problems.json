@@ -10833,5 +10833,20 @@
     "space": "O(1)",
     "hint": "There are two useful choices: buy the drink alone at P, or use the coupon with the cheapest available dish.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc310_b",
+    "title": "Strictly Superior",
+    "url": "https://atcoder.jp/contests/abc310/tasks/abc310_b",
+    "solution": "solutions/atcoder/implementation/abc310_b_strictly_superior.cpp",
+    "notes": "notes/atcoder/abc310_b_strictly_superior.md",
+    "tests": "tests/cases/atcoder-abc310_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N^2 M)",
+    "space": "O(NM)",
+    "hint": "Compare every ordered product pair.",
+    "checker": "tokens"
   }
 ]
