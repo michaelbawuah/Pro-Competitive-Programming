@@ -307,3 +307,21 @@ def range_multiple(case, actual):
 
 
 CHECKERS['range_multiple'] = range_multiple
+
+
+def floating_vector(case, actual):
+    """Match the expected number of finite coordinates independently."""
+    expected, tokens = case['output'].split(), actual.split()
+    if not expected or len(tokens) != len(expected):
+        return False
+    try:
+        values = list(map(float, tokens))
+        targets = list(map(float, expected))
+    except ValueError:
+        return False
+    return all(math.isfinite(a) and math.isfinite(b)
+               and math.isclose(a, b, rel_tol=1e-6, abs_tol=1e-6)
+               for a, b in zip(values, targets))
+
+
+CHECKERS['floating_vector'] = floating_vector

@@ -17,10 +17,6 @@ class FloatingTests(unittest.TestCase):
             self.assertFalse(floating({'output':'0'},actual),actual)
 
 
-if __name__=='__main__':
-    unittest.main()
-
-
 class ConstructionTests(unittest.TestCase):
     def test_divisor_optima_allow_ties(self):
         from checkers import gcdness
@@ -45,3 +41,15 @@ class ConstructionTests(unittest.TestCase):
         self.assertTrue(distance_vector(case,'0 0.0 0e0'))
         for output in ('0 0','0 nan 0','0 inf 0','0 0 0 0','0 -1 0'):
             self.assertFalse(distance_vector(case,output))
+
+    def test_signed_coordinate_tolerances(self):
+        from checkers import floating_vector
+        case = {'output': '-0.6 0.8'}
+        self.assertTrue(floating_vector(case, '-0.60000001 8e-1'))
+        for output in ('0.6 0.8', '-0.6', '-0.6 0.8 0', 'nan 0.8', '-0.6 inf', 'x y'):
+            self.assertFalse(floating_vector(case, output), output)
+        self.assertFalse(floating_vector({'output': ''}, ''))
+
+
+if __name__ == '__main__':
+    unittest.main()
