@@ -5103,5 +5103,20 @@
     "space": "O(M)",
     "hint": "Each person lists a food at most once.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc119_a",
+    "title": "Still TBD",
+    "url": "https://atcoder.jp/contests/abc119/tasks/abc119_a",
+    "solution": "solutions/atcoder/implementation/abc119_a_still_tbd.cpp",
+    "notes": "notes/atcoder/abc119_a_still_tbd.md",
+    "tests": "tests/cases/atcoder-abc119_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Zero-padded year/month/day strings sort in chronological order.",
+    "checker": "tokens"
   }
 ]
