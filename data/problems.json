@@ -11508,5 +11508,20 @@
     "space": "O(1)",
     "hint": "In a regular pentagon, segment length depends only on the smaller cyclic distance between its vertices: one for sides and two for diagonals.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc334_a",
+    "title": "Christmas Present",
+    "url": "https://atcoder.jp/contests/abc334/tasks/abc334_a",
+    "solution": "solutions/atcoder/implementation/abc334_a_christmas_present.cpp",
+    "notes": "notes/atcoder/abc334_a_christmas_present.md",
+    "tests": "tests/cases/atcoder-abc334_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Compare the two distinct prices and choose the item with the larger price..",
+    "checker": "tokens"
   }
 ]

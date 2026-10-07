@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "300 100\n",
+    "output": "Bat\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "334 343\n",
+    "output": "Glove\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1 2\n",
+    "output": "Glove\n"
+  }
+]
