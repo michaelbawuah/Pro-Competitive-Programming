@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "8\nbeginner\n",
+    "output": "bbeeggiinnnneerr\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3\naaa\n",
+    "output": "aaaaaa\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\nz\n",
+    "output": "zz\n"
+  }
+]

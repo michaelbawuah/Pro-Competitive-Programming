@@ -10698,5 +10698,20 @@
     "space": "O(1)",
     "hint": "Prefix sums of the adjacent distances give coordinates along the line.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc306_a",
+    "title": "Echo",
+    "url": "https://atcoder.jp/contests/abc306/tasks/abc306_a",
+    "solution": "solutions/atcoder/implementation/abc306_a_echo.cpp",
+    "notes": "notes/atcoder/abc306_a_echo.md",
+    "tests": "tests/cases/atcoder-abc306_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Visit original characters in order and emit each twice.",
+    "checker": "tokens"
   }
 ]
