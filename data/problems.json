@@ -2673,5 +2673,20 @@
     "space": "O(1)",
     "hint": "Generate repeated-digit numbers separately for each digit one through nine.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1520D",
+    "title": "Same Differences",
+    "url": "https://codeforces.com/problemset/problem/1520/D",
+    "solution": "solutions/codeforces/counting/1520D_same_differences.cpp",
+    "notes": "notes/codeforces/1520D_same_differences.md",
+    "tests": "tests/cases/codeforces-1520D.json",
+    "tags": [
+      "counting"
+    ],
+    "time": "O(n log n) per case",
+    "space": "O(n)",
+    "hint": "Rearrange the pair condition into a[i]-i = a[j]-j.",
+    "checker": "tokens"
   }
 ]
