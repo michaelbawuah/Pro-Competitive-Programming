@@ -8613,5 +8613,20 @@
     "space": "O(n)",
     "hint": "Convert both one-based positions to zero-based indices and swap those two characters.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc236_b",
+    "title": "Who is missing?",
+    "url": "https://atcoder.jp/contests/abc236/tasks/abc236_b",
+    "solution": "solutions/atcoder/implementation/abc236_b_who_is_missing.cpp",
+    "notes": "notes/atcoder/abc236_b_who_is_missing.md",
+    "tests": "tests/cases/atcoder-abc236_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Four equal copies XOR to zero.",
+    "checker": "tokens"
   }
 ]
