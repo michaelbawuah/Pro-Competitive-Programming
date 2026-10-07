@@ -1923,5 +1923,20 @@
     "space": "O(n)",
     "hint": "Only H, Q, and 9 produce output in this language.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-122A",
+    "title": "Lucky Division",
+    "url": "https://codeforces.com/problemset/problem/122/A",
+    "solution": "solutions/codeforces/enumeration/122A_lucky_division.cpp",
+    "notes": "notes/codeforces/122A_lucky_division.md",
+    "tests": "tests/cases/codeforces-122A.json",
+    "tags": [
+      "enumeration"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Enumerate every lucky number no larger than the input limit.",
+    "checker": "yes_no"
   }
 ]
