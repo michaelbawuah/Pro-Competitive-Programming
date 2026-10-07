@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "AtCoder Land\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "CodeQUEEN Land\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "aTcodeR lANd\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "AtCoder land\n",
+    "output": "No\n"
+  }
+]

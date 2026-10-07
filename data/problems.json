@@ -12228,5 +12228,20 @@
     "space": "O(n)",
     "hint": "Count uppercase letters before modifying the string.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc358_a",
+    "title": "Welcome to AtCoder Land",
+    "url": "https://atcoder.jp/contests/abc358/tasks/abc358_a",
+    "solution": "solutions/atcoder/implementation/abc358_a_welcome_to_atcoder_land.cpp",
+    "notes": "notes/atcoder/abc358_a_welcome_to_atcoder_land.md",
+    "tests": "tests/cases/atcoder-abc358_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(|S|+|T|)",
+    "space": "O(|S|+|T|)",
+    "hint": "Require both words to equal their specified spellings exactly, including letter case..",
+    "checker": "tokens"
   }
 ]
