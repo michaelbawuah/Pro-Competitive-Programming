@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "5\r\n00101\n",
+    "output": "Takahashi\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "3\r\n010\n",
+    "output": "Aoki\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\n1\n",
+    "output": "Takahashi\n"
+  }
+]

@@ -7833,5 +7833,20 @@
     "space": "O(1)",
     "hint": "Split purchased heads into the first A at regular price and any excess at the discounted price..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc210_b",
+    "title": "Bouzu Mekuri",
+    "url": "https://atcoder.jp/contests/abc210/tasks/abc210_b",
+    "solution": "solutions/atcoder/implementation/abc210_b_bouzu_mekuri.cpp",
+    "notes": "notes/atcoder/abc210_b_bouzu_mekuri.md",
+    "tests": "tests/cases/atcoder-abc210_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The game ends at the first bad card.",
+    "checker": "tokens"
   }
 ]
