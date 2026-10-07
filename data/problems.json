@@ -7428,5 +7428,20 @@
     "space": "O(n)",
     "hint": "For a nonnegative decimal, flooring removes the decimal point and everything after it.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc197_a",
+    "title": "Rotate",
+    "url": "https://atcoder.jp/contests/abc197/tasks/abc197_a",
+    "solution": "solutions/atcoder/implementation/abc197_a_rotate.cpp",
+    "notes": "notes/atcoder/abc197_a_rotate.md",
+    "tests": "tests/cases/atcoder-abc197_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Print the suffix after the first character, followed by that first character..",
+    "checker": "tokens"
   }
 ]
