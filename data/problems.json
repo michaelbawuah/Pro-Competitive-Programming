@@ -6648,5 +6648,20 @@
     "space": "O(1)",
     "hint": "Start with all cranes, giving 2X legs.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc171_a",
+    "title": "\u03b1lphabet",
+    "url": "https://atcoder.jp/contests/abc171/tasks/abc171_a",
+    "solution": "solutions/atcoder/implementation/abc171_a_lphabet.cpp",
+    "notes": "notes/atcoder/abc171_a_lphabet.md",
+    "tests": "tests/cases/atcoder-abc171_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The input is an English letter, so membership in the uppercase range determines which case marker to print..",
+    "checker": "tokens"
   }
 ]
