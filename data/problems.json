@@ -7068,5 +7068,20 @@
     "space": "O(n)",
     "hint": "Process answers in order because the zero floor makes order matter.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc185_a",
+    "title": "ABC Preparation",
+    "url": "https://atcoder.jp/contests/abc185/tasks/abc185_a",
+    "solution": "solutions/atcoder/implementation/abc185_a_abc_preparation.cpp",
+    "notes": "notes/atcoder/abc185_a_abc_preparation.md",
+    "tests": "tests/cases/atcoder-abc185_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each contest consumes one item from every category.",
+    "checker": "tokens"
   }
 ]
