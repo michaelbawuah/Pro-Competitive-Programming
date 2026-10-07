@@ -5553,5 +5553,20 @@
     "space": "O(1)",
     "hint": "Substitute the radius into the area formula given by the statement..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc134_b",
+    "title": "Golden Apple",
+    "url": "https://atcoder.jp/contests/abc134/tasks/abc134_b",
+    "solution": "solutions/atcoder/implementation/abc134_b_golden_apple.cpp",
+    "notes": "notes/atcoder/abc134_b_golden_apple.md",
+    "tests": "tests/cases/atcoder-abc134_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Each inspector covers at most 2D+1 consecutive trees.",
+    "checker": "tokens"
   }
 ]
