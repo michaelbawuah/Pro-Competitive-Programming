@@ -10263,5 +10263,20 @@
     "space": "O(n)",
     "hint": "Scan the characters and identify the guaranteed unique uppercase letter by its character range.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc291_b",
+    "title": "Trimmed Mean",
+    "url": "https://atcoder.jp/contests/abc291/tasks/abc291_b",
+    "solution": "solutions/atcoder/implementation/abc291_b_trimmed_mean.cpp",
+    "notes": "notes/atcoder/abc291_b_trimmed_mean.md",
+    "tests": "tests/cases/atcoder-abc291_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Sorting places the N smallest and N largest grades at the ends.",
+    "checker": "floating"
   }
 ]
