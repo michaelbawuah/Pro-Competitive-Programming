@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3 2 10 20\r\n8 15 13\r\n16 22\n",
+    "output": "No War\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "4 2 -48 -1\r\n-20 -35 -91 -23\r\n-22 66\n",
+    "output": "War\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "5 3 6 8\r\n-10 3 1 5 -100\r\n100 6 14\n",
+    "output": "War\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1 1 0 2\n1\n1\n",
+    "output": "War\n"
+  }
+]

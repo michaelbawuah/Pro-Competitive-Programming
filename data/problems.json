@@ -3498,5 +3498,20 @@
     "space": "O(n L)",
     "hint": "A valid turn must link to the previous final character and introduce a new word.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc110_b",
+    "title": "1 Dimensional World's Tale",
+    "url": "https://atcoder.jp/contests/abc110/tasks/abc110_b",
+    "solution": "solutions/atcoder/implementation/abc110_b_1_dimensional_world_s_tale.cpp",
+    "notes": "notes/atcoder/abc110_b_1_dimensional_world_s_tale.md",
+    "tests": "tests/cases/atcoder-abc110_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n+m)",
+    "space": "O(1)",
+    "hint": "Combine all strict lower bounds into their maximum and all inclusive upper bounds into their minimum.",
+    "checker": "tokens"
   }
 ]
