@@ -2193,5 +2193,20 @@
     "space": "O(1)",
     "hint": "Each person independently contributes width two if taller than the fence and width one otherwise.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-703A",
+    "title": "Mishka and Game",
+    "url": "https://codeforces.com/problemset/problem/703/A",
+    "solution": "solutions/codeforces/simulation/703A_mishka_and_game.cpp",
+    "notes": "notes/codeforces/703A_mishka_and_game.md",
+    "tests": "tests/cases/codeforces-703A.json",
+    "tags": [
+      "simulation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Maintain the difference in round wins, adding one for a first-player win and subtracting one for a second-player win.",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "3\n3 5\n2 1\n4 2\n",
+    "output": "Mishka\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "2\n6 1\n1 6\n",
+    "output": "Friendship is magic!^^\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "3\n1 5\n3 3\n2 2\n",
+    "output": "Chris\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "1\n6 6\n",
+    "output": "Friendship is magic!^^\n"
+  },
+  {
+    "name": "edge-2",
+    "input": "1\n1 2\n",
+    "output": "Chris\n"
+  }
+]
