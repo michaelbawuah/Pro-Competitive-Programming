@@ -4788,5 +4788,20 @@
     "space": "O(1)",
     "hint": "Remove one unit of usable length in each dimension.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc106_b",
+    "title": "105",
+    "url": "https://atcoder.jp/contests/abc106/tasks/abc106_b",
+    "solution": "solutions/atcoder/implementation/abc106_b_105.cpp",
+    "notes": "notes/atcoder/abc106_b_105.md",
+    "tests": "tests/cases/atcoder-abc106_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N^2)",
+    "space": "O(1)",
+    "hint": "Only odd candidates can qualify.",
+    "checker": "tokens"
   }
 ]
