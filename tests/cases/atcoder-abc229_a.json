@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "##\r\n.#\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": ".#\r\n#.\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "##\n##\n",
+    "output": "Yes\n"
+  }
+]

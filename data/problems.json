@@ -8388,5 +8388,20 @@
     "space": "O(n)",
     "hint": "Follow the single outgoing edge from each informed person.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc229_a",
+    "title": "First Grid",
+    "url": "https://atcoder.jp/contests/abc229/tasks/abc229_a",
+    "solution": "solutions/atcoder/implementation/abc229_a_first_grid.cpp",
+    "notes": "notes/atcoder/abc229_a_first_grid.md",
+    "tests": "tests/cases/atcoder-abc229_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "With at least two black cells in a two-by-two grid, only the two diagonal pairs are disconnected.",
+    "checker": "tokens"
   }
 ]
