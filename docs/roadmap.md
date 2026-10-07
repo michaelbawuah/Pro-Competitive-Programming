@@ -36,4 +36,16 @@ Once the foundations are comfortable, choose a short virtual set from an officia
 
 The expanded catalogue also includes constructive problems, backtracking, ordered containers, and shortest paths with an extra state. Use its tags to find another problem on a technique you want to reinforce.
 
-Next topics beyond these 100: strongly connected components, lazy propagation, modular inverses, bitmask DP, and flow. Add them when an actual practice problem motivates the technique.
+The 300-problem catalogue now includes subtree sums, lowest common ancestors, profile DP, subset DP, and game DP. Next topics: strongly connected components, lazy propagation, modular inverses, and flow. Add them when an actual practice problem motivates the technique.
+
+
+## New practice sets
+
+| Focus | Problems | What to explain |
+| --- | --- | --- |
+| Greedy exchange arguments | AtCoder abc088_b, abc121_c, abc135_c; CSES 1632 | Why a local choice can replace an optimal choice without harm |
+| Window and prefix invariants | CSES 1660, 1662, 2428, 1644; AtCoder abc122_c | Which starts are valid and which prefix endpoints are included |
+| Queries with updates | CSES 1144, 1143, 1749, 1137 | What every tree node stores and how an update restores it |
+| Tree structure | CSES 1133, 1135, 1688 | Rerooting changes, ancestor jumps, and avoiding recursive stack overflow |
+| Small-state enumeration | AtCoder abc104_c, abc147_c, abc165_c; CSES 1653 | Why the state space contains every legal possibility |
+| State compression | CSES 1097, 2181, 2413 | Which information crosses an interval or column boundary |

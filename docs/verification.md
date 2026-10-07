@@ -1,36 +1,41 @@
 # Verification record
 
-Verified locally on 2026-10-07, Linux x86-64, GCC 13.3.0, Python 3.12.14.
+Verified locally on 2026-10-07 with GCC 13.3.0 and Python 3.12.14 on Linux x86-64.
 
 | Check | Result |
 | --- | --- |
-| Standalone C++17 builds, warnings as errors | 100 passed |
-| Fixed input/output cases | 301 passed |
-| Undefined-behavior sanitizer and GCC library assertions | All 100 solutions and the algorithm library passed |
-| Library property comparisons | 32,040 checks passed |
-| Seeded differential and structural tests | 5,900 cases across 59 solutions passed, seed 2110 |
-| Generated constraint-limit regressions | 11 passed: long chains, 64-bit totals, large digit queries, LCS, knapsack, and probability DP |
-| Runner and checker behavior tests | 16 passed: alternative valid outputs, invalid constructions, probability tolerance, process errors, timeouts, and preserving practice files |
-| Catalogue consistency | All 100 sources, explanations, and fixture files indexed |
+| Standalone C++17 builds, warnings as errors | 300 passed |
+| Fixed input/output cases | 1,034 passed |
+| Undefined-behavior sanitizer and GCC library assertions | All 300 solutions and the algorithm library passed |
+| Library property comparisons | 32,040 passed |
+| Seeded differential and structural checks | 8,100 cases across 81 solutions, seed 2110 |
+| Generated constraint-limit regressions | 21 passed |
+| Runner and semantic-checker tests | 24 passed |
+| Catalogue consistency | 300 distinct IDs, sources, explanations, and fixture files indexed |
 
 ## Reproduce
 
 ```sh
 python3 tools/cp.py check
-python3 tools/cp.py test all
-python3 tools/cp.py test all --sanitize
+python3 tools/cp.py test all --jobs 4
+python3 tools/cp.py test all --sanitize --jobs 4
 python3 tools/cp.py stress --cases 100 --seed 2110
 python3 tools/boundary.py
 python3 -m unittest discover -s tests -p 'test_*.py' -v
 ```
 
-The checked source/test input fingerprint is `99ca2e800043e090c732ddef06532fc89ae91541bc294ef033adcb9edd2c5f79`.
-This is SHA-256 over sorted paths, a zero separator, file bytes, and another zero separator for every solution `.cpp`, library `.hpp`, tool `.py`, fixture `.json`, `tests/library_test.cpp`, every `tests/test_*.py`, and `data/problems.json` (213 files).
+Use one verification command at a time: independent commands share the local build directory.
+
+The checked source/test input fingerprint is `0789fdb456aced90bdcece54493657a702fb764b7752ae06212190d8511a7c0d`. This is SHA-256 over sorted relative paths, a zero separator, file bytes, and another zero separator for every solution `.cpp`, library `.hpp`, tool `.py`, fixture `.json`, `tests/library_test.cpp`, every `tests/test_*.py`, and `data/problems.json` (615 files).
+
+## Expanded coverage
+
+The new oracle module checks all 20 added CSES algorithms and two AtCoder algorithms. It uses exhaustive cut positions for array partitioning, subset overlap checks for multi-viewer scheduling, direct scans for queries, BFS for tree distances, explicit ancestor walks, game-tree minimax, exhaustive bin packing, full-board domino enumeration, and rectangle tiling enumeration. These oracles differ from the optimized implementations.
+
+Boundary regressions include 200,000-node tree chains, 64-bit subtree and partition sums, a 5,000-element removal game, the complete 20-person elevator subset space, a 1,000-column domino board, and an interval ending at 10^18. The earlier string, probability, graph, and knapsack limit cases remain included.
 
 ## Scope
 
-These are local correctness checks on selected fixed cases, small random inputs, and targeted constraint limits. They are not official judge verdicts or exhaustive correctness proofs. The repository contains no recorded judge acceptances or contest rankings. [GitHub Actions](https://github.com/michaelbawuah/Pro-Competitive-Programming/actions) runs catalogue checks, runner tests, all fixtures, library tests, and constraint-limit regressions on Linux/GCC and macOS/Clang. Linux additionally runs the undefined-behavior sanitizer and seeded differential suite. Consult the workflow run for the exact commit when checking hosted results.
+Passing local checks is separate from official judge acceptance. These tests cover selected inputs and invariants, not every possible case. `data/acceptances.json` records only real judge evidence; this archive does not claim contest wins or ratings.
 
-The randomized suite includes exhaustive subsets, task permutations, legal tower assignments, simple flight routes, game trees, and coin-toss outcomes. Tree eccentricities are compared with searches from every vertex, and Floyd-Warshall answers with Bellman-Ford. Labyrinth cases use an independent structural checker for reachability, shortest length, and legal moves. LCS results are also compared with exhaustive subsequence enumeration.
-
-The first fixed-case run caught an incorrect hand-written expected answer for Subarray Sums II. Direct enumeration confirmed three matching subarrays, the fixture was corrected, and the solution subsequently passed the fixed and differential checks.
+[GitHub Actions](https://github.com/michaelbawuah/Pro-Competitive-Programming/actions) verifies four disjoint shards on each of Linux/GCC and macOS/Clang. Linux also runs sanitizer and randomized checks. Consult the workflow for the exact published commit and its hosted result.
