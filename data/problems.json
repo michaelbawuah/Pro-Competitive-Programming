@@ -3243,5 +3243,20 @@
     "space": "O(n)",
     "hint": "Every path moves down exactly once.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc049_c",
+    "title": "Daydream",
+    "url": "https://atcoder.jp/contests/abc049/tasks/arc065_a",
+    "solution": "solutions/atcoder/dynamic_programming/abc049_c_daydream.cpp",
+    "notes": "notes/atcoder/abc049_c_daydream.md",
+    "tests": "tests/cases/atcoder-abc049_c.json",
+    "tags": [
+      "dynamic_programming"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Let ok[i] mean the prefix ending before i can be formed.",
+    "checker": "tokens"
   }
 ]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "erasedream\n",
+    "output": "YES\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "dreameraser\n",
+    "output": "YES\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "dreamerer\n",
+    "output": "NO\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "dreamerase\n",
+    "output": "YES\n"
+  }
+]
