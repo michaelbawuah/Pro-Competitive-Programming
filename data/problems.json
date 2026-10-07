@@ -6963,5 +6963,20 @@
     "space": "O(1)",
     "hint": "Every day flips the color, so odd elapsed days give black and even elapsed days restore white..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc181_b",
+    "title": "Trapezoid Sum",
+    "url": "https://atcoder.jp/contests/abc181/tasks/abc181_b",
+    "solution": "solutions/atcoder/implementation/abc181_b_trapezoid_sum.cpp",
+    "notes": "notes/atcoder/abc181_b_trapezoid_sum.md",
+    "tests": "tests/cases/atcoder-abc181_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Each inclusive interval contributes its arithmetic-series sum.",
+    "checker": "tokens"
   }
 ]
