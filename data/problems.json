@@ -8403,5 +8403,20 @@
     "space": "O(1)",
     "hint": "With at least two black cells in a two-by-two grid, only the two diagonal pairs are disconnected.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc229_b",
+    "title": "Hard Calculation",
+    "url": "https://atcoder.jp/contests/abc229/tasks/abc229_b",
+    "solution": "solutions/atcoder/implementation/abc229_b_hard_calculation.cpp",
+    "notes": "notes/atcoder/abc229_b_hard_calculation.md",
+    "tests": "tests/cases/atcoder-abc229_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(log(max(A,B)))",
+    "space": "O(1)",
+    "hint": "A first carry exists exactly when some pair of aligned digits sums to at least ten.",
+    "checker": "tokens"
   }
 ]
