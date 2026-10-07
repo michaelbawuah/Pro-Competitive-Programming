@@ -1848,5 +1848,20 @@
     "space": "O(n)",
     "hint": "Mark every level either player can pass.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-268A",
+    "title": "Games",
+    "url": "https://codeforces.com/problemset/problem/268/A",
+    "solution": "solutions/codeforces/enumeration/268A_games.cpp",
+    "notes": "notes/codeforces/268A_games.md",
+    "tests": "tests/cases/codeforces-268A.json",
+    "tags": [
+      "enumeration"
+    ],
+    "time": "O(n^2)",
+    "space": "O(n)",
+    "hint": "Enumerate every ordered host and visitor pair.",
+    "checker": "tokens"
   }
 ]
