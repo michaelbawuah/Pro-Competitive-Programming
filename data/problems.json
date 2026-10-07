@@ -3483,5 +3483,20 @@
     "space": "O(1)",
     "hint": "Pair-sum congruences force all three residues equal and twice that residue divisible by K.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc109_b",
+    "title": "Shiritori",
+    "url": "https://atcoder.jp/contests/abc109/tasks/abc109_b",
+    "solution": "solutions/atcoder/implementation/abc109_b_shiritori.cpp",
+    "notes": "notes/atcoder/abc109_b_shiritori.md",
+    "tests": "tests/cases/atcoder-abc109_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n L log n)",
+    "space": "O(n L)",
+    "hint": "A valid turn must link to the previous final character and introduce a new word.",
+    "checker": "tokens"
   }
 ]

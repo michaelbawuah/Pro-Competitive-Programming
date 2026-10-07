@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "4\r\nhoge\r\nenglish\r\nhoge\r\nenigma\n",
+    "output": "No\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "9\r\nbasic\r\nc\r\ncpp\r\nphp\r\npython\r\nnadesico\r\nocaml\r\nlua\r\nassembly\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "8\r\na\r\naa\r\naaa\r\naaaa\r\naaaaa\r\naaaaaa\r\naaa\r\naaaaaaa\n",
+    "output": "No\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "2\na\na\n",
+    "output": "No\n"
+  }
+]
