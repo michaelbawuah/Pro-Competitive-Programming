@@ -11373,5 +11373,20 @@
     "space": "O(n)",
     "hint": "Output the characters in original order and place one space between neighboring characters, with a newline after the last..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc329_b",
+    "title": "Next",
+    "url": "https://atcoder.jp/contests/abc329/tasks/abc329_b",
+    "solution": "solutions/atcoder/implementation/abc329_b_next.cpp",
+    "notes": "notes/atcoder/abc329_b_next.md",
+    "tests": "tests/cases/atcoder-abc329_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Distinct values in an ordered set appear sorted.",
+    "checker": "tokens"
   }
 ]
