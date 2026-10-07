@@ -5733,5 +5733,20 @@
     "space": "O(1)",
     "hint": "Each of three positions has N independent choices, giving N cubed possible passwords..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc140_b",
+    "title": "Buffet",
+    "url": "https://atcoder.jp/contests/abc140/tasks/abc140_b",
+    "solution": "solutions/atcoder/implementation/abc140_b_buffet.cpp",
+    "notes": "notes/atcoder/abc140_b_buffet.md",
+    "tests": "tests/cases/atcoder-abc140_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Every dish is eaten once, so all base scores contribute.",
+    "checker": "tokens"
   }
 ]
