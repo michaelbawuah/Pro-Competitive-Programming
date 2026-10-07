@@ -12393,5 +12393,20 @@
     "space": "O(1)",
     "hint": "The next display threshold is the next strictly greater multiple of one hundred.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc363_b",
+    "title": "Japanese Cursed Doll",
+    "url": "https://atcoder.jp/contests/abc363/tasks/abc363_b",
+    "solution": "solutions/atcoder/implementation/abc363_b_japanese_cursed_doll.cpp",
+    "notes": "notes/atcoder/abc363_b_japanese_cursed_doll.md",
+    "tests": "tests/cases/atcoder-abc363_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Equal daily growth preserves the ordering of hair lengths.",
+    "checker": "tokens"
   }
 ]
