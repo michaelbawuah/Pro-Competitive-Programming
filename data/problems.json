@@ -3858,5 +3858,20 @@
     "space": "O(n)",
     "hint": "After sorting, exactly half are below K when K is strictly greater than the lower middle value and at most the upper middle value.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc133_c",
+    "title": "Remainder Minimization 2019",
+    "url": "https://atcoder.jp/contests/abc133/tasks/abc133_c",
+    "solution": "solutions/atcoder/implementation/abc133_c_remainder_minimization_2019.cpp",
+    "notes": "notes/atcoder/abc133_c_remainder_minimization_2019.md",
+    "tests": "tests/cases/atcoder-abc133_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(min(R-L,2019)^2)",
+    "space": "O(1)",
+    "hint": "An interval spanning at least 2019 contains a multiple of 2019, producing zero with another element.",
+    "checker": "tokens"
   }
 ]
