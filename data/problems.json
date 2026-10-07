@@ -5643,5 +5643,20 @@
     "space": "O(1)",
     "hint": "Compute all three allowed expressions, including negative results, and take their maximum..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc137_b",
+    "title": "One Clue",
+    "url": "https://atcoder.jp/contests/abc137/tasks/abc137_b",
+    "solution": "solutions/atcoder/implementation/abc137_b_one_clue.cpp",
+    "notes": "notes/atcoder/abc137_b_one_clue.md",
+    "tests": "tests/cases/atcoder-abc137_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(K)",
+    "space": "O(1)",
+    "hint": "A length-K block containing X can extend at most K-1 positions in either direction.",
+    "checker": "tokens"
   }
 ]
