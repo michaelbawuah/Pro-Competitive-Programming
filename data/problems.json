@@ -10323,5 +10323,20 @@
     "space": "O(n)",
     "hint": "Partition the even-length string into adjacent two-character blocks.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc293_b",
+    "title": "Call the ID Number",
+    "url": "https://atcoder.jp/contests/abc293/tasks/abc293_b",
+    "solution": "solutions/atcoder/implementation/abc293_b_call_the_id_number.cpp",
+    "notes": "notes/atcoder/abc293_b_call_the_id_number.md",
+    "tests": "tests/cases/atcoder-abc293_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Process people in the specified order, consulting whether they have been called at that moment.",
+    "checker": "tokens"
   }
 ]
