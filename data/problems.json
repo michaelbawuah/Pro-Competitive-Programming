@@ -10158,5 +10158,20 @@
     "space": "O(N+M)",
     "hint": "Store the allowed three-character suffixes in a set.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc288_a",
+    "title": "Many A+B Problems",
+    "url": "https://atcoder.jp/contests/abc288/tasks/abc288_a",
+    "solution": "solutions/atcoder/implementation/abc288_a_many_a_b_problems.cpp",
+    "notes": "notes/atcoder/abc288_a_many_a_b_problems.md",
+    "tests": "tests/cases/atcoder-abc288_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Each pair is independent.",
+    "checker": "tokens"
   }
 ]
