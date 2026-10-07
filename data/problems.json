@@ -7038,5 +7038,20 @@
     "space": "O(1)",
     "hint": "Reflect the goal across the wall.",
     "checker": "floating"
+  },
+  {
+    "id": "atcoder-abc184_a",
+    "title": "Determinant",
+    "url": "https://atcoder.jp/contests/abc184/tasks/abc184_a",
+    "solution": "solutions/atcoder/implementation/abc184_a_determinant.cpp",
+    "notes": "notes/atcoder/abc184_a_determinant.md",
+    "tests": "tests/cases/atcoder-abc184_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Apply the two-by-two determinant formula with the two diagonal products in the specified order..",
+    "checker": "tokens"
   }
 ]
