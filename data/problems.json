@@ -5538,5 +5538,20 @@
     "space": "O(N D)",
     "hint": "Compute squared distances with integers.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc134_a",
+    "title": "Dodecagon",
+    "url": "https://atcoder.jp/contests/abc134/tasks/abc134_a",
+    "solution": "solutions/atcoder/implementation/abc134_a_dodecagon.cpp",
+    "notes": "notes/atcoder/abc134_a_dodecagon.md",
+    "tests": "tests/cases/atcoder-abc134_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Substitute the radius into the area formula given by the statement..",
+    "checker": "tokens"
   }
 ]
