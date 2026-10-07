@@ -4278,5 +4278,20 @@
     "space": "O(n)",
     "hint": "Each listed boss gains exactly one immediate subordinate from that entry.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc164_c",
+    "title": "gacha",
+    "url": "https://atcoder.jp/contests/abc164/tasks/abc164_c",
+    "solution": "solutions/atcoder/implementation/abc164_c_gacha.cpp",
+    "notes": "notes/atcoder/abc164_c_gacha.md",
+    "tests": "tests/cases/atcoder-abc164_c.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n L log n)",
+    "space": "O(n L)",
+    "hint": "A set stores one representative of each item name regardless of repeated draws.",
+    "checker": "tokens"
   }
 ]
