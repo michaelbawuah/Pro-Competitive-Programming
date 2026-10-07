@@ -12018,5 +12018,20 @@
     "space": "O(N)",
     "hint": "Every treatment toggles the occupancy of one hole.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc351_a",
+    "title": "The bottom of the ninth",
+    "url": "https://atcoder.jp/contests/abc351/tasks/abc351_a",
+    "solution": "solutions/atcoder/implementation/abc351_a_the_bottom_of_the_ninth.cpp",
+    "notes": "notes/atcoder/abc351_a_the_bottom_of_the_ninth.md",
+    "tests": "tests/cases/atcoder-abc351_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Subtract Aoki current total from Takahashi final total.",
+    "checker": "tokens"
   }
 ]
