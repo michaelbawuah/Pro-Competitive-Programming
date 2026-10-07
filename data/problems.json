@@ -11538,5 +11538,20 @@
     "space": "O(1)",
     "hint": "Trees correspond to integers k with L-A <= kM <= R-A.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc335_a",
+    "title": "202<s>3</s>",
+    "url": "https://atcoder.jp/contests/abc335/tasks/abc335_a",
+    "solution": "solutions/atcoder/implementation/abc335_a_202_s_3_s.cpp",
+    "notes": "notes/atcoder/abc335_a_202_s_3_s.md",
+    "tests": "tests/cases/atcoder-abc335_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "The guaranteed suffix makes the final character the digit to replace.",
+    "checker": "tokens"
   }
 ]

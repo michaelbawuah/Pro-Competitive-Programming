@@ -1,0 +1,22 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "hello2023\n",
+    "output": "hello2024\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "worldtourfinals2023\n",
+    "output": "worldtourfinals2024\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "2023\n",
+    "output": "2024\n"
+  },
+  {
+    "name": "edge-1",
+    "input": "x2023\n",
+    "output": "x2024\n"
+  }
+]
