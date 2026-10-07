@@ -5253,5 +5253,20 @@
     "space": "O(1)",
     "hint": "Round every serving duration up to the next ordering time.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc124_a",
+    "title": "Buttons",
+    "url": "https://atcoder.jp/contests/abc124/tasks/abc124_a",
+    "solution": "solutions/atcoder/implementation/abc124_a_buttons.cpp",
+    "notes": "notes/atcoder/abc124_a_buttons.md",
+    "tests": "tests/cases/atcoder-abc124_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The two presses either use different buttons or repeat one of them.",
+    "checker": "tokens"
   }
 ]
