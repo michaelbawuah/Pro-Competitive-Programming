@@ -8118,5 +8118,20 @@
     "space": "O(input length)",
     "hint": "Each control digit selects one of the three strings.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc220_a",
+    "title": "Find Multiple",
+    "url": "https://atcoder.jp/contests/abc220/tasks/abc220_a",
+    "solution": "solutions/atcoder/implementation/abc220_a_find_multiple.cpp",
+    "notes": "notes/atcoder/abc220_a_find_multiple.md",
+    "tests": "tests/cases/atcoder-abc220_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Round the lower endpoint up to the first multiple of C.",
+    "checker": "range_multiple"
   }
 ]
