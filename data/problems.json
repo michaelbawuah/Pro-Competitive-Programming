@@ -8733,5 +8733,20 @@
     "space": "O(1)",
     "hint": "The diagram is a ten-vertex cycle.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc240_b",
+    "title": "Count Distinct Integers",
+    "url": "https://atcoder.jp/contests/abc240/tasks/abc240_b",
+    "solution": "solutions/atcoder/implementation/abc240_b_count_distinct_integers.cpp",
+    "notes": "notes/atcoder/abc240_b_count_distinct_integers.md",
+    "tests": "tests/cases/atcoder-abc240_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "Insert all values into a set, which stores each distinct integer once.",
+    "checker": "tokens"
   }
 ]
