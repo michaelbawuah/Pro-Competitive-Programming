@@ -1146,5 +1146,72 @@
     "space": "O(n m)",
     "hint": "Breadth-first search finds shortest paths when every move costs one.",
     "checker": "labyrinth"
+  },
+  {
+    "id": "cses-1674",
+    "title": "Subordinates",
+    "url": "https://cses.fi/problemset/task/1674/",
+    "solution": "solutions/cses/trees/1674_subordinates.cpp",
+    "notes": "notes/cses/1674_subordinates.md",
+    "tests": "tests/cases/cses-1674.json",
+    "tags": [
+      "trees",
+      "subtree",
+      "iterative-traversal"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "A manager's subtree contains the manager plus every direct report's subtree.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1131",
+    "title": "Tree Diameter",
+    "url": "https://cses.fi/problemset/task/1131/",
+    "solution": "solutions/cses/trees/1131_tree_diameter.cpp",
+    "notes": "notes/cses/1131_tree_diameter.md",
+    "tests": "tests/cases/cses-1131.json",
+    "tags": [
+      "trees",
+      "bfs",
+      "diameter"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Walk as far as possible from any vertex, then as far as possible from that endpoint.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1132",
+    "title": "Tree Distances I",
+    "url": "https://cses.fi/problemset/task/1132/",
+    "solution": "solutions/cses/trees/1132_tree_distances_i.cpp",
+    "notes": "notes/cses/1132_tree_distances_i.md",
+    "tests": "tests/cases/cses-1132.json",
+    "tags": [
+      "trees",
+      "bfs",
+      "diameter"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Find a diameter. For any vertex, one of its endpoints is a farthest vertex.",
+    "checker": "tokens"
+  },
+  {
+    "id": "cses-1687",
+    "title": "Company Queries I",
+    "url": "https://cses.fi/problemset/task/1687/",
+    "solution": "solutions/cses/trees/1687_company_queries_i.cpp",
+    "notes": "notes/cses/1687_company_queries_i.md",
+    "tests": "tests/cases/cses-1687.json",
+    "tags": [
+      "trees",
+      "binary-lifting"
+    ],
+    "time": "O((n + q) log n)",
+    "space": "O(n log n)",
+    "hint": "Precompute ancestors at distances 1, 2, 4, 8, and so on.",
+    "checker": "tokens"
   }
 ]
