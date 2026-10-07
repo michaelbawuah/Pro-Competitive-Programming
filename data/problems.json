@@ -3888,5 +3888,20 @@
     "space": "O(n)",
     "hint": "Keep the two largest values with multiplicity.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc135_c",
+    "title": "City Savers",
+    "url": "https://atcoder.jp/contests/abc135/tasks/abc135_c",
+    "solution": "solutions/atcoder/greedy/abc135_c_city_savers.cpp",
+    "notes": "notes/atcoder/abc135_c_city_savers.md",
+    "tests": "tests/cases/atcoder-abc135_c.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Process heroes left to right and first defeat monsters in the left town, which no later hero can reach.",
+    "checker": "tokens"
   }
 ]
