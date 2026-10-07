@@ -3063,5 +3063,20 @@
     "space": "O(n)",
     "hint": "At most one occurrence of each distinct value can remain.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-1692C",
+    "title": "Where's the Bishop?",
+    "url": "https://codeforces.com/problemset/problem/1692/C",
+    "solution": "solutions/codeforces/grid/1692C_where_s_the_bishop.cpp",
+    "notes": "notes/codeforces/1692C_where_s_the_bishop.md",
+    "tests": "tests/cases/codeforces-1692C.json",
+    "tags": [
+      "grid"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The bishop is the intersection of the two marked diagonals.",
+    "checker": "tokens"
   }
 ]
