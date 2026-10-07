@@ -2313,5 +2313,20 @@
     "space": "O(1)",
     "hint": "Check each card for a matching rank or a matching suit.",
     "checker": "yes_no"
+  },
+  {
+    "id": "codeforces-1154A",
+    "title": "Restoring Three Numbers",
+    "url": "https://codeforces.com/problemset/problem/1154/A",
+    "solution": "solutions/codeforces/mathematics/1154A_restoring_three_numbers.cpp",
+    "notes": "notes/codeforces/1154A_restoring_three_numbers.md",
+    "tests": "tests/cases/codeforces-1154A.json",
+    "tags": [
+      "mathematics"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Positive hidden numbers make their total the largest given sum.",
+    "checker": "restored_numbers"
   }
 ]
