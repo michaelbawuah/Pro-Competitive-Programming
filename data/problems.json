@@ -5958,5 +5958,20 @@
     "space": "O(n)",
     "hint": "Each unequal mirrored pair needs at least one change, and one change fixes that pair.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc148_a",
+    "title": "Round One",
+    "url": "https://atcoder.jp/contests/abc148/tasks/abc148_a",
+    "solution": "solutions/atcoder/implementation/abc148_a_round_one.cpp",
+    "notes": "notes/atcoder/abc148_a_round_one.md",
+    "tests": "tests/cases/atcoder-abc148_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The three choices sum to six; subtracting the two distinct rejected choices leaves the correct one..",
+    "checker": "tokens"
   }
 ]
