@@ -4128,5 +4128,20 @@
     "space": "O(1)",
     "hint": "The condition says the current element is a prefix minimum.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc153_c",
+    "title": "Fennec vs Monster",
+    "url": "https://atcoder.jp/contests/abc153/tasks/abc153_c",
+    "solution": "solutions/atcoder/greedy/abc153_c_fennec_vs_monster.cpp",
+    "notes": "notes/atcoder/abc153_c_fennec_vs_monster.md",
+    "tests": "tests/cases/atcoder-abc153_c.json",
+    "tags": [
+      "greedy"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "A special move saves exactly the chosen monster health in attacks.",
+    "checker": "tokens"
   }
 ]
