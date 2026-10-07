@@ -2238,5 +2238,20 @@
     "space": "O(1)",
     "hint": "Try years in increasing order, beginning strictly after the input.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-61A",
+    "title": "Ultra-Fast Mathematician",
+    "url": "https://codeforces.com/problemset/problem/61/A",
+    "solution": "solutions/codeforces/strings/61A_ultra_fast_mathematician.cpp",
+    "notes": "notes/codeforces/61A_ultra_fast_mathematician.md",
+    "tests": "tests/cases/codeforces-61A.json",
+    "tags": [
+      "strings"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Apply exclusive OR independently to corresponding bits.",
+    "checker": "tokens"
   }
 ]
