@@ -12498,5 +12498,20 @@
     "space": "O(total characters+N)",
     "hint": "For each original character column, read rows bottom to top, filling missing characters with stars.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc367_a",
+    "title": "Shout Everyday",
+    "url": "https://atcoder.jp/contests/abc367/tasks/abc367_a",
+    "solution": "solutions/atcoder/implementation/abc367_a_shout_everyday.cpp",
+    "notes": "notes/atcoder/abc367_a_shout_everyday.md",
+    "tests": "tests/cases/atcoder-abc367_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Measure both the shouting time and wake-up time clockwise from bedtime.",
+    "checker": "tokens"
   }
 ]
