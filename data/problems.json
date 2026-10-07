@@ -5598,5 +5598,20 @@
     "space": "O(1)",
     "hint": "A single swap changes at most two positions.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc136_a",
+    "title": "Transfer",
+    "url": "https://atcoder.jp/contests/abc136/tasks/abc136_a",
+    "solution": "solutions/atcoder/implementation/abc136_a_transfer.cpp",
+    "notes": "notes/atcoder/abc136_a_transfer.md",
+    "tests": "tests/cases/atcoder-abc136_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Bottle one has A-B free capacity.",
+    "checker": "tokens"
   }
 ]
