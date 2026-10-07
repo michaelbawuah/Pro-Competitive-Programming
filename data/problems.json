@@ -8373,5 +8373,20 @@
     "space": "O(1)",
     "hint": "Measure elapsed hours clockwise from S.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc228_b",
+    "title": "Takahashi's Secret",
+    "url": "https://atcoder.jp/contests/abc228/tasks/abc228_b",
+    "solution": "solutions/atcoder/implementation/abc228_b_takahashi_s_secret.cpp",
+    "notes": "notes/atcoder/abc228_b_takahashi_s_secret.md",
+    "tests": "tests/cases/atcoder-abc228_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Follow the single outgoing edge from each informed person.",
+    "checker": "tokens"
   }
 ]
