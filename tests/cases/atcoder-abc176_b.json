@@ -1,0 +1,17 @@
+[
+  {
+    "name": "official-sample-1",
+    "input": "123456789\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-2",
+    "input": "0\n",
+    "output": "Yes\n"
+  },
+  {
+    "name": "official-sample-3",
+    "input": "31415926535897932384626433832795028841971693993751058209749445923078164062862089986280\n",
+    "output": "No\n"
+  }
+]

@@ -6813,5 +6813,20 @@
     "space": "O(1)",
     "hint": "Ceiling-divide demand by batch capacity, then multiply the batch count by its fixed cooking duration..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc176_b",
+    "title": "Multiple of 9",
+    "url": "https://atcoder.jp/contests/abc176/tasks/abc176_b",
+    "solution": "solutions/atcoder/implementation/abc176_b_multiple_of_9.cpp",
+    "notes": "notes/atcoder/abc176_b_multiple_of_9.md",
+    "tests": "tests/cases/atcoder-abc176_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Divisibility by nine depends only on the digit sum.",
+    "checker": "tokens"
   }
 ]
