@@ -10218,5 +10218,20 @@
     "space": "O(n)",
     "hint": "Edges connect only consecutive integers, so each component is a contiguous block joined by consecutive marks.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc290_a",
+    "title": "Contest Result",
+    "url": "https://atcoder.jp/contests/abc290/tasks/abc290_a",
+    "solution": "solutions/atcoder/implementation/abc290_a_contest_result.cpp",
+    "notes": "notes/atcoder/abc290_a_contest_result.md",
+    "tests": "tests/cases/atcoder-abc290_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(N+M)",
+    "space": "O(N)",
+    "hint": "Store each problem value and add the values indexed by the distinct solved problem numbers.",
+    "checker": "tokens"
   }
 ]
