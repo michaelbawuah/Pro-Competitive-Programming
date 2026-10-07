@@ -8793,5 +8793,20 @@
     "space": "O(1)",
     "hint": "Ranks through A always win, ranks above B never win, and each of the B-A middle ranks has the same inclusion probability C/(B-A)..",
     "checker": "probability"
+  },
+  {
+    "id": "atcoder-abc242_b",
+    "title": "Minimize Ordering",
+    "url": "https://atcoder.jp/contests/abc242/tasks/abc242_b",
+    "solution": "solutions/atcoder/implementation/abc242_b_minimize_ordering.cpp",
+    "notes": "notes/atcoder/abc242_b_minimize_ordering.md",
+    "tests": "tests/cases/atcoder-abc242_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n log n)",
+    "space": "O(n)",
+    "hint": "At every position, choosing the smallest unused letter minimizes the first possible difference.",
+    "checker": "tokens"
   }
 ]
