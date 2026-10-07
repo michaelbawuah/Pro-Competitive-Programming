@@ -8208,5 +8208,20 @@
     "space": "O(1)",
     "hint": "Failing means strictly below P; count those scores and preserve passing scores equal to the threshold..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc223_a",
+    "title": "Exact Price",
+    "url": "https://atcoder.jp/contests/abc223/tasks/abc223_a",
+    "solution": "solutions/atcoder/implementation/abc223_a_exact_price.cpp",
+    "notes": "notes/atcoder/abc223_a_exact_price.md",
+    "tests": "tests/cases/atcoder-abc223_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "One or more hundred-yen coins produce exactly the positive multiples of one hundred; zero is excluded..",
+    "checker": "tokens"
   }
 ]
