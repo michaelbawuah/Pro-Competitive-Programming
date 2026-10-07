@@ -2283,5 +2283,20 @@
     "space": "O(n)",
     "hint": "Use the leftmost maximum and rightmost minimum to minimize their travel.",
     "checker": "tokens"
+  },
+  {
+    "id": "codeforces-155A",
+    "title": "I_love_%username%",
+    "url": "https://codeforces.com/problemset/problem/155/A",
+    "solution": "solutions/codeforces/arrays/155A_i_love_username.cpp",
+    "notes": "notes/codeforces/155A_i_love_username.md",
+    "tests": "tests/cases/codeforces-155A.json",
+    "tags": [
+      "arrays"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Maintain the minimum and maximum of earlier scores.",
+    "checker": "tokens"
   }
 ]
