@@ -9888,5 +9888,20 @@
     "space": "O(1)",
     "hint": "Test the current time by exchanging the hour ones and minute tens digits.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc279_a",
+    "title": "wwwvvvvvv",
+    "url": "https://atcoder.jp/contests/abc279/tasks/abc279_a",
+    "solution": "solutions/atcoder/implementation/abc279_a_wwwvvvvvv.cpp",
+    "notes": "notes/atcoder/abc279_a_wwwvvvvvv.md",
+    "tests": "tests/cases/atcoder-abc279_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(n)",
+    "hint": "Each v contributes one bottom and each w contributes two.",
+    "checker": "tokens"
   }
 ]
