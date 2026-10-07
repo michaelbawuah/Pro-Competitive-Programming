@@ -4713,5 +4713,20 @@
     "space": "O(1)",
     "hint": "Every pair difference is bounded by maximum minus minimum, and choosing those extremes attains the bound..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc103_a",
+    "title": "Task Scheduling Problem",
+    "url": "https://atcoder.jp/contests/abc103/tasks/abc103_a",
+    "solution": "solutions/atcoder/implementation/abc103_a_task_scheduling_problem.cpp",
+    "notes": "notes/atcoder/abc103_a_task_scheduling_problem.md",
+    "tests": "tests/cases/atcoder-abc103_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Every route must cover the distance between the extremes.",
+    "checker": "tokens"
   }
 ]
