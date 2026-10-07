@@ -6708,5 +6708,20 @@
     "space": "O(n)",
     "hint": "Every mismatching position needs one replacement, and replacing it once is sufficient.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc173_a",
+    "title": "Payment",
+    "url": "https://atcoder.jp/contests/abc173/tasks/abc173_a",
+    "solution": "solutions/atcoder/implementation/abc173_a_payment.cpp",
+    "notes": "notes/atcoder/abc173_a_payment.md",
+    "tests": "tests/cases/atcoder-abc173_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "The change is the distance to the next multiple of one thousand.",
+    "checker": "tokens"
   }
 ]
