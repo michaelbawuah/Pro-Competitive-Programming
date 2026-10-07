@@ -9708,5 +9708,20 @@
     "space": "O(N^2)",
     "hint": "Every party establishes meetings for all pairs of its attendees.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc273_a",
+    "title": "A Recursive Function",
+    "url": "https://atcoder.jp/contests/abc273/tasks/abc273_a",
+    "solution": "solutions/atcoder/implementation/abc273_a_a_recursive_function.cpp",
+    "notes": "notes/atcoder/abc273_a_a_recursive_function.md",
+    "tests": "tests/cases/atcoder-abc273_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "The recurrence multiplies all positive integers through N, starting with the base value one.",
+    "checker": "tokens"
   }
 ]
