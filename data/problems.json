@@ -10338,5 +10338,20 @@
     "space": "O(n)",
     "hint": "Process people in the specified order, consulting whether they have been called at that moment.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc294_a",
+    "title": "Filter",
+    "url": "https://atcoder.jp/contests/abc294/tasks/abc294_a",
+    "solution": "solutions/atcoder/implementation/abc294_a_filter.cpp",
+    "notes": "notes/atcoder/abc294_a_filter.md",
+    "tests": "tests/cases/atcoder-abc294_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "Scan in original order and output exactly the values divisible by two.",
+    "checker": "tokens"
   }
 ]
