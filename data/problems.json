@@ -11553,5 +11553,20 @@
     "space": "O(n)",
     "hint": "The guaranteed suffix makes the final character the digit to replace.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc335_b",
+    "title": "Tetrahedral Number",
+    "url": "https://atcoder.jp/contests/abc335/tasks/abc335_b",
+    "solution": "solutions/atcoder/implementation/abc335_b_tetrahedral_number.cpp",
+    "notes": "notes/atcoder/abc335_b_tetrahedral_number.md",
+    "tests": "tests/cases/atcoder-abc335_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O((N+1)^3)",
+    "space": "O(1)",
+    "hint": "Nested increasing loops over x, then y, then z produce lexicographic order.",
+    "checker": "tokens"
   }
 ]
