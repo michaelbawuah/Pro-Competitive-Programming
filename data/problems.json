@@ -8763,5 +8763,20 @@
     "space": "O(1)",
     "hint": "The current display indexes the next display.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc241_b",
+    "title": "Pasta",
+    "url": "https://atcoder.jp/contests/abc241/tasks/abc241_b",
+    "solution": "solutions/atcoder/implementation/abc241_b_pasta.cpp",
+    "notes": "notes/atcoder/abc241_b_pasta.md",
+    "tests": "tests/cases/atcoder-abc241_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O((N+M) log N)",
+    "space": "O(N)",
+    "hint": "Count available noodles by length and consume one matching noodle for each requested meal.",
+    "checker": "tokens"
   }
 ]
