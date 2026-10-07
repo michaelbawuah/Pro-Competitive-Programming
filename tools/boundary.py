@@ -39,6 +39,21 @@ def cases():
     yield 'atcoder-dp_e', 'large infeasible weight sums', '100 1000000000\n' + '1000000000 1000\n' * 100, '1000'
     yield 'cses-1746', '100000 fixed values', '100000 100\n' + ' '.join(['50'] * 100000) + '\n', '1'
 
+    yield 'cses-1133', '200000-vertex rerooting chain', f'{n}\n{edges}', ' '.join(str(i*(i+1)//2+(n-i-1)*(n-i)//2) for i in range(n))
+    yield 'cses-1135', 'deep distance queries', f'{n} 3\n{edges}1 {n}\n{n} {n}\n50000 150000\n', f'{n-1}\n0\n100000\n'
+    yield 'cses-1688', 'deep lowest common ancestors', f'{n} 3\n{parents}\n{n} {n-1}\n1 {n}\n131072 150000\n', f'{n-1}\n1\n131072\n'
+    yield 'cses-1137', 'subtree sums exceed 32 bits', f'{n} 3\n' + ' '.join(['1000000000']*n) + f'\n{edges}2 1\n1 {n} 1\n2 1\n', f'{n*10**9}\n{(n-1)*10**9+1}\n'
+    yield 'cses-1662', 'all subarrays divisible', f'{n}\n' + ' '.join(['0']*n) + '\n', str(n*(n+1)//2)
+    yield 'cses-1085', '64-bit partition search', f'{n} 1\n' + ' '.join(['1000000000']*n) + '\n', str(n*10**9)
+    yield 'cses-1097', '5000-value interval game', '5000\n' + ' '.join(['1000000000']*5000) + '\n', str(2500*10**9)
+    yield 'cses-1653', 'full 20-person subset space', '20 1000000000\n' + ' '.join(['1000000000']*20) + '\n', '20'
+    a,b=0,1
+    for _ in range(1001):
+        a,b=b,(a+b)%1000000007
+    yield 'cses-2181', '1000-column domino board', '2 1000\n', str(a)
+    yield 'atcoder-abc131_c', '18-digit inclusion-exclusion bounds', '1 1000000000000000000 2 4\n', '500000000000000000'
+
+
 
 def run():
     count = 0
