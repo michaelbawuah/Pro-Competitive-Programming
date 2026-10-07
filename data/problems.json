@@ -7728,5 +7728,20 @@
     "space": "O(1)",
     "hint": "Accumulate daily deposits in chronological order until the first total meeting the target.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc207_a",
+    "title": "Repression",
+    "url": "https://atcoder.jp/contests/abc207/tasks/abc207_a",
+    "solution": "solutions/atcoder/implementation/abc207_a_repression.cpp",
+    "notes": "notes/atcoder/abc207_a_repression.md",
+    "tests": "tests/cases/atcoder-abc207_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Picking the two largest values is equivalent to subtracting the minimum from the sum of all three..",
+    "checker": "tokens"
   }
 ]
