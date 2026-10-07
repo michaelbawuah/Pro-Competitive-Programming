@@ -6063,5 +6063,20 @@
     "space": "O(1)",
     "hint": "The input excludes z, so incrementing its lowercase letter code gives the next letter without wrapping..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc151_b",
+    "title": "Achieve the Goal",
+    "url": "https://atcoder.jp/contests/abc151/tasks/abc151_b",
+    "solution": "solutions/atcoder/implementation/abc151_b_achieve_the_goal.cpp",
+    "notes": "notes/atcoder/abc151_b_achieve_the_goal.md",
+    "tests": "tests/cases/atcoder-abc151_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(n)",
+    "space": "O(1)",
+    "hint": "An average of at least M requires total score N*M.",
+    "checker": "tokens"
   }
 ]
