@@ -4758,5 +4758,20 @@
     "space": "O(1)",
     "hint": "Check the rating thresholds in ascending order; each threshold is strict..",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc105_a",
+    "title": "AtCoder Crackers",
+    "url": "https://atcoder.jp/contests/abc105/tasks/abc105_a",
+    "solution": "solutions/atcoder/implementation/abc105_a_atcoder_crackers.cpp",
+    "notes": "notes/atcoder/abc105_a_atcoder_crackers.md",
+    "tests": "tests/cases/atcoder-abc105_a.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "An even distribution uses floor(N/K) or ceil(N/K) crackers per person.",
+    "checker": "tokens"
   }
 ]
