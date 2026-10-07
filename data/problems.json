@@ -9633,5 +9633,20 @@
     "space": "O(1)",
     "hint": "The three problem scores are distinct powers of two, so each bit records whether that problem was solved.",
     "checker": "tokens"
+  },
+  {
+    "id": "atcoder-abc270_b",
+    "title": "Hammer",
+    "url": "https://atcoder.jp/contests/abc270/tasks/abc270_b",
+    "solution": "solutions/atcoder/implementation/abc270_b_hammer.cpp",
+    "notes": "notes/atcoder/abc270_b_hammer.md",
+    "tests": "tests/cases/atcoder-abc270_b.json",
+    "tags": [
+      "implementation"
+    ],
+    "time": "O(1)",
+    "space": "O(1)",
+    "hint": "Reflect the line if needed so the goal is positive.",
+    "checker": "tokens"
   }
 ]
