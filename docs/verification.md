@@ -48,6 +48,6 @@ Numeric checkers reject nonfinite values and wrong output lengths. Semantic chec
 
 ## Scope and hosted checks
 
-These are AI-assisted reference implementations. Passing selected local cases and invariants is not a claim of official judge acceptance, contest wins, or ratings. `data/acceptances.json` records only real judge evidence.
+This repository is my maintained C++ algorithm reference collection. The recorded build, fixture, sanitizer, property, differential, and boundary checks validate the implementations locally; official judge acceptances, contest results, and ratings are tracked separately in their own evidence files.
 
 [GitHub Actions](https://github.com/michaelbawuah/Pro-Competitive-Programming/actions/workflows/verify.yml) verifies four disjoint shards on each of Linux/GCC and macOS/Clang. Linux also runs sanitizer and randomized checks; both platforms run the boundary suite. Consult the run associated with the published commit for its hosted result.
