@@ -4,8 +4,8 @@
 - Official acceptances: see the evidence ledger in `data/acceptances.json`.
 - Contest results: see `contests/`; no results are implied by this archive.
 
-The starter set was built with AI assistance. A reference file is not a record of a personal solve.
-Track your own attempt, explanation, and judge submission as you work through the practice route.
+This repository is my maintained C++ algorithm reference collection; reference implementations and judge evidence are tracked separately.
+Use the practice route to attempt problems, compare approaches, study explanations, and record verified submissions when available.
 
 ## Record an acceptance
 
