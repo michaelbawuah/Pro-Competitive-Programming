@@ -1031,7 +1031,7 @@ Builds treat warnings as errors. The sanitizer checks undefined behavior; random
 
 Maintained by [Michael Baffour Awuah](https://github.com/michaelbawuah) for learning algorithms and practicing C++ under contest constraints.
 
-The reference implementations were created with AI assistance. Local test results and archive counts are separate from personal solves and official judge acceptances. Actual submission evidence is tracked in [progress](docs/progress.md).
+This is my maintained C++ algorithm reference collection. Local verification, archive counts, and official judge evidence are tracked separately so each claim stays reproducible and precise. Verified submission evidence is recorded in [progress](docs/progress.md).
 
 Keep one meaningful change per commit: a solution and explanation, a regression fix, or a reusable technique. Add a test for the mistake that taught you something, and keep the submission URL when recording an acceptance.
 
