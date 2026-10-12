@@ -5,3 +5,8 @@ __pycache__/
 .DS_Store
 .vscode/*.log
 
+# Local automation notes
+AGENTS.md
+CODEX-HANDOFF*.md
+.codex/
+

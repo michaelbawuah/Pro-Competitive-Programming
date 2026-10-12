@@ -1,8 +1,33 @@
 # Pro Competitive Programming
 
-C++17 solutions to competitive programming problems, with algorithm notes and test cases.
+My C++17 algorithm collection: **835 reference implementations** from CSES, Codeforces, and AtCoder, with explanations, complexity bounds, and local tests.
 
-**835 reference solutions** across CSES, Codeforces, and AtCoder. Each solution compiles independently and includes a link to the original problem, an explanation, and local tests.
+Each source compiles on its own using standard headers. The Python runner checks fixed cases, validates answers that have multiple correct forms, and compares selected algorithms with small brute-force models.
+
+[![Verify C++ archive](https://github.com/michaelbawuah/Pro-Competitive-Programming/actions/workflows/verify.yml/badge.svg)](https://github.com/michaelbawuah/Pro-Competitive-Programming/actions/workflows/verify.yml)
+
+## Start here
+
+These examples show the implementation choices behind the collection:
+
+| Problem | Implementation choice | Read |
+| --- | --- | --- |
+| Counting Rooms | An explicit stack avoids recursion depth proportional to the grid size; cells are marked before pushing. | [Code](solutions/cses/graphs/1192_counting_rooms.cpp) · [Explanation](notes/cses/1192_counting_rooms.md) |
+| Dynamic Range Sum Queries | A Fenwick tree stores 64-bit sums; assignments become deltas from the previous value. | [Code](solutions/cses/range_queries/1648_dynamic_range_sum_queries.cpp) · [Explanation](notes/cses/1648_dynamic_range_sum_queries.md) |
+| Labyrinth | BFS stores predecessor directions; the checker accepts any shortest valid route. | [Code](solutions/cses/graphs/1193_labyrinth.cpp) · [Explanation](notes/cses/1193_labyrinth.md) |
+
+Run an example with **Python 3.10+** and a **C++17 compiler**; no Python packages are required:
+
+```sh
+git clone https://github.com/michaelbawuah/Pro-Competitive-Programming.git
+cd Pro-Competitive-Programming
+python3 tools/cp.py test cses-1193
+python3 tools/cp.py list --tag graphs
+```
+
+The reusable [algorithm library](include/cp/README.md) covers DSU, Fenwick trees, segment trees, and KMP. Its tests include empty ranges, overlapping matches, and merge ordering.
+
+## Browse the collection
 
 | Platform | Solutions | Browse |
 | --- | ---: | --- |
@@ -1005,8 +1030,6 @@ Every file in `solutions/` is standalone C++17; no local headers are needed for 
 
 ## Verification
 
-[![Verify C++ archive](https://github.com/michaelbawuah/Pro-Competitive-Programming/actions/workflows/verify.yml/badge.svg)](https://github.com/michaelbawuah/Pro-Competitive-Programming/actions/workflows/verify.yml)
-
 The archive has **2,964 fixed test cases**, **10,100 seeded randomized cases across 101 solutions**, and **31 constraint-limit checks**. GitHub Actions runs four shards on both Linux/GCC and macOS/Clang. See the [verification record](docs/verification.md) for results, scope, and reproducible commands.
 
 <details>
@@ -1031,8 +1054,8 @@ Builds treat warnings as errors. The sanitizer checks undefined behavior; random
 
 Maintained by [Michael Baffour Awuah](https://github.com/michaelbawuah) for learning algorithms and practicing C++ under contest constraints.
 
-This is my maintained C++ algorithm reference collection. Local verification, archive counts, and official judge evidence are tracked separately so each claim stays reproducible and precise. Verified submission evidence is recorded in [progress](docs/progress.md).
+The counts describe implementations in the collection. The [verification record](docs/verification.md) covers local tests; [progress](docs/progress.md) records official submission evidence separately.
 
 Keep one meaningful change per commit: a solution and explanation, a regression fix, or a reusable technique. Add a test for the mistake that taught you something, and keep the submission URL when recording an acceptance.
 
-Archive organization inspired by [thecodingwizard/competitive-programming](https://github.com/thecodingwizard/competitive-programming). This project contains independently created solutions and its own commit history. Problem statements remain on their original platforms.
+Archive organization inspired by [thecodingwizard/competitive-programming](https://github.com/thecodingwizard/competitive-programming). Problem statements remain on their original platforms.
